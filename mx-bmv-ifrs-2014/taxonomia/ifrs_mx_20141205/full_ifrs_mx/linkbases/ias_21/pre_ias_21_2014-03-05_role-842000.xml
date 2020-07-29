@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Taxonomy: 2014-03-05 (Final release)
+        ********************** 
+        Copyright © 2014 International Financial Reporting Standards (IFRS) Foundation
+        All rights reserved.  No part of this publication may be translated, reprinted or reproduced 
+        or utilised in any form either in whole or in part without prior permission in writing from the IFRS Foundation.
+        For more information on the IFRS Foundation's copyright, please refer to http://www.ifrs.org/XBRL/Legal/
+        **********************
+-->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:full_ifrs_mc_mx_ics_entry_point_2014-12-05="http://www.bmv.com.mx/taxonomy/ifrs_mx/full_ifrs_mc_mx_ics_entry_point_2014-12-05" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://bmv.com.mx/role/ifrs/ias_21_2014-03-05_role-842000" xlink:type="simple" xlink:href="rol_ias_21_2014-03-05.xsd#ias_21_2014-03-05_role-842000"/>
+</link:linkbase>

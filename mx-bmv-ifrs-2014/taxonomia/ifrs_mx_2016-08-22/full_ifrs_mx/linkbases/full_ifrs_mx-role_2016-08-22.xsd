@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xsd:schema targetNamespace="http://bmv.com.mx/role/ifrs/rol_full_ifrs_mx_2016-08-22" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+xmlns:rol_full_ifrs_mx_2016-08-22="http://bmv.com.mx/role/ifrs/rol_full_ifrs_mx_2016-08-22" xmlns:link="http://www.xbrl.org/2003/linkbase" 
+xmlns:num="http://www.xbrl.org/dtr/type/numeric" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric" 
+xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xl="http://www.xbrl.org/2003/XLink" 
+xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <xsd:annotation>
+    
+      <xsd:appinfo>
+	  
+			<link:roleType roleURI="http://bmv.com.mx/role/ifrs/rol_full_ifrs_mx_2016-08-22-110000" id="rol_full_ifrs_mx_2016-08-22-110000">
+				<link:definition>[110000] Información general sobre estados financieros</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+			</link:roleType>
+			
+			<link:roleType roleURI="http://bmv.com.mx/role/ifrs/rol_full_ifrs_mx_2016-08-22-815100" id="rol_full_ifrs_mx_2016-08-22-815100">
+				<link:definition>[815100] Anexo AA - Desglose de Pasivos</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			
+			<link:roleType roleURI="http://bmv.com.mx/role/ifrs/rol_full_ifrs_mx_2016-08-22-815101" id="rol_full_ifrs_mx_2016-08-22-815101">
+				<link:definition>[815101] Anexo AA</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			
+			<link:roleType roleURI="http://bmv.com.mx/role/ifrs/rol_full_ifrs_mx_2016-08-22-815100-D1" id="rol_full_ifrs_mx_2016-08-22-815100-D1">
+				<link:definition>[815100-D1] Anexo AA - Desglose de Pasivos - Tabla Pasivos</link:definition>
+				
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://bmv.com.mx/role/ifrs/rol_full_ifrs_mx_2016-08-22-815100-D2" id="rol_full_ifrs_mx_2016-08-22-815100-D2">
+				<link:definition>[815100-D2] Anexo AA - Desglose de Pasivos - Subtabla Desglose Saldo Insoluto</link:definition>
+				
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://bmv.com.mx/role/ifrs/rol_full_ifrs_mx_2016-08-22-815100-D3" id="rol_full_ifrs_mx_2016-08-22-815100-D3">
+				<link:definition>[815100-D3] Anexo AA - Desglose de Pasivos Excluídos - Tabla Pasivos - Excluidos para Bancarios</link:definition>
+				
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			
+			<link:roleType roleURI="http://bmv.com.mx/role/ifrs/rol_full_ifrs_mx_2016-08-22-815100-D4" id="rol_full_ifrs_mx_2016-08-22-815100-D4">
+				<link:definition>[815100-D4] Anexo AA - Desglose de Pasivos Excluídos - Tabla Pasivos - Excluidos para Comunes</link:definition>
+				
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			
+			<link:roleType roleURI="http://bmv.com.mx/role/ifrs/rol_full_ifrs_mx_2016-08-22-815100-D5" id="rol_full_ifrs_mx_2016-08-22-815100-D5">
+				<link:definition>[815100-D5] Anexo AA - Desglose de Pasivos Excluídos - Tabla Pasivos - Excluidos para Bancarios y Otros</link:definition>
+				
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			
+			<link:roleType roleURI="http://bmv.com.mx/role/ifrs/rol_full_ifrs_mx_2016-08-22-815100-D6" id="rol_full_ifrs_mx_2016-08-22-815100-D6">
+				<link:definition>[815100-D6] Anexo AA - Desglose de Pasivos Excluídos - Tabla Pasivos - Excluidos para Bursátiles</link:definition>
+				
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			
+			<link:roleType roleURI="http://bmv.com.mx/role/ifrs/rol_full_ifrs_mx_2016-08-22-815100-D7" id="rol_full_ifrs_mx_2016-08-22-815100-D7">
+				<link:definition>[815100-D7] Anexo AA - Desglose de Pasivos Excluídos - Tabla Pasivos - Excluidos para Total General</link:definition>
+				
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			
+			<link:roleType roleURI="http://bmv.com.mx/role/ifrs/rol_full_ifrs_mx_2016-08-22-815100-D8" id="rol_full_ifrs_mx_2016-08-22-815100-D8">
+				<link:definition>[815100-D8] Anexo AA - Desglose de Pasivos Excluídos - Tabla Pasivos - Excluidos para Otros Pasivos</link:definition>
+				
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			
+			<link:roleType roleURI="http://bmv.com.mx/role/ifrs/rol_full_ifrs_mx_2016-08-22-815100-D9" id="rol_full_ifrs_mx_2016-08-22-815100-D9">
+				<link:definition>[815100-D9] Anexo AA - Desglose de Pasivos Excluídos - Tabla Pasivos - Excluidos para Bancarios y Otros Sin Totales</link:definition>
+				
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			
+			<link:roleType roleURI="http://bmv.com.mx/role/ifrs/rol_full_ifrs_mx_2016-08-22-815100-D10" id="rol_full_ifrs_mx_2016-08-22-815100-D10">
+				<link:definition>[815100-D10] Anexo AA - Desglose de Pasivos Excluídos - Tabla Pasivos - Excluidos para Bursátiles Sin Totales</link:definition>
+				
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			
+		</xsd:appinfo>
+  
+  </xsd:annotation>
+ </xsd:schema>

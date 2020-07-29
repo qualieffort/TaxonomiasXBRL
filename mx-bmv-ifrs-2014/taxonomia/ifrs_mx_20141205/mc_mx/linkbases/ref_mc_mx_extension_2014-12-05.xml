@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2006/ref http://www.xbrl.org/2006/ref-2006-02-27.xsd http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:full_ifrs_mc_mx_ics_entry_point_2014-12-05="http://www.bmv.com.mx/taxonomy/ifrs_mx/full_ifrs_mc_mx_ics_entry_point_2014-12-05" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/reference-2009-12-16.xsd#commonPracticeRef"/>
+  <link:referenceLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="../mc_mx-cor_2014-12-05.xsd#mc_mx-cor_20141205_SituacionFinancieraLiquidezYRecursosDeCapitalBloqueDeTexto" xlink:label="SituacionFinancieraLiquidezYRecursosDeCapitalBloqueDeTexto" xlink:title="SituacionFinancieraLiquidezYRecursosDeCapitalBloqueDeTexto"/>
+    <link:reference xlink:type="resource" xlink:label="reference_SituacionFinancieraLiquidezYRecursosDeCapitalBloqueDeTexto" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_SituacionFinancieraLiquidezYRecursosDeCapitalBloqueDeTexto" id="reference_SituacionFinancieraLiquidezYRecursosDeCapitalBloqueDeTexto">
+      <ref:Name>MC</ref:Name>
+      <ref:IssueDate>01-01-2014</ref:IssueDate>
+      <ref:Paragraph>24</ref:Paragraph>
+      <ref:Subparagraph>a</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="SituacionFinancieraLiquidezYRecursosDeCapitalBloqueDeTexto" xlink:to="reference_SituacionFinancieraLiquidezYRecursosDeCapitalBloqueDeTexto" xlink:title="reference: SituacionFinancieraLiquidezYRecursosDeCapitalBloqueDeTexto to reference_SituacionFinancieraLiquidezYRecursosDeCapitalBloqueDeTexto"/>
+    <link:loc xlink:type="locator" xlink:href="../mc_mx-cor_2014-12-05.xsd#mc_mx-cor_20141205_ControlInternoBloqueDeTexto" xlink:label="ControlInternoBloqueDeTexto" xlink:title="ControlInternoBloqueDeTexto"/>
+    <link:reference xlink:type="resource" xlink:label="reference_ControlInternoBloqueDeTexto" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_ControlInternoBloqueDeTexto" id="reference_ControlInternoBloqueDeTexto">
+      <ref:Name>MC</ref:Name>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>24</ref:Paragraph>
+      <ref:Subparagraph>a</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ControlInternoBloqueDeTexto" xlink:to="reference_ControlInternoBloqueDeTexto" xlink:title="reference: ControlInternoBloqueDeTexto to reference_ControlInternoBloqueDeTexto"/>
+  </link:referenceLink>
+</link:linkbase>

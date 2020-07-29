@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Taxonomy: 2014-03-05 (Final release)
+        ********************** 
+        Copyright © 2014 International Financial Reporting Standards (IFRS) Foundation
+        All rights reserved.  No part of this publication may be translated, reprinted or reproduced 
+        or utilised in any form either in whole or in part without prior permission in writing from the IFRS Foundation.
+        For more information on the IFRS Foundation's copyright, please refer to http://www.ifrs.org/XBRL/Legal/
+        **********************
+-->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2006/ref http://www.xbrl.org/2006/ref-2006-02-27.xsd http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/reference-2009-12-16.xsd#commonPracticeRef"/>
+  <link:referenceLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_TheSecurityTransaction" xlink:label="loc_1"/>
+    <link:reference xlink:type="resource" xlink:label="res_1" xlink:role="http://www.xbrl.org/2003/role/disclosureRef">
+      <ref:Name>MC</ref:Name>
+      <ref:Number>24</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Subparagraph>a</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_1" xlink:to="res_1"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_HeritageOfTheFund" xlink:label="HeritageOfTheFund" xlink:title="HeritageOfTheFund"/>
+    <link:reference xlink:type="resource" xlink:label="reference_HeritageOfTheFund" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_HeritageOfTheFund" id="reference_HeritageOfTheFund">
+      <ref:Name>MC</ref:Name>
+      <ref:Number>24</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Subparagraph>a</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="HeritageOfTheFund" xlink:to="reference_HeritageOfTheFund" xlink:title="reference: HeritageOfTheFund to reference_HeritageOfTheFund"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_RelevantDisclosureAboutThePeriod" xlink:label="RelevantDisclosureAboutThePeriod" xlink:title="RelevantDisclosureAboutThePeriod"/>
+    <link:reference xlink:type="resource" xlink:label="reference_RelevantDisclosureAboutThePeriod" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_RelevantDisclosureAboutThePeriod" id="reference_RelevantDisclosureAboutThePeriod">
+      <ref:Name>MC</ref:Name>
+      <ref:Number>24</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Subparagraph>a</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="RelevantDisclosureAboutThePeriod" xlink:to="reference_RelevantDisclosureAboutThePeriod" xlink:title="reference: RelevantDisclosureAboutThePeriod to reference_RelevantDisclosureAboutThePeriod"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_OtherRequiredThirdToTheTrustOrSecurityHoldersIfAny" xlink:label="OtherRequiredThirdToTheTrustOrSecurityHoldersIfAny" xlink:title="OtherRequiredThirdToTheTrustOrSecurityHoldersIfAny"/>
+    <link:reference xlink:type="resource" xlink:label="reference_OtherRequiredThirdToTheTrustOrSecurityHoldersIfAny" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_OtherRequiredThirdToTheTrustOrSecurityHoldersIfAny" id="reference_OtherRequiredThirdToTheTrustOrSecurityHoldersIfAny">
+      <ref:Name>MC</ref:Name>
+      <ref:Number>24</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Subparagraph>a</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="OtherRequiredThirdToTheTrustOrSecurityHoldersIfAny" xlink:to="reference_OtherRequiredThirdToTheTrustOrSecurityHoldersIfAny" xlink:title="reference: OtherRequiredThirdToTheTrustOrSecurityHoldersIfAny to reference_OtherRequiredThirdToTheTrustOrSecurityHoldersIfAny"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_Ticker" xlink:label="Ticker" xlink:title="Ticker"/>
+    <link:reference xlink:type="resource" xlink:label="reference_Ticker" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_Ticker" id="reference_Ticker">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>51</ref:Paragraph>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="Ticker" xlink:to="reference_Ticker" xlink:title="reference: Ticker to reference_Ticker"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_TrusteesAdministratorAvalOrGuarantor" xlink:label="TrusteesAdministratorAvalOrGuarantor" xlink:title="TrusteesAdministratorAvalOrGuarantor"/>
+    <link:reference xlink:type="resource" xlink:label="reference_TrusteesAdministratorAvalOrGuarantor" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_TrusteesAdministratorAvalOrGuarantor" id="reference_TrusteesAdministratorAvalOrGuarantor">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>51</ref:Paragraph>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="TrusteesAdministratorAvalOrGuarantor" xlink:to="reference_TrusteesAdministratorAvalOrGuarantor" xlink:title="reference: TrusteesAdministratorAvalOrGuarantor to reference_TrusteesAdministratorAvalOrGuarantor"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_TrustNumber" xlink:label="TrustNumber" xlink:title="TrustNumber"/>
+    <link:reference xlink:type="resource" xlink:label="reference_TrustNumber" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_TrustNumber" id="reference_TrustNumber">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>51</ref:Paragraph>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="TrustNumber" xlink:to="reference_TrustNumber" xlink:title="reference: TrustNumber to reference_TrustNumber"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_NumberOfQuarter" xlink:label="NumberOfQuarter" xlink:title="NumberOfQuarter"/>
+    <link:reference xlink:type="resource" xlink:label="reference_NumberOfQuarter" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_NumberOfQuarter" id="reference_NumberOfQuarter">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>51</ref:Paragraph>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="NumberOfQuarter" xlink:to="reference_NumberOfQuarter" xlink:title="reference: NumberOfQuarter to reference_NumberOfQuarter"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_NameServiceProviderExternalAudit" xlink:label="NameServiceProviderExternalAudit" xlink:title="NameServiceProviderExternalAudit"/>
+    <link:reference xlink:type="resource" xlink:label="reference_NameServiceProviderExternalAudit" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_NameServiceProviderExternalAudit" id="reference_NameServiceProviderExternalAudit">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>51</ref:Paragraph>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="NameServiceProviderExternalAudit" xlink:to="reference_NameServiceProviderExternalAudit" xlink:title="reference: NameServiceProviderExternalAudit to reference_NameServiceProviderExternalAudit"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_NameOfTheAsociadoSigningOpinion" xlink:label="NameOfTheAsociadoSigningOpinion" xlink:title="NameOfTheAsociadoSigningOpinion"/>
+    <link:reference xlink:type="resource" xlink:label="reference_NameOfTheAsociadoSigningOpinion" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_NameOfTheAsociadoSigningOpinion" id="reference_NameOfTheAsociadoSigningOpinion">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>51</ref:Paragraph>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="NameOfTheAsociadoSigningOpinion" xlink:to="reference_NameOfTheAsociadoSigningOpinion" xlink:title="reference: NameOfTheAsociadoSigningOpinion to reference_NameOfTheAsociadoSigningOpinion"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_TypeOfOpinionOnTheFinancialStatements" xlink:label="TypeOfOpinionOnTheFinancialStatements" xlink:title="TypeOfOpinionOnTheFinancialStatements"/>
+    <link:reference xlink:type="resource" xlink:label="reference_TypeOfOpinionOnTheFinancialStatements" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_TypeOfOpinionOnTheFinancialStatements" id="reference_TypeOfOpinionOnTheFinancialStatements">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>51</ref:Paragraph>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="TypeOfOpinionOnTheFinancialStatements" xlink:to="reference_TypeOfOpinionOnTheFinancialStatements" xlink:title="reference: TypeOfOpinionOnTheFinancialStatements to reference_TypeOfOpinionOnTheFinancialStatements"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_DateOfOpinionOnTheFinancialStatements" xlink:label="DateOfOpinionOnTheFinancialStatements" xlink:title="DateOfOpinionOnTheFinancialStatements"/>
+    <link:reference xlink:type="resource" xlink:label="reference_DateOfOpinionOnTheFinancialStatements" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_DateOfOpinionOnTheFinancialStatements" id="reference_DateOfOpinionOnTheFinancialStatements">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>51</ref:Paragraph>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DateOfOpinionOnTheFinancialStatements" xlink:to="reference_DateOfOpinionOnTheFinancialStatements" xlink:title="reference: DateOfOpinionOnTheFinancialStatements to reference_DateOfOpinionOnTheFinancialStatements"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_FinancialAssetsAtFairValueThroughProfitOrLoss" xlink:label="FinancialAssetsAtFairValueThroughProfitOrLoss" xlink:title="FinancialAssetsAtFairValueThroughProfitOrLoss"/>
+    <link:reference xlink:type="resource" xlink:label="reference_FinancialAssetsAtFairValueThroughProfitOrLoss" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_FinancialAssetsAtFairValueThroughProfitOrLoss" id="reference_FinancialAssetsAtFairValueThroughProfitOrLoss">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>55</ref:Paragraph>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="FinancialAssetsAtFairValueThroughProfitOrLoss" xlink:to="reference_FinancialAssetsAtFairValueThroughProfitOrLoss" xlink:title="reference: FinancialAssetsAtFairValueThroughProfitOrLoss to reference_FinancialAssetsAtFairValueThroughProfitOrLoss"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_LiquidatingDebtorAccountCapitalTransactions" xlink:label="LiquidatingDebtorAccountCapitalTransactions" xlink:title="LiquidatingDebtorAccountCapitalTransactions"/>
+    <link:reference xlink:type="resource" xlink:label="reference_LiquidatingDebtorAccountCapitalTransactions" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_LiquidatingDebtorAccountCapitalTransactions" id="reference_LiquidatingDebtorAccountCapitalTransactions">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>55</ref:Paragraph>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="LiquidatingDebtorAccountCapitalTransactions" xlink:to="reference_LiquidatingDebtorAccountCapitalTransactions" xlink:title="reference: LiquidatingDebtorAccountCapitalTransactions to reference_LiquidatingDebtorAccountCapitalTransactions"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_Collateral" xlink:label="Collateral" xlink:title="Collateral"/>
+    <link:reference xlink:type="resource" xlink:label="reference_Collateral" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_Collateral" id="reference_Collateral">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>55</ref:Paragraph>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="Collateral" xlink:to="reference_Collateral" xlink:title="reference: Collateral to reference_Collateral"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_LiquidatingADebtorHasNoWorkingCapitalOperations" xlink:label="LiquidatingADebtorHasNoWorkingCapitalOperations" xlink:title="LiquidatingADebtorHasNoWorkingCapitalOperations"/>
+    <link:reference xlink:type="resource" xlink:label="reference_LiquidatingADebtorHasNoWorkingCapitalOperations" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_LiquidatingADebtorHasNoWorkingCapitalOperations" id="reference_LiquidatingADebtorHasNoWorkingCapitalOperations">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>55</ref:Paragraph>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="LiquidatingADebtorHasNoWorkingCapitalOperations" xlink:to="reference_LiquidatingADebtorHasNoWorkingCapitalOperations" xlink:title="reference: LiquidatingADebtorHasNoWorkingCapitalOperations to reference_LiquidatingADebtorHasNoWorkingCapitalOperations"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_DerivativeFinancialInstrumentsAndHedgingClassifiedAsNonCurrentAssets" xlink:label="DerivativeFinancialInstrumentsAndHedgingClassifiedAsNonCurrentAssets" xlink:title="DerivativeFinancialInstrumentsAndHedgingClassifiedAsNonCurrentAssets"/>
+    <link:reference xlink:type="resource" xlink:label="reference_DerivativeFinancialInstrumentsAndHedgingClassifiedAsNonCurrentAssets" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_DerivativeFinancialInstrumentsAndHedgingClassifiedAsNonCurrentAssets" id="reference_DerivativeFinancialInstrumentsAndHedgingClassifiedAsNonCurrentAssets">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>55</ref:Paragraph>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DerivativeFinancialInstrumentsAndHedgingClassifiedAsNonCurrentAssets" xlink:to="reference_DerivativeFinancialInstrumentsAndHedgingClassifiedAsNonCurrentAssets" xlink:title="reference: DerivativeFinancialInstrumentsAndHedgingClassifiedAsNonCurrentAssets to reference_DerivativeFinancialInstrumentsAndHedgingClassifiedAsNonCurrentAssets"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_LiquidationAccountPayablesForCapitalOperations" xlink:label="LiquidationAccountPayablesForCapitalOperations" xlink:title="LiquidationAccountPayablesForCapitalOperations"/>
+    <link:reference xlink:type="resource" xlink:label="reference_LiquidationAccountPayablesForCapitalOperations" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_LiquidationAccountPayablesForCapitalOperations" id="reference_LiquidationAccountPayablesForCapitalOperations">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>55</ref:Paragraph>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="LiquidationAccountPayablesForCapitalOperations" xlink:to="reference_LiquidationAccountPayablesForCapitalOperations" xlink:title="reference: LiquidationAccountPayablesForCapitalOperations to reference_LiquidationAccountPayablesForCapitalOperations"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_DerivativeFinancialInstrumentsAndHedgingClassifiedAsShortTermLiabilities" xlink:label="DerivativeFinancialInstrumentsAndHedgingClassifiedAsShortTermLiabilities" xlink:title="DerivativeFinancialInstrumentsAndHedgingClassifiedAsShortTermLiabilities"/>
+    <link:reference xlink:type="resource" xlink:label="reference_DerivativeFinancialInstrumentsAndHedgingClassifiedAsShortTermLiabilities" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_DerivativeFinancialInstrumentsAndHedgingClassifiedAsShortTermLiabilities" id="reference_DerivativeFinancialInstrumentsAndHedgingClassifiedAsShortTermLiabilities">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>55</ref:Paragraph>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DerivativeFinancialInstrumentsAndHedgingClassifiedAsShortTermLiabilities" xlink:to="reference_DerivativeFinancialInstrumentsAndHedgingClassifiedAsShortTermLiabilities" xlink:title="reference: DerivativeFinancialInstrumentsAndHedgingClassifiedAsShortTermLiabilities to reference_DerivativeFinancialInstrumentsAndHedgingClassifiedAsShortTermLiabilities"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_AccountPayablesForLiquidationOperationsLongTermCapital" xlink:label="AccountPayablesForLiquidationOperationsLongTermCapital" xlink:title="AccountPayablesForLiquidationOperationsLongTermCapital"/>
+    <link:reference xlink:type="resource" xlink:label="reference_AccountPayablesForLiquidationOperationsLongTermCapital" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_AccountPayablesForLiquidationOperationsLongTermCapital" id="reference_AccountPayablesForLiquidationOperationsLongTermCapital">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>55</ref:Paragraph>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AccountPayablesForLiquidationOperationsLongTermCapital" xlink:to="reference_AccountPayablesForLiquidationOperationsLongTermCapital" xlink:title="reference: AccountPayablesForLiquidationOperationsLongTermCapital to reference_AccountPayablesForLiquidationOperationsLongTermCapital"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_DerivativeFinancialInstrumentsAndHedgingClassigiedAsLongTermLiabilities" xlink:label="DerivativeFinancialInstrumentsAndHedgingClassigiedAsLongTermLiabilities" xlink:title="DerivativeFinancialInstrumentsAndHedgingClassigiedAsLongTermLiabilities"/>
+    <link:reference xlink:type="resource" xlink:label="reference_DerivativeFinancialInstrumentsAndHedgingClassigiedAsLongTermLiabilities" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_DerivativeFinancialInstrumentsAndHedgingClassigiedAsLongTermLiabilities" id="reference_DerivativeFinancialInstrumentsAndHedgingClassigiedAsLongTermLiabilities">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>55</ref:Paragraph>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DerivativeFinancialInstrumentsAndHedgingClassigiedAsLongTermLiabilities" xlink:to="reference_DerivativeFinancialInstrumentsAndHedgingClassigiedAsLongTermLiabilities" xlink:title="reference: DerivativeFinancialInstrumentsAndHedgingClassigiedAsLongTermLiabilities to reference_DerivativeFinancialInstrumentsAndHedgingClassigiedAsLongTermLiabilities"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_DistributionsPaid" xlink:label="DistributionsPaid" xlink:title="DistributionsPaid"/>
+    <link:reference xlink:type="resource" xlink:label="reference_DistributionsPaid" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_DistributionsPaid" id="reference_DistributionsPaid">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>85</ref:Paragraph>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DistributionsPaid" xlink:to="reference_DistributionsPaid" xlink:title="reference: DistributionsPaid to reference_DistributionsPaid"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_IssuanceOfCertificatesNet" xlink:label="IssuanceOfCertificatesNet" xlink:title="IssuanceOfCertificatesNet"/>
+    <link:reference xlink:type="resource" xlink:label="reference_IssuanceOfCertificatesNet" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_IssuanceOfCertificatesNet" id="reference_IssuanceOfCertificatesNet">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>7</ref:Number>
+      <ref:Paragraph>20</ref:Paragraph>
+      <ref:Subparagraph>c</ref:Subparagraph>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="IssuanceOfCertificatesNet" xlink:to="reference_IssuanceOfCertificatesNet" xlink:title="reference: IssuanceOfCertificatesNet to reference_IssuanceOfCertificatesNet"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_CreationsAndRedemptionsOfCertificates" xlink:label="CreationsAndRedemptionsOfCertificates" xlink:title="CreationsAndRedemptionsOfCertificates"/>
+    <link:reference xlink:type="resource" xlink:label="reference_CreationsAndRedemptionsOfCertificates" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_CreationsAndRedemptionsOfCertificates" id="reference_CreationsAndRedemptionsOfCertificates">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>106</ref:Paragraph>
+      <ref:Subparagraph>d</ref:Subparagraph>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="CreationsAndRedemptionsOfCertificates" xlink:to="reference_CreationsAndRedemptionsOfCertificates" xlink:title="reference: CreationsAndRedemptionsOfCertificates to reference_CreationsAndRedemptionsOfCertificates"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_NominalValueOfDerivatives" xlink:label="NominalValueOfDerivatives" xlink:title="NominalValueOfDerivatives"/>
+    <link:reference xlink:type="resource" xlink:label="reference_NominalValueOfDerivatives" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_NominalValueOfDerivatives" id="reference_NominalValueOfDerivatives">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>112</ref:Paragraph>
+      <ref:Subparagraph>c</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="NominalValueOfDerivatives" xlink:to="reference_NominalValueOfDerivatives" xlink:title="reference: NominalValueOfDerivatives to reference_NominalValueOfDerivatives"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_AuthorizedCertificates" xlink:label="AuthorizedCertificates" xlink:title="AuthorizedCertificates"/>
+    <link:reference xlink:type="resource" xlink:label="reference_AuthorizedCertificates" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_AuthorizedCertificates" id="reference_AuthorizedCertificates">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>112</ref:Paragraph>
+      <ref:Subparagraph>c</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AuthorizedCertificates" xlink:to="reference_AuthorizedCertificates" xlink:title="reference: AuthorizedCertificates to reference_AuthorizedCertificates"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_CertificatesInCirculation" xlink:label="CertificatesInCirculation" xlink:title="CertificatesInCirculation"/>
+    <link:reference xlink:type="resource" xlink:label="reference_CertificatesInCirculation" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_CertificatesInCirculation" id="reference_CertificatesInCirculation">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>112</ref:Paragraph>
+      <ref:Subparagraph>c</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="CertificatesInCirculation" xlink:to="reference_CertificatesInCirculation" xlink:title="reference: CertificatesInCirculation to reference_CertificatesInCirculation"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_TreasuryCertificates" xlink:label="TreasuryCertificates" xlink:title="TreasuryCertificates"/>
+    <link:reference xlink:type="resource" xlink:label="reference_TreasuryCertificates" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_TreasuryCertificates" id="reference_TreasuryCertificates">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>112</ref:Paragraph>
+      <ref:Subparagraph>c</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="TreasuryCertificates" xlink:to="reference_TreasuryCertificates" xlink:title="reference: TreasuryCertificates to reference_TreasuryCertificates"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_AmountOfAuthorizedCertificates" xlink:label="AmountOfAuthorizedCertificates" xlink:title="AmountOfAuthorizedCertificates"/>
+    <link:reference xlink:type="resource" xlink:label="reference_AmountOfAuthorizedCertificates" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_AmountOfAuthorizedCertificates" id="reference_AmountOfAuthorizedCertificates">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>112</ref:Paragraph>
+      <ref:Subparagraph>c</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AmountOfAuthorizedCertificates" xlink:to="reference_AmountOfAuthorizedCertificates" xlink:title="reference: AmountOfAuthorizedCertificates to reference_AmountOfAuthorizedCertificates"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_AmountOutstandingCertificates" xlink:label="AmountOutstandingCertificates" xlink:title="AmountOutstandingCertificates"/>
+    <link:reference xlink:type="resource" xlink:label="reference_AmountOutstandingCertificates" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_AmountOutstandingCertificates" id="reference_AmountOutstandingCertificates">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>112</ref:Paragraph>
+      <ref:Subparagraph>c</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AmountOutstandingCertificates" xlink:to="reference_AmountOutstandingCertificates" xlink:title="reference: AmountOutstandingCertificates to reference_AmountOutstandingCertificates"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_AmountOfTreasuryCertificates" xlink:label="AmountOfTreasuryCertificates" xlink:title="AmountOfTreasuryCertificates"/>
+    <link:reference xlink:type="resource" xlink:label="reference_AmountOfTreasuryCertificates" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_AmountOfTreasuryCertificates" id="reference_AmountOfTreasuryCertificates">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>112</ref:Paragraph>
+      <ref:Subparagraph>c</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AmountOfTreasuryCertificates" xlink:to="reference_AmountOfTreasuryCertificates" xlink:title="reference: AmountOfTreasuryCertificates to reference_AmountOfTreasuryCertificates"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_NonCurrentPrepayments" xlink:label="NonCurrentPrepayments" xlink:title="NonCurrentPrepayments"/>
+    <link:reference xlink:type="resource" xlink:label="reference_NonCurrentPrepayments" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_NonCurrentPrepayments" id="reference_NonCurrentPrepayments">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>112</ref:Paragraph>
+      <ref:Subparagraph>c</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="NonCurrentPrepayments" xlink:to="reference_NonCurrentPrepayments" xlink:title="reference: NonCurrentPrepayments to reference_NonCurrentPrepayments"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_NonCurrentPrepaidExpenses" xlink:label="NonCurrentPrepaidExpenses" xlink:title="NonCurrentPrepaidExpenses"/>
+    <link:reference xlink:type="resource" xlink:label="reference_NonCurrentPrepaidExpenses" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_NonCurrentPrepaidExpenses" id="reference_NonCurrentPrepaidExpenses">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>112</ref:Paragraph>
+      <ref:Subparagraph>c</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="NonCurrentPrepaidExpenses" xlink:to="reference_NonCurrentPrepaidExpenses" xlink:title="reference: NonCurrentPrepaidExpenses to reference_NonCurrentPrepaidExpenses"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_BankLoansCurrent" xlink:label="BankLoansCurrent" xlink:title="BankLoansCurrent"/>
+    <link:reference xlink:type="resource" xlink:label="reference_BankLoansCurrent" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_BankLoansCurrent" id="reference_BankLoansCurrent">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>54</ref:Paragraph>
+      <ref:Subparagraph>m</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="BankLoansCurrent" xlink:to="reference_BankLoansCurrent" xlink:title="reference: BankLoansCurrent to reference_BankLoansCurrent"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_StockMarketLoansCurrent" xlink:label="StockMarketLoansCurrent" xlink:title="StockMarketLoansCurrent"/>
+    <link:reference xlink:type="resource" xlink:label="reference_StockMarketLoansCurrent" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_StockMarketLoansCurrent" id="reference_StockMarketLoansCurrent">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>54</ref:Paragraph>
+      <ref:Subparagraph>m</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="StockMarketLoansCurrent" xlink:to="reference_StockMarketLoansCurrent" xlink:title="reference: StockMarketLoansCurrent to reference_StockMarketLoansCurrent"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_BankLoansNonCurrent" xlink:label="BankLoansNonCurrent" xlink:title="BankLoansNonCurrent"/>
+    <link:reference xlink:type="resource" xlink:label="reference_BankLoansNonCurrent" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_BankLoansNonCurrent" id="reference_BankLoansNonCurrent">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>54</ref:Paragraph>
+      <ref:Subparagraph>m</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="BankLoansNonCurrent" xlink:to="reference_BankLoansNonCurrent" xlink:title="reference: BankLoansNonCurrent to reference_BankLoansNonCurrent"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_InterestPayableInTheShortTerm" xlink:label="InterestPayableInTheShortTerm" xlink:title="InterestPayableInTheShortTerm"/>
+    <link:reference xlink:type="resource" xlink:label="reference_InterestPayableInTheShortTerm" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_InterestPayableInTheShortTerm" id="reference_InterestPayableInTheShortTerm">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>54</ref:Paragraph>
+      <ref:Subparagraph>m</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InterestPayableInTheShortTerm" xlink:to="reference_InterestPayableInTheShortTerm" xlink:title="reference: InterestPayableInTheShortTerm to reference_InterestPayableInTheShortTerm"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_SundryDebtors" xlink:label="SundryDebtors" xlink:title="SundryDebtors"/>
+    <link:reference xlink:type="resource" xlink:label="reference_SundryDebtors" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_SundryDebtors" id="reference_SundryDebtors">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>54</ref:Paragraph>
+      <ref:Subparagraph>m</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="SundryDebtors" xlink:to="reference_SundryDebtors" xlink:title="reference: SundryDebtors to reference_SundryDebtors"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_StockMarketLoansNonCurrent" xlink:label="StockMarketLoansNonCurrent" xlink:title="StockMarketLoansNonCurrent"/>
+    <link:reference xlink:type="resource" xlink:label="reference_StockMarketLoansNonCurrent" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_StockMarketLoansNonCurrent" id="reference_StockMarketLoansNonCurrent">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>54</ref:Paragraph>
+      <ref:Subparagraph>m</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="StockMarketLoansNonCurrent" xlink:to="reference_StockMarketLoansNonCurrent" xlink:title="reference: StockMarketLoansNonCurrent to reference_StockMarketLoansNonCurrent"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_InterestOnLongTermDebt" xlink:label="InterestOnLongTermDebt" xlink:title="InterestOnLongTermDebt"/>
+    <link:reference xlink:type="resource" xlink:label="reference_InterestOnLongTermDebt" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_InterestOnLongTermDebt" id="reference_InterestOnLongTermDebt">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>54</ref:Paragraph>
+      <ref:Subparagraph>m</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InterestOnLongTermDebt" xlink:to="reference_InterestOnLongTermDebt" xlink:title="reference: InterestOnLongTermDebt to reference_InterestOnLongTermDebt"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_ManagementFee" xlink:label="ManagementFee" xlink:title="ManagementFee"/>
+    <link:reference xlink:type="resource" xlink:label="reference_ManagementFee" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_ManagementFee" id="reference_ManagementFee">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>85</ref:Paragraph>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ManagementFee" xlink:to="reference_ManagementFee" xlink:title="reference: ManagementFee to reference_ManagementFee"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_ProfessionalFees" xlink:label="ProfessionalFees" xlink:title="ProfessionalFees"/>
+    <link:reference xlink:type="resource" xlink:label="reference_ProfessionalFees" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_ProfessionalFees" id="reference_ProfessionalFees">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>85</ref:Paragraph>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ProfessionalFees" xlink:to="reference_ProfessionalFees" xlink:title="reference: ProfessionalFees to reference_ProfessionalFees"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_Taxes" xlink:label="Taxes" xlink:title="Taxes"/>
+    <link:reference xlink:type="resource" xlink:label="reference_Taxes" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_Taxes" id="reference_Taxes">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>85</ref:Paragraph>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="Taxes" xlink:to="reference_Taxes" xlink:title="reference: Taxes to reference_Taxes"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_FeesAndRights" xlink:label="FeesAndRights" xlink:title="FeesAndRights"/>
+    <link:reference xlink:type="resource" xlink:label="reference_FeesAndRights" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_FeesAndRights" id="reference_FeesAndRights">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>85</ref:Paragraph>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="FeesAndRights" xlink:to="reference_FeesAndRights" xlink:title="reference: FeesAndRights to reference_FeesAndRights"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_DividendsAndInterestPaid" xlink:label="DividendsAndInterestPaid" xlink:title="DividendsAndInterestPaid"/>
+    <link:reference xlink:type="resource" xlink:label="reference_DividendsAndInterestPaid" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_DividendsAndInterestPaid" id="reference_DividendsAndInterestPaid">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>85</ref:Paragraph>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DividendsAndInterestPaid" xlink:to="reference_DividendsAndInterestPaid" xlink:title="reference: DividendsAndInterestPaid to reference_DividendsAndInterestPaid"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_OtherAdministrativeExpenses" xlink:label="OtherAdministrativeExpenses" xlink:title="OtherAdministrativeExpenses"/>
+    <link:reference xlink:type="resource" xlink:label="reference_OtherAdministrativeExpenses" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_OtherAdministrativeExpenses" id="reference_OtherAdministrativeExpenses">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>85</ref:Paragraph>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="OtherAdministrativeExpenses" xlink:to="reference_OtherAdministrativeExpenses" xlink:title="reference: OtherAdministrativeExpenses to reference_OtherAdministrativeExpenses"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_InterestIncome" xlink:label="InterestIncome" xlink:title="InterestIncome"/>
+    <link:reference xlink:type="resource" xlink:label="reference_InterestIncome" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_InterestIncome" id="reference_InterestIncome">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>85</ref:Paragraph>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InterestIncome" xlink:to="reference_InterestIncome" xlink:title="reference: InterestIncome to reference_InterestIncome"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_GainOnForeignExchange" xlink:label="GainOnForeignExchange" xlink:title="GainOnForeignExchange"/>
+    <link:reference xlink:type="resource" xlink:label="reference_GainOnForeignExchange" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_GainOnForeignExchange" id="reference_GainOnForeignExchange">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>85</ref:Paragraph>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="GainOnForeignExchange" xlink:to="reference_GainOnForeignExchange" xlink:title="reference: GainOnForeignExchange to reference_GainOnForeignExchange"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_GainOnChangeInFairValueOfFinancialInstruments" xlink:label="GainOnChangeInFairValueOfFinancialInstruments" xlink:title="GainOnChangeInFairValueOfFinancialInstruments"/>
+    <link:reference xlink:type="resource" xlink:label="reference_GainOnChangeInFairValueOfFinancialInstruments" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_GainOnChangeInFairValueOfFinancialInstruments" id="reference_GainOnChangeInFairValueOfFinancialInstruments">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>85</ref:Paragraph>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="GainOnChangeInFairValueOfFinancialInstruments" xlink:to="reference_GainOnChangeInFairValueOfFinancialInstruments" xlink:title="reference: GainOnChangeInFairValueOfFinancialInstruments to reference_GainOnChangeInFairValueOfFinancialInstruments"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_GainOnSaleOfSecurities" xlink:label="GainOnSaleOfSecurities" xlink:title="GainOnSaleOfSecurities"/>
+    <link:reference xlink:type="resource" xlink:label="reference_GainOnSaleOfSecurities" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_GainOnSaleOfSecurities" id="reference_GainOnSaleOfSecurities">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>85</ref:Paragraph>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="GainOnSaleOfSecurities" xlink:to="reference_GainOnSaleOfSecurities" xlink:title="reference: GainOnSaleOfSecurities to reference_GainOnSaleOfSecurities"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_AccruedInterestExpense" xlink:label="AccruedInterestExpense" xlink:title="AccruedInterestExpense"/>
+    <link:reference xlink:type="resource" xlink:label="reference_AccruedInterestExpense" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_AccruedInterestExpense" id="reference_AccruedInterestExpense">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>85</ref:Paragraph>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AccruedInterestExpense" xlink:to="reference_AccruedInterestExpense" xlink:title="reference: AccruedInterestExpense to reference_AccruedInterestExpense"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_ForeignExchangeLoss" xlink:label="ForeignExchangeLoss" xlink:title="ForeignExchangeLoss"/>
+    <link:reference xlink:type="resource" xlink:label="reference_ForeignExchangeLoss" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_ForeignExchangeLoss" id="reference_ForeignExchangeLoss">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>85</ref:Paragraph>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ForeignExchangeLoss" xlink:to="reference_ForeignExchangeLoss" xlink:title="reference: ForeignExchangeLoss to reference_ForeignExchangeLoss"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_LossOnChangesInFairValueOfFinancialInstruments" xlink:label="LossOnChangesInFairValueOfFinancialInstruments" xlink:title="LossOnChangesInFairValueOfFinancialInstruments"/>
+    <link:reference xlink:type="resource" xlink:label="reference_LossOnChangesInFairValueOfFinancialInstruments" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_LossOnChangesInFairValueOfFinancialInstruments" id="reference_LossOnChangesInFairValueOfFinancialInstruments">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>85</ref:Paragraph>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="LossOnChangesInFairValueOfFinancialInstruments" xlink:to="reference_LossOnChangesInFairValueOfFinancialInstruments" xlink:title="reference: LossOnChangesInFairValueOfFinancialInstruments to reference_LossOnChangesInFairValueOfFinancialInstruments"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_LossOnSaleOfSecurities" xlink:label="LossOnSaleOfSecurities" xlink:title="LossOnSaleOfSecurities"/>
+    <link:reference xlink:type="resource" xlink:label="reference_LossOnSaleOfSecurities" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_LossOnSaleOfSecurities" id="reference_LossOnSaleOfSecurities">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>85</ref:Paragraph>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="LossOnSaleOfSecurities" xlink:to="reference_LossOnSaleOfSecurities" xlink:title="reference: LossOnSaleOfSecurities to reference_LossOnSaleOfSecurities"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_FinancialAssetsAndLiabilitiesAtFairValueThroughProfitOrLoss" xlink:label="FinancialAssetsAndLiabilitiesAtFairValueThroughProfitOrLoss" xlink:title="FinancialAssetsAndLiabilitiesAtFairValueThroughProfitOrLoss"/>
+    <link:reference xlink:type="resource" xlink:label="reference_FinancialAssetsAndLiabilitiesAtFairValueThroughProfitOrLoss" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_FinancialAssetsAndLiabilitiesAtFairValueThroughProfitOrLoss" id="reference_FinancialAssetsAndLiabilitiesAtFairValueThroughProfitOrLoss">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>10</ref:Paragraph>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Subparagraph>e</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="FinancialAssetsAndLiabilitiesAtFairValueThroughProfitOrLoss" xlink:to="reference_FinancialAssetsAndLiabilitiesAtFairValueThroughProfitOrLoss" xlink:title="reference: FinancialAssetsAndLiabilitiesAtFairValueThroughProfitOrLoss to reference_FinancialAssetsAndLiabilitiesAtFairValueThroughProfitOrLoss"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_MemorandumAccounts" xlink:label="MemorandumAccounts" xlink:title="MemorandumAccounts"/>
+    <link:reference xlink:type="resource" xlink:label="reference_MemorandumAccounts" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_MemorandumAccounts" id="reference_MemorandumAccounts">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>10</ref:Paragraph>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Subparagraph>e</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="MemorandumAccounts" xlink:to="reference_MemorandumAccounts" xlink:title="reference: MemorandumAccounts to reference_MemorandumAccounts"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_DisclosureOfDistributionsPaid" xlink:label="DisclosureOfDistributionsPaid" xlink:title="DisclosureOfDistributionsPaid"/>
+    <link:reference xlink:type="resource" xlink:label="reference_DisclosureOfDistributionsPaid" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_DisclosureOfDistributionsPaid" id="reference_DisclosureOfDistributionsPaid">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>10</ref:Paragraph>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Subparagraph>e</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DisclosureOfDistributionsPaid" xlink:to="reference_DisclosureOfDistributionsPaid" xlink:title="reference: DisclosureOfDistributionsPaid to reference_DisclosureOfDistributionsPaid"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_trac-cor_2015-06-05.xsd#mx_trac_InvestmentsForTradingShares" xlink:label="InvestmentsForTradingShares" xlink:title="InvestmentsForTradingShares"/>
+    <link:reference xlink:type="resource" xlink:label="reference_InvestmentsForTradingShares" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_InvestmentsForTradingShares" id="reference_InvestmentsForTradingShares">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>10</ref:Paragraph>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Subparagraph>e</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentsForTradingShares" xlink:to="reference_InvestmentsForTradingShares" xlink:title="reference: InvestmentsForTradingShares to reference_InvestmentsForTradingShares"/>
+  </link:referenceLink>
+</link:linkbase>

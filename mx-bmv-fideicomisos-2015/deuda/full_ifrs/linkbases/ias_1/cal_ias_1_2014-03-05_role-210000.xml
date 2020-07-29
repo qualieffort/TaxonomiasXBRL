@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Taxonomy: 2014-03-05 (Final release)
+        ********************** 
+        Copyright © 2014 International Financial Reporting Standards (IFRS) Foundation
+        All rights reserved.  No part of this publication may be translated, reprinted or reproduced 
+        or utilised in any form either in whole or in part without prior permission in writing from the IFRS Foundation.
+        For more information on the IFRS Foundation's copyright, please refer to http://www.ifrs.org/XBRL/Legal/
+        **********************
+-->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://bmv.com.mx/role/ifrs/deuda/2015/ias_1_2014-03-05_role-210000" xlink:type="simple" xlink:href="rol_ias_1_2014-03-05.xsd#ias_1_2014-03-05_role-210000"/>
+  <link:roleRef roleURI="http://bmv.com.mx/role/ifrs/deuda/2015/ias_1_2014-03-05_role-800100" xlink:type="simple" xlink:href="rol_ias_1_2014-03-05.xsd#ias_1_2014-03-05_role-800100"/>
+  <link:roleRef roleURI="http://bmv.com.mx/role/ifrs/deuda/2015/ias_1_2014-03-05_role-800200" xlink:type="simple" xlink:href="rol_ias_1_2014-03-05.xsd#ias_1_2014-03-05_role-800200"/>
+  <link:calculationLink xlink:type="extended" xlink:role="http://bmv.com.mx/role/ifrs/deuda/2015/ias_1_2014-03-05_role-210000">
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_EquityAndLiabilities" xlink:label="loc_14"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_Equity" xlink:label="loc_13"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_14" xlink:to="loc_13" order="10.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_EquityAttributableToOwnersOfParent" xlink:label="loc_15"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_13" xlink:to="loc_15" order="10.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_RetainedEarnings" xlink:label="loc_26"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_15" xlink:to="loc_26" order="20.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_OtherReserves" xlink:label="loc_47"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_15" xlink:to="loc_47" order="60.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_IssuedCapital" xlink:label="IssuedCapital"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_15" xlink:to="IssuedCapital" xlink:title="calculation: EquityAttributableToOwnersOfParent to IssuedCapital" order="10.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_Liabilities" xlink:label="loc_17"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_14" xlink:to="loc_17" order="5.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_NoncurrentLiabilities" xlink:label="loc_2"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_17" xlink:to="loc_2" order="10.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_NoncurrentProvisions" xlink:label="loc_1"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_2" xlink:to="loc_1" order="10.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_OtherLongtermProvisions" xlink:label="loc_19"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_1" xlink:to="loc_19" order="20.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_NoncurrentPayables" xlink:label="loc_24"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_2" xlink:to="loc_24" order="1.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_CurrentTaxLiabilitiesNoncurrent" xlink:label="loc_34"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_2" xlink:to="loc_34" order="2.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_OtherNoncurrentFinancialLiabilities" xlink:label="loc_41"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_2" xlink:to="loc_41" order="3.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_OtherNoncurrentNonfinancialLiabilities" xlink:label="loc_46"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_2" xlink:to="loc_46" order="4.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../deuda/core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_DerivativeFinancialInstrumentsAndHedgingClassifiedAsLongTermLiabilities" xlink:label="DerivativeFinancialInstrumentsAndHedgingClassifiedAsLongTermLiabilities" xlink:title="DerivativeFinancialInstrumentsAndHedgingClassifiedAsLongTermLiabilities"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_2" xlink:to="DerivativeFinancialInstrumentsAndHedgingClassifiedAsLongTermLiabilities" xlink:title="calculation: NoncurrentLiabilities to DerivativeFinancialInstrumentsAndHedgingClassifiedAsLongTermLiabilities" order="31.0" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_CurrentLiabilities" xlink:label="loc_18"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_17" xlink:to="loc_18" order="5.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_CurrentProvisions" xlink:label="loc_4"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_18" xlink:to="loc_4" xlink:title="calculation: CurrentLiabilities to CurrentProvisions" order="26.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_OtherShorttermProvisions" xlink:label="loc_20"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_4" xlink:to="loc_20" order="20.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_TradeAndOtherCurrentPayables" xlink:label="TradeAndOtherCurrentPayables"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_18" xlink:to="TradeAndOtherCurrentPayables" xlink:title="calculation: CurrentLiabilities to TradeAndOtherCurrentPayables" order="22.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_CurrentTaxLiabilitiesCurrent" xlink:label="CurrentTaxLiabilitiesCurrent"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_18" xlink:to="CurrentTaxLiabilitiesCurrent" xlink:title="calculation: CurrentLiabilities to CurrentTaxLiabilitiesCurrent" order="23.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_OtherCurrentFinancialLiabilities" xlink:label="OtherCurrentFinancialLiabilities"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_18" xlink:to="OtherCurrentFinancialLiabilities" xlink:title="calculation: CurrentLiabilities to OtherCurrentFinancialLiabilities" order="24.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_OtherCurrentNonfinancialLiabilities" xlink:label="OtherCurrentNonfinancialLiabilities"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_18" xlink:to="OtherCurrentNonfinancialLiabilities" xlink:title="calculation: CurrentLiabilities to OtherCurrentNonfinancialLiabilities" order="25.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../deuda/core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_DerivativeFinancialInstrumentsAndHedgingClassifiedAsShortTermLiabilities" xlink:label="DerivativeFinancialInstrumentsAndHedgingClassifiedAsShortTermLiabilities" xlink:title="DerivativeFinancialInstrumentsAndHedgingClassifiedAsShortTermLiabilities"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_18" xlink:to="DerivativeFinancialInstrumentsAndHedgingClassifiedAsShortTermLiabilities" xlink:title="calculation: CurrentLiabilities to DerivativeFinancialInstrumentsAndHedgingClassifiedAsShortTermLiabilities" order="27.0" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_Assets" xlink:label="loc_8"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_NoncurrentAssets" xlink:label="loc_7"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_8" xlink:to="loc_7" order="10.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_NoncurrentBiologicalAssets" xlink:label="loc_48"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_7" xlink:to="loc_48" order="4.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_OtherNoncurrentFinancialAssets" xlink:label="loc_55"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_7" xlink:to="loc_55" order="120.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_OtherNoncurrentNonfinancialAssets" xlink:label="loc_56"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_7" xlink:to="loc_56" order="130.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../deuda/core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_EstimatedPaymentsOfISRToDistributeToHolders" xlink:label="EstimatedPaymentsOfISRToDistributeToHolders" xlink:title="EstimatedPaymentsOfISRToDistributeToHolders"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_7" xlink:to="EstimatedPaymentsOfISRToDistributeToHolders" xlink:title="calculation: NoncurrentAssets to EstimatedPaymentsOfISRToDistributeToHolders" order="1.0" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../deuda/core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_Foreclosed" xlink:label="Foreclosed" xlink:title="Foreclosed"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_7" xlink:to="Foreclosed" xlink:title="calculation: NoncurrentAssets to Foreclosed" order="2.0" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_NoncurrentReceivables" xlink:label="NoncurrentReceivables" xlink:title="NoncurrentReceivables"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_7" xlink:to="NoncurrentReceivables" xlink:title="calculation: NoncurrentAssets to NoncurrentReceivables" order="3.0" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../deuda/core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_DerivativeFinancialInstrumentsAndHedging" xlink:label="DerivativeFinancialInstrumentsAndHedging" xlink:title="DerivativeFinancialInstrumentsAndHedging"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_7" xlink:to="DerivativeFinancialInstrumentsAndHedging" xlink:title="calculation: NoncurrentAssets to DerivativeFinancialInstrumentsAndHedging" order="5.0" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_CurrentAssets" xlink:label="loc_11"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_8" xlink:to="loc_11" order="5.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_CashAndCashEquivalents" xlink:label="CashAndCashEquivalents"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_11" xlink:to="CashAndCashEquivalents" xlink:title="calculation: CurrentAssets to CashAndCashEquivalents" order="21.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../deuda/core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_Collateralizedloan" xlink:label="Collateralizedloan" xlink:title="Collateralizedloan"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_11" xlink:to="Collateralizedloan" xlink:title="calculation: CurrentAssets to Collateralizedloan" order="22.0" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../deuda/core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_Receivable" xlink:label="Receivable" xlink:title="Receivable"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_11" xlink:to="Receivable" xlink:title="calculation: CurrentAssets to Receivable" order="23.0" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_TradeAndOtherCurrentReceivables" xlink:label="TradeAndOtherCurrentReceivables"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_11" xlink:to="TradeAndOtherCurrentReceivables" xlink:title="calculation: CurrentAssets to TradeAndOtherCurrentReceivables" order="24.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_OtherCurrentNonfinancialAssets" xlink:label="OtherCurrentNonfinancialAssets"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_11" xlink:to="OtherCurrentNonfinancialAssets" xlink:title="calculation: CurrentAssets to OtherCurrentNonfinancialAssets" order="28.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_CurrentBiologicalAssets" xlink:label="CurrentBiologicalAssets"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_11" xlink:to="CurrentBiologicalAssets" xlink:title="calculation: CurrentAssets to CurrentBiologicalAssets" order="26.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_OtherCurrentFinancialAssets" xlink:label="OtherCurrentFinancialAssets"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_11" xlink:to="OtherCurrentFinancialAssets" xlink:title="calculation: CurrentAssets to OtherCurrentFinancialAssets" order="25.0" weight="1"/>
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://bmv.com.mx/role/ifrs/deuda/2015/ias_1_2014-03-05_role-800100">
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_OtherReserves" xlink:label="OtherReserves" xlink:title="OtherReserves"/>
+    <link:loc xlink:type="locator" xlink:href="../../../deuda/core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_OtherComprehensiveIncomeDeuda" xlink:label="OtherComprehensiveIncomeDeuda" xlink:title="OtherComprehensiveIncomeDeuda"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="OtherReserves" xlink:to="OtherComprehensiveIncomeDeuda" xlink:title="calculation: OtherReserves to OtherComprehensiveIncomeDeuda" order="1.0" weight="1"/>
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://bmv.com.mx/role/ifrs/deuda/2015/ias_1_2014-03-05_role-800200">
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_AdministrativeExpense" xlink:label="AdministrativeExpense" xlink:title="AdministrativeExpense"/>
+    <link:loc xlink:type="locator" xlink:href="../../../deuda/core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_ComissionRepresentativeServices" xlink:label="ComissionRepresentativeServices" xlink:title="ComissionRepresentativeServices"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="AdministrativeExpense" xlink:to="ComissionRepresentativeServices" xlink:title="calculation: AdministrativeExpense to ComissionRepresentativeServices" order="1.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../deuda/core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_ManagementFee" xlink:label="ManagementFee" xlink:title="ManagementFee"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="AdministrativeExpense" xlink:to="ManagementFee" xlink:title="calculation: AdministrativeExpense to ManagementFee" order="2.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../deuda/core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_Honorariums" xlink:label="Honorariums" xlink:title="Honorariums"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="AdministrativeExpense" xlink:to="Honorariums" xlink:title="calculation: AdministrativeExpense to Honorariums" order="3.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../deuda/core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_Taxes" xlink:label="Taxes" xlink:title="Taxes"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="AdministrativeExpense" xlink:to="Taxes" xlink:title="calculation: AdministrativeExpense to Taxes" order="4.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../deuda/core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_InsurancesAndGuarantees" xlink:label="InsurancesAndGuarantees" xlink:title="InsurancesAndGuarantees"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="AdministrativeExpense" xlink:to="InsurancesAndGuarantees" xlink:title="calculation: AdministrativeExpense to InsurancesAndGuarantees" order="5.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../deuda/core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_FeesAndRights" xlink:label="FeesAndRights" xlink:title="FeesAndRights"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="AdministrativeExpense" xlink:to="FeesAndRights" xlink:title="calculation: AdministrativeExpense to FeesAndRights" order="6.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../deuda/core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_AssetMaintenanceCosts" xlink:label="AssetMaintenanceCosts" xlink:title="AssetMaintenanceCosts"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="AdministrativeExpense" xlink:to="AssetMaintenanceCosts" xlink:title="calculation: AdministrativeExpense to AssetMaintenanceCosts" order="7.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../deuda/core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_OtherAdministrativeExpensesAndMaintenance" xlink:label="OtherAdministrativeExpensesAndMaintenance" xlink:title="OtherAdministrativeExpensesAndMaintenance"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="AdministrativeExpense" xlink:to="OtherAdministrativeExpensesAndMaintenance" xlink:title="calculation: AdministrativeExpense to OtherAdministrativeExpensesAndMaintenance" order="8.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_FinanceIncome" xlink:label="FinanceIncome" xlink:title="FinanceIncome"/>
+    <link:loc xlink:type="locator" xlink:href="../../../deuda/core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_InterestIncome" xlink:label="InterestIncome" xlink:title="InterestIncome"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="FinanceIncome" xlink:to="InterestIncome" xlink:title="calculation: FinanceIncome to InterestIncome" order="1.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../deuda/core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_GainOnForeignExchange" xlink:label="GainOnForeignExchange" xlink:title="GainOnForeignExchange"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="FinanceIncome" xlink:to="GainOnForeignExchange" xlink:title="calculation: FinanceIncome to GainOnForeignExchange" order="2.0" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../deuda/core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_GainOnChangeInFairValueOfFinancialInstruments" xlink:label="GainOnChangeInFairValueOfFinancialInstruments" xlink:title="GainOnChangeInFairValueOfFinancialInstruments"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="FinanceIncome" xlink:to="GainOnChangeInFairValueOfFinancialInstruments" xlink:title="calculation: FinanceIncome to GainOnChangeInFairValueOfFinancialInstruments" order="3.0" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_OtherFinanceIncome" xlink:label="OtherFinanceIncome" xlink:title="OtherFinanceIncome"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="FinanceIncome" xlink:to="OtherFinanceIncome" xlink:title="calculation: FinanceIncome to OtherFinanceIncome" order="4.0" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_FinanceCosts" xlink:label="FinanceCosts" xlink:title="FinanceCosts"/>
+    <link:loc xlink:type="locator" xlink:href="../../../deuda/core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_AccruedInterestExpense" xlink:label="AccruedInterestExpense" xlink:title="AccruedInterestExpense"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="FinanceCosts" xlink:to="AccruedInterestExpense" xlink:title="calculation: FinanceCosts to AccruedInterestExpense" order="1.0" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../deuda/core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_ForeignExchangeLoss" xlink:label="ForeignExchangeLoss" xlink:title="ForeignExchangeLoss"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="FinanceCosts" xlink:to="ForeignExchangeLoss" xlink:title="calculation: FinanceCosts to ForeignExchangeLoss" order="2.0" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../deuda/core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_LossOnChangesInFairValueOfFinancialInstruments" xlink:label="LossOnChangesInFairValueOfFinancialInstruments" xlink:title="LossOnChangesInFairValueOfFinancialInstruments"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="FinanceCosts" xlink:to="LossOnChangesInFairValueOfFinancialInstruments" xlink:title="calculation: FinanceCosts to LossOnChangesInFairValueOfFinancialInstruments" order="3.0" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_OtherFinanceCost" xlink:label="OtherFinanceCost" xlink:title="OtherFinanceCost"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="FinanceCosts" xlink:to="OtherFinanceCost" xlink:title="calculation: FinanceCosts to OtherFinanceCost" order="4.0" weight="1.0"/>
+  </link:calculationLink>
+</link:linkbase>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Taxonomy: 2014-03-05 (Final release)
+        ********************** 
+        Copyright © 2014 International Financial Reporting Standards (IFRS) Foundation
+        All rights reserved.  No part of this publication may be translated, reprinted or reproduced 
+        or utilised in any form either in whole or in part without prior permission in writing from the IFRS Foundation.
+        For more information on the IFRS Foundation's copyright, please refer to http://www.ifrs.org/XBRL/Legal/
+        **********************
+-->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://bmv.com.mx/role/ifrs/trac/2015/mc_2014-03-05_role-105000" xlink:type="simple" xlink:href="rol_mc_2014-03-05.xsd#mc_2014-03-05_role-105000"/>
+  <link:presentationLink xlink:type="extended" xlink:role="http://bmv.com.mx/role/ifrs/trac/2015/mc_2014-03-05_role-105000">
+    <link:loc xlink:type="locator" xlink:href="../mc-cor_2014-03-05.xsd#ifrs-mc_ManagementCommentaryExplanatory" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../mc-cor_2014-03-05.xsd#ifrs-mc_DisclosureOfNatureOfBusinessExplanatory" xlink:label="loc_1"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_2" xlink:to="loc_1" order="10.0"/>
+    <link:loc xlink:type="locator" xlink:href="../mc-cor_2014-03-05.xsd#ifrs-mc_DisclosureOfManagementsObjectivesAndItsStrategiesForMeetingThoseObjectivesExplanatory" xlink:label="loc_3"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_2" xlink:to="loc_3" order="20.0"/>
+    <link:loc xlink:type="locator" xlink:href="../mc-cor_2014-03-05.xsd#ifrs-mc_DisclosureOfEntitysMostSignificantResourcesRisksAndRelationshipsExplanatory" xlink:label="loc_4"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_2" xlink:to="loc_4" order="30.0"/>
+    <link:loc xlink:type="locator" xlink:href="../mc-cor_2014-03-05.xsd#ifrs-mc_DisclosureOfResultsOfOperationsAndProspectsExplanatory" xlink:label="loc_5"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_2" xlink:to="loc_5" order="40.0"/>
+    <link:loc xlink:type="locator" xlink:href="../mc-cor_2014-03-05.xsd#ifrs-mc_DisclosureOfCriticalPerformanceMeasuresAndIndicatorsThatManagementUsesToEvaluateEntitysPerformanceAgainstStatedObjectivesExplanatory" xlink:label="loc_6"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_2" xlink:to="loc_6" order="50.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../trac/core/mx_trac-cor_2015-06-05.xsd#mx_trac_TheSecurityTransaction" xlink:label="TheSecurityTransaction" xlink:title="TheSecurityTransaction"/>
+    <link:loc xlink:type="locator" xlink:href="../../trac/core/mx_trac-cor_2015-06-05.xsd#mx_trac_HeritageOfTheFund" xlink:label="HeritageOfTheFund" xlink:title="HeritageOfTheFund"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="TheSecurityTransaction" xlink:to="HeritageOfTheFund" xlink:title="presentation: TheSecurityTransaction to HeritageOfTheFund" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../trac/core/mx_trac-cor_2015-06-05.xsd#mx_trac_RelevantDisclosureAboutThePeriod" xlink:label="RelevantDisclosureAboutThePeriod" xlink:title="RelevantDisclosureAboutThePeriod"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="TheSecurityTransaction" xlink:to="RelevantDisclosureAboutThePeriod" xlink:title="presentation: TheSecurityTransaction to RelevantDisclosureAboutThePeriod" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../trac/core/mx_trac-cor_2015-06-05.xsd#mx_trac_OtherRequiredThirdToTheTrustOrSecurityHoldersIfAny" xlink:label="OtherRequiredThirdToTheTrustOrSecurityHoldersIfAny" xlink:title="OtherRequiredThirdToTheTrustOrSecurityHoldersIfAny"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="TheSecurityTransaction" xlink:to="OtherRequiredThirdToTheTrustOrSecurityHoldersIfAny" xlink:title="presentation: TheSecurityTransaction to OtherRequiredThirdToTheTrustOrSecurityHoldersIfAny" order="3.0"/>
+  </link:presentationLink>
+</link:linkbase>

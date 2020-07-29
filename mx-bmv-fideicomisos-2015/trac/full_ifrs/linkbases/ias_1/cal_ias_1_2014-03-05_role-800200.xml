@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Taxonomy: 2014-03-05 (Final release)
+        ********************** 
+        Copyright © 2014 International Financial Reporting Standards (IFRS) Foundation
+        All rights reserved.  No part of this publication may be translated, reprinted or reproduced 
+        or utilised in any form either in whole or in part without prior permission in writing from the IFRS Foundation.
+        For more information on the IFRS Foundation's copyright, please refer to http://www.ifrs.org/XBRL/Legal/
+        **********************
+-->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://bmv.com.mx/role/ifrs/trac/2015/ias_1_2014-03-05_role-800200" xlink:type="simple" xlink:href="rol_ias_1_2014-03-05.xsd#ias_1_2014-03-05_role-800200"/>
+  <link:calculationLink xlink:type="extended" xlink:role="http://bmv.com.mx/role/ifrs/trac/2015/ias_1_2014-03-05_role-800200">
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_Revenue" xlink:label="loc_4"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_RevenueFromInterest" xlink:label="loc_93"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_4" xlink:to="loc_93" order="20.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_RevenueFromDividends" xlink:label="loc_97"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_4" xlink:to="loc_97" order="10.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_OtherRevenue" xlink:label="loc_101"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_4" xlink:to="loc_101" order="30.0" weight="1"/>
+  </link:calculationLink>
+</link:linkbase>

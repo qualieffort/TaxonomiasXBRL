@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:rol_mx_extension_2014-12-05="http://bmv.com.mx/role/ifrs/rol_mx_extension_2014-12-05" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://bmv.com.mx/role/ifrs/rol_mx_extension_2014-12-05" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xsd:annotation>
+		<xsd:appinfo>
+			<link:roleType id="mx_extension_2014-12-05_role-700000" roleURI="http://bmv.com.mx/role/ifrs/mx_extension_2014-12-05_role-700000">
+				<link:definition>[700000] Datos informativos del Estado de situación financiera</link:definition>
+				<link:usedOn>link:calculationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:presentationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType id="mx_extension_2014-12-05_role-700002" roleURI="http://bmv.com.mx/role/ifrs/mx_extension_2014-12-05_role-700002">
+				<link:definition>[700002] Datos informativos del estado de resultados</link:definition>
+				<link:usedOn>link:calculationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:presentationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType id="mx_extension_2014-12-05_role-700003" roleURI="http://bmv.com.mx/role/ifrs/mx_extension_2014-12-05_role-700003">
+				<link:definition>[700003] Datos informativos- Estado de resultados 12 meses</link:definition>
+				<link:usedOn>link:calculationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:presentationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType id="mx_extension_2014-12-05_role-800001" roleURI="http://bmv.com.mx/role/ifrs/mx_extension_2014-12-05_role-800001">
+				<link:definition>[800001] Anexo - Desglose de créditos</link:definition>
+				<link:usedOn>link:calculationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:presentationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType id="mx_extension_2014-12-05_role-800003" roleURI="http://bmv.com.mx/role/ifrs/mx_extension_2014-12-05_role-800003">
+				<link:definition>[800003] Anexo - Posición monetaria en moneda extranjera</link:definition>
+				<link:usedOn>link:calculationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:presentationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType id="mx_extension_2014-12-05_role-800005" roleURI="http://bmv.com.mx/role/ifrs/mx_extension_2014-12-05_role-800005">
+				<link:definition>[800005] Anexo - Distribución de ingresos por producto</link:definition>
+				<link:usedOn>link:calculationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:presentationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType id="mx_extension_2014-12-05_role-800007" roleURI="http://bmv.com.mx/role/ifrs/mx_extension_2014-12-05_role-800007">
+				<link:definition>[800007] Anexo - Instrumentos financieros derivados</link:definition>
+				<link:usedOn>link:calculationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:presentationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType id="mx_extension_2014-12-05_role-800201" roleURI="http://bmv.com.mx/role/ifrs/mx_extension_2014-12-05_role-800201">
+				<link:definition>[800201] Notas - Análisis de ingresos y gastos de Fibras</link:definition>
+				<link:usedOn>link:calculationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:presentationLink</link:usedOn>
+			</link:roleType>
+		</xsd:appinfo>
+	</xsd:annotation>
+</xsd:schema>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><!--Taxonomy: 2014-03-05 (Final release)
+        ********************** 
+        Copyright © 2014 International Financial Reporting Standards (IFRS) Foundation
+        All rights reserved.  No part of this publication may be translated, reprinted or reproduced 
+        or utilised in any form either in whole or in part without prior permission in writing from the IFRS Foundation.
+        For more information on the IFRS Foundation's copyright, please refer to http://www.ifrs.org/XBRL/Legal/
+        **********************
+--><xsd:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://xbrl.ifrs.org/role/ifrs/rol_ias_1_2014-03-05" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:rol_ias_1_2014-03-05="http://xbrl.ifrs.org/role/ifrs/rol_ias_1_2014-03-05" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:roleType id="ias_1_2014-03-05_role-110000" roleURI="http://bmv.com.mx/role/ifrs/trac/2015/ias_1_2014-03-05_role-110000">
+        <link:definition>[110000] Información general sobre estados financieros</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ias_1_2014-03-05_role-210000" roleURI="http://bmv.com.mx/role/ifrs/trac/2015/ias_1_2014-03-05_role-210000">
+        <link:definition>[210000] Estado de situación financiera, circulante/no circulante</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+     
+      <link:roleType id="ias_1_2014-03-05_role-310000" roleURI="http://bmv.com.mx/role/ifrs/trac/2015/ias_1_2014-03-05_role-310000">
+        <link:definition>[310000] Estado de resultados, resultado del periodo, por función de gasto</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+     
+      <link:roleType id="ias_1_2014-03-05_role-410000" roleURI="http://bmv.com.mx/role/ifrs/trac/2015/ias_1_2014-03-05_role-410000">
+        <link:definition>[410000] Estado del resultado integral, componentes ORI presentados netos de impuestos</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      
+      <link:roleType id="ias_1_2014-03-05_role-610000" roleURI="http://bmv.com.mx/role/ifrs/trac/2015/ias_1_2014-03-05_role-610000">
+        <link:definition>[610000] Estado de cambios  en los activos netos atribuibles a los tenedores</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+          
+      <link:roleType id="ias_1_2014-03-05_role-800100" roleURI="http://bmv.com.mx/role/ifrs/trac/2015/ias_1_2014-03-05_role-800100">
+        <link:definition>[800100] Notas - Subclasificaciones de activos y pasivos</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ias_1_2014-03-05_role-800200" roleURI="http://bmv.com.mx/role/ifrs/trac/2015/ias_1_2014-03-05_role-800200">
+        <link:definition>[800200] Notas - Análisis de ingresos y gastos</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+    
+      <link:roleType id="ias_1_2014-03-05_role-800500" roleURI="http://bmv.com.mx/role/ifrs/trac/2015/ias_1_2014-03-05_role-800500">
+        <link:definition>[800500] Notas - Lista de notas</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ias_1_2014-03-05_role-800600" roleURI="http://bmv.com.mx/role/ifrs/trac/2015/ias_1_2014-03-05_role-800600">
+        <link:definition>[800600] Notas - Lista de políticas contables</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+     
+     
+    </xsd:appinfo>
+  </xsd:annotation>
+</xsd:schema>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://www.xbrl.org/2009/role/deprecatedDateLabel" xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/deprecated-2009-12-16.xsd#deprecatedDateLabel"/>
+  <link:roleRef roleURI="http://www.xbrl.org/2009/role/deprecatedLabel" xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/deprecated-2009-12-16.xsd#deprecatedLabel"/>
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="../mc_mx-cor_2014-12-05.xsd#mc_mx-cor_20141205_SituacionFinancieraLiquidezYRecursosDeCapitalBloqueDeTexto" xlink:label="SituacionFinancieraLiquidezYRecursosDeCapitalBloqueDeTexto" xlink:title="SituacionFinancieraLiquidezYRecursosDeCapitalBloqueDeTexto"/>
+    <link:label xlink:type="resource" xlink:label="label_SituacionFinancieraLiquidezYRecursosDeCapitalBloqueDeTexto" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_SituacionFinancieraLiquidezYRecursosDeCapitalBloqueDeTexto" xml:lang="en" id="label_SituacionFinancieraLiquidezYRecursosDeCapitalBloqueDeTexto">Financial position, liquidity and capital resources [text block]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="SituacionFinancieraLiquidezYRecursosDeCapitalBloqueDeTexto" xlink:to="label_SituacionFinancieraLiquidezYRecursosDeCapitalBloqueDeTexto" xlink:title="label: SituacionFinancieraLiquidezYRecursosDeCapitalBloqueDeTexto to label_SituacionFinancieraLiquidezYRecursosDeCapitalBloqueDeTexto"/>
+    <link:loc xlink:type="locator" xlink:href="../mc_mx-cor_2014-12-05.xsd#mc_mx-cor_20141205_ControlInternoBloqueDeTexto" xlink:label="ControlInternoBloqueDeTexto" xlink:title="ControlInternoBloqueDeTexto"/>
+    <link:label xlink:type="resource" xlink:label="label_ControlInternoBloqueDeTexto" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_ControlInternoBloqueDeTexto" xml:lang="en" id="label_ControlInternoBloqueDeTexto">Internal control [text block]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ControlInternoBloqueDeTexto" xlink:to="label_ControlInternoBloqueDeTexto" xlink:title="label: ControlInternoBloqueDeTexto to label_ControlInternoBloqueDeTexto"/>
+  </link:labelLink>
+</link:linkbase>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Taxonomy: 2014-03-05 (Final release)
+        ********************** 
+        Copyright © 2014 International Financial Reporting Standards (IFRS) Foundation
+        All rights reserved.  No part of this publication may be translated, reprinted or reproduced 
+        or utilised in any form either in whole or in part without prior permission in writing from the IFRS Foundation.
+        For more information on the IFRS Foundation's copyright, please refer to http://www.ifrs.org/XBRL/Legal/
+        **********************
+-->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://bmv.com.mx/role/ifrs/ccd/2015/ias_1_2014-03-05_role-800200" xlink:type="simple" xlink:href="rol_ias_1_2014-03-05.xsd#ias_1_2014-03-05_role-800200"/>
+  <link:calculationLink xlink:type="extended" xlink:role="http://bmv.com.mx/role/ifrs/ccd/2015/ias_1_2014-03-05_role-800200">
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_Revenue" xlink:label="loc_4"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_RevenueFromInterest" xlink:label="loc_93"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_4" xlink:to="loc_93" order="50.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_RevenueFromDividends" xlink:label="loc_97"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_4" xlink:to="loc_97" order="1.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_OtherRevenue" xlink:label="loc_101"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_4" xlink:to="loc_101" order="100.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ccd/core/mx_ccd-cor_2015-06-05.xsd#mx_ccd_ForeignExchangeIncomeFromInvestments" xlink:label="ForeignExchangeIncomeFromInvestments" xlink:title="ForeignExchangeIncomeFromInvestments"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_4" xlink:to="ForeignExchangeIncomeFromInvestments" xlink:title="calculation: Revenue to ForeignExchangeIncomeFromInvestments" order="71.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ccd/core/mx_ccd-cor_2015-06-05.xsd#mx_ccd_IncomeFromChangeInFairValueOfSharesCertificatesInvestmentProperty" xlink:label="IncomeFromChangeInFairValueOfSharesCertificatesInvestmentProperty" xlink:title="IncomeFromChangeInFairValueOfSharesCertificatesInvestmentProperty"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_4" xlink:to="IncomeFromChangeInFairValueOfSharesCertificatesInvestmentProperty" xlink:title="calculation: Revenue to IncomeFromChangeInFairValueOfSharesCertificatesInvestmentProperty" order="72.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ccd/core/mx_ccd-cor_2015-06-05.xsd#mx_ccd_GainOnValuationOfFinancialInstruments" xlink:label="GainOnValuationOfFinancialInstruments" xlink:title="GainOnValuationOfFinancialInstruments"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_4" xlink:to="GainOnValuationOfFinancialInstruments" xlink:title="calculation: Revenue to GainOnValuationOfFinancialInstruments" order="73.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ccd/core/mx_ccd-cor_2015-06-05.xsd#mx_ccd_IncomeFromRevaluationOfInvestmentCompanyPromoted" xlink:label="IncomeFromRevaluationOfInvestmentCompanyPromoted" xlink:title="IncomeFromRevaluationOfInvestmentCompanyPromoted"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_4" xlink:to="IncomeFromRevaluationOfInvestmentCompanyPromoted" xlink:title="calculation: Revenue to IncomeFromRevaluationOfInvestmentCompanyPromoted" order="74.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ccd/core/mx_ccd-cor_2015-06-05.xsd#mx_ccd_PropertyRentalIncome" xlink:label="PropertyRentalIncome" xlink:title="PropertyRentalIncome"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_4" xlink:to="PropertyRentalIncome" xlink:title="calculation: Revenue to PropertyRentalIncome" order="75.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ccd/core/mx_ccd-cor_2015-06-05.xsd#mx_ccd_RevenueFromServicesRelatedToPropertyLeasing" xlink:label="RevenueFromServicesRelatedToPropertyLeasing" xlink:title="RevenueFromServicesRelatedToPropertyLeasing"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_4" xlink:to="RevenueFromServicesRelatedToPropertyLeasing" xlink:title="calculation: Revenue to RevenueFromServicesRelatedToPropertyLeasing" order="76.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ccd/core/mx_ccd-cor_2015-06-05.xsd#mx_ccd_SaleOfProperty" xlink:label="SaleOfProperty" xlink:title="SaleOfProperty"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_4" xlink:to="SaleOfProperty" xlink:title="calculation: Revenue to SaleOfProperty" order="77.0" weight="1"/>
+  </link:calculationLink>
+</link:linkbase>

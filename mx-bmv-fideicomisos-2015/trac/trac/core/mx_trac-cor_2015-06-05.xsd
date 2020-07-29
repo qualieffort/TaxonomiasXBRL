@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xsd:schema targetNamespace="http://www.bmv.com.mx/2015-06-30/trac" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:mx_trac="http://www.bmv.com.mx/2015-06-30/trac" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:num="http://www.xbrl.org/dtr/type/numeric" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <xsd:annotation>
+    <xsd:appinfo>
+      
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+  <xsd:import namespace="http://www.xbrl.org/dtr/type/non-numeric" schemaLocation="http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd"/>
+  <xsd:element name="TheSecurityTransaction" id="mx_trac_TheSecurityTransaction" type="nonnum:textBlockItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="HeritageOfTheFund" id="mx_trac_HeritageOfTheFund" type="nonnum:textBlockItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="RelevantDisclosureAboutThePeriod" id="mx_trac_RelevantDisclosureAboutThePeriod" type="nonnum:textBlockItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="OtherRequiredThirdToTheTrustOrSecurityHoldersIfAny" id="mx_trac_OtherRequiredThirdToTheTrustOrSecurityHoldersIfAny" type="nonnum:textBlockItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="Ticker" id="mx_trac_Ticker" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="TrusteesAdministratorAvalOrGuarantor" id="mx_trac_TrusteesAdministratorAvalOrGuarantor" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="TrustNumber" id="mx_trac_TrustNumber" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="NumberOfQuarter" id="mx_trac_NumberOfQuarter" type="mx_trac:NumberOfQuarterItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="NameServiceProviderExternalAudit" id="mx_trac_NameServiceProviderExternalAudit" type="nonnum:textBlockItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="NameOfTheAsociadoSigningOpinion" id="mx_trac_NameOfTheAsociadoSigningOpinion" type="nonnum:textBlockItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="TypeOfOpinionOnTheFinancialStatements" id="mx_trac_TypeOfOpinionOnTheFinancialStatements" type="nonnum:textBlockItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="DateOfOpinionOnTheFinancialStatements" id="mx_trac_DateOfOpinionOnTheFinancialStatements" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="FinancialAssetsAtFairValueThroughProfitOrLoss" id="mx_trac_FinancialAssetsAtFairValueThroughProfitOrLoss" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="instant"/>
+  <xsd:element name="LiquidatingDebtorAccountCapitalTransactions" id="mx_trac_LiquidatingDebtorAccountCapitalTransactions" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="instant"/>
+  <xsd:element name="Collateral" id="mx_trac_Collateral" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="instant"/>
+  <xsd:element name="LiquidatingADebtorHasNoWorkingCapitalOperations" id="mx_trac_LiquidatingADebtorHasNoWorkingCapitalOperations" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="instant"/>
+  <xsd:element name="DerivativeFinancialInstrumentsAndHedgingClassifiedAsNonCurrentAssets" id="mx_trac_DerivativeFinancialInstrumentsAndHedgingClassifiedAsNonCurrentAssets" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="instant"/>
+  <xsd:element name="LiquidationAccountPayablesForCapitalOperations" id="mx_trac_LiquidationAccountPayablesForCapitalOperations" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="instant"/>
+  <xsd:element name="DerivativeFinancialInstrumentsAndHedgingClassifiedAsShortTermLiabilities" id="mx_trac_DerivativeFinancialInstrumentsAndHedgingClassifiedAsShortTermLiabilities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="instant"/>
+  <xsd:element name="AccountPayablesForLiquidationOperationsLongTermCapital" id="mx_trac_AccountPayablesForLiquidationOperationsLongTermCapital" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="instant"/>
+  <xsd:element name="DerivativeFinancialInstrumentsAndHedgingClassigiedAsLongTermLiabilities" id="mx_trac_DerivativeFinancialInstrumentsAndHedgingClassigiedAsLongTermLiabilities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="instant"/>
+  <xsd:element name="DistributionsPaid" id="mx_trac_DistributionsPaid" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+  <xsd:element name="IssuanceOfCertificatesNet" id="mx_trac_IssuanceOfCertificatesNet" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+  <xsd:element name="CreationsAndRedemptionsOfCertificates" id="mx_trac_CreationsAndRedemptionsOfCertificates" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+  <xsd:element name="OrderAccountsOfStatementOfFinancialPositionAbstract" id="mx_trac_OrderAccountsOfStatementOfFinancialPositionAbstract" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="AuthorizedCreditLine" id="mx_trac_AuthorizedCreditLine" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="instant"/>
+  <xsd:element name="NominalValueOfDerivatives" id="mx_trac_NominalValueOfDerivatives" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="instant"/>
+  <xsd:element name="AuthorizedCertificates" id="mx_trac_AuthorizedCertificates" type="xbrli:nonNegativeIntegerItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="CertificatesInCirculation" id="mx_trac_CertificatesInCirculation" type="xbrli:nonNegativeIntegerItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="TreasuryCertificates" id="mx_trac_TreasuryCertificates" type="xbrli:nonNegativeIntegerItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="AmountOfAuthorizedCertificates" id="mx_trac_AmountOfAuthorizedCertificates" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="instant"/>
+  <xsd:element name="AmountOutstandingCertificates" id="mx_trac_AmountOutstandingCertificates" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="instant"/>
+  <xsd:element name="AmountOfTreasuryCertificates" id="mx_trac_AmountOfTreasuryCertificates" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="instant"/>
+  <xsd:element name="NonCurrentPrepayments" id="mx_trac_NonCurrentPrepayments" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="instant"/>
+  <xsd:element name="NonCurrentPrepaidExpenses" id="mx_trac_NonCurrentPrepaidExpenses" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="instant"/>
+  <xsd:element name="BankLoansCurrent" id="mx_trac_BankLoansCurrent" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="instant"/>
+  <xsd:element name="StockMarketLoansCurrent" id="mx_trac_StockMarketLoansCurrent" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="instant"/>
+  <xsd:element name="BankLoansNonCurrent" id="mx_trac_BankLoansNonCurrent" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="instant"/>
+  <xsd:element name="InterestPayableInTheShortTerm" id="mx_trac_InterestPayableInTheShortTerm" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="instant"/>
+  <xsd:element name="SundryDebtors" id="mx_trac_SundryDebtors" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="instant"/>
+  <xsd:element name="StockMarketLoansNonCurrent" id="mx_trac_StockMarketLoansNonCurrent" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="instant"/>
+  <xsd:element name="InterestOnLongTermDebt" id="mx_trac_InterestOnLongTermDebt" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="instant"/>
+  <xsd:element name="ManagementFee" id="mx_trac_ManagementFee" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+  <xsd:element name="ProfessionalFees" id="mx_trac_ProfessionalFees" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+  <xsd:element name="Taxes" id="mx_trac_Taxes" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+  <xsd:element name="FeesAndRights" id="mx_trac_FeesAndRights" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+  <xsd:element name="DividendsAndInterestPaid" id="mx_trac_DividendsAndInterestPaid" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+  <xsd:element name="OtherAdministrativeExpenses" id="mx_trac_OtherAdministrativeExpenses" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+  <xsd:element name="FinancialIncomeAbstract" id="mx_trac_FinancialIncomeAbstract" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="InterestIncome" id="mx_trac_InterestIncome" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+  <xsd:element name="GainOnForeignExchange" id="mx_trac_GainOnForeignExchange" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+  <xsd:element name="GainOnChangeInFairValueOfFinancialInstruments" id="mx_trac_GainOnChangeInFairValueOfFinancialInstruments" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+  <xsd:element name="GainOnSaleOfSecurities" id="mx_trac_GainOnSaleOfSecurities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+  <xsd:element name="AccruedInterestExpense" id="mx_trac_AccruedInterestExpense" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+  <xsd:element name="ForeignExchangeLoss" id="mx_trac_ForeignExchangeLoss" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+  <xsd:element name="LossOnChangesInFairValueOfFinancialInstruments" id="mx_trac_LossOnChangesInFairValueOfFinancialInstruments" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+  <xsd:element name="LossOnSaleOfSecurities" id="mx_trac_LossOnSaleOfSecurities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+  <xsd:element name="FinancialAssetsAndLiabilitiesAtFairValueThroughProfitOrLoss" id="mx_trac_FinancialAssetsAndLiabilitiesAtFairValueThroughProfitOrLoss" type="nonnum:textBlockItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="MemorandumAccounts" id="mx_trac_MemorandumAccounts" type="nonnum:textBlockItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="DisclosureOfDistributionsPaid" id="mx_trac_DisclosureOfDistributionsPaid" type="nonnum:textBlockItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="InvestmentsForTradingShares" id="mx_trac_InvestmentsForTradingShares" type="nonnum:textBlockItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="AdministrativeExpenseAbstract" id="mx_trac_AdministrativeExpenseAbstract" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="FinanceIncomeAbstract" id="mx_trac_FinanceIncomeAbstract" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="FinanceCostsAbstract" id="mx_trac_FinanceCostsAbstract" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="NonCurrentPrepaymentsAbstract" id="mx_trac_NonCurrentPrepaymentsAbstract" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
+
+    <xsd:complexType name="NumberOfQuarterItemType">
+    <xsd:simpleContent>
+      <xsd:restriction base="xbrli:tokenItemType">
+        <xsd:enumeration value="1"/>
+        <xsd:enumeration value="2"/>
+        <xsd:enumeration value="3"/>
+        <xsd:enumeration value="4"/>
+        <xsd:enumeration value="4D"/>
+      </xsd:restriction>
+    </xsd:simpleContent>
+  </xsd:complexType>
+  
+  <xsd:complexType name="SiNoItemType">
+    <xsd:simpleContent>
+      <xsd:restriction base="xbrli:tokenItemType">
+        <xsd:enumeration value="SI"/>
+        <xsd:enumeration value="NO"/>
+      </xsd:restriction>
+    </xsd:simpleContent>
+  </xsd:complexType> 
+  
+ </xsd:schema>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Taxonomy: 2014-03-05 (Final release)
+        ********************** 
+        Copyright © 2014 International Financial Reporting Standards (IFRS) Foundation
+        All rights reserved.  No part of this publication may be translated, reprinted or reproduced 
+        or utilised in any form either in whole or in part without prior permission in writing from the IFRS Foundation.
+        For more information on the IFRS Foundation's copyright, please refer to http://www.ifrs.org/XBRL/Legal/
+        **********************
+-->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://bmv.com.mx/role/ifrs/ccd/2015/ias_7_2014-03-05_role-510000" xlink:type="simple" xlink:href="rol_ias_7_2014-03-05.xsd#ias_7_2014-03-05_role-510000"/>
+  <link:calculationLink xlink:type="extended" xlink:role="http://bmv.com.mx/role/ifrs/ccd/2015/ias_7_2014-03-05_role-510000">
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_IncreaseDecreaseInCashAndCashEquivalents" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges" xlink:label="loc_1"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_2" xlink:to="loc_1" order="10.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_CashFlowsFromUsedInOperatingActivities" xlink:label="loc_3"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_1" xlink:to="loc_3" order="10.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_CashFlowsFromUsedInOperations" xlink:label="loc_4"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_3" xlink:to="loc_4" order="10.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_DividendsPaidClassifiedAsOperatingActivities" xlink:label="loc_11"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_3" xlink:to="loc_11" order="20.0" weight="-1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_DividendsReceivedClassifiedAsOperatingActivities" xlink:label="loc_16"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_3" xlink:to="loc_16" order="30.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_InterestPaidClassifiedAsOperatingActivities" xlink:label="loc_20"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_3" xlink:to="loc_20" order="40.0" weight="-1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_InterestReceivedClassifiedAsOperatingActivities" xlink:label="loc_24"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_3" xlink:to="loc_24" order="50.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_OtherInflowsOutflowsOfCashClassifiedAsOperatingActivities" xlink:label="loc_32"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_3" xlink:to="loc_32" order="70.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_CashFlowsFromUsedInInvestingActivities" xlink:label="loc_7"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_1" xlink:to="loc_7" order="20.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_CashFlowsFromLosingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities" xlink:label="loc_6"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_7" xlink:to="loc_6" order="10.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_CashFlowsUsedInObtainingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities" xlink:label="loc_12"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_7" xlink:to="loc_12" order="20.0" weight="-1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_OtherCashReceiptsFromSalesOfEquityOrDebtInstrumentsOfOtherEntitiesClassifiedAsInvestingActivities" xlink:label="loc_17"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_7" xlink:to="loc_17" order="30.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_OtherCashPaymentsToAcquireEquityOrDebtInstrumentsOfOtherEntitiesClassifiedAsInvestingActivities" xlink:label="loc_21"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_7" xlink:to="loc_21" order="40.0" weight="-1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities" xlink:label="loc_33"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_7" xlink:to="loc_33" order="70.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities" xlink:label="loc_36"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_7" xlink:to="loc_36" order="80.0" weight="-1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_ProceedsFromOtherLongtermAssetsClassifiedAsInvestingActivities" xlink:label="loc_45"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_7" xlink:to="loc_45" order="110.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_PurchaseOfOtherLongtermAssetsClassifiedAsInvestingActivities" xlink:label="loc_48"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_7" xlink:to="loc_48" order="120.0" weight="-1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_CashAdvancesAndLoansMadeToOtherPartiesClassifiedAsInvestingActivities" xlink:label="loc_52"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_7" xlink:to="loc_52" order="140.0" weight="-1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_CashReceiptsFromRepaymentOfAdvancesAndLoansMadeToOtherPartiesClassifiedAsInvestingActivities" xlink:label="loc_54"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_7" xlink:to="loc_54" order="150.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_CashPaymentsForFutureContractsForwardContractsOptionContractsAndSwapContractsClassifiedAsInvestingActivities" xlink:label="loc_55"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_7" xlink:to="loc_55" order="160.0" weight="-1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_CashReceiptsFromFutureContractsForwardContractsOptionContractsAndSwapContractsClassifiedAsInvestingActivities" xlink:label="loc_56"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_7" xlink:to="loc_56" order="170.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_DividendsReceivedClassifiedAsInvestingActivities" xlink:label="loc_57"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_7" xlink:to="loc_57" order="180.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_InterestPaidClassifiedAsInvestingActivities" xlink:label="loc_58"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_7" xlink:to="loc_58" order="190.0" weight="-1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_InterestReceivedClassifiedAsInvestingActivities" xlink:label="loc_59"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_7" xlink:to="loc_59" order="200.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_IncomeTaxesPaidRefundClassifiedAsInvestingActivities" xlink:label="loc_60"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_7" xlink:to="loc_60" order="210.0" weight="-1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_OtherInflowsOutflowsOfCashClassifiedAsInvestingActivities" xlink:label="loc_61"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_7" xlink:to="loc_61" order="220.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ccd/core/mx_ccd-cor_2015-06-05.xsd#mx_ccd_CashFlowFromInvestmentFunds" xlink:label="CashFlowFromInvestmentFunds" xlink:title="CashFlowFromInvestmentFunds"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_7" xlink:to="CashFlowFromInvestmentFunds" xlink:title="calculation: CashFlowsFromUsedInInvestingActivities to CashFlowFromInvestmentFunds" order="45.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ccd/core/mx_ccd-cor_2015-06-05.xsd#mx_ccd_CashFlowsUsedForTheAcquisitionOfInvestmentFunds" xlink:label="CashFlowsUsedForTheAcquisitionOfInvestmentFunds" xlink:title="CashFlowsUsedForTheAcquisitionOfInvestmentFunds"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_7" xlink:to="CashFlowsUsedForTheAcquisitionOfInvestmentFunds" xlink:title="calculation: CashFlowsFromUsedInInvestingActivities to CashFlowsUsedForTheAcquisitionOfInvestmentFunds" order="46.0" weight="-1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_CashFlowsFromUsedInFinancingActivities" xlink:label="loc_9"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_1" xlink:to="loc_9" order="30.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_ProceedsFromIssuingShares" xlink:label="loc_18"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_9" xlink:to="loc_18" order="30.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_PaymentsOfOtherEquityInstruments" xlink:label="loc_30"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_9" xlink:to="loc_30" order="60.0" weight="-1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_ProceedsFromBorrowingsClassifiedAsFinancingActivities" xlink:label="loc_34"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_9" xlink:to="loc_34" order="70.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_RepaymentsOfBorrowingsClassifiedAsFinancingActivities" xlink:label="loc_37"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_9" xlink:to="loc_37" order="80.0" weight="-1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_DividendsPaidClassifiedAsFinancingActivities" xlink:label="loc_46"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_9" xlink:to="loc_46" order="110.0" weight="-1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_InterestPaidClassifiedAsFinancingActivities" xlink:label="loc_49"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_9" xlink:to="loc_49" order="120.0" weight="-1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_OtherInflowsOutflowsOfCashClassifiedAsFinancingActivities" xlink:label="loc_53"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_9" xlink:to="loc_53" order="140.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ccd/core/mx_ccd-cor_2015-06-05.xsd#mx_ccd_IssueAndPlacementOfStockCertificates" xlink:label="IssueAndPlacementOfStockCertificates" xlink:title="IssueAndPlacementOfStockCertificates"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_9" xlink:to="IssueAndPlacementOfStockCertificates" xlink:title="calculation: CashFlowsFromUsedInFinancingActivities to IssueAndPlacementOfStockCertificates" order="125.0" weight="1"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents" xlink:label="loc_14"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_2" xlink:to="loc_14" order="20.0" weight="1"/>
+  </link:calculationLink>
+</link:linkbase>

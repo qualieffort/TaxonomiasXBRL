@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Taxonomy: 2014-03-05 (Final release)
+        ********************** 
+        Copyright © 2014 International Financial Reporting Standards (IFRS) Foundation
+        All rights reserved.  No part of this publication may be translated, reprinted or reproduced 
+        or utilised in any form either in whole or in part without prior permission in writing from the IFRS Foundation.
+        For more information on the IFRS Foundation's copyright, please refer to http://www.ifrs.org/XBRL/Legal/
+        **********************
+-->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://bmv.com.mx/role/ifrs/ccd/2015/mc_2014-03-05_role-105000" xlink:type="simple" xlink:href="rol_mc_2014-03-05.xsd#mc_2014-03-05_role-105000"/>
+  <link:presentationLink xlink:type="extended" xlink:role="http://bmv.com.mx/role/ifrs/ccd/2015/mc_2014-03-05_role-105000">
+    <link:loc xlink:type="locator" xlink:href="../mc-cor_2014-03-05.xsd#ifrs-mc_ManagementCommentaryExplanatory" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../mc-cor_2014-03-05.xsd#ifrs-mc_DisclosureOfNatureOfBusinessExplanatory" xlink:label="loc_1"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_2" xlink:to="loc_1" order="10.0"/>
+    <link:loc xlink:type="locator" xlink:href="../mc-cor_2014-03-05.xsd#ifrs-mc_DisclosureOfManagementsObjectivesAndItsStrategiesForMeetingThoseObjectivesExplanatory" xlink:label="loc_3"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_2" xlink:to="loc_3" order="20.0"/>
+    <link:loc xlink:type="locator" xlink:href="../mc-cor_2014-03-05.xsd#ifrs-mc_DisclosureOfEntitysMostSignificantResourcesRisksAndRelationshipsExplanatory" xlink:label="loc_4"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_2" xlink:to="loc_4" order="30.0"/>
+    <link:loc xlink:type="locator" xlink:href="../mc-cor_2014-03-05.xsd#ifrs-mc_DisclosureOfResultsOfOperationsAndProspectsExplanatory" xlink:label="loc_5"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_2" xlink:to="loc_5" order="40.0"/>
+    <link:loc xlink:type="locator" xlink:href="../mc-cor_2014-03-05.xsd#ifrs-mc_DisclosureOfCriticalPerformanceMeasuresAndIndicatorsThatManagementUsesToEvaluateEntitysPerformanceAgainstStatedObjectivesExplanatory" xlink:label="loc_6"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_2" xlink:to="loc_6" order="50.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ccd/core/mx_ccd-cor_2015-06-05.xsd#mx_ccd_OperationStructure" xlink:label="OperationStructure" xlink:title="OperationStructure"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_2" xlink:to="OperationStructure" xlink:title="presentation: ManagementCommentaryExplanatory to OperationStructure" order="51.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ccd/core/mx_ccd-cor_2015-06-05.xsd#mx_ccd_HeritageOfTheFund" xlink:label="HeritageOfTheFund" xlink:title="HeritageOfTheFund"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="OperationStructure" xlink:to="HeritageOfTheFund" xlink:title="presentation: OperationStructure to HeritageOfTheFund" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ccd/core/mx_ccd-cor_2015-06-05.xsd#mx_ccd_ComplianceWithTheBusinessPlanAndInvestmentScheduleAndWhereAppropiateDisvestitures" xlink:label="ComplianceWithTheBusinessPlanAndInvestmentScheduleAndWhereAppropiateDisvestitures" xlink:title="ComplianceWithTheBusinessPlanAndInvestmentScheduleAndWhereAppropiateDisvestitures"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="OperationStructure" xlink:to="ComplianceWithTheBusinessPlanAndInvestmentScheduleAndWhereAppropiateDisvestitures" xlink:title="presentation: OperationStructure to ComplianceWithTheBusinessPlanAndInvestmentScheduleAndWhereAppropiateDisvestitures" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ccd/core/mx_ccd-cor_2015-06-05.xsd#mx_ccd_Valuation" xlink:label="Valuation" xlink:title="Valuation"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="OperationStructure" xlink:to="Valuation" xlink:title="presentation: OperationStructure to Valuation" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ccd/core/mx_ccd-cor_2015-06-05.xsd#mx_ccd_FeesCostsAndExpensesOfTheAdministratorOrOperator" xlink:label="FeesCostsAndExpensesOfTheAdministratorOrOperator" xlink:title="FeesCostsAndExpensesOfTheAdministratorOrOperator"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="OperationStructure" xlink:to="FeesCostsAndExpensesOfTheAdministratorOrOperator" xlink:title="presentation: OperationStructure to FeesCostsAndExpensesOfTheAdministratorOrOperator" order="4.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ccd/core/mx_ccd-cor_2015-06-05.xsd#mx_ccd_RelevantDisclosureAboutThePeriod" xlink:label="RelevantDisclosureAboutThePeriod" xlink:title="RelevantDisclosureAboutThePeriod"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="OperationStructure" xlink:to="RelevantDisclosureAboutThePeriod" xlink:title="presentation: OperationStructure to RelevantDisclosureAboutThePeriod" order="5.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ccd/core/mx_ccd-cor_2015-06-05.xsd#mx_ccd_OtherRequiredThirdToTheTrustOrSecurityHoldersIfAny" xlink:label="OtherRequiredThirdToTheTrustOrSecurityHoldersIfAny" xlink:title="OtherRequiredThirdToTheTrustOrSecurityHoldersIfAny"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="OperationStructure" xlink:to="OtherRequiredThirdToTheTrustOrSecurityHoldersIfAny" xlink:title="presentation: OperationStructure to OtherRequiredThirdToTheTrustOrSecurityHoldersIfAny" order="6.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ccd/core/mx_ccd-cor_2015-06-05.xsd#mx_ccd_GeneralAssembliesOfShareholders" xlink:label="GeneralAssembliesOfShareholders" xlink:title="GeneralAssembliesOfShareholders"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="OperationStructure" xlink:to="GeneralAssembliesOfShareholders" xlink:title="presentation: OperationStructure to GeneralAssembliesOfShareholders" order="7.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ccd/core/mx_ccd-cor_2015-06-05.xsd#mx_ccd_ExternalAuditorsAndIndependentAppraiser" xlink:label="ExternalAuditorsAndIndependentAppraiser" xlink:title="ExternalAuditorsAndIndependentAppraiser"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="OperationStructure" xlink:to="ExternalAuditorsAndIndependentAppraiser" xlink:title="presentation: OperationStructure to ExternalAuditorsAndIndependentAppraiser" order="8.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../ccd/core/mx_ccd-cor_2015-06-05.xsd#mx_ccd_TransactionsWithRelatedPartiesAndConflictsOfInterest" xlink:label="TransactionsWithRelatedPartiesAndConflictsOfInterest" xlink:title="TransactionsWithRelatedPartiesAndConflictsOfInterest"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="OperationStructure" xlink:to="TransactionsWithRelatedPartiesAndConflictsOfInterest" xlink:title="presentation: OperationStructure to TransactionsWithRelatedPartiesAndConflictsOfInterest" order="9.0"/>
+  </link:presentationLink>
+</link:linkbase>

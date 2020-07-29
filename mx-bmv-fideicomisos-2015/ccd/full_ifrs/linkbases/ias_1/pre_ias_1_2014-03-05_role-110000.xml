@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Taxonomy: 2014-03-05 (Final release)
+        ********************** 
+        Copyright © 2014 International Financial Reporting Standards (IFRS) Foundation
+        All rights reserved.  No part of this publication may be translated, reprinted or reproduced 
+        or utilised in any form either in whole or in part without prior permission in writing from the IFRS Foundation.
+        For more information on the IFRS Foundation's copyright, please refer to http://www.ifrs.org/XBRL/Legal/
+        **********************
+-->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://bmv.com.mx/role/ifrs/ccd/2015/ias_1_2014-03-05_role-110000" xlink:type="simple" xlink:href="rol_ias_1_2014-03-05.xsd#ias_1_2014-03-05_role-110000"/>
+  <link:presentationLink xlink:type="extended" xlink:role="http://bmv.com.mx/role/ifrs/ccd/2015/ias_1_2014-03-05_role-110000">
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_DisclosureOfGeneralInformationAboutFinancialStatementsExplanatory" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_NameOfReportingEntityOrOtherMeansOfIdentification" xlink:label="loc_1"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_2" xlink:to="loc_1" order="10.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_ExplanationOfChangeInNameOfReportingEntityOrOtherMeansOfIdentificationFromEndOfPrecedingReportingPeriod" xlink:label="loc_3"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_2" xlink:to="loc_3" order="20.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_DescriptionOfNatureOfFinancialStatements" xlink:label="loc_4"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_2" xlink:to="loc_4" order="30.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_DateOfEndOfReportingPeriod2013" xlink:label="loc_5"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_2" xlink:to="loc_5" order="40.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_LevelOfRoundingUsedInFinancialStatements" xlink:label="LevelOfRoundingUsedInFinancialStatements"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_2" xlink:to="LevelOfRoundingUsedInFinancialStatements" xlink:title="presentation: DisclosureOfGeneralInformationAboutFinancialStatementsExplanatory to LevelOfRoundingUsedInFinancialStatements" order="50.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_PeriodCoveredByFinancialStatements" xlink:label="loc_6"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_2" xlink:to="loc_6" xlink:title="presentation: DisclosureOfGeneralInformationAboutFinancialStatementsExplanatory to PeriodCoveredByFinancialStatements" order="41.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_DescriptionOfPresentationCurrency" xlink:label="DescriptionOfPresentationCurrency"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_2" xlink:to="DescriptionOfPresentationCurrency" xlink:title="presentation: DisclosureOfGeneralInformationAboutFinancialStatementsExplanatory to DescriptionOfPresentationCurrency" order="44.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ccd/core/mx_ccd-cor_2015-06-05.xsd#mx_ccd_Ticker" xlink:label="Ticker" xlink:title="Ticker"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_2" xlink:to="Ticker" xlink:title="presentation: DisclosureOfGeneralInformationAboutFinancialStatementsExplanatory to Ticker" order="11.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ccd/core/mx_ccd-cor_2015-06-05.xsd#mx_ccd_Consolidated" xlink:label="Consolidated" xlink:title="Consolidated"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_2" xlink:to="Consolidated" xlink:title="presentation: DisclosureOfGeneralInformationAboutFinancialStatementsExplanatory to Consolidated" order="51.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ccd/core/mx_ccd-cor_2015-06-05.xsd#mx_ccd_TrusteesAdministratorAvalOrGuarantor" xlink:label="TrusteesAdministratorAvalOrGuarantor" xlink:title="TrusteesAdministratorAvalOrGuarantor"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_2" xlink:to="TrusteesAdministratorAvalOrGuarantor" xlink:title="presentation: DisclosureOfGeneralInformationAboutFinancialStatementsExplanatory to TrusteesAdministratorAvalOrGuarantor" order="52.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ccd/core/mx_ccd-cor_2015-06-05.xsd#mx_ccd_TrustNumber" xlink:label="TrustNumber" xlink:title="TrustNumber"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_2" xlink:to="TrustNumber" xlink:title="presentation: DisclosureOfGeneralInformationAboutFinancialStatementsExplanatory to TrustNumber" order="53.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ccd/core/mx_ccd-cor_2015-06-05.xsd#mx_ccd_CashFlowStatementForInderectMethod" xlink:label="CashFlowStatementForInderectMethod" xlink:title="CashFlowStatementForInderectMethod"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_2" xlink:to="CashFlowStatementForInderectMethod" xlink:title="presentation: DisclosureOfGeneralInformationAboutFinancialStatementsExplanatory to CashFlowStatementForInderectMethod" order="54.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ccd/core/mx_ccd-cor_2015-06-05.xsd#mx_ccd_NumberOfQuarter" xlink:label="NumberOfQuarter" xlink:title="NumberOfQuarter"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_2" xlink:to="NumberOfQuarter" xlink:title="presentation: DisclosureOfGeneralInformationAboutFinancialStatementsExplanatory to NumberOfQuarter" order="55.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ccd/core/mx_ccd-cor_2015-06-05.xsd#mx_ccd_NameServiceProviderExternalAudit" xlink:label="NameServiceProviderExternalAudit" xlink:title="NameServiceProviderExternalAudit"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_2" xlink:to="NameServiceProviderExternalAudit" xlink:title="presentation: DisclosureOfGeneralInformationAboutFinancialStatementsExplanatory to NameServiceProviderExternalAudit" order="56.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ccd/core/mx_ccd-cor_2015-06-05.xsd#mx_ccd_NameOfTheAsociadoSigningOpinion" xlink:label="NameOfTheAsociadoSigningOpinion" xlink:title="NameOfTheAsociadoSigningOpinion"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_2" xlink:to="NameOfTheAsociadoSigningOpinion" xlink:title="presentation: DisclosureOfGeneralInformationAboutFinancialStatementsExplanatory to NameOfTheAsociadoSigningOpinion" order="57.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ccd/core/mx_ccd-cor_2015-06-05.xsd#mx_ccd_TypeOfOpinionOnTheFinancialStatements" xlink:label="TypeOfOpinionOnTheFinancialStatements" xlink:title="TypeOfOpinionOnTheFinancialStatements"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_2" xlink:to="TypeOfOpinionOnTheFinancialStatements" xlink:title="presentation: DisclosureOfGeneralInformationAboutFinancialStatementsExplanatory to TypeOfOpinionOnTheFinancialStatements" order="58.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../ccd/core/mx_ccd-cor_2015-06-05.xsd#mx_ccd_DateOfOpinionOnTheFinancialStatements" xlink:label="DateOfOpinionOnTheFinancialStatements" xlink:title="DateOfOpinionOnTheFinancialStatements"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_2" xlink:to="DateOfOpinionOnTheFinancialStatements" xlink:title="presentation: DisclosureOfGeneralInformationAboutFinancialStatementsExplanatory to DateOfOpinionOnTheFinancialStatements" order="59.0"/>
+  </link:presentationLink>
+</link:linkbase>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<!--Taxonomy: 2014-03-05 (Final release)
+        ********************** 
+        Copyright © 2014 International Financial Reporting Standards (IFRS) Foundation
+        All rights reserved.  No part of this publication may be translated, reprinted or reproduced 
+        or utilised in any form either in whole or in part without prior permission in writing from the IFRS Foundation.
+        For more information on the IFRS Foundation's copyright, please refer to http://www.ifrs.org/XBRL/Legal/
+        **********************
+-->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:full_ifrs_mc_mx_ics_entry_point_2014-12-05="http://www.bmv.com.mx/taxonomy/ifrs_mx/full_ifrs_mc_mx_ics_entry_point_2014-12-05" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://bmv.com.mx/role/ifrs/ias_1_2014-03-05_role-800200" xlink:type="simple" xlink:href="rol_ias_1_2014-03-05.xsd#ias_1_2014-03-05_role-800200"/>
+  <link:roleRef roleURI="http://www.xbrl.org/2009/role/negatedLabel" xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedLabel"/>
+  <link:roleRef roleURI="http://www.xbrl.org/2009/role/netLabel" xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/net-2009-12-16.xsd#netLabel"/>
+  <link:roleRef roleURI="http://www.xbrl.org/2009/role/negatedTotalLabel" xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedTotalLabel"/>
+  <link:presentationLink xlink:type="extended" xlink:role="http://bmv.com.mx/role/ifrs/ias_1_2014-03-05_role-800200">
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_AnalysisOfIncomeAndExpenseAbstract" xlink:label="loc_13"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_RevenueAbstract" xlink:label="loc_12"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_13" xlink:to="loc_12" xlink:title="presentation: AnalysisOfIncomeAndExpenseAbstract to RevenueAbstract" order="10.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_RevenueFromSaleOfGoods" xlink:label="loc_14"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_12" xlink:to="loc_14" order="20.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_RevenueFromRenderingOfServices" xlink:label="loc_58"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_12" xlink:to="loc_58" order="10.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_RevenueFromConstructionContracts" xlink:label="loc_108"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_12" xlink:to="loc_108" order="80.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_RevenueFromRoyalties" xlink:label="loc_139"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_12" xlink:to="loc_139" order="50.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_RevenueFromInterest" xlink:label="loc_2"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_12" xlink:to="loc_2" order="40.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_RevenueFromDividends" xlink:label="loc_160"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_12" xlink:to="loc_160" order="60.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_OtherRevenue" xlink:label="loc_168"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_12" xlink:to="loc_168" order="90.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_Revenue" xlink:label="loc_176"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_12" xlink:to="loc_176" order="100.0" preferredLabel="http://www.xbrl.org/2003/role/totalLabel"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_RentalIncome" xlink:label="loc_209"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_12" xlink:to="loc_209" xlink:title="presentation: RevenueAbstract to RentalIncome" order="70.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_IngresosFinancierosSinopsis" xlink:label="IngresosFinancierosSinopsis" xlink:title="IngresosFinancierosSinopsis"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_13" xlink:to="IngresosFinancierosSinopsis" xlink:title="presentation: AnalysisOfIncomeAndExpenseAbstract to IngresosFinancierosSinopsis" order="11.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_InteresesGanados" xlink:label="InteresesGanados" xlink:title="InteresesGanados"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="IngresosFinancierosSinopsis" xlink:to="InteresesGanados" xlink:title="presentation: IngresosFinancierosSinopsis to InteresesGanados" order="10.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_UtilidadPorFluctuacionCambiaria" xlink:label="UtilidadPorFluctuacionCambiaria" xlink:title="UtilidadPorFluctuacionCambiaria"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="IngresosFinancierosSinopsis" xlink:to="UtilidadPorFluctuacionCambiaria" xlink:title="presentation: IngresosFinancierosSinopsis to UtilidadPorFluctuacionCambiaria" order="20.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_UtilidadPorCambiosEnValorRazonableDeInstrumentosFinancieros" xlink:label="UtilidadPorCambiosEnValorRazonableDeInstrumentosFinancieros" xlink:title="UtilidadPorCambiosEnValorRazonableDeInstrumentosFinancieros"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="IngresosFinancierosSinopsis" xlink:to="UtilidadPorCambiosEnValorRazonableDeInstrumentosFinancieros" xlink:title="presentation: IngresosFinancierosSinopsis to UtilidadPorCambiosEnValorRazonableDeInstrumentosFinancieros" order="40.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_TotalDeIngresosFinancieros" xlink:label="TotalDeIngresosFinancieros" xlink:title="TotalDeIngresosFinancieros"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="IngresosFinancierosSinopsis" xlink:to="TotalDeIngresosFinancieros" xlink:title="presentation: IngresosFinancierosSinopsis to TotalDeIngresosFinancieros" order="60.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_GainsOnChangeInFairValueOfDerivatives" xlink:label="GainsOnChangeInFairValueOfDerivatives" xlink:title="GainsOnChangeInFairValueOfDerivatives"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="IngresosFinancierosSinopsis" xlink:to="GainsOnChangeInFairValueOfDerivatives" xlink:title="presentation: IngresosFinancierosSinopsis to GainsOnChangeInFairValueOfDerivatives" order="30.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_OtherFinanceIncome" xlink:label="OtherFinanceIncome" xlink:title="OtherFinanceIncome"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="IngresosFinancierosSinopsis" xlink:to="OtherFinanceIncome" xlink:title="presentation: IngresosFinancierosSinopsis to OtherFinanceIncome" order="50.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_GastosFinancierosSinopsis" xlink:label="GastosFinancierosSinopsis" xlink:title="GastosFinancierosSinopsis"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_13" xlink:to="GastosFinancierosSinopsis" xlink:title="presentation: AnalysisOfIncomeAndExpenseAbstract to GastosFinancierosSinopsis" order="12.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_InteresesDevengadosACargo" xlink:label="InteresesDevengadosACargo" xlink:title="InteresesDevengadosACargo"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="GastosFinancierosSinopsis" xlink:to="InteresesDevengadosACargo" xlink:title="presentation: GastosFinancierosSinopsis to InteresesDevengadosACargo" order="10.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_PerdidaPorFluctuacionCambiaria" xlink:label="PerdidaPorFluctuacionCambiaria" xlink:title="PerdidaPorFluctuacionCambiaria"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="GastosFinancierosSinopsis" xlink:to="PerdidaPorFluctuacionCambiaria" xlink:title="presentation: GastosFinancierosSinopsis to PerdidaPorFluctuacionCambiaria" order="20.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_PerdidaPorCambiosEnValorRazonableDeInstrumentosFinancieros" xlink:label="PerdidaPorCambiosEnValorRazonableDeInstrumentosFinancieros" xlink:title="PerdidaPorCambiosEnValorRazonableDeInstrumentosFinancieros"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="GastosFinancierosSinopsis" xlink:to="PerdidaPorCambiosEnValorRazonableDeInstrumentosFinancieros" xlink:title="presentation: GastosFinancierosSinopsis to PerdidaPorCambiosEnValorRazonableDeInstrumentosFinancieros" order="40.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_TotalDeGastosFinancieros" xlink:label="TotalDeGastosFinancieros" xlink:title="TotalDeGastosFinancieros"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="GastosFinancierosSinopsis" xlink:to="TotalDeGastosFinancieros" xlink:title="presentation: GastosFinancierosSinopsis to TotalDeGastosFinancieros" order="60.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_LossesOnChangeInFairValueOfDerivatives" xlink:label="LossesOnChangeInFairValueOfDerivatives" xlink:title="LossesOnChangeInFairValueOfDerivatives"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="GastosFinancierosSinopsis" xlink:to="LossesOnChangeInFairValueOfDerivatives" xlink:title="presentation: GastosFinancierosSinopsis to LossesOnChangeInFairValueOfDerivatives" order="30.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_OtherFinanceCost" xlink:label="OtherFinanceCost" xlink:title="OtherFinanceCost"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="GastosFinancierosSinopsis" xlink:to="OtherFinanceCost" xlink:title="presentation: GastosFinancierosSinopsis to OtherFinanceCost" order="50.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_ImpuestosALaUtilidadSinopsis" xlink:label="ImpuestosALaUtilidadSinopsis" xlink:title="ImpuestosALaUtilidadSinopsis"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_13" xlink:to="ImpuestosALaUtilidadSinopsis" xlink:title="presentation: AnalysisOfIncomeAndExpenseAbstract to ImpuestosALaUtilidadSinopsis" order="13.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_ImpuestoCausado" xlink:label="ImpuestoCausado" xlink:title="ImpuestoCausado"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ImpuestosALaUtilidadSinopsis" xlink:to="ImpuestoCausado" xlink:title="presentation: ImpuestosALaUtilidadSinopsis to ImpuestoCausado" order="10.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_ImpuestoDiferido" xlink:label="ImpuestoDiferido" xlink:title="ImpuestoDiferido"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ImpuestosALaUtilidadSinopsis" xlink:to="ImpuestoDiferido" xlink:title="presentation: ImpuestosALaUtilidadSinopsis to ImpuestoDiferido" order="20.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_TotalDeImpuestosALaUtilidad" xlink:label="TotalDeImpuestosALaUtilidad" xlink:title="TotalDeImpuestosALaUtilidad"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ImpuestosALaUtilidadSinopsis" xlink:to="TotalDeImpuestosALaUtilidad" xlink:title="presentation: ImpuestosALaUtilidadSinopsis to TotalDeImpuestosALaUtilidad" order="30.0"/>
+  </link:presentationLink>
+</link:linkbase>

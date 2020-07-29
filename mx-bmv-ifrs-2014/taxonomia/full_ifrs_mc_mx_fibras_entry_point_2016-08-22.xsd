@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Taxonomía MX 2015. Todos los Derechos Reservados a favor de Bolsa Mexicana de Valores, S.A.B. de C.V. -->
+<xsd:schema targetNamespace="http://www.bmv.com.mx/taxonomy/ifrs_mx/full_ifrs_mc_mx_fibras_entry_point_2016-08-22" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:full_ifrs_mc_mx_fibras_entry_point_2016-08-22="http://www.bmv.com.mx/taxonomy/ifrs_mx/full_ifrs_mc_mx_fibras_entry_point_2016-08-22" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:linkbaseRef xlink:type="simple" xlink:href="ifrs_mx_2016-08-22/formula/full_ifrs_2016-08-22-formula.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="ifrs_mx_2016-08-22/full_ifrs_mx/linkbases/gla_full_ifrs_mx_2016-08-22.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="ifrs_mx_2016-08-22/full_ifrs_mx/linkbases/full_ifrs_mx_fibras_entry_point_2016-08-22-formula.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <!--<link:linkbaseRef xlink:type="simple" xlink:href="ifrs_mx_2016-08-22/full_ifrs_mx/linkbases/pre_full_ifrs_mx_2016-08-22_role-110000.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>-->
+	  <link:linkbaseRef xlink:type="simple" xlink:href="ifrs_mx_2016-08-22/full_ifrs_mx/linkbases/pre_full_ifrs_mx_2016-08-22_role-815100.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="ifrs_mx_2016-08-22/full_ifrs_mx/linkbases/pre_full_ifrs_mx_2016-08-22_role-815101.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="ifrs_mx_2016-08-22/full_ifrs_mx/linkbases/def_full_ifrs_mx_2016-08-22_role-815100-D1.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="ifrs_mx_2016-08-22/full_ifrs_mx/linkbases/def_full_ifrs_mx_2016-08-22_role-815100-D2.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="ifrs_mx_2016-08-22/full_ifrs_mx/linkbases/def_full_ifrs_mx_2016-08-22_role-815100-DExcluidos.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="ifrs_mx_2016-08-22/full_ifrs_mx/labels/lab_full_ifrs_mx-es_2016-08-22.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="ifrs_mx_2016-08-22/full_ifrs_mx/linkbases/ref_full_ifrs_mx-core_2016-08-22.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:import namespace="http://www.bmv.com.mx/taxonomy/ifrs_mx/full_ifrs_mc_mx_fibras_entry_point_2014-12-05" schemaLocation="full_ifrs_mc_mx_fibras_entry_point_2014-12-05.xsd"/>
+  <xsd:import namespace="http://bmv.com.mx/ifrs_mx-cor_20160822/full_ifrs_mx-cor_2016-08-22" schemaLocation="ifrs_mx_2016-08-22/full_ifrs_mx/full_ifrs_mx-cor_2016-08-22.xsd"/>
+</xsd:schema>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2006/ref http://www.xbrl.org/2006/ref-2006-02-27.xsd http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:full_ifrs_mc_mx_ics_entry_point_2014-12-05="http://www.bmv.com.mx/taxonomy/ifrs_mx/full_ifrs_mc_mx_ics_entry_point_2014-12-05">
+  <link:roleRef roleURI="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/reference-2009-12-16.xsd#commonPracticeRef"/>
+  <link:referenceLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_CapitalAmortizationOfTheCreditPortfolio" xlink:label="CapitalAmortizationOfTheCreditPortfolio"/>
+    <link:reference xlink:type="resource" xlink:label="ref_1_CapitalAmortizationOfTheCreditPortfolio" xlink:role="http://www.xbrl.org/2003/role/disclosureRef">
+      <ref:Name>Anexo AA</ref:Name>
+      <ref:Paragraph>F. II</ref:Paragraph>
+      <ref:Subparagraph>Inc. b</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="CapitalAmortizationOfTheCreditPortfolio" xlink:to="ref_1_CapitalAmortizationOfTheCreditPortfolio"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_CoverageRateDebtService" xlink:label="CoverageRateDebtService"/>
+    <link:reference xlink:type="resource" xlink:label="ref_1_CoverageRateDebtService" xlink:role="http://www.xbrl.org/2003/role/disclosureRef">
+      <ref:Name>Anexo AA</ref:Name>
+      <ref:Paragraph>F. II</ref:Paragraph>
+      <ref:Subparagraph>Inc. a</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="CoverageRateDebtService" xlink:to="ref_1_CoverageRateDebtService"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_CoverageRateDebtServiceText" xlink:label="CoverageRateDebtServiceText"/>
+    <link:reference xlink:type="resource" xlink:label="ref_1_CoverageRateDebtServiceText" xlink:role="http://www.xbrl.org/2003/role/disclosureRef">
+      <ref:Name>Anexo AA</ref:Name>
+      <ref:Paragraph>F. II</ref:Paragraph>
+      <ref:Subparagraph>Inc. a</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="CoverageRateDebtServiceText" xlink:to="ref_1_CoverageRateDebtServiceText"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_DevelopmentExpendituresEstimatedNoDiscretionary" xlink:label="DevelopmentExpendituresEstimatedNoDiscretionary"/>
+    <link:reference xlink:type="resource" xlink:label="ref_1_DevelopmentExpendituresEstimatedNoDiscretionary" xlink:role="http://www.xbrl.org/2003/role/disclosureRef">
+      <ref:Name>Anexo AA</ref:Name>
+      <ref:Paragraph>F. II</ref:Paragraph>
+      <ref:Subparagraph>Inc. a</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DevelopmentExpendituresEstimatedNoDiscretionary" xlink:to="ref_1_DevelopmentExpendituresEstimatedNoDiscretionary"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_Distributions" xlink:label="Distributions"/>
+    <link:reference xlink:type="resource" xlink:label="ref_1_Distributions" xlink:role="http://www.xbrl.org/2003/role/disclosureRef">
+      <ref:Name>Anexo AA</ref:Name>
+      <ref:Paragraph>F. II</ref:Paragraph>
+      <ref:Subparagraph>Inc. b</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="Distributions" xlink:to="ref_1_Distributions"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_EquitySecurities" xlink:label="EquitySecurities"/>
+    <link:reference xlink:type="resource" xlink:label="ref_1_EquitySecurities" xlink:role="http://www.xbrl.org/2003/role/disclosureRef">
+      <ref:Name>Anexo AA</ref:Name>
+      <ref:Paragraph>F. I</ref:Paragraph>
+      <ref:Subparagraph>Inc. b</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="EquitySecurities" xlink:to="ref_1_EquitySecurities"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_EstimatedDepreciationInterest" xlink:label="EstimatedDepreciationInterest"/>
+    <link:reference xlink:type="resource" xlink:label="ref_1_EstimatedDepreciationInterest" xlink:role="http://www.xbrl.org/2003/role/disclosureRef">
+      <ref:Name>Anexo AA</ref:Name>
+      <ref:Paragraph>F. II</ref:Paragraph>
+      <ref:Subparagraph>Inc. a</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="EstimatedDepreciationInterest" xlink:to="ref_1_EstimatedDepreciationInterest"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_EstimatedOperatingIncome" xlink:label="EstimatedOperatingIncome"/>
+    <link:reference xlink:type="resource" xlink:label="ref_1_EstimatedOperatingIncome" xlink:role="http://www.xbrl.org/2003/role/disclosureRef">
+      <ref:Name>Anexo AA</ref:Name>
+      <ref:Paragraph>F. II</ref:Paragraph>
+      <ref:Subparagraph>Inc. a</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="EstimatedOperatingIncome" xlink:to="ref_1_EstimatedOperatingIncome"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_IndebtednessLevelAtTheEndOfTheQuarter" xlink:label="IndebtednessLevelAtTheEndOfTheQuarter"/>
+    <link:reference xlink:type="resource" xlink:label="ref_1_IndebtednessLevelAtTheEndOfTheQuarter" xlink:role="http://www.xbrl.org/2003/role/disclosureRef">
+      <ref:Name>Anexo AA</ref:Name>
+      <ref:Paragraph>F. I</ref:Paragraph>
+      <ref:Subparagraph>Inc. a</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="IndebtednessLevelAtTheEndOfTheQuarter" xlink:to="ref_1_IndebtednessLevelAtTheEndOfTheQuarter"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_LeverageAbstract" xlink:label="LeverageAbstract"/>
+    <link:reference xlink:type="resource" xlink:label="ref_1_LeverageAbstract" xlink:role="http://www.xbrl.org/2003/role/disclosureRef">
+      <ref:Name>Anexo AA</ref:Name>
+      <ref:Paragraph>F. I</ref:Paragraph>
+      <ref:Subparagraph>Inc. b</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="LeverageAbstract" xlink:to="ref_1_LeverageAbstract"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_LeverageLevel" xlink:label="LeverageLevel"/>
+    <link:reference xlink:type="resource" xlink:label="ref_1_LeverageLevel" xlink:role="http://www.xbrl.org/2003/role/disclosureRef">
+      <ref:Name>Anexo AA</ref:Name>
+      <ref:Paragraph>F. I</ref:Paragraph>
+      <ref:Subparagraph>Inc. b</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="LeverageLevel" xlink:to="ref_1_LeverageLevel"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_LeverageLevelText" xlink:label="LeverageLevelText"/>
+    <link:reference xlink:type="resource" xlink:label="ref_1_LeverageLevelText" xlink:role="http://www.xbrl.org/2003/role/disclosureRef">
+      <ref:Name>Anexo AA</ref:Name>
+      <ref:Paragraph>F. I</ref:Paragraph>
+      <ref:Subparagraph>Inc. b</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="LeverageLevelText" xlink:to="ref_1_LeverageLevelText"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_LiquidAssets" xlink:label="LiquidAssets"/>
+    <link:reference xlink:type="resource" xlink:label="ref_1_LiquidAssets" xlink:role="http://www.xbrl.org/2003/role/disclosureRef">
+      <ref:Name>Anexo AA</ref:Name>
+      <ref:Paragraph>F. II</ref:Paragraph>
+      <ref:Subparagraph>Inc. a</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="LiquidAssets" xlink:to="ref_1_LiquidAssets"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_PlannedAmortizationOfPrincipalOfFinancing" xlink:label="PlannedAmortizationOfPrincipalOfFinancing"/>
+    <link:reference xlink:type="resource" xlink:label="ref_1_PlannedAmortizationOfPrincipalOfFinancing" xlink:role="http://www.xbrl.org/2003/role/disclosureRef">
+      <ref:Name>Anexo AA</ref:Name>
+      <ref:Paragraph>F. II</ref:Paragraph>
+      <ref:Subparagraph>Inc. b</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="PlannedAmortizationOfPrincipalOfFinancing" xlink:to="ref_1_PlannedAmortizationOfPrincipalOfFinancing"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_PlannedCapitalRedemption" xlink:label="PlannedCapitalRedemption"/>
+    <link:reference xlink:type="resource" xlink:label="ref_1_PlannedCapitalRedemption" xlink:role="http://www.xbrl.org/2003/role/disclosureRef">
+      <ref:Name>Anexo AA</ref:Name>
+      <ref:Paragraph>F. II</ref:Paragraph>
+      <ref:Subparagraph>Inc. a</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="PlannedCapitalRedemption" xlink:to="ref_1_PlannedCapitalRedemption"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_RecoverableIVA" xlink:label="RecoverableIVA"/>
+    <link:reference xlink:type="resource" xlink:label="ref_1_RecoverableIVA" xlink:role="http://www.xbrl.org/2003/role/disclosureRef">
+      <ref:Name>Anexo AA</ref:Name>
+      <ref:Paragraph>F. II</ref:Paragraph>
+      <ref:Subparagraph>Inc. a</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="RecoverableIVA" xlink:to="ref_1_RecoverableIVA"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_RecurringCapitalExpendituresEstimates" xlink:label="RecurringCapitalExpendituresEstimates"/>
+    <link:reference xlink:type="resource" xlink:label="ref_1_RecurringCapitalExpendituresEstimates" xlink:role="http://www.xbrl.org/2003/role/disclosureRef">
+      <ref:Name>Anexo AA</ref:Name>
+      <ref:Paragraph>F. II</ref:Paragraph>
+      <ref:Subparagraph>Inc. a</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="RecurringCapitalExpendituresEstimates" xlink:to="ref_1_RecurringCapitalExpendituresEstimates"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_RevolvingCreditLines" xlink:label="RevolvingCreditLines"/>
+    <link:reference xlink:type="resource" xlink:label="ref_1_RevolvingCreditLines" xlink:role="http://www.xbrl.org/2003/role/disclosureRef">
+      <ref:Name>Anexo AA</ref:Name>
+      <ref:Paragraph>F. II</ref:Paragraph>
+      <ref:Subparagraph>Inc. a</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="RevolvingCreditLines" xlink:to="ref_1_RevolvingCreditLines"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_TotalCreditsLoansOrNotRelevantFunding" xlink:label="TotalCreditsLoansOrNotRelevantFunding"/>
+    <link:reference xlink:type="resource" xlink:label="ref_1_TotalCreditsLoansOrNotRelevantFunding" xlink:role="http://www.xbrl.org/2003/role/disclosureRef">
+      <ref:Name>Anexo AA</ref:Name>
+      <ref:Paragraph>F. I</ref:Paragraph>
+      <ref:Subparagraph>Inc. a</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="TotalCreditsLoansOrNotRelevantFunding" xlink:to="ref_1_TotalCreditsLoansOrNotRelevantFunding"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_TotalDebtInSecurities" xlink:label="TotalDebtInSecurities"/>
+    <link:reference xlink:type="resource" xlink:label="ref_1_TotalDebtInSecurities" xlink:role="http://www.xbrl.org/2003/role/disclosureRef">
+      <ref:Name>Anexo AA</ref:Name>
+      <ref:Paragraph>F. I</ref:Paragraph>
+      <ref:Subparagraph>Inc. a</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="TotalDebtInSecurities" xlink:to="ref_1_TotalDebtInSecurities"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_TotalFunding" xlink:label="TotalFunding"/>
+    <link:reference xlink:type="resource" xlink:label="ref_1_TotalFunding" xlink:role="http://www.xbrl.org/2003/role/disclosureRef">
+      <ref:Name>Anexo AA</ref:Name>
+      <ref:Paragraph>F. I</ref:Paragraph>
+      <ref:Subparagraph>Inc. a</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="TotalFunding" xlink:to="ref_1_TotalFunding"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_TotalUnpaidAccruedInterest" xlink:label="TotalUnpaidAccruedInterest"/>
+    <link:reference xlink:type="resource" xlink:label="ref_1_TotalUnpaidAccruedInterest" xlink:role="http://www.xbrl.org/2003/role/disclosureRef">
+      <ref:Name>Anexo AA</ref:Name>
+      <ref:Paragraph>F. I</ref:Paragraph>
+      <ref:Subparagraph>Inc. a</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="TotalUnpaidAccruedInterest" xlink:to="ref_1_TotalUnpaidAccruedInterest"/>
+  </link:referenceLink>
+</link:linkbase>

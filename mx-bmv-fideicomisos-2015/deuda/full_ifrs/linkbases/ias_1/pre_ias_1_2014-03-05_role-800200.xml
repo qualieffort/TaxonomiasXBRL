@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Taxonomy: 2014-03-05 (Final release)
+        ********************** 
+        Copyright © 2014 International Financial Reporting Standards (IFRS) Foundation
+        All rights reserved.  No part of this publication may be translated, reprinted or reproduced 
+        or utilised in any form either in whole or in part without prior permission in writing from the IFRS Foundation.
+        For more information on the IFRS Foundation's copyright, please refer to http://www.ifrs.org/XBRL/Legal/
+        **********************
+-->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://bmv.com.mx/role/ifrs/deuda/2015/ias_1_2014-03-05_role-800200" xlink:type="simple" xlink:href="rol_ias_1_2014-03-05.xsd#ias_1_2014-03-05_role-800200"/>
+  <link:roleRef roleURI="http://www.xbrl.org/2009/role/negatedLabel" xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedLabel"/>
+  <link:roleRef roleURI="http://www.xbrl.org/2009/role/netLabel" xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/net-2009-12-16.xsd#netLabel"/>
+  <link:roleRef roleURI="http://www.xbrl.org/2009/role/negatedTotalLabel" xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedTotalLabel"/>
+  <link:presentationLink xlink:type="extended" xlink:role="http://bmv.com.mx/role/ifrs/deuda/2015/ias_1_2014-03-05_role-800200">
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_AnalysisOfIncomeAndExpenseAbstract" xlink:label="loc_13"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_RevenueAbstract" xlink:label="loc_12"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_13" xlink:to="loc_12" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_RevenueFromInterest" xlink:label="loc_2"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_12" xlink:to="loc_2" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_RevenueFromDividends" xlink:label="loc_160"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_12" xlink:to="loc_160" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_OtherRevenue" xlink:label="loc_168"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_12" xlink:to="loc_168" order="85.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_Revenue" xlink:label="loc_176"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_12" xlink:to="loc_176" order="86.0" preferredLabel="http://www.xbrl.org/2003/role/totalLabel"/>
+    <link:loc xlink:type="locator" xlink:href="../../../deuda/core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_FinancialProductsInvestment" xlink:label="FinancialProductsInvestment" xlink:title="FinancialProductsInvestment"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_12" xlink:to="FinancialProductsInvestment" xlink:title="presentation: RevenueAbstract to FinancialProductsInvestment" order="81.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../deuda/core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_FinancialsCreditRights" xlink:label="FinancialsCreditRights" xlink:title="FinancialsCreditRights"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_12" xlink:to="FinancialsCreditRights" xlink:title="presentation: RevenueAbstract to FinancialsCreditRights" order="82.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../deuda/core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_InvestmentValuationSurplus" xlink:label="InvestmentValuationSurplus" xlink:title="InvestmentValuationSurplus"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_12" xlink:to="InvestmentValuationSurplus" xlink:title="presentation: RevenueAbstract to InvestmentValuationSurplus" order="83.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../deuda/core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_BiologicalAssetsGain" xlink:label="BiologicalAssetsGain" xlink:title="BiologicalAssetsGain"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_12" xlink:to="BiologicalAssetsGain" xlink:title="presentation: RevenueAbstract to BiologicalAssetsGain" order="84.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../deuda/core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_AdministrationAndMaintenanceCostsAbstract" xlink:label="AdministrationAndMaintenanceCostsAbstract" xlink:title="AdministrationAndMaintenanceCostsAbstract"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_13" xlink:to="AdministrationAndMaintenanceCostsAbstract" xlink:title="presentation: AnalysisOfIncomeAndExpenseAbstract to AdministrationAndMaintenanceCostsAbstract" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../deuda/core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_ComissionRepresentativeServices" xlink:label="ComissionRepresentativeServices" xlink:title="ComissionRepresentativeServices"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="AdministrationAndMaintenanceCostsAbstract" xlink:to="ComissionRepresentativeServices" xlink:title="presentation: AdministrationAndMaintenanceCostsAbstract to ComissionRepresentativeServices" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../deuda/core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_ManagementFee" xlink:label="ManagementFee" xlink:title="ManagementFee"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="AdministrationAndMaintenanceCostsAbstract" xlink:to="ManagementFee" xlink:title="presentation: AdministrationAndMaintenanceCostsAbstract to ManagementFee" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../deuda/core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_Honorariums" xlink:label="Honorariums" xlink:title="Honorariums"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="AdministrationAndMaintenanceCostsAbstract" xlink:to="Honorariums" xlink:title="presentation: AdministrationAndMaintenanceCostsAbstract to Honorariums" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../deuda/core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_Taxes" xlink:label="Taxes" xlink:title="Taxes"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="AdministrationAndMaintenanceCostsAbstract" xlink:to="Taxes" xlink:title="presentation: AdministrationAndMaintenanceCostsAbstract to Taxes" order="4.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../deuda/core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_InsurancesAndGuarantees" xlink:label="InsurancesAndGuarantees" xlink:title="InsurancesAndGuarantees"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="AdministrationAndMaintenanceCostsAbstract" xlink:to="InsurancesAndGuarantees" xlink:title="presentation: AdministrationAndMaintenanceCostsAbstract to InsurancesAndGuarantees" order="5.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../deuda/core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_FeesAndRights" xlink:label="FeesAndRights" xlink:title="FeesAndRights"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="AdministrationAndMaintenanceCostsAbstract" xlink:to="FeesAndRights" xlink:title="presentation: AdministrationAndMaintenanceCostsAbstract to FeesAndRights" order="6.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../deuda/core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_AssetMaintenanceCosts" xlink:label="AssetMaintenanceCosts" xlink:title="AssetMaintenanceCosts"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="AdministrationAndMaintenanceCostsAbstract" xlink:to="AssetMaintenanceCosts" xlink:title="presentation: AdministrationAndMaintenanceCostsAbstract to AssetMaintenanceCosts" order="7.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../deuda/core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_OtherAdministrativeExpensesAndMaintenance" xlink:label="OtherAdministrativeExpensesAndMaintenance" xlink:title="OtherAdministrativeExpensesAndMaintenance"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="AdministrationAndMaintenanceCostsAbstract" xlink:to="OtherAdministrativeExpensesAndMaintenance" xlink:title="presentation: AdministrationAndMaintenanceCostsAbstract to OtherAdministrativeExpensesAndMaintenance" order="8.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_AdministrativeExpense" xlink:label="AdministrativeExpense" xlink:title="AdministrativeExpense"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="AdministrationAndMaintenanceCostsAbstract" xlink:to="AdministrativeExpense" xlink:title="presentation: AdministrationAndMaintenanceCostsAbstract to AdministrativeExpense" order="9.0" preferredLabel="http://www.xbrl.org/2003/role/totalLabel"/>
+    <link:loc xlink:type="locator" xlink:href="../../../deuda/core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_FinancialIncomeAbstract" xlink:label="FinancialIncomeAbstract" xlink:title="FinancialIncomeAbstract"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_13" xlink:to="FinancialIncomeAbstract" xlink:title="presentation: AnalysisOfIncomeAndExpenseAbstract to FinancialIncomeAbstract" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../deuda/core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_InterestIncome" xlink:label="InterestIncome" xlink:title="InterestIncome"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="FinancialIncomeAbstract" xlink:to="InterestIncome" xlink:title="presentation: FinancialIncomeAbstract to InterestIncome" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../deuda/core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_GainOnForeignExchange" xlink:label="GainOnForeignExchange" xlink:title="GainOnForeignExchange"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="FinancialIncomeAbstract" xlink:to="GainOnForeignExchange" xlink:title="presentation: FinancialIncomeAbstract to GainOnForeignExchange" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_OtherFinanceIncome" xlink:label="OtherFinanceIncome" xlink:title="OtherFinanceIncome"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="FinancialIncomeAbstract" xlink:to="OtherFinanceIncome" xlink:title="presentation: FinancialIncomeAbstract to OtherFinanceIncome" order="4.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../deuda/core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_GainOnChangeInFairValueOfFinancialInstruments" xlink:label="GainOnChangeInFairValueOfFinancialInstruments" xlink:title="GainOnChangeInFairValueOfFinancialInstruments"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="FinancialIncomeAbstract" xlink:to="GainOnChangeInFairValueOfFinancialInstruments" xlink:title="presentation: FinancialIncomeAbstract to GainOnChangeInFairValueOfFinancialInstruments" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_FinanceIncome" xlink:label="FinanceIncome" xlink:title="FinanceIncome"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="FinancialIncomeAbstract" xlink:to="FinanceIncome" xlink:title="presentation: FinancialIncomeAbstract to FinanceIncome" order="6.0" preferredLabel="http://www.xbrl.org/2003/role/totalLabel"/>
+    <link:loc xlink:type="locator" xlink:href="../../../deuda/core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_FinancialExpensesAbstract" xlink:label="FinancialExpensesAbstract" xlink:title="FinancialExpensesAbstract"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_13" xlink:to="FinancialExpensesAbstract" xlink:title="presentation: AnalysisOfIncomeAndExpenseAbstract to FinancialExpensesAbstract" order="4.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../deuda/core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_AccruedInterestExpense" xlink:label="AccruedInterestExpense" xlink:title="AccruedInterestExpense"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="FinancialExpensesAbstract" xlink:to="AccruedInterestExpense" xlink:title="presentation: FinancialExpensesAbstract to AccruedInterestExpense" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../deuda/core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_ForeignExchangeLoss" xlink:label="ForeignExchangeLoss" xlink:title="ForeignExchangeLoss"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="FinancialExpensesAbstract" xlink:to="ForeignExchangeLoss" xlink:title="presentation: FinancialExpensesAbstract to ForeignExchangeLoss" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../deuda/core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_LossOnChangesInFairValueOfFinancialInstruments" xlink:label="LossOnChangesInFairValueOfFinancialInstruments" xlink:title="LossOnChangesInFairValueOfFinancialInstruments"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="FinancialExpensesAbstract" xlink:to="LossOnChangesInFairValueOfFinancialInstruments" xlink:title="presentation: FinancialExpensesAbstract to LossOnChangesInFairValueOfFinancialInstruments" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_OtherFinanceCost" xlink:label="OtherFinanceCost" xlink:title="OtherFinanceCost"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="FinancialExpensesAbstract" xlink:to="OtherFinanceCost" xlink:title="presentation: FinancialExpensesAbstract to OtherFinanceCost" order="4.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_FinanceCosts" xlink:label="FinanceCosts" xlink:title="FinanceCosts"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="FinancialExpensesAbstract" xlink:to="FinanceCosts" xlink:title="presentation: FinancialExpensesAbstract to FinanceCosts" order="5.0" preferredLabel="http://www.xbrl.org/2003/role/totalLabel"/>
+  </link:presentationLink>
+</link:linkbase>

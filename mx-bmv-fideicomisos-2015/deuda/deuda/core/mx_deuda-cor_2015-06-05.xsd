@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xsd:schema targetNamespace="http://www.bmv.com.mx/2015-06-30/deuda" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:mx_deuda="http://www.bmv.com.mx/2015-06-30/deuda" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:num="http://www.xbrl.org/dtr/type/numeric" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+  <xsd:import namespace="http://www.xbrl.org/dtr/type/non-numeric" schemaLocation="http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd"/>
+  <xsd:element name="HeritageOfTheFund" id="mx_deuda_HeritageOfTheFund" type="nonnum:textBlockItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="TheSecuritizationTransaction" id="mx_deuda_TheSecuritizationTransaction" type="nonnum:textBlockItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="OperationStructure" id="mx_deuda_OperationStructure" type="nonnum:textBlockItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="WithdrawalOfResourcesDecreasedByResidualBalances" id="mx_deuda_WithdrawalOfResourcesDecreasedByResidualBalances" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+  <xsd:element name="ComplianceWithTheBusinessPlanAndInvestmentScheduleAndWhereAppropiateDisvestitures" id="mx_deuda_ComplianceWithTheBusinessPlanAndInvestmentScheduleAndWhereAppropiateDisvestitures" type="nonnum:textBlockItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="Valuation" id="mx_deuda_Valuation" type="nonnum:textBlockItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="FeesCostsAndExpensesOfTheAdministratorOrOperator" id="mx_deuda_FeesCostsAndExpensesOfTheAdministratorOrOperator" type="nonnum:textBlockItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="DerivativeFinancialInstrumentsAndHedging" id="mx_deuda_DerivativeFinancialInstrumentsAndHedging" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="instant"/>
+  <xsd:element name="DerivativeFinancialInstrumentsAndHedgingClassifiedAsShortTermLiabilities" id="mx_deuda_DerivativeFinancialInstrumentsAndHedgingClassifiedAsShortTermLiabilities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="instant"/>
+  <xsd:element name="DerivativeFinancialInstrumentsAndHedgingClassifiedAsLongTermLiabilities" id="mx_deuda_DerivativeFinancialInstrumentsAndHedgingClassifiedAsLongTermLiabilities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="instant"/>
+  <xsd:element name="RelevantDisclosureAboutThePeriod" id="mx_deuda_RelevantDisclosureAboutThePeriod" type="nonnum:textBlockItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="OtherRequiredThirdToTheTrustOrSecurityHoldersIfAny" id="mx_deuda_OtherRequiredThirdToTheTrustOrSecurityHoldersIfAny" type="nonnum:textBlockItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="GeneralAssembliesOfShareholders" id="mx_deuda_GeneralAssembliesOfShareholders" type="nonnum:textBlockItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="ExternalAuditorsAndIndependentAppraiser" id="mx_deuda_ExternalAuditorsAndIndependentAppraiser" type="nonnum:textBlockItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="TransactionsWithRelatedPartiesAndConflictsOfInterest" id="mx_deuda_TransactionsWithRelatedPartiesAndConflictsOfInterest" type="nonnum:textBlockItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="Ticker" id="mx_deuda_Ticker" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="Consolidated" id="mx_deuda_Consolidated" type="mx_deuda:SiNoItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="TrusteesAdministratorAvalOrGuarantor" id="mx_deuda_TrusteesAdministratorAvalOrGuarantor" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="TrustNumber" id="mx_deuda_TrustNumber" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="CashFlowStatementForInderectMethod" id="mx_deuda_CashFlowStatementForInderectMethod" type="mx_deuda:SiNoItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="NumberOfQuarter" id="mx_deuda_NumberOfQuarter" type="mx_deuda:NumberOfQuarterItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="NameServiceProviderExternalAudit" id="mx_deuda_NameServiceProviderExternalAudit" type="nonnum:textBlockItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="NameOfTheAsociadoSigningOpinion" id="mx_deuda_NameOfTheAsociadoSigningOpinion" type="nonnum:textBlockItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="TypeOfOpinionOnTheFinancialStatements" id="mx_deuda_TypeOfOpinionOnTheFinancialStatements" type="nonnum:textBlockItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="DateOfOpinionOnTheFinancialStatements" id="mx_deuda_DateOfOpinionOnTheFinancialStatements" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="FinancialInstruments" id="mx_deuda_FinancialInstruments" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="instant"/>
+  <xsd:element name="Collateralizedloan" id="mx_deuda_Collateralizedloan" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="instant"/>
+  <xsd:element name="Receivable" id="mx_deuda_Receivable" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="instant"/>
+  <xsd:element name="CommercialCommisionCurrent" id="mx_deuda_CommercialCommisionCurrent" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="instant"/>
+  <xsd:element name="EstimatedPaymentsOfISRToDistributeToHolders" id="mx_deuda_EstimatedPaymentsOfISRToDistributeToHolders" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="instant"/>
+  <xsd:element name="Foreclosed" id="mx_deuda_Foreclosed" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="instant"/>
+  <xsd:element name="RightsOfNonCurrentReceivables" id="mx_deuda_RightsOfNonCurrentReceivables" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="instant"/>
+  <xsd:element name="InvestmentsInPrivateFunds" id="mx_deuda_InvestmentsInPrivateFunds" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="instant"/>
+  <xsd:element name="CommercialCommissionNonCurrent" id="mx_deuda_CommercialCommissionNonCurrent" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="instant"/>
+  <xsd:element name="EstimatesAndReservesForImpairmentAssets" id="mx_deuda_EstimatesAndReservesForImpairmentAssets" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+  <xsd:element name="TaxRecovery" id="mx_deuda_TaxRecovery" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+  <xsd:element name="CommercialCommission" id="mx_deuda_CommercialCommission" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+  <xsd:element name="CollectionsFromAccountsReceivable" id="mx_deuda_CollectionsFromAccountsReceivable" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+  <xsd:element name="SaleOfRepossessedAssets" id="mx_deuda_SaleOfRepossessedAssets" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+  <xsd:element name="FinancialIncome" id="mx_deuda_FinancialIncome" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+  <xsd:element name="ManagementFeePayments" id="mx_deuda_ManagementFeePayments" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+  <xsd:element name="Receivables" id="mx_deuda_Receivables" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+  <xsd:element name="FinancialProductsInvestment" id="mx_deuda_FinancialProductsInvestment" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+  <xsd:element name="MaintenanceAndAdministrationExpenses" id="mx_deuda_MaintenanceAndAdministrationExpenses" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+  <xsd:element name="RepaymentOfReceivables" id="mx_deuda_RepaymentOfReceivables" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+  <xsd:element name="PaymentsMadeOnAccountsPayable" id="mx_deuda_PaymentsMadeOnAccountsPayable" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+  <xsd:element name="FinancialExpenses" id="mx_deuda_FinancialExpenses" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+  <xsd:element name="CashFlowFromInvestmentFunds" id="mx_deuda_CashFlowFromInvestmentFunds" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+  <xsd:element name="CashFlowsUsedForTheAcquisitionOfInvestmentFunds" id="mx_deuda_CashFlowsUsedForTheAcquisitionOfInvestmentFunds" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+  <xsd:element name="IssueAndPlacementOfStockCertificates" id="mx_deuda_IssueAndPlacementOfStockCertificates" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+  <xsd:element name="DiscontinuedOperations" id="mx_deuda_DiscontinuedOperations" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+  <xsd:element name="ParticipationInAssociatesAndJointVentures" id="mx_deuda_ParticipationInAssociatesAndJointVentures" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+  <xsd:element name="DecreaseIncreaseReceivables" id="mx_deuda_DecreaseIncreaseReceivables" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+  <xsd:element name="OtherAdministrativeExpensesAndMaintenance" id="mx_deuda_OtherAdministrativeExpensesAndMaintenance" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+  <xsd:element name="AdministrationAndMaintenanceCostsAbstract" id="mx_deuda_AdministrationAndMaintenanceCostsAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="DesignatedFinancialInstrumentsAtFairValue" id="mx_deuda_DesignatedFinancialInstrumentsAtFairValue" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="instant"/>
+  <xsd:element name="DecreaseIncreaseInLoansAndReceivablesAtAmortizedCost" id="mx_deuda_DecreaseIncreaseInLoansAndReceivablesAtAmortizedCost" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+  <xsd:element name="RealizedGainOfAssetsDesignatedAtFairValue" id="mx_deuda_RealizedGainOfAssetsDesignatedAtFairValue" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+  <xsd:element name="IncrementsForContributionsToVentureCapital" id="mx_deuda_IncrementsForContributionsToVentureCapital" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+  <xsd:element name="OtherComprehensiveIncomeMember" id="mx_deuda_OtherComprehensiveIncomeMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="NetContributionOfHoldersOfIssuanceAndPlacementCosts" id="mx_deuda_NetContributionOfHoldersOfIssuanceAndPlacementCosts" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+  <xsd:element name="FinancialInstrumentsAbstract" id="mx_deuda_FinancialInstrumentsAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="DecreaseIncreaseInDesignatedFinancialInstrumentsAtFairValue" id="mx_deuda_DecreaseIncreaseInDesignatedFinancialInstrumentsAtFairValue" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+  <xsd:element name="FinancialInstrumentsAtAmortizedCost" id="mx_deuda_FinancialInstrumentsAtAmortizedCost" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="instant"/>
+  <xsd:element name="CurrentSecurityDeposits" id="mx_deuda_CurrentSecurityDeposits" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="instant"/>
+  <xsd:element name="SundryDebtors" id="mx_deuda_SundryDebtors" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="instant"/>
+  <xsd:element name="NonCurrentPrepayments" id="mx_deuda_NonCurrentPrepayments" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="instant"/>
+  <xsd:element name="NonCurrentPrepaidExpenses" id="mx_deuda_NonCurrentPrepaidExpenses" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="instant"/>
+  <xsd:element name="NonCurrentAdvancesDeuda" id="mx_deuda_NonCurrentAdvancesDeuda" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="instant"/>
+  <xsd:element name="FinanceCharges" id="mx_deuda_FinanceCharges" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+  <xsd:element name="AssetMaintenanceCosts" id="mx_deuda_AssetMaintenanceCosts" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+  <xsd:element name="NonCurrentGuaranteeDeposits" id="mx_deuda_NonCurrentGuaranteeDeposits" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="instant"/>
+  <xsd:element name="NonCurrentSuntryDebtors" id="mx_deuda_NonCurrentSuntryDebtors" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="instant"/>
+  <xsd:element name="ConstructionPrepayments" id="mx_deuda_ConstructionPrepayments" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="instant"/>
+  <xsd:element name="BankLoansCurrent" id="mx_deuda_BankLoansCurrent" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="instant"/>
+  <xsd:element name="StockMarketLoansCurrent" id="mx_deuda_StockMarketLoansCurrent" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="instant"/>
+  <xsd:element name="BankLoansNonCurrent" id="mx_deuda_BankLoansNonCurrent" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="instant"/>
+  <xsd:element name="StockMarketLoansNonCurrent" id="mx_deuda_StockMarketLoansNonCurrent" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="instant"/>
+  <xsd:element name="InterestOnLongTermDebt" id="mx_deuda_InterestOnLongTermDebt" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="instant"/>
+  <xsd:element name="OtherComprehensiveIncomeDeuda" id="mx_deuda_OtherComprehensiveIncomeDeuda" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="instant"/>
+  <xsd:element name="NonCurrentSecutiryDeposits" id="mx_deuda_NonCurrentSecutiryDeposits" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="instant"/>
+  <xsd:element name="FundRetainedWork" id="mx_deuda_FundRetainedWork" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="instant"/>
+  <xsd:element name="ForeignExchangeIncomeFromInvestments" id="mx_deuda_ForeignExchangeIncomeFromInvestments" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+  <xsd:element name="IncomeFromChangeInFairValueOfSharesCertificatesInvestmentProperty" id="mx_deuda_IncomeFromChangeInFairValueOfSharesCertificatesInvestmentProperty" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+  <xsd:element name="GainOnValuationOfFinancialInstruments" id="mx_deuda_GainOnValuationOfFinancialInstruments" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+  <xsd:element name="IncomeFromRevaluationOfInvestmentCompanyPromoted" id="mx_deuda_IncomeFromRevaluationOfInvestmentCompanyPromoted" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+  <xsd:element name="PropertyRentalIncome" id="mx_deuda_PropertyRentalIncome" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+  <xsd:element name="RevenueFromServicesRelatedToPropertyLeasing" id="mx_deuda_RevenueFromServicesRelatedToPropertyLeasing" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+  <xsd:element name="FinancialExpensesAbstract" id="mx_deuda_FinancialExpensesAbstract" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="InterestPayments" id="mx_deuda_InterestPayments" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+  <xsd:element name="InterestPayableInTheShortTerm" id="mx_deuda_InterestPayableInTheShortTerm" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="instant"/>
+  <xsd:element name="SaleOfProperty" id="mx_deuda_SaleOfProperty" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+  <xsd:element name="ComissionRepresentativeServices" id="mx_deuda_ComissionRepresentativeServices" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+  <xsd:element name="ManagementFee" id="mx_deuda_ManagementFee" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+  <xsd:element name="ProfessionalFees" id="mx_deuda_ProfessionalFees" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+  <xsd:element name="Honorariums" id="mx_deuda_Honorariums" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+  <xsd:element name="Taxes" id="mx_deuda_Taxes" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+  <xsd:element name="InsurancesAndGuarantees" id="mx_deuda_InsurancesAndGuarantees" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+  <xsd:element name="FeesAndRights" id="mx_deuda_FeesAndRights" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+  <xsd:element name="Advertising" id="mx_deuda_Advertising" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+  <xsd:element name="DepreciationAndAmortisationExpense" id="mx_deuda_DepreciationAndAmortisationExpense" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+  <xsd:element name="MaintenanceCosts" id="mx_deuda_MaintenanceCosts" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+  <xsd:element name="InterestExpense" id="mx_deuda_InterestExpense" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+  <xsd:element name="FinancialsCreditRights" id="mx_deuda_FinancialsCreditRights" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+  <xsd:element name="DecreaseIncreaseInLoansWithCollateral" id="mx_deuda_DecreaseIncreaseInLoansWithCollateral" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+  <xsd:element name="InvestmentValuationSurplus" id="mx_deuda_InvestmentValuationSurplus" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+  <xsd:element name="BiologicalAssetsGain" id="mx_deuda_BiologicalAssetsGain" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+  <xsd:element name="OtherAdministrativeExpenses" id="mx_deuda_OtherAdministrativeExpenses" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+  <xsd:element name="FinancialIncomeAbstract" id="mx_deuda_FinancialIncomeAbstract" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="InterestIncome" id="mx_deuda_InterestIncome" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+  <xsd:element name="GainOnForeignExchange" id="mx_deuda_GainOnForeignExchange" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+  <xsd:element name="GainOnChangeInFairValueOfFinancialInstruments" id="mx_deuda_GainOnChangeInFairValueOfFinancialInstruments" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+  <xsd:element name="OtherFinanceIncome" id="mx_deuda_OtherFinanceIncome" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+  <xsd:element name="OtherFinanceCost" id="mx_deuda_OtherFinanceCost" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+  <xsd:element name="GainOnValuationOfInvestmentsHeldToMaturityPreserved" id="mx_deuda_GainOnValuationOfInvestmentsHeldToMaturityPreserved" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+  <xsd:element name="AccruedInterestExpense" id="mx_deuda_AccruedInterestExpense" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+  <xsd:element name="ForeignExchangeLoss" id="mx_deuda_ForeignExchangeLoss" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+  <xsd:element name="LossOnChangesInFairValueOfFinancialInstruments" id="mx_deuda_LossOnChangesInFairValueOfFinancialInstruments" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+  <xsd:element name="LossOnValuationOfInvestmentsHeldToMaturityPreserved" id="mx_deuda_LossOnValuationOfInvestmentsHeldToMaturityPreserved" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+  <xsd:element name="TaxCaused" id="mx_deuda_TaxCaused" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+  <xsd:element name="DeferredTax" id="mx_deuda_DeferredTax" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+  <xsd:element name="RisksRelatedToFinancialInstruments" id="mx_deuda_RisksRelatedToFinancialInstruments" type="nonnum:textBlockItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="InvestmentsKeptToMaturity" id="mx_deuda_InvestmentsKeptToMaturity" type="nonnum:textBlockItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="ValueAddedTaxPositiveOnFavour" id="mx_deuda_ValueAddedTaxPositiveOnFavour" type="nonnum:textBlockItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="NetAssets" id="mx_deuda_NetAssets" type="nonnum:textBlockItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="ForeingCurrencyPosition" id="mx_deuda_ForeingCurrencyPosition" type="nonnum:textBlockItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="InvestmentsInShares" id="mx_deuda_InvestmentsInShares" type="nonnum:textBlockItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="NonCurrentPrepaymentsAbstract" id="mx_deuda_NonCurrentPrepaymentsAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant" abstract="true"/>
+  <xsd:element name="NoncurrentPrepaymentsDeuda" id="mx_deuda_NoncurrentPrepaymentsDeuda" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" abstract="false" xbrli:periodType="instant" xbrli:balance="debit"/>
+	
+   <xsd:complexType name="NumberOfQuarterItemType">
+    <xsd:simpleContent>
+      <xsd:restriction base="xbrli:tokenItemType">
+        <xsd:enumeration value="1"/>
+        <xsd:enumeration value="2"/>
+        <xsd:enumeration value="3"/>
+        <xsd:enumeration value="4"/>
+        <xsd:enumeration value="4D"/>
+      </xsd:restriction>
+    </xsd:simpleContent>
+  </xsd:complexType>
+  
+  <xsd:complexType name="SiNoItemType">
+    <xsd:simpleContent>
+      <xsd:restriction base="xbrli:tokenItemType">
+        <xsd:enumeration value="SI"/>
+        <xsd:enumeration value="NO"/>
+      </xsd:restriction>
+    </xsd:simpleContent>
+  </xsd:complexType>
+	
+  </xsd:schema>

@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Taxonomy: 2014-03-05 (Final release)
+        ********************** 
+        Copyright © 2014 International Financial Reporting Standards (IFRS) Foundation
+        All rights reserved.  No part of this publication may be translated, reprinted or reproduced 
+        or utilised in any form either in whole or in part without prior permission in writing from the IFRS Foundation.
+        For more information on the IFRS Foundation's copyright, please refer to http://www.ifrs.org/XBRL/Legal/
+        **********************
+-->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:full_ifrs_mc_mx_ics_entry_point_2014-12-05="http://www.bmv.com.mx/taxonomy/ifrs_mx/full_ifrs_mc_mx_ics_entry_point_2014-12-05" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://bmv.com.mx/role/ifrs/ias_1_2014-03-05_role-800100" xlink:type="simple" xlink:href="rol_ias_1_2014-03-05.xsd#ias_1_2014-03-05_role-800100"/>
+  <link:roleRef roleURI="http://www.xbrl.org/2009/role/negatedLabel" xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedLabel"/>
+  <link:roleRef roleURI="http://www.xbrl.org/2009/role/netLabel" xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/net-2009-12-16.xsd#netLabel"/>
+  <link:presentationLink xlink:type="extended" xlink:role="http://bmv.com.mx/role/ifrs/ias_1_2014-03-05_role-800100">
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_SubclassificationsOfAssetsLiabilitiesAndEquitiesAbstract" xlink:label="loc_10"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_PropertyPlantAndEquipmentAbstract" xlink:label="loc_9"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_10" xlink:to="loc_9" order="70.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_LandAndBuildingsAbstract" xlink:label="loc_11"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_9" xlink:to="loc_11" order="10.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_Land" xlink:label="loc_12"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_11" xlink:to="loc_12" order="10.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_Buildings" xlink:label="loc_154"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_11" xlink:to="loc_154" order="20.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_LandAndBuildings" xlink:label="loc_221"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_11" xlink:to="loc_221" order="30.0" preferredLabel="http://www.xbrl.org/2003/role/totalLabel"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_Machinery" xlink:label="loc_155"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_9" xlink:to="loc_155" order="20.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_VehiclesAbstract" xlink:label="loc_14"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_9" xlink:to="loc_14" order="30.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_Ships" xlink:label="loc_13"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_14" xlink:to="loc_13" order="10.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_Aircraft" xlink:label="loc_156"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_14" xlink:to="loc_156" order="20.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_MotorVehicles" xlink:label="loc_222"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_14" xlink:to="loc_222" order="30.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_Vehicles" xlink:label="loc_284"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_14" xlink:to="loc_284" order="40.0" preferredLabel="http://www.xbrl.org/2003/role/totalLabel"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_FixturesAndFittings" xlink:label="loc_285"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_9" xlink:to="loc_285" order="40.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_OfficeEquipment" xlink:label="loc_317"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_9" xlink:to="loc_317" order="50.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_TangibleExplorationAndEvaluationAssets" xlink:label="loc_340"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_9" xlink:to="loc_340" order="60.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_MiningAssets" xlink:label="loc_349"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_9" xlink:to="loc_349" order="70.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_OilAndGasAssets" xlink:label="loc_366"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_9" xlink:to="loc_366" order="80.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_ConstructionInProgress" xlink:label="loc_374"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_9" xlink:to="loc_374" order="90.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_OtherPropertyPlantAndEquipment" xlink:label="loc_378"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_9" xlink:to="loc_378" order="100.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_PropertyPlantAndEquipment" xlink:label="loc_383"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_9" xlink:to="loc_383" order="110.0" preferredLabel="http://www.xbrl.org/2003/role/totalLabel"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_AnticiposParaConstrucciones" xlink:label="AnticiposParaConstrucciones" xlink:title="AnticiposParaConstrucciones"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_9" xlink:to="AnticiposParaConstrucciones" xlink:title="presentation: PropertyPlantAndEquipmentAbstract to AnticiposParaConstrucciones" order="95.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_IntangibleAssetsAndGoodwillAbstract" xlink:label="loc_16"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_10" xlink:to="loc_16" order="90.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_IntangibleAssetsOtherThanGoodwillAbstract" xlink:label="loc_15"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_16" xlink:to="loc_15" order="10.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_BrandNames" xlink:label="loc_17"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_15" xlink:to="loc_17" order="10.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_IntangibleExplorationAndEvaluationAssets" xlink:label="loc_157"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_15" xlink:to="loc_157" order="20.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_MastheadsAndPublishingTitles" xlink:label="loc_223"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_15" xlink:to="loc_223" order="30.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_ComputerSoftware" xlink:label="loc_286"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_15" xlink:to="loc_286" order="40.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_LicencesAndFranchises" xlink:label="loc_318"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_15" xlink:to="loc_318" order="50.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_CopyrightsPatentsAndOtherIndustrialPropertyRightsServiceAndOperatingRights" xlink:label="loc_341"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_15" xlink:to="loc_341" order="60.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_RecipesFormulaeModelsDesignsAndPrototypes" xlink:label="loc_359"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_15" xlink:to="loc_359" order="70.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_IntangibleAssetsUnderDevelopment" xlink:label="loc_371"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_15" xlink:to="loc_371" order="80.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_OtherIntangibleAssets" xlink:label="loc_376"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_15" xlink:to="loc_376" order="90.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_IntangibleAssetsOtherThanGoodwill" xlink:label="loc_380"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_15" xlink:to="loc_380" order="100.0" preferredLabel="http://www.xbrl.org/2003/role/totalLabel"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_Goodwill" xlink:label="loc_158"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_16" xlink:to="loc_158" order="20.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_IntangibleAssetsAndGoodwill" xlink:label="loc_224"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_16" xlink:to="loc_224" order="30.0" preferredLabel="http://www.xbrl.org/2003/role/totalLabel"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_InvestmentPropertyAbstract" xlink:label="loc_144"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_10" xlink:to="loc_144" order="80.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_InvestmentPropertyCompleted" xlink:label="loc_143"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_144" xlink:to="loc_143" order="10.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_InvestmentPropertyUnderConstructionOrDevelopment" xlink:label="loc_212"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_144" xlink:to="loc_212" order="20.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_InvestmentProperty" xlink:label="loc_268"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_144" xlink:to="loc_268" order="30.0" preferredLabel="http://www.xbrl.org/2003/role/totalLabel"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_AnticiposParaLaAdquisicionDePropiedadesDeInversion" xlink:label="AnticiposParaLaAdquisicionDePropiedadesDeInversion" xlink:title="AnticiposParaLaAdquisicionDePropiedadesDeInversion"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_144" xlink:to="AnticiposParaLaAdquisicionDePropiedadesDeInversion" xlink:title="presentation: InvestmentPropertyAbstract to AnticiposParaLaAdquisicionDePropiedadesDeInversion" order="21.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_InvestmentsInSubsidiariesJointVenturesAndAssociatesAbstract" xlink:label="loc_19"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_10" xlink:to="loc_19" order="60.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_InvestmentsInSubsidiaries" xlink:label="loc_18"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_19" xlink:to="loc_18" order="10.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_InvestmentsInJointVentures" xlink:label="loc_159"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_19" xlink:to="loc_159" order="20.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_InvestmentsInAssociates" xlink:label="loc_225"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_19" xlink:to="loc_225" order="30.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_InvestmentsInSubsidiariesJointVenturesAndAssociates" xlink:label="loc_287"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_19" xlink:to="loc_287" order="40.0" preferredLabel="http://www.xbrl.org/2003/role/totalLabel"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_NoncurrentReceivablesAbstract" xlink:label="loc_21"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_10" xlink:to="loc_21" order="50.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_NoncurrentTradeReceivables" xlink:label="loc_20"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_21" xlink:to="loc_20" order="10.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_NoncurrentReceivablesDueFromRelatedParties" xlink:label="loc_160"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_21" xlink:to="loc_160" order="20.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_NoncurrentPrepayments" xlink:label="loc_23"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_21" xlink:to="loc_23" order="30.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_NoncurrentLeasePrepayments" xlink:label="loc_22"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_23" xlink:to="loc_22" order="10.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_NoncurrentReceivablesFromTaxesOtherThanIncomeTax" xlink:label="loc_101"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_21" xlink:to="loc_101" order="40.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_NoncurrentValueAddedTaxReceivables" xlink:label="loc_100"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_101" xlink:to="loc_100" order="10.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_NoncurrentReceivablesFromSaleOfProperties" xlink:label="loc_303"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_21" xlink:to="loc_303" order="50.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_NoncurrentReceivablesFromRentalOfProperties" xlink:label="loc_306"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_21" xlink:to="loc_306" order="60.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_OtherNoncurrentReceivables" xlink:label="loc_314"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_21" xlink:to="loc_314" order="80.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_NoncurrentReceivables" xlink:label="loc_331"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_21" xlink:to="loc_331" order="90.0" preferredLabel="http://www.xbrl.org/2003/role/totalLabel"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_RentasPorFacturar" xlink:label="RentasPorFacturar" xlink:title="RentasPorFacturar"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_21" xlink:to="RentasPorFacturar" xlink:title="presentation: NoncurrentReceivablesAbstract to RentasPorFacturar" order="70.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_TradeAndOtherCurrentReceivablesAbstract" xlink:label="loc_27"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_10" xlink:to="loc_27" order="20.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_CurrentTradeReceivables" xlink:label="loc_26"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_27" xlink:to="loc_26" order="10.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_TradeAndOtherCurrentReceivablesDueFromRelatedParties" xlink:label="loc_162"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_27" xlink:to="loc_162" order="20.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_CurrentPrepaymentsAbstract" xlink:label="loc_124"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_27" xlink:to="loc_124" order="30.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_CurrentAdvancesToSuppliers" xlink:label="loc_123"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_124" xlink:to="loc_123" order="10.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_CurrentPrepaidExpenses" xlink:label="loc_205"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_124" xlink:to="loc_205" order="20.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_CurrentPrepayments" xlink:label="loc_259"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_124" xlink:to="loc_259" order="30.0" preferredLabel="http://www.xbrl.org/2003/role/totalLabel"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_CurrentReceivablesFromTaxesOtherThanIncomeTax" xlink:label="loc_99"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_27" xlink:to="loc_99" order="40.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_CurrentValueAddedTaxReceivables" xlink:label="loc_98"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_99" xlink:to="loc_98" order="10.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_CurrentReceivablesFromSaleOfProperties" xlink:label="loc_302"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_27" xlink:to="loc_302" order="50.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_CurrentReceivablesFromRentalOfProperties" xlink:label="loc_305"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_27" xlink:to="loc_305" order="60.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_OtherCurrentReceivables" xlink:label="loc_315"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_27" xlink:to="loc_315" order="70.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_TradeAndOtherCurrentReceivables" xlink:label="loc_333"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_27" xlink:to="loc_333" order="80.0" preferredLabel="http://www.xbrl.org/2003/role/totalLabel"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_ClassesOfInventoriesAbstract" xlink:label="loc_148"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_10" xlink:to="loc_148" order="30.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_Merchandise" xlink:label="loc_170"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_148" xlink:to="loc_170" order="20.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_WorkInProgress" xlink:label="loc_294"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_148" xlink:to="loc_294" order="30.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_FinishedGoods" xlink:label="loc_322"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_148" xlink:to="loc_322" order="40.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_SpareParts" xlink:label="loc_339"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_148" xlink:to="loc_339" order="50.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_PropertyIntendedForSaleInOrdinaryCourseOfBusiness" xlink:label="loc_398"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_148" xlink:to="loc_398" order="60.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_Inventories" xlink:label="loc_368"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_148" xlink:to="loc_368" order="80.0" preferredLabel="http://www.xbrl.org/2003/role/totalLabel"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_CurrentRawMaterialsAndCurrentProductionSuppliesAbstract" xlink:label="loc_134"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_148" xlink:to="loc_134" xlink:title="presentation: ClassesOfInventoriesAbstract to CurrentRawMaterialsAndCurrentProductionSuppliesAbstract" order="10.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_RawMaterials" xlink:label="loc_133"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_134" xlink:to="loc_133" order="10.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_CurrentRawMaterialsAndCurrentProductionSupplies" xlink:label="loc_264"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_134" xlink:to="loc_264" order="30.0" preferredLabel="http://www.xbrl.org/2003/role/totalLabel"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_ProductionSupplies" xlink:label="ProductionSupplies"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_134" xlink:to="ProductionSupplies" xlink:title="presentation: CurrentRawMaterialsAndCurrentProductionSuppliesAbstract to ProductionSupplies" order="20.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_OtherInventories" xlink:label="loc_352"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_148" xlink:to="loc_352" order="70.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_CashAndCashEquivalentsAbstract" xlink:label="loc_40"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_10" xlink:to="loc_40" order="10.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_CashAbstract" xlink:label="loc_39"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_40" xlink:to="loc_39" order="10.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_CashOnHand" xlink:label="loc_41"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_39" xlink:to="loc_41" order="10.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_BalancesWithBanks" xlink:label="loc_171"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_39" xlink:to="loc_171" order="20.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_Cash" xlink:label="loc_261"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_39" xlink:to="loc_261" order="30.0" preferredLabel="http://www.xbrl.org/2003/role/totalLabel"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_CashEquivalentsAbstract" xlink:label="loc_43"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_40" xlink:to="loc_43" order="20.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_ShorttermDepositsClassifiedAsCashEquivalents" xlink:label="loc_42"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_43" xlink:to="loc_42" order="10.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_ShorttermInvestmentsClassifiedAsCashEquivalents" xlink:label="loc_172"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_43" xlink:to="loc_172" order="20.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_BankingArrangementsClassifiedAsCashEquivalents" xlink:label="loc_234"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_43" xlink:to="loc_234" order="30.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_CashEquivalents" xlink:label="loc_295"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_43" xlink:to="loc_295" order="40.0" preferredLabel="http://www.xbrl.org/2003/role/totalLabel"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_OtherCashAndCashEquivalents" xlink:label="loc_235"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_40" xlink:to="loc_235" order="30.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_CashAndCashEquivalents" xlink:label="loc_296"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_40" xlink:to="loc_296" order="40.0" preferredLabel="http://www.xbrl.org/2003/role/totalLabel"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_NoncurrentAssetsOrDisposalGroupsClassifiedAsHeldForSaleOrAsHeldForDistributionToOwnersAbstract" xlink:label="loc_45"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_10" xlink:to="loc_45" order="40.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_NoncurrentAssetsOrDisposalGroupsClassifiedAsHeldForSale" xlink:label="loc_44"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_45" xlink:to="loc_44" order="10.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_NoncurrentAssetsOrDisposalGroupsClassifiedAsHeldForDistributionToOwners" xlink:label="loc_173"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_45" xlink:to="loc_173" order="20.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_NoncurrentAssetsOrDisposalGroupsClassifiedAsHeldForSaleOrAsHeldForDistributionToOwners" xlink:label="loc_236"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_45" xlink:to="loc_236" order="30.0" preferredLabel="http://www.xbrl.org/2003/role/totalLabel"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_NoncurrentPayablesAbstract" xlink:label="loc_72"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_10" xlink:to="loc_72" order="120.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_NoncurrentPayablesToTradeSuppliers" xlink:label="loc_71"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_72" xlink:to="loc_71" order="10.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_NoncurrentPayablesToRelatedParties" xlink:label="loc_185"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_72" xlink:to="loc_185" order="20.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_AccrualsAndDeferredIncomeClassifiedAsNoncurrentAbstract" xlink:label="loc_140"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_72" xlink:to="loc_140" order="30.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_DeferredIncomeClassifiedAsNoncurrent" xlink:label="loc_139"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_140" xlink:to="loc_139" order="10.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_RentDeferredIncomeClassifiedAsNoncurrent" xlink:label="RentDeferredIncomeClassifiedAsNoncurrent" xlink:title="RentDeferredIncomeClassifiedAsNoncurrent"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_139" xlink:to="RentDeferredIncomeClassifiedAsNoncurrent" xlink:title="presentation: DeferredIncomeClassifiedAsNoncurrent to RentDeferredIncomeClassifiedAsNoncurrent" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_AccrualsClassifiedAsNoncurrent" xlink:label="loc_211"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_140" xlink:to="loc_211" order="20.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_AccrualsAndDeferredIncomeClassifiedAsNoncurrent" xlink:label="loc_267"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_140" xlink:to="loc_267" order="30.0" preferredLabel="http://www.xbrl.org/2003/role/totalLabel"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_NoncurrentPayablesOnSocialSecurityAndTaxesOtherThanIncomeTax" xlink:label="loc_107"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_72" xlink:to="loc_107" order="40.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_NoncurrentValueAddedTaxPayables" xlink:label="loc_106"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_107" xlink:to="loc_106" order="10.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_NoncurrentRetentionPayables" xlink:label="loc_328"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_72" xlink:to="loc_328" order="50.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_OtherNoncurrentPayables" xlink:label="loc_336"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_72" xlink:to="loc_336" order="60.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_NoncurrentPayables" xlink:label="loc_354"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_72" xlink:to="loc_354" order="70.0" preferredLabel="http://www.xbrl.org/2003/role/totalLabel"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_TradeAndOtherCurrentPayablesAbstract" xlink:label="loc_74"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_10" xlink:to="loc_74" order="100.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_TradeAndOtherCurrentPayablesToTradeSuppliers" xlink:label="loc_73"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_74" xlink:to="loc_73" order="10.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_TradeAndOtherCurrentPayablesToRelatedParties" xlink:label="loc_186"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_74" xlink:to="loc_186" order="20.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_AccrualsAndDeferredIncomeClassifiedAsCurrentAbstract" xlink:label="loc_138"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_74" xlink:to="loc_138" order="30.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_DeferredIncomeClassifiedAsCurrent" xlink:label="loc_137"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_138" xlink:to="loc_137" order="10.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_RentDeferredIncomeClassifiedAsCurrent" xlink:label="RentDeferredIncomeClassifiedAsCurrent" xlink:title="RentDeferredIncomeClassifiedAsCurrent"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_137" xlink:to="RentDeferredIncomeClassifiedAsCurrent" xlink:title="presentation: DeferredIncomeClassifiedAsCurrent to RentDeferredIncomeClassifiedAsCurrent" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_AccrualsClassifiedAsCurrent" xlink:label="loc_142"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_138" xlink:to="loc_142" order="20.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_ShorttermEmployeeBenefitsAccruals" xlink:label="loc_141"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_142" xlink:to="loc_141" order="10.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_AccrualsAndDeferredIncomeClassifiedAsCurrent" xlink:label="loc_266"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_138" xlink:to="loc_266" order="30.0" preferredLabel="http://www.xbrl.org/2003/role/totalLabel"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_CurrentPayablesOnSocialSecurityAndTaxesOtherThanIncomeTax" xlink:label="loc_105"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_74" xlink:to="loc_105" order="40.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_CurrentValueAddedTaxPayables" xlink:label="CurrentValueAddedTaxPayables"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_105" xlink:to="CurrentValueAddedTaxPayables" xlink:title="presentation: CurrentPayablesOnSocialSecurityAndTaxesOtherThanIncomeTax to CurrentValueAddedTaxPayables" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_CurrentRetentionPayables" xlink:label="loc_327"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_74" xlink:to="loc_327" order="50.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_OtherCurrentPayables" xlink:label="loc_337"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_74" xlink:to="loc_337" order="60.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_TradeAndOtherCurrentPayables" xlink:label="loc_355"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_74" xlink:to="loc_355" order="70.0" preferredLabel="http://www.xbrl.org/2003/role/totalLabel"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_OtrosPasivosFinancierosALargoPlazoSinopsis" xlink:label="OtrosPasivosFinancierosALargoPlazoSinopsis" xlink:title="OtrosPasivosFinancierosALargoPlazoSinopsis"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_10" xlink:to="OtrosPasivosFinancierosALargoPlazoSinopsis" xlink:title="presentation: SubclassificationsOfAssetsLiabilitiesAndEquitiesAbstract to OtrosPasivosFinancierosALargoPlazoSinopsis" order="130.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_CreditosBancariosALargoPlazo" xlink:label="CreditosBancariosALargoPlazo" xlink:title="CreditosBancariosALargoPlazo"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="OtrosPasivosFinancierosALargoPlazoSinopsis" xlink:to="CreditosBancariosALargoPlazo" xlink:title="presentation: OtrosPasivosFinancierosALargoPlazoSinopsis to CreditosBancariosALargoPlazo" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_CreditosBursatilesALargoPlazo" xlink:label="CreditosBursatilesALargoPlazo" xlink:title="CreditosBursatilesALargoPlazo"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="OtrosPasivosFinancierosALargoPlazoSinopsis" xlink:to="CreditosBursatilesALargoPlazo" xlink:title="presentation: OtrosPasivosFinancierosALargoPlazoSinopsis to CreditosBursatilesALargoPlazo" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_OtrosCreditosConCostoALargoPlazo" xlink:label="OtrosCreditosConCostoALargoPlazo" xlink:title="OtrosCreditosConCostoALargoPlazo"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="OtrosPasivosFinancierosALargoPlazoSinopsis" xlink:to="OtrosCreditosConCostoALargoPlazo" xlink:title="presentation: OtrosPasivosFinancierosALargoPlazoSinopsis to OtrosCreditosConCostoALargoPlazo" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_OtrosCreditosSinCostoALargoPlazo" xlink:label="OtrosCreditosSinCostoALargoPlazo" xlink:title="OtrosCreditosSinCostoALargoPlazo"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="OtrosPasivosFinancierosALargoPlazoSinopsis" xlink:to="OtrosCreditosSinCostoALargoPlazo" xlink:title="presentation: OtrosPasivosFinancierosALargoPlazoSinopsis to OtrosCreditosSinCostoALargoPlazo" order="4.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_OtrosPasivosFinancierosALargoPlazo" xlink:label="OtrosPasivosFinancierosALargoPlazo" xlink:title="OtrosPasivosFinancierosALargoPlazo"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="OtrosPasivosFinancierosALargoPlazoSinopsis" xlink:to="OtrosPasivosFinancierosALargoPlazo" xlink:title="presentation: OtrosPasivosFinancierosALargoPlazoSinopsis to OtrosPasivosFinancierosALargoPlazo" order="5.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_TotalDeOtrosPasivosFinancierosALargoPlazo" xlink:label="TotalDeOtrosPasivosFinancierosALargoPlazo" xlink:title="TotalDeOtrosPasivosFinancierosALargoPlazo"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="OtrosPasivosFinancierosALargoPlazoSinopsis" xlink:to="TotalDeOtrosPasivosFinancierosALargoPlazo" xlink:title="presentation: OtrosPasivosFinancierosALargoPlazoSinopsis to TotalDeOtrosPasivosFinancierosALargoPlazo" order="6.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_OtrosPasivosFinancierosACortoPlazoSinopsis" xlink:label="OtrosPasivosFinancierosACortoPlazoSinopsis" xlink:title="OtrosPasivosFinancierosACortoPlazoSinopsis"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_10" xlink:to="OtrosPasivosFinancierosACortoPlazoSinopsis" xlink:title="presentation: SubclassificationsOfAssetsLiabilitiesAndEquitiesAbstract to OtrosPasivosFinancierosACortoPlazoSinopsis" order="110.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_CreditosBancariosACortoPlazo" xlink:label="CreditosBancariosACortoPlazo" xlink:title="CreditosBancariosACortoPlazo"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="OtrosPasivosFinancierosACortoPlazoSinopsis" xlink:to="CreditosBancariosACortoPlazo" xlink:title="presentation: OtrosPasivosFinancierosACortoPlazoSinopsis to CreditosBancariosACortoPlazo" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_CreditosBursatilesACortoPlazo" xlink:label="CreditosBursatilesACortoPlazo" xlink:title="CreditosBursatilesACortoPlazo"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="OtrosPasivosFinancierosACortoPlazoSinopsis" xlink:to="CreditosBursatilesACortoPlazo" xlink:title="presentation: OtrosPasivosFinancierosACortoPlazoSinopsis to CreditosBursatilesACortoPlazo" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_OtrosCreditosConCostoACortoPlazo" xlink:label="OtrosCreditosConCostoACortoPlazo" xlink:title="OtrosCreditosConCostoACortoPlazo"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="OtrosPasivosFinancierosACortoPlazoSinopsis" xlink:to="OtrosCreditosConCostoACortoPlazo" xlink:title="presentation: OtrosPasivosFinancierosACortoPlazoSinopsis to OtrosCreditosConCostoACortoPlazo" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_OtrosCreditosSinCostoACortoPlazo" xlink:label="OtrosCreditosSinCostoACortoPlazo" xlink:title="OtrosCreditosSinCostoACortoPlazo"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="OtrosPasivosFinancierosACortoPlazoSinopsis" xlink:to="OtrosCreditosSinCostoACortoPlazo" xlink:title="presentation: OtrosPasivosFinancierosACortoPlazoSinopsis to OtrosCreditosSinCostoACortoPlazo" order="4.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_OtrosPasivosFinancierosACortoPlazo" xlink:label="OtrosPasivosFinancierosACortoPlazo" xlink:title="OtrosPasivosFinancierosACortoPlazo"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="OtrosPasivosFinancierosACortoPlazoSinopsis" xlink:to="OtrosPasivosFinancierosACortoPlazo" xlink:title="presentation: OtrosPasivosFinancierosACortoPlazoSinopsis to OtrosPasivosFinancierosACortoPlazo" order="5.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_TotalDeOtrosPasivosFinancierosACortoPlazo" xlink:label="TotalDeOtrosPasivosFinancierosACortoPlazo" xlink:title="TotalDeOtrosPasivosFinancierosACortoPlazo"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="OtrosPasivosFinancierosACortoPlazoSinopsis" xlink:to="TotalDeOtrosPasivosFinancierosACortoPlazo" xlink:title="presentation: OtrosPasivosFinancierosACortoPlazoSinopsis to TotalDeOtrosPasivosFinancierosACortoPlazo" order="6.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_OtherProvisionsAbstract" xlink:label="loc_66"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_10" xlink:to="loc_66" xlink:title="presentation: SubclassificationsOfAssetsLiabilitiesAndEquitiesAbstract to OtherProvisionsAbstract" order="140.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_OtherLongtermProvisions" xlink:label="loc_65"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_66" xlink:to="loc_65" order="10.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_OtherShorttermProvisions" xlink:label="loc_183"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_66" xlink:to="loc_183" order="20.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_OtherProvisions" xlink:label="loc_245"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_66" xlink:to="loc_245" order="30.0" preferredLabel="http://www.xbrl.org/2003/role/totalLabel"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_NetAssetsLiabilitiesAbstract" xlink:label="loc_97"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_10" xlink:to="loc_97" xlink:title="presentation: SubclassificationsOfAssetsLiabilitiesAndEquitiesAbstract to NetAssetsLiabilitiesAbstract" order="142.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_Assets" xlink:label="loc_96"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_97" xlink:to="loc_96" order="10.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_Liabilities" xlink:label="loc_198"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_97" xlink:to="loc_198" order="20.0" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_NetAssetsLiabilities" xlink:label="loc_258"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_97" xlink:to="loc_258" order="30.0" preferredLabel="http://www.xbrl.org/2009/role/netLabel"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_OtherReservesAbstract" xlink:label="loc_95"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_10" xlink:to="loc_95" xlink:title="presentation: SubclassificationsOfAssetsLiabilitiesAndEquitiesAbstract to OtherReservesAbstract" order="141.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_RevaluationSurplus" xlink:label="loc_94"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_95" xlink:to="loc_94" order="10.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_ReserveOfExchangeDifferencesOnTranslation" xlink:label="loc_197"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_95" xlink:to="loc_197" order="20.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_ReserveOfCashFlowHedges" xlink:label="loc_257"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_95" xlink:to="loc_257" order="30.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_ReserveOfGainsAndLossesOnHedgingInstrumentsThatHedgeInvestmentsInEquityInstruments" xlink:label="loc_269"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_95" xlink:to="loc_269" order="40.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_ReserveOfChangeInValueOfTimeValueOfOptions" xlink:label="loc_272"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_95" xlink:to="loc_272" order="50.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_ReserveOfChangeInValueOfForwardElementsOfForwardContracts" xlink:label="loc_273"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_95" xlink:to="loc_273" order="60.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_ReserveOfChangeInValueOfForeignCurrencyBasisSpreads" xlink:label="loc_274"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_95" xlink:to="loc_274" order="70.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_ReserveOfGainsAndLossesOnRemeasuringAvailableforsaleFinancialAssets" xlink:label="loc_299"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_95" xlink:to="loc_299" order="80.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_ReserveOfSharebasedPayments" xlink:label="loc_325"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_95" xlink:to="loc_325" order="90.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_ReserveOfRemeasurementsOfDefinedBenefitPlans" xlink:label="loc_347"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_95" xlink:to="loc_347" order="100.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_AmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToNoncurrentAssetsOrDisposalGroupsHeldForSale" xlink:label="loc_363"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_95" xlink:to="loc_363" order="110.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_ReserveOfGainsAndLossesFromInvestmentsInEquityInstruments" xlink:label="loc_372"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_95" xlink:to="loc_372" order="120.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_ReserveOfChangeInFairValueOfFinancialLiabilityAttributableToChangeInCreditRiskOfLiability" xlink:label="loc_377"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_95" xlink:to="loc_377" order="130.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_ReserveForCatastrophe" xlink:label="loc_381"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_95" xlink:to="loc_381" order="140.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_ReserveForEqualisation" xlink:label="loc_385"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_95" xlink:to="loc_385" order="150.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_ReserveOfDiscretionaryParticipationFeatures" xlink:label="loc_388"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_95" xlink:to="loc_388" order="160.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_ReserveOfEquityComponentOfConvertibleInstruments" xlink:label="loc_391"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_95" xlink:to="loc_391" order="170.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_CapitalRedemptionReserve" xlink:label="loc_393"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_95" xlink:to="loc_393" order="180.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_MergerReserve" xlink:label="loc_395"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_95" xlink:to="loc_395" order="190.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_StatutoryReserve" xlink:label="loc_396"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_95" xlink:to="loc_396" order="200.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_OtherReserves" xlink:label="loc_397"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_95" xlink:to="loc_397" order="210.0" preferredLabel="http://www.xbrl.org/2003/role/totalLabel"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_OtrosResultadosIntegrales" xlink:label="OtrosResultadosIntegrales" xlink:title="OtrosResultadosIntegrales"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_95" xlink:to="OtrosResultadosIntegrales" xlink:title="presentation: OtherReservesAbstract to OtrosResultadosIntegrales" order="201.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_NetCurrentAssetsLiabilitiesAbstract" xlink:label="loc_132"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_10" xlink:to="loc_132" xlink:title="presentation: SubclassificationsOfAssetsLiabilitiesAndEquitiesAbstract to NetCurrentAssetsLiabilitiesAbstract" order="143.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_CurrentAssets" xlink:label="loc_131"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_132" xlink:to="loc_131" order="10.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_CurrentLiabilities" xlink:label="loc_208"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_132" xlink:to="loc_208" order="20.0" preferredLabel="http://www.xbrl.org/2009/role/negatedLabel"/>
+    <link:loc xlink:type="locator" xlink:href="../../../../ifrs_20140305/full_ifrs/full_ifrs-cor_2014-03-05.xsd#ifrs-full_CurrentAssetsLiabilities" xlink:label="loc_263"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_132" xlink:to="loc_263" order="30.0" preferredLabel="http://www.xbrl.org/2009/role/netLabel"/>
+  </link:presentationLink>
+</link:linkbase>

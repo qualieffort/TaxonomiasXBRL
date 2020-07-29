@@ -1,0 +1,897 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Documento XBRL generado por AbaxXBRL 1.1 - 2H Software -->
+<xbrli:xbrl xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xbrl.org/2006/xbrldi http://www.xbrl.org/2006/xbrldi-2006.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:ifrs_mx-cor_20160822="http://bmv.com.mx/ifrs_mx-cor_20160822/full_ifrs_mx-cor_2016-08-22" xmlns:ifrs-full="http://xbrl.ifrs.org/taxonomy/2014-03-05/ifrs-full" xmlns:ifrs_mx-cor_20141205="http://bmv.com.mx/ifrs_mx-cor_20141205/full_ifrs_mx-cor_2014-12-05" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:ifrs-mc="http://xbrl.ifrs.org/taxonomy/2014-03-05/ifrs-mc" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:ISO4217="http://www.xbrl.org/2003/iso4217" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mc_mx-cor_20141205="http://bmv.com.mx/mc_mx-cor_20141205/mc_mx-cor_2014-12-05">
+  <link:schemaRef xlink:type="simple" xlink:href="full_ifrs_mc_mx_fibras_entry_point_2016-08-22.xsd"/>
+  <xbrli:context id="ct1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bmv.com.mx">FIHO</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2016-03-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="ct2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bmv.com.mx">FIHO</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2016-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="ifrs_mx-cor_20160822:LiabilitiesSequenceTypedAxis">
+        <ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>1</ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>
+      </xbrldi:typedMember>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis">ifrs_mx-cor_20160822:BankingMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="ct3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bmv.com.mx">FIHO</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2016-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="ifrs_mx-cor_20160822:LiabilitiesSequenceTypedAxis">
+        <ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>2</ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>
+      </xbrldi:typedMember>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis">ifrs_mx-cor_20160822:TotalBankingMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="cc55">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bmv.com.mx">FIHO</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2016-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="ifrs_mx-cor_20160822:LiabilitiesSequenceTypedAxis">
+        <ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>3</ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>
+      </xbrldi:typedMember>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis">ifrs_mx-cor_20160822:BankingMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="ct55_1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bmv.com.mx">FIHO</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2016-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="ifrs_mx-cor_20160822:LiabilitiesSequenceTypedAxis">
+<ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>3</ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>
+</xbrldi:typedMember>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis">ifrs_mx-cor_20160822:BankingMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TimeIntervalBreakdownOfLiabilitiesAxis">ifrs_mx-cor_20160822:ZeroToSixMonthsMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Context_Instant_SevenToTwelveMonthsMember_BankingMember_3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bmv.com.mx">FIHO</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2016-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TimeIntervalBreakdownOfLiabilitiesAxis">ifrs_mx-cor_20160822:SevenToTwelveMonthsMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis">ifrs_mx-cor_20160822:BankingMember</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="ifrs_mx-cor_20160822:LiabilitiesSequenceTypedAxis">
+        <ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>3</ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Context_Instant_ThirteenToEightTeenMonthsMember_BankingMember_3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bmv.com.mx">FIHO</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2016-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TimeIntervalBreakdownOfLiabilitiesAxis">ifrs_mx-cor_20160822:ThirteenToEightTeenMonthsMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis">ifrs_mx-cor_20160822:BankingMember</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="ifrs_mx-cor_20160822:LiabilitiesSequenceTypedAxis">
+        <ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>3</ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Context_Instant_NineTeenToThirtySixMonthsMember_BankingMember_3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bmv.com.mx">FIHO</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2016-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TimeIntervalBreakdownOfLiabilitiesAxis">ifrs_mx-cor_20160822:NineTeenToThirtySixMonthsMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis">ifrs_mx-cor_20160822:BankingMember</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="ifrs_mx-cor_20160822:LiabilitiesSequenceTypedAxis">
+        <ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>3</ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Context_Instant_ThirtySevenMonthsOrMoreMember_BankingMember_3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bmv.com.mx">FIHO</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2016-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TimeIntervalBreakdownOfLiabilitiesAxis">ifrs_mx-cor_20160822:ThirtySevenMonthsOrMoreMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis">ifrs_mx-cor_20160822:BankingMember</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="ifrs_mx-cor_20160822:LiabilitiesSequenceTypedAxis">
+        <ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>3</ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="vtt_66">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bmv.com.mx">FIHO</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2016-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TimeIntervalBreakdownOfLiabilitiesAxis">ifrs_mx-cor_20160822:ThirtySevenMonthsOrMoreMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis">ifrs_mx-cor_20160822:BankingMember</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="ifrs_mx-cor_20160822:LiabilitiesSequenceTypedAxis">
+        <ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>1</ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Context_Instant_ZeroToSixMonthsMember_BankingMember_1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bmv.com.mx">FIHO</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2016-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TimeIntervalBreakdownOfLiabilitiesAxis">ifrs_mx-cor_20160822:ZeroToSixMonthsMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis">ifrs_mx-cor_20160822:BankingMember</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="ifrs_mx-cor_20160822:LiabilitiesSequenceTypedAxis">
+        <ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>1</ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Context_Instant_SevenToTwelveMonthsMember_BankingMember_1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bmv.com.mx">FIHO</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2016-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TimeIntervalBreakdownOfLiabilitiesAxis">ifrs_mx-cor_20160822:SevenToTwelveMonthsMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis">ifrs_mx-cor_20160822:BankingMember</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="ifrs_mx-cor_20160822:LiabilitiesSequenceTypedAxis">
+        <ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>1</ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Context_Instant_ThirteenToEightTeenMonthsMember_BankingMember_1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bmv.com.mx">FIHO</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2016-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TimeIntervalBreakdownOfLiabilitiesAxis">ifrs_mx-cor_20160822:ThirteenToEightTeenMonthsMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis">ifrs_mx-cor_20160822:BankingMember</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="ifrs_mx-cor_20160822:LiabilitiesSequenceTypedAxis">
+        <ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>1</ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Context_Instant_NineTeenToThirtySixMonthsMember_BankingMember_1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bmv.com.mx">FIHO</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2016-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TimeIntervalBreakdownOfLiabilitiesAxis">ifrs_mx-cor_20160822:NineTeenToThirtySixMonthsMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis">ifrs_mx-cor_20160822:BankingMember</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="ifrs_mx-cor_20160822:LiabilitiesSequenceTypedAxis">
+        <ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>1</ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="ss334">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bmv.com.mx">FIHO</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2016-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TimeIntervalBreakdownOfLiabilitiesAxis">ifrs_mx-cor_20160822:NineTeenToThirtySixMonthsMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis">ifrs_mx-cor_20160822:TotalBankingMember</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="ifrs_mx-cor_20160822:LiabilitiesSequenceTypedAxis">
+        <ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>2</ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Context_Instant_ZeroToSixMonthsMember_TotalBankingMember_2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bmv.com.mx">FIHO</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2016-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TimeIntervalBreakdownOfLiabilitiesAxis">ifrs_mx-cor_20160822:ZeroToSixMonthsMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis">ifrs_mx-cor_20160822:TotalBankingMember</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="ifrs_mx-cor_20160822:LiabilitiesSequenceTypedAxis">
+        <ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>2</ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Context_Instant_SevenToTwelveMonthsMember_TotalBankingMember_2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bmv.com.mx">FIHO</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2016-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TimeIntervalBreakdownOfLiabilitiesAxis">ifrs_mx-cor_20160822:SevenToTwelveMonthsMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis">ifrs_mx-cor_20160822:TotalBankingMember</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="ifrs_mx-cor_20160822:LiabilitiesSequenceTypedAxis">
+        <ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>2</ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Context_Instant_ThirteenToEightTeenMonthsMember_TotalBankingMember_2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bmv.com.mx">FIHO</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2016-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TimeIntervalBreakdownOfLiabilitiesAxis">ifrs_mx-cor_20160822:ThirteenToEightTeenMonthsMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis">ifrs_mx-cor_20160822:TotalBankingMember</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="ifrs_mx-cor_20160822:LiabilitiesSequenceTypedAxis">
+        <ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>2</ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Context_Instant_ThirtySevenMonthsOrMoreMember_TotalBankingMember_2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bmv.com.mx">FIHO</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2016-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TimeIntervalBreakdownOfLiabilitiesAxis">ifrs_mx-cor_20160822:ThirtySevenMonthsOrMoreMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis">ifrs_mx-cor_20160822:TotalBankingMember</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="ifrs_mx-cor_20160822:LiabilitiesSequenceTypedAxis">
+        <ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>2</ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="seq_4_listadasEnBolsa">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bmv.com.mx">FIHO</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2016-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="ifrs_mx-cor_20160822:LiabilitiesSequenceTypedAxis">
+        <ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>4</ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>
+      </xbrldi:typedMember>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis">ifrs_mx-cor_20160822:SotckMarketMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="seq_5_colocacionPrivada">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bmv.com.mx">FIHO</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2016-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="ifrs_mx-cor_20160822:LiabilitiesSequenceTypedAxis">
+        <ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>5</ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>
+      </xbrldi:typedMember>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis">ifrs_mx-cor_20160822:PrivatePlacementsMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="seq_6_totalBursatilYColocaciones">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bmv.com.mx">FIHO</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2016-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="ifrs_mx-cor_20160822:LiabilitiesSequenceTypedAxis">
+        <ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>6</ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>
+      </xbrldi:typedMember>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis">ifrs_mx-cor_20160822:TotalStockMarketListedInTheStockMarketAndPrivatePlacementsMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="seq_7_OtrosPasivosConCosto">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bmv.com.mx">FIHO</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2016-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="ifrs_mx-cor_20160822:LiabilitiesSequenceTypedAxis">
+        <ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>7</ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>
+      </xbrldi:typedMember>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis">ifrs_mx-cor_20160822:OtherCurrentAndNonCurrentLiabilitiesWithCostMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="seq_8_TotalOtrosPasivos">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bmv.com.mx">FIHO</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2016-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="ifrs_mx-cor_20160822:LiabilitiesSequenceTypedAxis">
+        <ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>8</ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>
+      </xbrldi:typedMember>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis">ifrs_mx-cor_20160822:TotalOtherCurrentAndNonCurrentLiabilitiesWithCostInNationalCurrencyMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="seq_4_ListadosEnBolsa_0A6Meses">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bmv.com.mx">FIHO</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2016-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TimeIntervalBreakdownOfLiabilitiesAxis">ifrs_mx-cor_20160822:ZeroToSixMonthsMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis">ifrs_mx-cor_20160822:SotckMarketMember</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="ifrs_mx-cor_20160822:LiabilitiesSequenceTypedAxis">
+        <ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>4</ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Context_Instant_SevenToTwelveMonthsMember_SotckMarketMember_4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bmv.com.mx">FIHO</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2016-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TimeIntervalBreakdownOfLiabilitiesAxis">ifrs_mx-cor_20160822:SevenToTwelveMonthsMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis">ifrs_mx-cor_20160822:SotckMarketMember</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="ifrs_mx-cor_20160822:LiabilitiesSequenceTypedAxis">
+        <ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>4</ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Context_Instant_ThirteenToEightTeenMonthsMember_SotckMarketMember_4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bmv.com.mx">FIHO</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2016-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TimeIntervalBreakdownOfLiabilitiesAxis">ifrs_mx-cor_20160822:ThirteenToEightTeenMonthsMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis">ifrs_mx-cor_20160822:SotckMarketMember</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="ifrs_mx-cor_20160822:LiabilitiesSequenceTypedAxis">
+        <ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>4</ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Context_Instant_NineTeenToThirtySixMonthsMember_SotckMarketMember_4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bmv.com.mx">FIHO</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2016-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TimeIntervalBreakdownOfLiabilitiesAxis">ifrs_mx-cor_20160822:NineTeenToThirtySixMonthsMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis">ifrs_mx-cor_20160822:SotckMarketMember</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="ifrs_mx-cor_20160822:LiabilitiesSequenceTypedAxis">
+        <ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>4</ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Context_Instant_ThirtySevenMonthsOrMoreMember_SotckMarketMember_4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bmv.com.mx">FIHO</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2016-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TimeIntervalBreakdownOfLiabilitiesAxis">ifrs_mx-cor_20160822:ThirtySevenMonthsOrMoreMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis">ifrs_mx-cor_20160822:SotckMarketMember</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="ifrs_mx-cor_20160822:LiabilitiesSequenceTypedAxis">
+        <ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>4</ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="seq_5_ColocacionPrivada_0a6Meses">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bmv.com.mx">FIHO</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2016-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TimeIntervalBreakdownOfLiabilitiesAxis">ifrs_mx-cor_20160822:ZeroToSixMonthsMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis">ifrs_mx-cor_20160822:PrivatePlacementsMember</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="ifrs_mx-cor_20160822:LiabilitiesSequenceTypedAxis">
+        <ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>5</ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Context_Instant_SevenToTwelveMonthsMember_PrivatePlacementsMember_5">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bmv.com.mx">FIHO</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2016-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TimeIntervalBreakdownOfLiabilitiesAxis">ifrs_mx-cor_20160822:SevenToTwelveMonthsMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis">ifrs_mx-cor_20160822:PrivatePlacementsMember</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="ifrs_mx-cor_20160822:LiabilitiesSequenceTypedAxis">
+        <ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>5</ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Context_Instant_ThirteenToEightTeenMonthsMember_PrivatePlacementsMember_5">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bmv.com.mx">FIHO</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2016-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TimeIntervalBreakdownOfLiabilitiesAxis">ifrs_mx-cor_20160822:ThirteenToEightTeenMonthsMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis">ifrs_mx-cor_20160822:PrivatePlacementsMember</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="ifrs_mx-cor_20160822:LiabilitiesSequenceTypedAxis">
+        <ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>5</ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Context_Instant_NineTeenToThirtySixMonthsMember_PrivatePlacementsMember_5">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bmv.com.mx">FIHO</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2016-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TimeIntervalBreakdownOfLiabilitiesAxis">ifrs_mx-cor_20160822:NineTeenToThirtySixMonthsMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis">ifrs_mx-cor_20160822:PrivatePlacementsMember</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="ifrs_mx-cor_20160822:LiabilitiesSequenceTypedAxis">
+        <ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>5</ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Context_Instant_ThirtySevenMonthsOrMoreMember_PrivatePlacementsMember_5">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bmv.com.mx">FIHO</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2016-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TimeIntervalBreakdownOfLiabilitiesAxis">ifrs_mx-cor_20160822:ThirtySevenMonthsOrMoreMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis">ifrs_mx-cor_20160822:PrivatePlacementsMember</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="ifrs_mx-cor_20160822:LiabilitiesSequenceTypedAxis">
+        <ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>5</ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="seq_7_OtrosPasivos_0A6Meses">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bmv.com.mx">FIHO</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2016-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TimeIntervalBreakdownOfLiabilitiesAxis">ifrs_mx-cor_20160822:ZeroToSixMonthsMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis">ifrs_mx-cor_20160822:OtherCurrentAndNonCurrentLiabilitiesWithCostMember</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="ifrs_mx-cor_20160822:LiabilitiesSequenceTypedAxis">
+        <ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>7</ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Context_Instant_SevenToTwelveMonthsMember_OtherCurrentAndNonCurrentLiabilitiesWithCostMember_7">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bmv.com.mx">FIHO</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2016-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TimeIntervalBreakdownOfLiabilitiesAxis">ifrs_mx-cor_20160822:SevenToTwelveMonthsMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis">ifrs_mx-cor_20160822:OtherCurrentAndNonCurrentLiabilitiesWithCostMember</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="ifrs_mx-cor_20160822:LiabilitiesSequenceTypedAxis">
+        <ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>7</ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Context_Instant_ThirteenToEightTeenMonthsMember_OtherCurrentAndNonCurrentLiabilitiesWithCostMember_7">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bmv.com.mx">FIHO</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2016-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TimeIntervalBreakdownOfLiabilitiesAxis">ifrs_mx-cor_20160822:ThirteenToEightTeenMonthsMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis">ifrs_mx-cor_20160822:OtherCurrentAndNonCurrentLiabilitiesWithCostMember</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="ifrs_mx-cor_20160822:LiabilitiesSequenceTypedAxis">
+        <ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>7</ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Context_Instant_NineTeenToThirtySixMonthsMember_OtherCurrentAndNonCurrentLiabilitiesWithCostMember_7">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bmv.com.mx">FIHO</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2016-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TimeIntervalBreakdownOfLiabilitiesAxis">ifrs_mx-cor_20160822:NineTeenToThirtySixMonthsMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis">ifrs_mx-cor_20160822:OtherCurrentAndNonCurrentLiabilitiesWithCostMember</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="ifrs_mx-cor_20160822:LiabilitiesSequenceTypedAxis">
+        <ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>7</ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Context_Instant_ThirtySevenMonthsOrMoreMember_OtherCurrentAndNonCurrentLiabilitiesWithCostMember_7">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bmv.com.mx">FIHO</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2016-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TimeIntervalBreakdownOfLiabilitiesAxis">ifrs_mx-cor_20160822:ThirtySevenMonthsOrMoreMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis">ifrs_mx-cor_20160822:OtherCurrentAndNonCurrentLiabilitiesWithCostMember</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="ifrs_mx-cor_20160822:LiabilitiesSequenceTypedAxis">
+        <ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>7</ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="seq_8_TotalOtrosPasivos_0A6Meses">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bmv.com.mx">FIHO</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2016-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TimeIntervalBreakdownOfLiabilitiesAxis">ifrs_mx-cor_20160822:ZeroToSixMonthsMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis">ifrs_mx-cor_20160822:TotalOtherCurrentAndNonCurrentLiabilitiesWithCostInNationalCurrencyMember</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="ifrs_mx-cor_20160822:LiabilitiesSequenceTypedAxis">
+        <ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>8</ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Context_Instant_SevenToTwelveMonthsMember_TotalOtherCurrentAndNonCurrentLiabilitiesWithCostInNationalCurrencyMember_8">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bmv.com.mx">FIHO</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2016-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TimeIntervalBreakdownOfLiabilitiesAxis">ifrs_mx-cor_20160822:SevenToTwelveMonthsMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis">ifrs_mx-cor_20160822:TotalOtherCurrentAndNonCurrentLiabilitiesWithCostInNationalCurrencyMember</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="ifrs_mx-cor_20160822:LiabilitiesSequenceTypedAxis">
+        <ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>8</ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Context_Instant_ThirteenToEightTeenMonthsMember_TotalOtherCurrentAndNonCurrentLiabilitiesWithCostInNationalCurrencyMember_8">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bmv.com.mx">FIHO</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2016-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TimeIntervalBreakdownOfLiabilitiesAxis">ifrs_mx-cor_20160822:ThirteenToEightTeenMonthsMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis">ifrs_mx-cor_20160822:TotalOtherCurrentAndNonCurrentLiabilitiesWithCostInNationalCurrencyMember</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="ifrs_mx-cor_20160822:LiabilitiesSequenceTypedAxis">
+        <ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>8</ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Context_Instant_NineTeenToThirtySixMonthsMember_TotalOtherCurrentAndNonCurrentLiabilitiesWithCostInNationalCurrencyMember_8">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bmv.com.mx">FIHO</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2016-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TimeIntervalBreakdownOfLiabilitiesAxis">ifrs_mx-cor_20160822:NineTeenToThirtySixMonthsMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis">ifrs_mx-cor_20160822:TotalOtherCurrentAndNonCurrentLiabilitiesWithCostInNationalCurrencyMember</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="ifrs_mx-cor_20160822:LiabilitiesSequenceTypedAxis">
+        <ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>8</ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Context_Instant_ThirtySevenMonthsOrMoreMember_TotalOtherCurrentAndNonCurrentLiabilitiesWithCostInNationalCurrencyMember_8">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bmv.com.mx">FIHO</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2016-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TimeIntervalBreakdownOfLiabilitiesAxis">ifrs_mx-cor_20160822:ThirtySevenMonthsOrMoreMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis">ifrs_mx-cor_20160822:TotalOtherCurrentAndNonCurrentLiabilitiesWithCostInNationalCurrencyMember</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="ifrs_mx-cor_20160822:LiabilitiesSequenceTypedAxis">
+        <ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>8</ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="seq_9_TotalGeneral">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bmv.com.mx">FIHO</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2016-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="ifrs_mx-cor_20160822:LiabilitiesSequenceTypedAxis">
+        <ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>9</ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>
+      </xbrldi:typedMember>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis">ifrs_mx-cor_20160822:GrandTotalLiabilitiesMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="seq_6_totalListadasEnBolsaYColocacionesPrivadas">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bmv.com.mx">FIHO</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2016-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TimeIntervalBreakdownOfLiabilitiesAxis">ifrs_mx-cor_20160822:ZeroToSixMonthsMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis">ifrs_mx-cor_20160822:TotalStockMarketListedInTheStockMarketAndPrivatePlacementsMember</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="ifrs_mx-cor_20160822:LiabilitiesSequenceTypedAxis">
+        <ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>6</ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Context_Instant_SevenToTwelveMonthsMember_TotalStockMarketListedInTheStockMarketAndPrivatePlacementsMember_6">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bmv.com.mx">FIHO</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2016-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TimeIntervalBreakdownOfLiabilitiesAxis">ifrs_mx-cor_20160822:SevenToTwelveMonthsMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis">ifrs_mx-cor_20160822:TotalStockMarketListedInTheStockMarketAndPrivatePlacementsMember</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="ifrs_mx-cor_20160822:LiabilitiesSequenceTypedAxis">
+        <ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>6</ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Context_Instant_ThirteenToEightTeenMonthsMember_TotalStockMarketListedInTheStockMarketAndPrivatePlacementsMember_6">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bmv.com.mx">FIHO</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2016-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TimeIntervalBreakdownOfLiabilitiesAxis">ifrs_mx-cor_20160822:ThirteenToEightTeenMonthsMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis">ifrs_mx-cor_20160822:TotalStockMarketListedInTheStockMarketAndPrivatePlacementsMember</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="ifrs_mx-cor_20160822:LiabilitiesSequenceTypedAxis">
+        <ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>6</ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Context_Instant_NineTeenToThirtySixMonthsMember_TotalStockMarketListedInTheStockMarketAndPrivatePlacementsMember_6">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bmv.com.mx">FIHO</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2016-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TimeIntervalBreakdownOfLiabilitiesAxis">ifrs_mx-cor_20160822:NineTeenToThirtySixMonthsMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis">ifrs_mx-cor_20160822:TotalStockMarketListedInTheStockMarketAndPrivatePlacementsMember</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="ifrs_mx-cor_20160822:LiabilitiesSequenceTypedAxis">
+        <ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>6</ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Context_Instant_ThirtySevenMonthsOrMoreMember_TotalStockMarketListedInTheStockMarketAndPrivatePlacementsMember_6">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bmv.com.mx">FIHO</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2016-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TimeIntervalBreakdownOfLiabilitiesAxis">ifrs_mx-cor_20160822:ThirtySevenMonthsOrMoreMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis">ifrs_mx-cor_20160822:TotalStockMarketListedInTheStockMarketAndPrivatePlacementsMember</xbrldi:explicitMember>
+      <xbrldi:typedMember dimension="ifrs_mx-cor_20160822:LiabilitiesSequenceTypedAxis">
+        <ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>6</ifrs_mx-cor_20160822:LiabilitiesSequenceDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:unit id="mxn">
+    <xbrli:measure>ISO4217:MXN</xbrli:measure>
+  </xbrli:unit>
+  <ifrs_mx-cor_20160822:InitialCreditLine decimals="0" contextRef="ct2" unitRef="mxn">3000</ifrs_mx-cor_20160822:InitialCreditLine>
+  <ifrs_mx-cor_20160822:InitialCreditLine decimals="0" contextRef="ct3" unitRef="mxn">7500</ifrs_mx-cor_20160822:InitialCreditLine>
+  <ifrs_mx-cor_20160822:InitialCreditLine decimals="0" contextRef="cc55" unitRef="mxn">2000</ifrs_mx-cor_20160822:InitialCreditLine>
+  <ifrs_mx-cor_20160822:OutstandingBalance decimals="0" contextRef="ct2" unitRef="mxn">150000</ifrs_mx-cor_20160822:OutstandingBalance>
+  <ifrs_mx-cor_20160822:OutstandingBalance decimals="0" contextRef="ct3" unitRef="mxn">1000</ifrs_mx-cor_20160822:OutstandingBalance>
+  <ifrs_mx-cor_20160822:OutstandingBalance decimals="0" contextRef="cc55" unitRef="mxn">50000</ifrs_mx-cor_20160822:OutstandingBalance>
+  <ifrs_mx-cor_20160822:AmortizationDenominatedInDomesticCurrency decimals="0" contextRef="cc55" unitRef="mxn">10000</ifrs_mx-cor_20160822:AmortizationDenominatedInDomesticCurrency>
+  <ifrs_mx-cor_20160822:AmortizationDenominatedInDomesticCurrency decimals="0" contextRef="ct3" unitRef="mxn">1000</ifrs_mx-cor_20160822:AmortizationDenominatedInDomesticCurrency>
+  <ifrs_mx-cor_20160822:AmortizationDenominatedInDomesticCurrency decimals="0" contextRef="ct2" unitRef="mxn">5000</ifrs_mx-cor_20160822:AmortizationDenominatedInDomesticCurrency>
+  <ifrs_mx-cor_20160822:OutstandingBalanceDetail decimals="0" contextRef="ct55_1" unitRef="mxn">0</ifrs_mx-cor_20160822:OutstandingBalanceDetail>
+  <ifrs_mx-cor_20160822:OutstandingBalanceDetail decimals="0" contextRef="Context_Instant_SevenToTwelveMonthsMember_BankingMember_3" unitRef="mxn">0</ifrs_mx-cor_20160822:OutstandingBalanceDetail>
+  <ifrs_mx-cor_20160822:OutstandingBalanceDetail decimals="0" contextRef="Context_Instant_ThirteenToEightTeenMonthsMember_BankingMember_3" unitRef="mxn">0</ifrs_mx-cor_20160822:OutstandingBalanceDetail>
+  <ifrs_mx-cor_20160822:OutstandingBalanceDetail decimals="0" contextRef="Context_Instant_NineTeenToThirtySixMonthsMember_BankingMember_3" unitRef="mxn">0</ifrs_mx-cor_20160822:OutstandingBalanceDetail>
+  <ifrs_mx-cor_20160822:OutstandingBalanceDetail decimals="0" contextRef="Context_Instant_ThirtySevenMonthsOrMoreMember_BankingMember_3" unitRef="mxn">50000</ifrs_mx-cor_20160822:OutstandingBalanceDetail>
+  <ifrs_mx-cor_20160822:OutstandingBalanceDetail decimals="0" contextRef="Context_Instant_ZeroToSixMonthsMember_BankingMember_1" unitRef="mxn">50000</ifrs_mx-cor_20160822:OutstandingBalanceDetail>
+  <ifrs_mx-cor_20160822:OutstandingBalanceDetail decimals="0" contextRef="Context_Instant_SevenToTwelveMonthsMember_BankingMember_1" unitRef="mxn">0</ifrs_mx-cor_20160822:OutstandingBalanceDetail>
+  <ifrs_mx-cor_20160822:OutstandingBalanceDetail decimals="0" contextRef="Context_Instant_ThirteenToEightTeenMonthsMember_BankingMember_1" unitRef="mxn">0</ifrs_mx-cor_20160822:OutstandingBalanceDetail>
+  <ifrs_mx-cor_20160822:OutstandingBalanceDetail decimals="0" contextRef="Context_Instant_NineTeenToThirtySixMonthsMember_BankingMember_1" unitRef="mxn">50000</ifrs_mx-cor_20160822:OutstandingBalanceDetail>
+  <ifrs_mx-cor_20160822:OutstandingBalanceDetail decimals="0" contextRef="vtt_66" unitRef="mxn">50000</ifrs_mx-cor_20160822:OutstandingBalanceDetail>
+  <ifrs_mx-cor_20160822:OutstandingBalanceDetail decimals="0" contextRef="Context_Instant_ZeroToSixMonthsMember_TotalBankingMember_2" unitRef="mxn">50000</ifrs_mx-cor_20160822:OutstandingBalanceDetail>
+  <ifrs_mx-cor_20160822:OutstandingBalanceDetail decimals="0" contextRef="Context_Instant_SevenToTwelveMonthsMember_TotalBankingMember_2" unitRef="mxn">0</ifrs_mx-cor_20160822:OutstandingBalanceDetail>
+  <ifrs_mx-cor_20160822:OutstandingBalanceDetail decimals="0" contextRef="Context_Instant_ThirteenToEightTeenMonthsMember_TotalBankingMember_2" unitRef="mxn">0</ifrs_mx-cor_20160822:OutstandingBalanceDetail>
+  <ifrs_mx-cor_20160822:OutstandingBalanceDetail decimals="0" contextRef="ss334" unitRef="mxn">50000</ifrs_mx-cor_20160822:OutstandingBalanceDetail>
+  <ifrs_mx-cor_20160822:OutstandingBalanceDetail decimals="0" contextRef="Context_Instant_ThirtySevenMonthsOrMoreMember_TotalBankingMember_2" unitRef="mxn">100000</ifrs_mx-cor_20160822:OutstandingBalanceDetail>
+  <ifrs_mx-cor_20160822:InitialAmountOfTheIssuance decimals="0" contextRef="seq_4_listadasEnBolsa" unitRef="mxn">7500</ifrs_mx-cor_20160822:InitialAmountOfTheIssuance>
+  <ifrs_mx-cor_20160822:OutstandingBalance decimals="0" contextRef="seq_4_listadasEnBolsa" unitRef="mxn">18000</ifrs_mx-cor_20160822:OutstandingBalance>
+  <ifrs_mx-cor_20160822:AmortizationDenominatedInDomesticCurrency decimals="0" contextRef="seq_4_listadasEnBolsa" unitRef="mxn">28000</ifrs_mx-cor_20160822:AmortizationDenominatedInDomesticCurrency>
+  <ifrs_mx-cor_20160822:InitialAmountOfTheIssuance decimals="0" contextRef="seq_5_colocacionPrivada" unitRef="mxn">8500</ifrs_mx-cor_20160822:InitialAmountOfTheIssuance>
+  <ifrs_mx-cor_20160822:OutstandingBalance decimals="0" contextRef="seq_5_colocacionPrivada" unitRef="mxn">18000</ifrs_mx-cor_20160822:OutstandingBalance>
+  <ifrs_mx-cor_20160822:AmortizationDenominatedInDomesticCurrency decimals="0" contextRef="seq_5_colocacionPrivada" unitRef="mxn">28000</ifrs_mx-cor_20160822:AmortizationDenominatedInDomesticCurrency>
+  <ifrs_mx-cor_20160822:InitialAmountOfTheIssuance decimals="0" contextRef="seq_6_totalBursatilYColocaciones" unitRef="mxn">16000</ifrs_mx-cor_20160822:InitialAmountOfTheIssuance>
+  <ifrs_mx-cor_20160822:OutstandingBalance decimals="0" contextRef="seq_6_totalBursatilYColocaciones" unitRef="mxn">10000</ifrs_mx-cor_20160822:OutstandingBalance>
+  <ifrs_mx-cor_20160822:AmortizationDenominatedInDomesticCurrency decimals="0" contextRef="seq_6_totalBursatilYColocaciones" unitRef="mxn">156000</ifrs_mx-cor_20160822:AmortizationDenominatedInDomesticCurrency>
+  <ifrs_mx-cor_20160822:InitialCreditLine decimals="0" contextRef="seq_7_OtrosPasivosConCosto" unitRef="mxn">8000</ifrs_mx-cor_20160822:InitialCreditLine>
+  <ifrs_mx-cor_20160822:OutstandingBalance decimals="0" contextRef="seq_7_OtrosPasivosConCosto" unitRef="mxn">7000</ifrs_mx-cor_20160822:OutstandingBalance>
+  <ifrs_mx-cor_20160822:AmortizationDenominatedInDomesticCurrency decimals="0" contextRef="seq_7_OtrosPasivosConCosto" unitRef="mxn">6000</ifrs_mx-cor_20160822:AmortizationDenominatedInDomesticCurrency>
+  <ifrs_mx-cor_20160822:InitialCreditLine decimals="0" contextRef="seq_8_TotalOtrosPasivos" unitRef="mxn">18000</ifrs_mx-cor_20160822:InitialCreditLine>
+  <ifrs_mx-cor_20160822:OutstandingBalance decimals="0" contextRef="seq_8_TotalOtrosPasivos" unitRef="mxn">17000</ifrs_mx-cor_20160822:OutstandingBalance>
+  <ifrs_mx-cor_20160822:AmortizationDenominatedInDomesticCurrency decimals="0" contextRef="seq_8_TotalOtrosPasivos" unitRef="mxn">16000</ifrs_mx-cor_20160822:AmortizationDenominatedInDomesticCurrency>
+  <ifrs_mx-cor_20160822:OutstandingBalanceDetail decimals="0" contextRef="seq_4_ListadosEnBolsa_0A6Meses" unitRef="mxn">17000</ifrs_mx-cor_20160822:OutstandingBalanceDetail>
+  <ifrs_mx-cor_20160822:OutstandingBalanceDetail decimals="0" contextRef="Context_Instant_SevenToTwelveMonthsMember_SotckMarketMember_4" unitRef="mxn">0</ifrs_mx-cor_20160822:OutstandingBalanceDetail>
+  <ifrs_mx-cor_20160822:OutstandingBalanceDetail decimals="0" contextRef="Context_Instant_ThirteenToEightTeenMonthsMember_SotckMarketMember_4" unitRef="mxn">0</ifrs_mx-cor_20160822:OutstandingBalanceDetail>
+  <ifrs_mx-cor_20160822:OutstandingBalanceDetail decimals="0" contextRef="Context_Instant_NineTeenToThirtySixMonthsMember_SotckMarketMember_4" unitRef="mxn">0</ifrs_mx-cor_20160822:OutstandingBalanceDetail>
+  <ifrs_mx-cor_20160822:OutstandingBalanceDetail decimals="0" contextRef="Context_Instant_ThirtySevenMonthsOrMoreMember_SotckMarketMember_4" unitRef="mxn">1000</ifrs_mx-cor_20160822:OutstandingBalanceDetail>
+  <ifrs_mx-cor_20160822:OutstandingBalanceDetail decimals="0" contextRef="seq_5_ColocacionPrivada_0a6Meses" unitRef="mxn">18000</ifrs_mx-cor_20160822:OutstandingBalanceDetail>
+  <ifrs_mx-cor_20160822:OutstandingBalanceDetail decimals="0" contextRef="Context_Instant_SevenToTwelveMonthsMember_PrivatePlacementsMember_5" unitRef="mxn">0</ifrs_mx-cor_20160822:OutstandingBalanceDetail>
+  <ifrs_mx-cor_20160822:OutstandingBalanceDetail decimals="0" contextRef="Context_Instant_ThirteenToEightTeenMonthsMember_PrivatePlacementsMember_5" unitRef="mxn">0</ifrs_mx-cor_20160822:OutstandingBalanceDetail>
+  <ifrs_mx-cor_20160822:OutstandingBalanceDetail decimals="0" contextRef="Context_Instant_NineTeenToThirtySixMonthsMember_PrivatePlacementsMember_5" unitRef="mxn">0</ifrs_mx-cor_20160822:OutstandingBalanceDetail>
+  <ifrs_mx-cor_20160822:OutstandingBalanceDetail decimals="0" contextRef="Context_Instant_ThirtySevenMonthsOrMoreMember_PrivatePlacementsMember_5" unitRef="mxn">0</ifrs_mx-cor_20160822:OutstandingBalanceDetail>
+  <ifrs_mx-cor_20160822:OutstandingBalanceDetail decimals="0" contextRef="seq_7_OtrosPasivos_0A6Meses" unitRef="mxn">1000</ifrs_mx-cor_20160822:OutstandingBalanceDetail>
+  <ifrs_mx-cor_20160822:OutstandingBalanceDetail decimals="0" contextRef="Context_Instant_SevenToTwelveMonthsMember_OtherCurrentAndNonCurrentLiabilitiesWithCostMember_7" unitRef="mxn">0</ifrs_mx-cor_20160822:OutstandingBalanceDetail>
+  <ifrs_mx-cor_20160822:OutstandingBalanceDetail decimals="0" contextRef="Context_Instant_ThirteenToEightTeenMonthsMember_OtherCurrentAndNonCurrentLiabilitiesWithCostMember_7" unitRef="mxn">0</ifrs_mx-cor_20160822:OutstandingBalanceDetail>
+  <ifrs_mx-cor_20160822:OutstandingBalanceDetail decimals="0" contextRef="Context_Instant_NineTeenToThirtySixMonthsMember_OtherCurrentAndNonCurrentLiabilitiesWithCostMember_7" unitRef="mxn">0</ifrs_mx-cor_20160822:OutstandingBalanceDetail>
+  <ifrs_mx-cor_20160822:OutstandingBalanceDetail decimals="0" contextRef="Context_Instant_ThirtySevenMonthsOrMoreMember_OtherCurrentAndNonCurrentLiabilitiesWithCostMember_7" unitRef="mxn">6000</ifrs_mx-cor_20160822:OutstandingBalanceDetail>
+  <ifrs_mx-cor_20160822:OutstandingBalanceDetail decimals="0" contextRef="seq_8_TotalOtrosPasivos_0A6Meses" unitRef="mxn">1000</ifrs_mx-cor_20160822:OutstandingBalanceDetail>
+  <ifrs_mx-cor_20160822:OutstandingBalanceDetail decimals="0" contextRef="Context_Instant_SevenToTwelveMonthsMember_TotalOtherCurrentAndNonCurrentLiabilitiesWithCostInNationalCurrencyMember_8" unitRef="mxn">0</ifrs_mx-cor_20160822:OutstandingBalanceDetail>
+  <ifrs_mx-cor_20160822:OutstandingBalanceDetail decimals="0" contextRef="Context_Instant_ThirteenToEightTeenMonthsMember_TotalOtherCurrentAndNonCurrentLiabilitiesWithCostInNationalCurrencyMember_8" unitRef="mxn">0</ifrs_mx-cor_20160822:OutstandingBalanceDetail>
+  <ifrs_mx-cor_20160822:OutstandingBalanceDetail decimals="0" contextRef="Context_Instant_NineTeenToThirtySixMonthsMember_TotalOtherCurrentAndNonCurrentLiabilitiesWithCostInNationalCurrencyMember_8" unitRef="mxn">0</ifrs_mx-cor_20160822:OutstandingBalanceDetail>
+  <ifrs_mx-cor_20160822:OutstandingBalanceDetail decimals="0" contextRef="Context_Instant_ThirtySevenMonthsOrMoreMember_TotalOtherCurrentAndNonCurrentLiabilitiesWithCostInNationalCurrencyMember_8" unitRef="mxn">6000</ifrs_mx-cor_20160822:OutstandingBalanceDetail>
+  <ifrs_mx-cor_20160822:TotalInitialCreditLineAndInitialAmountOfTheIssuance decimals="0" contextRef="seq_9_TotalGeneral" unitRef="mxn">29000</ifrs_mx-cor_20160822:TotalInitialCreditLineAndInitialAmountOfTheIssuance>
+  <ifrs_mx-cor_20160822:OutstandingBalance decimals="0" contextRef="seq_9_TotalGeneral" unitRef="mxn">243000</ifrs_mx-cor_20160822:OutstandingBalance>
+  <ifrs_mx-cor_20160822:AmortizationDenominatedInDomesticCurrency decimals="0" contextRef="seq_9_TotalGeneral" unitRef="mxn">77000</ifrs_mx-cor_20160822:AmortizationDenominatedInDomesticCurrency>
+  <ifrs_mx-cor_20160822:IndebtednessLevelAtTheEndOfTheQuarter decimals="1" contextRef="ct1" unitRef="mxn">0.4</ifrs_mx-cor_20160822:IndebtednessLevelAtTheEndOfTheQuarter>
+  <ifrs_mx-cor_20160822:TotalFunding decimals="0" contextRef="ct1" unitRef="mxn">207000</ifrs_mx-cor_20160822:TotalFunding>
+  <ifrs_mx-cor_20160822:TotalDebtInSecurities decimals="0" contextRef="ct1" unitRef="mxn">36000</ifrs_mx-cor_20160822:TotalDebtInSecurities>
+  <ifrs_mx-cor_20160822:TotalUnpaidAccruedInterest decimals="0" contextRef="ct1" unitRef="mxn">77000</ifrs_mx-cor_20160822:TotalUnpaidAccruedInterest>
+  <ifrs-full:Assets decimals="0" contextRef="ct1" unitRef="mxn">800000</ifrs-full:Assets>
+  <ifrs_mx-cor_20160822:TotalCreditsLoansOrNotRelevantFunding decimals="0" contextRef="ct1" unitRef="mxn">0</ifrs_mx-cor_20160822:TotalCreditsLoansOrNotRelevantFunding>
+  <ifrs_mx-cor_20160822:LeverageLevel decimals="2" contextRef="ct1" unitRef="mxn">53.33</ifrs_mx-cor_20160822:LeverageLevel>
+  <ifrs_mx-cor_20160822:EquitySecurities decimals="0" contextRef="ct1" unitRef="mxn">15000</ifrs_mx-cor_20160822:EquitySecurities>
+  <ifrs_mx-cor_20160822:CoverageRateDebtServiceText contextRef="ct1">Cobertura</ifrs_mx-cor_20160822:CoverageRateDebtServiceText>
+  <ifrs_mx-cor_20160822:CoverageRateDebtService decimals="2" contextRef="ct1" unitRef="mxn">.38</ifrs_mx-cor_20160822:CoverageRateDebtService>
+  <ifrs_mx-cor_20160822:LiquidAssets decimals="0" contextRef="ct1" unitRef="mxn">10000</ifrs_mx-cor_20160822:LiquidAssets>
+  <ifrs_mx-cor_20160822:RecoverableIVA decimals="0" contextRef="ct1" unitRef="mxn">20000</ifrs_mx-cor_20160822:RecoverableIVA>
+  <ifrs_mx-cor_20160822:EstimatedOperatingIncome decimals="0" contextRef="ct1" unitRef="mxn">30000</ifrs_mx-cor_20160822:EstimatedOperatingIncome>
+  <ifrs_mx-cor_20160822:RevolvingCreditLines decimals="0" contextRef="ct1" unitRef="mxn">40000</ifrs_mx-cor_20160822:RevolvingCreditLines>
+  <ifrs_mx-cor_20160822:EstimatedDepreciationInterest decimals="0" contextRef="ct1" unitRef="mxn">50000</ifrs_mx-cor_20160822:EstimatedDepreciationInterest>
+  <ifrs_mx-cor_20160822:PlannedCapitalRedemption decimals="0" contextRef="ct1" unitRef="mxn">60000</ifrs_mx-cor_20160822:PlannedCapitalRedemption>
+  <ifrs_mx-cor_20160822:RecurringCapitalExpendituresEstimates decimals="0" contextRef="ct1" unitRef="mxn">70000</ifrs_mx-cor_20160822:RecurringCapitalExpendituresEstimates>
+  <ifrs_mx-cor_20160822:DevelopmentExpendituresEstimatedNoDiscretionary decimals="0" contextRef="ct1" unitRef="mxn">80000</ifrs_mx-cor_20160822:DevelopmentExpendituresEstimatedNoDiscretionary>
+  <ifrs_mx-cor_20141205:TotalDeOtrosPasivosFinancierosACortoPlazo decimals="0" contextRef="ct1" unitRef="mxn">160000</ifrs_mx-cor_20141205:TotalDeOtrosPasivosFinancierosACortoPlazo>
+  <ifrs_mx-cor_20141205:TotalDeOtrosPasivosFinancierosALargoPlazo decimals="0" contextRef="ct1" unitRef="mxn">160000</ifrs_mx-cor_20141205:TotalDeOtrosPasivosFinancierosALargoPlazo>
+  <ifrs_mx-cor_20160822:LeverageLevelText contextRef="ct1">Explicación del nivel de apalancamiento</ifrs_mx-cor_20160822:LeverageLevelText>
+  <ifrs_mx-cor_20160822:OutstandingBalanceDetail decimals="0" contextRef="seq_6_totalListadasEnBolsaYColocacionesPrivadas" unitRef="mxn">35000</ifrs_mx-cor_20160822:OutstandingBalanceDetail>
+  <ifrs_mx-cor_20160822:OutstandingBalanceDetail decimals="0" contextRef="Context_Instant_SevenToTwelveMonthsMember_TotalStockMarketListedInTheStockMarketAndPrivatePlacementsMember_6" unitRef="mxn">0</ifrs_mx-cor_20160822:OutstandingBalanceDetail>
+  <ifrs_mx-cor_20160822:OutstandingBalanceDetail decimals="0" contextRef="Context_Instant_ThirteenToEightTeenMonthsMember_TotalStockMarketListedInTheStockMarketAndPrivatePlacementsMember_6" unitRef="mxn">0</ifrs_mx-cor_20160822:OutstandingBalanceDetail>
+  <ifrs_mx-cor_20160822:OutstandingBalanceDetail decimals="0" contextRef="Context_Instant_NineTeenToThirtySixMonthsMember_TotalStockMarketListedInTheStockMarketAndPrivatePlacementsMember_6" unitRef="mxn">0</ifrs_mx-cor_20160822:OutstandingBalanceDetail>
+  <ifrs_mx-cor_20160822:OutstandingBalanceDetail decimals="0" contextRef="Context_Instant_ThirtySevenMonthsOrMoreMember_TotalStockMarketListedInTheStockMarketAndPrivatePlacementsMember_6" unitRef="mxn">1000</ifrs_mx-cor_20160822:OutstandingBalanceDetail>
+  <ifrs_mx-cor_20160822:CommentsOnAnnexAA contextRef="ct1">Comentarios del anexo</ifrs_mx-cor_20160822:CommentsOnAnnexAA>
+  <ifrs_mx-cor_20160822:InstitutionName contextRef="ct2">Credito Seq 1</ifrs_mx-cor_20160822:InstitutionName>
+  <ifrs_mx-cor_20160822:NumberOfContract contextRef="ct2">145520</ifrs_mx-cor_20160822:NumberOfContract>
+  <ifrs_mx-cor_20160822:TypeOfCreditRevolvingPayingAtExpirationConstantPayments contextRef="ct2">Pagos constantes</ifrs_mx-cor_20160822:TypeOfCreditRevolvingPayingAtExpirationConstantPayments>
+  <ifrs_mx-cor_20160822:LiabilityCurrency contextRef="ct2">MXN</ifrs_mx-cor_20160822:LiabilityCurrency>
+  <ifrs_mx-cor_20160822:RefinancingClauseToMaturatyYesNo contextRef="ct2">NO</ifrs_mx-cor_20160822:RefinancingClauseToMaturatyYesNo>
+  <ifrs_mx-cor_20160822:PriorityOfPayment contextRef="ct2">prl</ifrs_mx-cor_20160822:PriorityOfPayment>
+  <ifrs_mx-cor_20160822:SignatureDateContract contextRef="ct2">2016-01-01</ifrs_mx-cor_20160822:SignatureDateContract>
+  <ifrs_mx-cor_20160822:SettlementDate contextRef="ct2">2016-01-01</ifrs_mx-cor_20160822:SettlementDate>
+  <ifrs_mx-cor_20160822:DeterminationOfTheRateOfReference contextRef="ct2">Dtt</ifrs_mx-cor_20160822:DeterminationOfTheRateOfReference>
+  <ifrs_mx-cor_20160822:InterestRate decimals="1" contextRef="ct2" unitRef="mxn">2.0</ifrs_mx-cor_20160822:InterestRate>
+  <ifrs_mx-cor_20160822:DescriptionOfWarrantyOrSignificantFeatures contextRef="ct2">N/A</ifrs_mx-cor_20160822:DescriptionOfWarrantyOrSignificantFeatures>
+  <ifrs_mx-cor_20160822:PercentageOfTheTotalDebt decimals="0" contextRef="ct2" unitRef="mxn">2</ifrs_mx-cor_20160822:PercentageOfTheTotalDebt>
+  <ifrs_mx-cor_20160822:MonthsOfDelaysPrincipalOrInterest decimals="0" contextRef="ct2" unitRef="mxn">0</ifrs_mx-cor_20160822:MonthsOfDelaysPrincipalOrInterest>
+  <ifrs_mx-cor_20160822:InstitutionName contextRef="cc55">Credito Seq 3</ifrs_mx-cor_20160822:InstitutionName>
+  <ifrs_mx-cor_20160822:NumberOfContract contextRef="cc55">88</ifrs_mx-cor_20160822:NumberOfContract>
+  <ifrs_mx-cor_20160822:TypeOfCreditRevolvingPayingAtExpirationConstantPayments contextRef="cc55">Pagos constantes</ifrs_mx-cor_20160822:TypeOfCreditRevolvingPayingAtExpirationConstantPayments>
+  <ifrs_mx-cor_20160822:LiabilityCurrency contextRef="cc55">UDI</ifrs_mx-cor_20160822:LiabilityCurrency>
+  <ifrs_mx-cor_20160822:RefinancingClauseToMaturatyYesNo contextRef="cc55">NO</ifrs_mx-cor_20160822:RefinancingClauseToMaturatyYesNo>
+  <ifrs_mx-cor_20160822:PriorityOfPayment contextRef="cc55">prl</ifrs_mx-cor_20160822:PriorityOfPayment>
+  <ifrs_mx-cor_20160822:SignatureDateContract contextRef="cc55">2016-01-01</ifrs_mx-cor_20160822:SignatureDateContract>
+  <ifrs_mx-cor_20160822:SettlementDate contextRef="cc55">2016-01-01</ifrs_mx-cor_20160822:SettlementDate>
+  <ifrs_mx-cor_20160822:DeterminationOfTheRateOfReference contextRef="cc55">N/A</ifrs_mx-cor_20160822:DeterminationOfTheRateOfReference>
+  <ifrs_mx-cor_20160822:InterestRate decimals="1" contextRef="cc55" unitRef="mxn">1.0</ifrs_mx-cor_20160822:InterestRate>
+  <ifrs_mx-cor_20160822:DescriptionOfWarrantyOrSignificantFeatures contextRef="cc55">N/A</ifrs_mx-cor_20160822:DescriptionOfWarrantyOrSignificantFeatures>
+  <ifrs_mx-cor_20160822:PercentageOfTheTotalDebt decimals="0" contextRef="cc55" unitRef="mxn">.1</ifrs_mx-cor_20160822:PercentageOfTheTotalDebt>
+  <ifrs_mx-cor_20160822:MonthsOfDelaysPrincipalOrInterest decimals="0" contextRef="cc55" unitRef="mxn">0</ifrs_mx-cor_20160822:MonthsOfDelaysPrincipalOrInterest>
+  <ifrs_mx-cor_20160822:IsinAndOrTicker contextRef="seq_4_listadasEnBolsa">AGUA</ifrs_mx-cor_20160822:IsinAndOrTicker>
+  <ifrs_mx-cor_20160822:IsinAndOrTicker contextRef="seq_5_colocacionPrivada">TLVISA</ifrs_mx-cor_20160822:IsinAndOrTicker>
+  <ifrs_mx-cor_20160822:ListedMexicoOrForeign contextRef="seq_4_listadasEnBolsa">Mexico</ifrs_mx-cor_20160822:ListedMexicoOrForeign>
+  <ifrs_mx-cor_20160822:ListedMexicoOrForeign contextRef="seq_5_colocacionPrivada">Mexico</ifrs_mx-cor_20160822:ListedMexicoOrForeign>
+  <ifrs_mx-cor_20160822:ScheduleOfAmortization contextRef="seq_4_listadasEnBolsa">N/A</ifrs_mx-cor_20160822:ScheduleOfAmortization>
+  <ifrs_mx-cor_20160822:ScheduleOfAmortization contextRef="seq_5_colocacionPrivada">N/A</ifrs_mx-cor_20160822:ScheduleOfAmortization>
+  <ifrs_mx-cor_20160822:LiabilityCurrency contextRef="seq_4_listadasEnBolsa">USD</ifrs_mx-cor_20160822:LiabilityCurrency>
+  <ifrs_mx-cor_20160822:LiabilityCurrency contextRef="seq_5_colocacionPrivada">USD</ifrs_mx-cor_20160822:LiabilityCurrency>
+  <ifrs_mx-cor_20160822:IsReferredAPlanOfRefinancingAtExpiration contextRef="seq_4_listadasEnBolsa">NO</ifrs_mx-cor_20160822:IsReferredAPlanOfRefinancingAtExpiration>
+  <ifrs_mx-cor_20160822:IsReferredAPlanOfRefinancingAtExpiration contextRef="seq_5_colocacionPrivada">NO</ifrs_mx-cor_20160822:IsReferredAPlanOfRefinancingAtExpiration>
+  <ifrs_mx-cor_20160822:PriorityOfPayment contextRef="seq_4_listadasEnBolsa">N/A</ifrs_mx-cor_20160822:PriorityOfPayment>
+  <ifrs_mx-cor_20160822:PriorityOfPayment contextRef="seq_5_colocacionPrivada">N/A</ifrs_mx-cor_20160822:PriorityOfPayment>
+  <ifrs_mx-cor_20160822:SignatureDateContract contextRef="seq_4_listadasEnBolsa">2016-01-01</ifrs_mx-cor_20160822:SignatureDateContract>
+  <ifrs_mx-cor_20160822:SignatureDateContract contextRef="seq_5_colocacionPrivada">2016-01-01</ifrs_mx-cor_20160822:SignatureDateContract>
+  <ifrs_mx-cor_20160822:SettlementDate contextRef="seq_4_listadasEnBolsa">2017-01-01</ifrs_mx-cor_20160822:SettlementDate>
+  <ifrs_mx-cor_20160822:SettlementDate contextRef="seq_5_colocacionPrivada">2017-01-01</ifrs_mx-cor_20160822:SettlementDate>
+  <ifrs_mx-cor_20160822:DeterminationOfTheRateOfReference contextRef="seq_4_listadasEnBolsa">N/A</ifrs_mx-cor_20160822:DeterminationOfTheRateOfReference>
+  <ifrs_mx-cor_20160822:DeterminationOfTheRateOfReference contextRef="seq_5_colocacionPrivada">N/A</ifrs_mx-cor_20160822:DeterminationOfTheRateOfReference>
+  <ifrs_mx-cor_20160822:InterestRate decimals="0" contextRef="seq_4_listadasEnBolsa" unitRef="mxn">0</ifrs_mx-cor_20160822:InterestRate>
+  <ifrs_mx-cor_20160822:InterestRate decimals="0" contextRef="seq_5_colocacionPrivada" unitRef="mxn">0</ifrs_mx-cor_20160822:InterestRate>
+  <ifrs_mx-cor_20160822:DescriptionOfWarrantyOrSignificantFeatures contextRef="seq_4_listadasEnBolsa">N/A</ifrs_mx-cor_20160822:DescriptionOfWarrantyOrSignificantFeatures>
+  <ifrs_mx-cor_20160822:DescriptionOfWarrantyOrSignificantFeatures contextRef="seq_5_colocacionPrivada">N/A</ifrs_mx-cor_20160822:DescriptionOfWarrantyOrSignificantFeatures>
+  <ifrs_mx-cor_20160822:PercentageOfTheTotalDebt decimals="0" contextRef="seq_4_listadasEnBolsa" unitRef="mxn">0</ifrs_mx-cor_20160822:PercentageOfTheTotalDebt>
+  <ifrs_mx-cor_20160822:PercentageOfTheTotalDebt decimals="0" contextRef="seq_5_colocacionPrivada" unitRef="mxn">0</ifrs_mx-cor_20160822:PercentageOfTheTotalDebt>
+  <ifrs_mx-cor_20160822:MonthsOfDelaysPrincipalOrInterest decimals="0" contextRef="seq_4_listadasEnBolsa" unitRef="mxn">0</ifrs_mx-cor_20160822:MonthsOfDelaysPrincipalOrInterest>
+  <ifrs_mx-cor_20160822:MonthsOfDelaysPrincipalOrInterest decimals="0" contextRef="seq_5_colocacionPrivada" unitRef="mxn">0</ifrs_mx-cor_20160822:MonthsOfDelaysPrincipalOrInterest>
+  <ifrs_mx-cor_20160822:LiabilityCreditor contextRef="seq_7_OtrosPasivosConCosto">Proveedor 1</ifrs_mx-cor_20160822:LiabilityCreditor>
+  <ifrs_mx-cor_20160822:LiabilityConcept contextRef="seq_7_OtrosPasivosConCosto">Materia prima</ifrs_mx-cor_20160822:LiabilityConcept>
+  <ifrs_mx-cor_20160822:PaymentScheme contextRef="seq_7_OtrosPasivosConCosto">Mensualidades</ifrs_mx-cor_20160822:PaymentScheme>
+  <ifrs_mx-cor_20160822:LiabilityCurrency contextRef="seq_7_OtrosPasivosConCosto">MXN</ifrs_mx-cor_20160822:LiabilityCurrency>
+  <ifrs_mx-cor_20160822:RefinancingClauseToMaturatyYesNo contextRef="seq_7_OtrosPasivosConCosto">NO</ifrs_mx-cor_20160822:RefinancingClauseToMaturatyYesNo>
+  <ifrs_mx-cor_20160822:PriorityOfPayment contextRef="seq_7_OtrosPasivosConCosto">N/A</ifrs_mx-cor_20160822:PriorityOfPayment>
+  <ifrs_mx-cor_20160822:SignatureDateContract contextRef="seq_7_OtrosPasivosConCosto">2016-01-01</ifrs_mx-cor_20160822:SignatureDateContract>
+  <ifrs_mx-cor_20160822:SettlementDate contextRef="seq_7_OtrosPasivosConCosto">2017-01-01</ifrs_mx-cor_20160822:SettlementDate>
+  <ifrs_mx-cor_20160822:DeterminationOfTheRateOfReference contextRef="seq_7_OtrosPasivosConCosto">N/A</ifrs_mx-cor_20160822:DeterminationOfTheRateOfReference>
+  <ifrs_mx-cor_20160822:InterestRate decimals="0" contextRef="seq_7_OtrosPasivosConCosto" unitRef="mxn">0</ifrs_mx-cor_20160822:InterestRate>
+  <ifrs_mx-cor_20160822:DescriptionOfWarrantyOrSignificantFeatures contextRef="seq_7_OtrosPasivosConCosto">N/A</ifrs_mx-cor_20160822:DescriptionOfWarrantyOrSignificantFeatures>
+  <ifrs_mx-cor_20160822:PercentageOfTheTotalDebt decimals="0" contextRef="seq_7_OtrosPasivosConCosto" unitRef="mxn">.5</ifrs_mx-cor_20160822:PercentageOfTheTotalDebt>
+  <ifrs_mx-cor_20160822:MonthsOfDelaysPrincipalOrInterest decimals="0" contextRef="seq_7_OtrosPasivosConCosto" unitRef="mxn">0</ifrs_mx-cor_20160822:MonthsOfDelaysPrincipalOrInterest>
+</xbrli:xbrl>

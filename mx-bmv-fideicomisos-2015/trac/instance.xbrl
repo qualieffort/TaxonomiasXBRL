@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xbrli:xbrl xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xbrl.org/2006/xbrldi http://www.xbrl.org/2006/xbrldi-2006.xsd" xmlns:p0="http://www.bmv.com.mx/2015-06-30/trac/full_ifrs_trac_entry_point_2015-06-30" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:rol_ias_1_2014-03-05="http://xbrl.ifrs.org/role/ifrs/rol_ias_1_2014-03-05" xmlns:msg="http://xbrl.org/2010/message" xmlns:rol_dim="http://xbrl.ifrs.org/role/ifrs/dimensions" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:reference_2="http://xbrl.org/2008/reference" xmlns:mx_trac="http://www.bmv.com.mx/2015-06-30/trac" xmlns:bf="http://xbrl.org/2008/filter/boolean" xmlns:rol_ias_34_2014-03-05="http://xbrl.ifrs.org/role/ifrs/rol_ias_34_2014-03-05" xmlns:num="http://www.xbrl.org/dtr/type/numeric" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gen="http://xbrl.org/2008/generic" xmlns:rol_ias_7_2014-03-05="http://xbrl.ifrs.org/role/ifrs/rol_ias_7_2014-03-05" xmlns:formula="http://xbrl.org/2008/formula" xmlns:variable="http://xbrl.org/2008/variable" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:label="http://xbrl.org/2008/label" xmlns:rol_ias_1_112_2014-03-05="http://xbrl.ifrs.org/role/ifrs/rol_ias_1_112_2014-03-05" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:va="http://xbrl.org/2008/assertion/value" xmlns:ifrs-full="http://xbrl.ifrs.org/taxonomy/2014-03-05/ifrs-full" xmlns:vf="http://xbrl.org/2008/filter/value" xmlns:ifrs-mc="http://xbrl.ifrs.org/taxonomy/2014-03-05/ifrs-mc" xmlns:valm="http://xbrl.org/2010/message/validation" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:net="http://www.xbrl.org/2009/role/net" xmlns:cf="http://xbrl.org/2008/filter/concept" xmlns:negated="http://www.xbrl.org/2009/role/negated" xmlns:ea="http://xbrl.org/2008/assertion/existence" xmlns:reference="http://www.xbrl.org/2009/role/reference" xmlns:validation="http://xbrl.org/2008/validation" xmlns:df="http://xbrl.org/2008/filter/dimension" xmlns:rol_mc_2014-03-05="http://xbrl.ifrs.org/role/ifrs/rol_mc_2014-03-05" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:pf="http://xbrl.org/2008/filter/period" xmlns:mf="http://xbrl.org/2008/filter/match">
+  <link:schemaRef xlink:type="simple" xlink:href="full_ifrs_trac_entry_point_2015-06-30.xsd"/>
+  <xbrli:context id="Acum_Actual">
+    <xbrli:entity>
+      <xbrli:identifier scheme="BANK1">http://www.bmv.com.mx</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2015-01-01</xbrli:startDate>
+      <xbrli:endDate>2015-03-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="CierreTrimActual">
+    <xbrli:entity>
+      <xbrli:identifier scheme="BANK1">http://www.bmv.com.mx</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2015-03-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="Context_Duration_IssuedCapitalMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="BANK1">http://www.bmv.com.mx</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2015-01-01</xbrli:startDate>
+      <xbrli:endDate>2015-03-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-full:ComponentsOfEquityAxis">ifrs-full:IssuedCapitalMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Context_Duration_EquityAttributableToOwnersOfParentMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="BANK1">http://www.bmv.com.mx</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2015-01-01</xbrli:startDate>
+      <xbrli:endDate>2015-03-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-full:ComponentsOfEquityAxis">ifrs-full:EquityAttributableToOwnersOfParentMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Context_Instant_IssuedCapitalMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="BANK1">http://www.bmv.com.mx</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2015-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-full:ComponentsOfEquityAxis">ifrs-full:IssuedCapitalMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="Context_Instant_EquityAttributableToOwnersOfParentMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="BANK1">http://www.bmv.com.mx</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2015-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-full:ComponentsOfEquityAxis">ifrs-full:EquityAttributableToOwnersOfParentMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:unit id="mxn">
+    <xbrli:measure>iso4217:MXN</xbrli:measure>
+  </xbrli:unit>
+  <mx_trac:HeritageOfTheFund contextRef="Acum_Actual">Patrimonio del financiamiento</mx_trac:HeritageOfTheFund>
+  <ifrs-full:DisclosureOfGeneralInformationAboutFinancialStatementsExplanatory contextRef="Acum_Actual">Info a revelar</ifrs-full:DisclosureOfGeneralInformationAboutFinancialStatementsExplanatory>
+  <ifrs-full:NameOfReportingEntityOrOtherMeansOfIdentification contextRef="Acum_Actual">Banco 1</ifrs-full:NameOfReportingEntityOrOtherMeansOfIdentification>
+  <mx_trac:Ticker contextRef="Acum_Actual">BANK1</mx_trac:Ticker>
+  <ifrs-full:DescriptionOfNatureOfFinancialStatements contextRef="Acum_Actual">Naturaleza</ifrs-full:DescriptionOfNatureOfFinancialStatements>
+  <ifrs-full:DateOfEndOfReportingPeriod2013 contextRef="Acum_Actual">2015-03-31</ifrs-full:DateOfEndOfReportingPeriod2013>
+  <ifrs-full:PeriodCoveredByFinancialStatements contextRef="Acum_Actual">2015</ifrs-full:PeriodCoveredByFinancialStatements>
+  <ifrs-full:DescriptionOfPresentationCurrency contextRef="Acum_Actual">MXN</ifrs-full:DescriptionOfPresentationCurrency>
+  <ifrs-full:LevelOfRoundingUsedInFinancialStatements contextRef="Acum_Actual">MILES</ifrs-full:LevelOfRoundingUsedInFinancialStatements>
+  <mx_trac:TrusteesAdministratorAvalOrGuarantor contextRef="Acum_Actual">Fides</mx_trac:TrusteesAdministratorAvalOrGuarantor>
+  <mx_trac:TrustNumber contextRef="Acum_Actual">F297</mx_trac:TrustNumber>
+  <mx_trac:NumberOfQuarter contextRef="Acum_Actual">1</mx_trac:NumberOfQuarter>
+  <mx_trac:NameServiceProviderExternalAudit contextRef="Acum_Actual"/>
+  <mx_trac:NameOfTheAsociadoSigningOpinion contextRef="Acum_Actual"/>
+  <mx_trac:TypeOfOpinionOnTheFinancialStatements contextRef="Acum_Actual"/>
+  <mx_trac:DateOfOpinionOnTheFinancialStatements contextRef="Acum_Actual"/>
+  <ifrs-full:CashAndCashEquivalents decimals="0" contextRef="CierreTrimActual" unitRef="mxn">100</ifrs-full:CashAndCashEquivalents>
+  <ifrs-full:TradeAndOtherCurrentReceivables decimals="0" contextRef="CierreTrimActual" unitRef="mxn">100</ifrs-full:TradeAndOtherCurrentReceivables>
+  <mx_trac:FinancialAssetsAtFairValueThroughProfitOrLoss decimals="0" contextRef="CierreTrimActual" unitRef="mxn">0</mx_trac:FinancialAssetsAtFairValueThroughProfitOrLoss>
+  <mx_trac:LiquidatingDebtorAccountCapitalTransactions decimals="0" contextRef="CierreTrimActual" unitRef="mxn">0</mx_trac:LiquidatingDebtorAccountCapitalTransactions>
+  <ifrs-full:OtherCurrentFinancialAssets decimals="0" contextRef="CierreTrimActual" unitRef="mxn">0</ifrs-full:OtherCurrentFinancialAssets>
+  <ifrs-full:OtherCurrentNonfinancialAssets decimals="0" contextRef="CierreTrimActual" unitRef="mxn">0</ifrs-full:OtherCurrentNonfinancialAssets>
+  <mx_trac:Collateral decimals="0" contextRef="CierreTrimActual" unitRef="mxn">0</mx_trac:Collateral>
+  <ifrs-full:CurrentAssets decimals="0" contextRef="CierreTrimActual" unitRef="mxn">200</ifrs-full:CurrentAssets>
+  <ifrs-full:NoncurrentReceivables decimals="0" contextRef="CierreTrimActual" unitRef="mxn">100</ifrs-full:NoncurrentReceivables>
+  <mx_trac:LiquidatingADebtorHasNoWorkingCapitalOperations decimals="0" contextRef="CierreTrimActual" unitRef="mxn">0</mx_trac:LiquidatingADebtorHasNoWorkingCapitalOperations>
+  <mx_trac:DerivativeFinancialInstrumentsAndHedgingClassifiedAsNonCurrentAssets decimals="0" contextRef="CierreTrimActual" unitRef="mxn">0</mx_trac:DerivativeFinancialInstrumentsAndHedgingClassifiedAsNonCurrentAssets>
+  <ifrs-full:OtherNoncurrentFinancialAssets decimals="0" contextRef="CierreTrimActual" unitRef="mxn">0</ifrs-full:OtherNoncurrentFinancialAssets>
+  <ifrs-full:OtherNoncurrentNonfinancialAssets decimals="0" contextRef="CierreTrimActual" unitRef="mxn">0</ifrs-full:OtherNoncurrentNonfinancialAssets>
+  <ifrs-full:NoncurrentAssets decimals="0" contextRef="CierreTrimActual" unitRef="mxn">100</ifrs-full:NoncurrentAssets>
+  <ifrs-full:Assets decimals="0" contextRef="CierreTrimActual" unitRef="mxn">300</ifrs-full:Assets>
+  <ifrs-full:TradeAndOtherCurrentPayables decimals="0" contextRef="CierreTrimActual" unitRef="mxn">100</ifrs-full:TradeAndOtherCurrentPayables>
+  <ifrs-full:OtherCurrentFinancialLiabilities decimals="0" contextRef="CierreTrimActual" unitRef="mxn">0</ifrs-full:OtherCurrentFinancialLiabilities>
+  <ifrs-full:OtherCurrentNonfinancialLiabilities decimals="0" contextRef="CierreTrimActual" unitRef="mxn">0</ifrs-full:OtherCurrentNonfinancialLiabilities>
+  <ifrs-full:OtherShorttermProvisions decimals="0" contextRef="CierreTrimActual" unitRef="mxn">0</ifrs-full:OtherShorttermProvisions>
+  <ifrs-full:CurrentProvisions decimals="0" contextRef="CierreTrimActual" unitRef="mxn">0</ifrs-full:CurrentProvisions>
+  <mx_trac:LiquidationAccountPayablesForCapitalOperations decimals="0" contextRef="CierreTrimActual" unitRef="mxn">0</mx_trac:LiquidationAccountPayablesForCapitalOperations>
+  <mx_trac:DerivativeFinancialInstrumentsAndHedgingClassifiedAsShortTermLiabilities decimals="0" contextRef="CierreTrimActual" unitRef="mxn">0</mx_trac:DerivativeFinancialInstrumentsAndHedgingClassifiedAsShortTermLiabilities>
+  <ifrs-full:CurrentLiabilities decimals="0" contextRef="CierreTrimActual" unitRef="mxn">100</ifrs-full:CurrentLiabilities>
+  <ifrs-full:NoncurrentPayables decimals="0" contextRef="CierreTrimActual" unitRef="mxn">100</ifrs-full:NoncurrentPayables>
+  <ifrs-full:OtherNoncurrentFinancialLiabilities decimals="0" contextRef="CierreTrimActual" unitRef="mxn">0</ifrs-full:OtherNoncurrentFinancialLiabilities>
+  <ifrs-full:OtherNoncurrentNonfinancialLiabilities decimals="0" contextRef="CierreTrimActual" unitRef="mxn">0</ifrs-full:OtherNoncurrentNonfinancialLiabilities>
+  <ifrs-full:OtherLongtermProvisions decimals="0" contextRef="CierreTrimActual" unitRef="mxn">0</ifrs-full:OtherLongtermProvisions>
+  <ifrs-full:NoncurrentProvisions decimals="0" contextRef="CierreTrimActual" unitRef="mxn">0</ifrs-full:NoncurrentProvisions>
+  <mx_trac:AccountPayablesForLiquidationOperationsLongTermCapital decimals="0" contextRef="CierreTrimActual" unitRef="mxn">0</mx_trac:AccountPayablesForLiquidationOperationsLongTermCapital>
+  <mx_trac:DerivativeFinancialInstrumentsAndHedgingClassigiedAsLongTermLiabilities decimals="0" contextRef="CierreTrimActual" unitRef="mxn">0</mx_trac:DerivativeFinancialInstrumentsAndHedgingClassigiedAsLongTermLiabilities>
+  <ifrs-full:NoncurrentLiabilities decimals="0" contextRef="CierreTrimActual" unitRef="mxn">100</ifrs-full:NoncurrentLiabilities>
+  <ifrs-full:Liabilities decimals="0" contextRef="CierreTrimActual" unitRef="mxn">200</ifrs-full:Liabilities>
+  <ifrs-full:IssuedCapital decimals="0" contextRef="CierreTrimActual" unitRef="mxn">100</ifrs-full:IssuedCapital>
+  <ifrs-full:EquityAttributableToOwnersOfParent decimals="0" contextRef="CierreTrimActual" unitRef="mxn">100</ifrs-full:EquityAttributableToOwnersOfParent>
+  <ifrs-full:Equity decimals="0" contextRef="CierreTrimActual" unitRef="mxn">100</ifrs-full:Equity>
+  <ifrs-full:EquityAndLiabilities decimals="0" contextRef="CierreTrimActual" unitRef="mxn">300</ifrs-full:EquityAndLiabilities>
+  <ifrs-full:Revenue decimals="0" contextRef="Acum_Actual" unitRef="mxn">300</ifrs-full:Revenue>
+  <ifrs-full:AdministrativeExpense decimals="0" contextRef="Acum_Actual" unitRef="mxn">100</ifrs-full:AdministrativeExpense>
+  <ifrs-full:OtherIncome decimals="0" contextRef="Acum_Actual" unitRef="mxn">0</ifrs-full:OtherIncome>
+  <ifrs-full:OtherExpenseByFunction decimals="0" contextRef="Acum_Actual" unitRef="mxn">0</ifrs-full:OtherExpenseByFunction>
+  <ifrs-full:ProfitLossFromOperatingActivities decimals="0" contextRef="Acum_Actual" unitRef="mxn">0</ifrs-full:ProfitLossFromOperatingActivities>
+  <mx_trac:DistributionsPaid decimals="0" contextRef="Acum_Actual" unitRef="mxn">0</mx_trac:DistributionsPaid>
+  <ifrs-full:FinanceIncome decimals="0" contextRef="Acum_Actual" unitRef="mxn">0</ifrs-full:FinanceIncome>
+  <ifrs-full:FinanceCosts decimals="0" contextRef="Acum_Actual" unitRef="mxn">100</ifrs-full:FinanceCosts>
+  <ifrs-full:ProfitLoss decimals="0" contextRef="Acum_Actual" unitRef="mxn">100</ifrs-full:ProfitLoss>
+  <ifrs-full:OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation decimals="0" contextRef="Acum_Actual" unitRef="mxn">0</ifrs-full:OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation>
+  <ifrs-full:OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax decimals="0" contextRef="Acum_Actual" unitRef="mxn">0</ifrs-full:OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax>
+  <ifrs-full:GainsLossesOnRemeasuringAvailableforsaleFinancialAssetsNetOfTax decimals="0" contextRef="Acum_Actual" unitRef="mxn">0</ifrs-full:GainsLossesOnRemeasuringAvailableforsaleFinancialAssetsNetOfTax>
+  <ifrs-full:ReclassificationAdjustmentsOnAvailableforsaleFinancialAssetsNetOfTax decimals="0" contextRef="Acum_Actual" unitRef="mxn">0</ifrs-full:ReclassificationAdjustmentsOnAvailableforsaleFinancialAssetsNetOfTax>
+  <ifrs-full:OtherComprehensiveIncomeNetOfTaxAvailableforsaleFinancialAssets decimals="0" contextRef="Acum_Actual" unitRef="mxn">0</ifrs-full:OtherComprehensiveIncomeNetOfTaxAvailableforsaleFinancialAssets>
+  <ifrs-full:OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax decimals="0" contextRef="Acum_Actual" unitRef="mxn">0</ifrs-full:OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax>
+  <ifrs-full:OtherComprehensiveIncome decimals="0" contextRef="Acum_Actual" unitRef="mxn">0</ifrs-full:OtherComprehensiveIncome>
+  <ifrs-full:ComprehensiveIncome decimals="0" contextRef="Acum_Actual" unitRef="mxn">100</ifrs-full:ComprehensiveIncome>
+  <ifrs-full:IncreaseDecreaseInCashAndCashEquivalents decimals="0" contextRef="Acum_Actual" unitRef="mxn">100</ifrs-full:IncreaseDecreaseInCashAndCashEquivalents>
+  <ifrs-full:EffectOfExchangeRateChangesOnCashAndCashEquivalents decimals="0" contextRef="Acum_Actual" unitRef="mxn">0</ifrs-full:EffectOfExchangeRateChangesOnCashAndCashEquivalents>
+  <ifrs-full:IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges decimals="0" contextRef="Acum_Actual" unitRef="mxn">100</ifrs-full:IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges>
+  <ifrs-full:CashFlowsFromUsedInFinancingActivities decimals="0" contextRef="Acum_Actual" unitRef="mxn">0</ifrs-full:CashFlowsFromUsedInFinancingActivities>
+  <ifrs-full:OtherInflowsOutflowsOfCashClassifiedAsFinancingActivities decimals="0" contextRef="Acum_Actual" unitRef="mxn">0</ifrs-full:OtherInflowsOutflowsOfCashClassifiedAsFinancingActivities>
+  <ifrs-full:InterestPaidClassifiedAsFinancingActivities decimals="0" contextRef="Acum_Actual" unitRef="mxn">0</ifrs-full:InterestPaidClassifiedAsFinancingActivities>
+  <ifrs-full:RepaymentsOfBorrowingsClassifiedAsFinancingActivities decimals="0" contextRef="Acum_Actual" unitRef="mxn">0</ifrs-full:RepaymentsOfBorrowingsClassifiedAsFinancingActivities>
+  <ifrs-full:ProceedsFromBorrowingsClassifiedAsFinancingActivities decimals="0" contextRef="Acum_Actual" unitRef="mxn">0</ifrs-full:ProceedsFromBorrowingsClassifiedAsFinancingActivities>
+  <ifrs-full:ProceedsFromIssuingOtherEquityInstruments decimals="0" contextRef="Acum_Actual" unitRef="mxn">0</ifrs-full:ProceedsFromIssuingOtherEquityInstruments>
+  <ifrs-full:ProceedsFromIssuingShares decimals="0" contextRef="Acum_Actual" unitRef="mxn">0</ifrs-full:ProceedsFromIssuingShares>
+  <ifrs-full:CashFlowsFromUsedInInvestingActivities decimals="0" contextRef="Acum_Actual" unitRef="mxn">0</ifrs-full:CashFlowsFromUsedInInvestingActivities>
+  <ifrs-full:OtherInflowsOutflowsOfCashClassifiedAsInvestingActivities decimals="0" contextRef="Acum_Actual" unitRef="mxn">0</ifrs-full:OtherInflowsOutflowsOfCashClassifiedAsInvestingActivities>
+  <ifrs-full:InterestReceivedClassifiedAsInvestingActivities decimals="0" contextRef="Acum_Actual" unitRef="mxn">0</ifrs-full:InterestReceivedClassifiedAsInvestingActivities>
+  <ifrs-full:InterestPaidClassifiedAsInvestingActivities decimals="0" contextRef="Acum_Actual" unitRef="mxn">0</ifrs-full:InterestPaidClassifiedAsInvestingActivities>
+  <ifrs-full:CashReceiptsFromFutureContractsForwardContractsOptionContractsAndSwapContractsClassifiedAsInvestingActivities decimals="0" contextRef="Acum_Actual" unitRef="mxn">0</ifrs-full:CashReceiptsFromFutureContractsForwardContractsOptionContractsAndSwapContractsClassifiedAsInvestingActivities>
+  <ifrs-full:CashPaymentsForFutureContractsForwardContractsOptionContractsAndSwapContractsClassifiedAsInvestingActivities decimals="0" contextRef="Acum_Actual" unitRef="mxn">0</ifrs-full:CashPaymentsForFutureContractsForwardContractsOptionContractsAndSwapContractsClassifiedAsInvestingActivities>
+  <ifrs-full:CashReceiptsFromRepaymentOfAdvancesAndLoansMadeToOtherPartiesClassifiedAsInvestingActivities decimals="0" contextRef="Acum_Actual" unitRef="mxn">0</ifrs-full:CashReceiptsFromRepaymentOfAdvancesAndLoansMadeToOtherPartiesClassifiedAsInvestingActivities>
+  <ifrs-full:PurchaseOfOtherLongtermAssetsClassifiedAsInvestingActivities decimals="0" contextRef="Acum_Actual" unitRef="mxn">0</ifrs-full:PurchaseOfOtherLongtermAssetsClassifiedAsInvestingActivities>
+  <ifrs-full:ProceedsFromOtherLongtermAssetsClassifiedAsInvestingActivities decimals="0" contextRef="Acum_Actual" unitRef="mxn">0</ifrs-full:ProceedsFromOtherLongtermAssetsClassifiedAsInvestingActivities>
+  <ifrs-full:CashFlowsFromUsedInOperatingActivities decimals="0" contextRef="Acum_Actual" unitRef="mxn">100</ifrs-full:CashFlowsFromUsedInOperatingActivities>
+  <ifrs-full:OtherInflowsOutflowsOfCashClassifiedAsOperatingActivities decimals="0" contextRef="Acum_Actual" unitRef="mxn">0</ifrs-full:OtherInflowsOutflowsOfCashClassifiedAsOperatingActivities>
+  <ifrs-full:InterestReceivedClassifiedAsOperatingActivities decimals="0" contextRef="Acum_Actual" unitRef="mxn">0</ifrs-full:InterestReceivedClassifiedAsOperatingActivities>
+  <ifrs-full:InterestPaidClassifiedAsOperatingActivities decimals="0" contextRef="Acum_Actual" unitRef="mxn">0</ifrs-full:InterestPaidClassifiedAsOperatingActivities>
+  <ifrs-full:DividendsReceivedClassifiedAsOperatingActivities decimals="0" contextRef="Acum_Actual" unitRef="mxn">0</ifrs-full:DividendsReceivedClassifiedAsOperatingActivities>
+  <ifrs-full:DividendsPaidClassifiedAsOperatingActivities decimals="0" contextRef="Acum_Actual" unitRef="mxn">0</ifrs-full:DividendsPaidClassifiedAsOperatingActivities>
+  <ifrs-full:CashFlowsFromUsedInOperations decimals="0" contextRef="Acum_Actual" unitRef="mxn">100</ifrs-full:CashFlowsFromUsedInOperations>
+  <ifrs-full:AdjustmentsForReconcileProfitLoss decimals="0" contextRef="Acum_Actual" unitRef="mxn">0</ifrs-full:AdjustmentsForReconcileProfitLoss>
+  <ifrs-full:OtherAdjustmentsToReconcileProfitLoss decimals="0" contextRef="Acum_Actual" unitRef="mxn">0</ifrs-full:OtherAdjustmentsToReconcileProfitLoss>
+  <ifrs-full:OtherAdjustmentsForNoncashItems decimals="0" contextRef="Acum_Actual" unitRef="mxn">0</ifrs-full:OtherAdjustmentsForNoncashItems>
+  <mx_trac:IssuanceOfCertificatesNet decimals="0" contextRef="Acum_Actual" unitRef="mxn">0</mx_trac:IssuanceOfCertificatesNet>
+  <ifrs-full:OtherAdjustmentsForWhichCashEffectsAreInvestingOrFinancingCashFlow decimals="0" contextRef="Acum_Actual" unitRef="mxn">0</ifrs-full:OtherAdjustmentsForWhichCashEffectsAreInvestingOrFinancingCashFlow>
+  <ifrs-full:AdjustmentsForIncreaseDecreaseInOtherOperatingPayables decimals="0" contextRef="Acum_Actual" unitRef="mxn">0</ifrs-full:AdjustmentsForIncreaseDecreaseInOtherOperatingPayables>
+  <ifrs-full:AdjustmentsForIncreaseDecreaseInTradeAccountPayable decimals="0" contextRef="Acum_Actual" unitRef="mxn">0</ifrs-full:AdjustmentsForIncreaseDecreaseInTradeAccountPayable>
+  <ifrs-full:AdjustmentsForDecreaseIncreaseInOtherOperatingReceivables decimals="0" contextRef="Acum_Actual" unitRef="mxn">0</ifrs-full:AdjustmentsForDecreaseIncreaseInOtherOperatingReceivables>
+  <ifrs-full:AdjustmentsForDecreaseIncreaseInTradeAccountReceivable decimals="0" contextRef="Acum_Actual" unitRef="mxn">0</ifrs-full:AdjustmentsForDecreaseIncreaseInTradeAccountReceivable>
+  <ifrs-full:AdjustmentsForFairValueGainsLosses decimals="0" contextRef="Acum_Actual" unitRef="mxn">0</ifrs-full:AdjustmentsForFairValueGainsLosses>
+  <ifrs-full:AdjustmentsForProvisions decimals="0" contextRef="Acum_Actual" unitRef="mxn">0</ifrs-full:AdjustmentsForProvisions>
+  <ifrs-full:AdjustmentsForImpairmentLossReversalOfImpairmentLossRecognisedInProfitOrLoss decimals="0" contextRef="Acum_Actual" unitRef="mxn">0</ifrs-full:AdjustmentsForImpairmentLossReversalOfImpairmentLossRecognisedInProfitOrLoss>
+  <ifrs-full:AdjustmentsForDepreciationAndAmortisationExpense decimals="0" contextRef="Acum_Actual" unitRef="mxn">0</ifrs-full:AdjustmentsForDepreciationAndAmortisationExpense>
+  <ifrs-full:AdjustmentsForFinanceCosts decimals="0" contextRef="Acum_Actual" unitRef="mxn">0</ifrs-full:AdjustmentsForFinanceCosts>
+  <mx_trac:CreationsAndRedemptionsOfCertificates decimals="0" contextRef="Acum_Actual" unitRef="mxn">0</mx_trac:CreationsAndRedemptionsOfCertificates>
+  <ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity decimals="0" contextRef="Acum_Actual" unitRef="mxn">0</ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity>
+  <ifrs-full:ChangesInEquity decimals="0" contextRef="Acum_Actual" unitRef="mxn">100</ifrs-full:ChangesInEquity>
+  <ifrs-full:Equity decimals="0" contextRef="Context_Instant_IssuedCapitalMember" unitRef="mxn">100</ifrs-full:Equity>
+  <ifrs-full:Equity decimals="0" contextRef="Context_Instant_EquityAttributableToOwnersOfParentMember" unitRef="mxn">100</ifrs-full:Equity>
+  <ifrs-full:ChangesInEquity decimals="0" contextRef="Context_Duration_IssuedCapitalMember" unitRef="mxn">100</ifrs-full:ChangesInEquity>
+  <ifrs-full:ChangesInEquity decimals="0" contextRef="Context_Duration_EquityAttributableToOwnersOfParentMember" unitRef="mxn">100</ifrs-full:ChangesInEquity>
+  <ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity decimals="0" contextRef="Context_Duration_IssuedCapitalMember" unitRef="mxn">0</ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity>
+  <ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity decimals="0" contextRef="Context_Duration_EquityAttributableToOwnersOfParentMember" unitRef="mxn">0</ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity>
+  <mx_trac:CreationsAndRedemptionsOfCertificates decimals="0" contextRef="Context_Duration_IssuedCapitalMember" unitRef="mxn">0</mx_trac:CreationsAndRedemptionsOfCertificates>
+  <mx_trac:CreationsAndRedemptionsOfCertificates decimals="0" contextRef="Context_Duration_EquityAttributableToOwnersOfParentMember" unitRef="mxn">0</mx_trac:CreationsAndRedemptionsOfCertificates>
+  <ifrs-full:ComprehensiveIncome decimals="0" contextRef="Context_Duration_IssuedCapitalMember" unitRef="mxn">100</ifrs-full:ComprehensiveIncome>
+  <ifrs-full:ComprehensiveIncome decimals="0" contextRef="Context_Duration_EquityAttributableToOwnersOfParentMember" unitRef="mxn">100</ifrs-full:ComprehensiveIncome>
+  <ifrs-full:OtherComprehensiveIncome decimals="0" contextRef="Context_Duration_IssuedCapitalMember" unitRef="mxn">0</ifrs-full:OtherComprehensiveIncome>
+  <ifrs-full:OtherComprehensiveIncome decimals="0" contextRef="Context_Duration_EquityAttributableToOwnersOfParentMember" unitRef="mxn">0</ifrs-full:OtherComprehensiveIncome>
+  <ifrs-full:ProfitLoss decimals="0" contextRef="Context_Duration_IssuedCapitalMember" unitRef="mxn">100</ifrs-full:ProfitLoss>
+  <ifrs-full:ProfitLoss decimals="0" contextRef="Context_Duration_EquityAttributableToOwnersOfParentMember" unitRef="mxn">100</ifrs-full:ProfitLoss>
+</xbrli:xbrl>

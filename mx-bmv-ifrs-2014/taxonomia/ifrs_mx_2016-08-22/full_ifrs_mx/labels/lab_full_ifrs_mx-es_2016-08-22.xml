@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:full_ifrs_mc_mx_ics_entry_point_2014-12-05="http://www.bmv.com.mx/taxonomy/ifrs_mx/full_ifrs_mc_mx_ics_entry_point_2014-12-05">
+  <link:roleRef roleURI="http://www.xbrl.org/2009/role/negatedLabel" xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedLabel"/>
+  <link:roleRef roleURI="http://www.xbrl.org/2009/role/negatedTerseLabel" xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedTerseLabel"/>
+  <link:roleRef roleURI="http://www.xbrl.org/2009/role/negatedTotalLabel" xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedTotalLabel"/>
+  <link:roleRef roleURI="http://www.xbrl.org/2009/role/netLabel" xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/net-2009-12-16.xsd#netLabel"/>
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_AmortizationDenominatedInDomesticCurrency" xlink:label="AmortizationDenominatedInDomesticCurrency"/>
+    <link:label xlink:type="resource" xlink:label="label_en_AmortizationDenominatedInDomesticCurrency" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Amortization denominated in domestic currency</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AmortizationDenominatedInDomesticCurrency" xlink:to="label_en_AmortizationDenominatedInDomesticCurrency"/>
+    <link:label xlink:type="resource" xlink:label="label_es_AmortizationDenominatedInDomesticCurrency" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Intereses devengados no pagados al cierre del trimestre en moneda nacional</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AmortizationDenominatedInDomesticCurrency" xlink:to="label_es_AmortizationDenominatedInDomesticCurrency"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_BankingMember" xlink:label="BankingMember"/>
+    <link:label xlink:type="resource" xlink:label="label_en_BankingMember" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Banking [Member]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="BankingMember" xlink:to="label_en_BankingMember"/>
+    <link:label xlink:type="resource" xlink:label="label_es_BankingMember" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Bancarios [Miembro]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="BankingMember" xlink:to="label_es_BankingMember"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_BreakdownOfLiabilitiesAbstract" xlink:label="BreakdownOfLiabilitiesAbstract"/>
+    <link:label xlink:type="resource" xlink:label="label_en_BreakdownOfLiabilitiesAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Breakdown of liabilities [Abstract]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="BreakdownOfLiabilitiesAbstract" xlink:to="label_en_BreakdownOfLiabilitiesAbstract"/>
+    <link:label xlink:type="resource" xlink:label="label_es_BreakdownOfLiabilitiesAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Desglose de pasivos [Sinopsis]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="BreakdownOfLiabilitiesAbstract" xlink:to="label_es_BreakdownOfLiabilitiesAbstract"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_BreakdownOfLiabilitiesExcludedTable" xlink:label="BreakdownOfLiabilitiesExcludedTable"/>
+    <link:label xlink:type="resource" xlink:label="label_en_BreakdownOfLiabilitiesExcludedTable" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Breakdown of liabilities (excluded) [Table]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="BreakdownOfLiabilitiesExcludedTable" xlink:to="label_en_BreakdownOfLiabilitiesExcludedTable"/>
+    <link:label xlink:type="resource" xlink:label="label_es_BreakdownOfLiabilitiesExcludedTable" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Desglose de pasivos (excluídos) [Tabla]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="BreakdownOfLiabilitiesExcludedTable" xlink:to="label_es_BreakdownOfLiabilitiesExcludedTable"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_BreakdownOfLiabilitiesLineItems" xlink:label="BreakdownOfLiabilitiesLineItems"/>
+    <link:label xlink:type="resource" xlink:label="label_en_BreakdownOfLiabilitiesLineItems" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Breakdown of liabilities [Line items]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="BreakdownOfLiabilitiesLineItems" xlink:to="label_en_BreakdownOfLiabilitiesLineItems"/>
+    <link:label xlink:type="resource" xlink:label="label_es_BreakdownOfLiabilitiesLineItems" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Desglose de pasivos [Partidas]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="BreakdownOfLiabilitiesLineItems" xlink:to="label_es_BreakdownOfLiabilitiesLineItems"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_BreakdownOfLiabilitiesReportAbstract" xlink:label="BreakdownOfLiabilitiesReportAbstract"/>
+    <link:label xlink:type="resource" xlink:label="label_en_BreakdownOfLiabilitiesReportAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Breakdown of liabilities (Report) [Abstract]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="BreakdownOfLiabilitiesReportAbstract" xlink:to="label_en_BreakdownOfLiabilitiesReportAbstract"/>
+    <link:label xlink:type="resource" xlink:label="label_es_BreakdownOfLiabilitiesReportAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Desglose de pasivos (Reporte) [Sinopsis]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="BreakdownOfLiabilitiesReportAbstract" xlink:to="label_es_BreakdownOfLiabilitiesReportAbstract"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_BreakdownOfLiabilitiesTable" xlink:label="BreakdownOfLiabilitiesTable"/>
+    <link:label xlink:type="resource" xlink:label="label_en_BreakdownOfLiabilitiesTable" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Breakdown of liabilities [Table]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="BreakdownOfLiabilitiesTable" xlink:to="label_en_BreakdownOfLiabilitiesTable"/>
+    <link:label xlink:type="resource" xlink:label="label_es_BreakdownOfLiabilitiesTable" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Desglose de pasivos [Tabla]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="BreakdownOfLiabilitiesTable" xlink:to="label_es_BreakdownOfLiabilitiesTable"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_CapitalAmortizationOfTheCreditPortfolio" xlink:label="CapitalAmortizationOfTheCreditPortfolio"/>
+    <link:label xlink:type="resource" xlink:label="label_en_CapitalAmortizationOfTheCreditPortfolio" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Capital amortization of the credit portfolio</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="CapitalAmortizationOfTheCreditPortfolio" xlink:to="label_en_CapitalAmortizationOfTheCreditPortfolio"/>
+    <link:label xlink:type="resource" xlink:label="label_es_CapitalAmortizationOfTheCreditPortfolio" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Amortización de capital de cartera de crédito</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="CapitalAmortizationOfTheCreditPortfolio" xlink:to="label_es_CapitalAmortizationOfTheCreditPortfolio"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_CommentsOnAnnexAA" xlink:label="CommentsOnAnnexAA"/>
+    <link:label xlink:type="resource" xlink:label="label_en_CommentsOnAnnexAA" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Comments on Annex AA</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="CommentsOnAnnexAA" xlink:to="label_en_CommentsOnAnnexAA"/>
+    <link:label xlink:type="resource" xlink:label="label_es_CommentsOnAnnexAA" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Comentarios Anexo AA</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="CommentsOnAnnexAA" xlink:to="label_es_CommentsOnAnnexAA"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_CoverageRateDebtService" xlink:label="CoverageRateDebtService"/>
+    <link:label xlink:type="resource" xlink:label="label_en_CoverageRateDebtService" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Coverage rate debt service</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="CoverageRateDebtService" xlink:to="label_en_CoverageRateDebtService"/>
+    <link:label xlink:type="resource" xlink:label="label_es_CoverageRateDebtService" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Índice de cobertura de servicio de la deuda</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="CoverageRateDebtService" xlink:to="label_es_CoverageRateDebtService"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_CoverageRateDebtServiceText" xlink:label="CoverageRateDebtServiceText"/>
+    <link:label xlink:type="resource" xlink:label="label_en_CoverageRateDebtServiceText" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Coverage rate debt service text</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="CoverageRateDebtServiceText" xlink:to="label_en_CoverageRateDebtServiceText"/>
+    <link:label xlink:type="resource" xlink:label="label_es_CoverageRateDebtServiceText" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Índice de cobertura de servicio de la deuda</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="CoverageRateDebtServiceText" xlink:to="label_es_CoverageRateDebtServiceText"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_CoverageRateOfDebtServiceAbstract" xlink:label="CoverageRateOfDebtServiceAbstract"/>
+    <link:label xlink:type="resource" xlink:label="label_en_CoverageRateOfDebtServiceAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Coverage rate of debt service [Abstract]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="CoverageRateOfDebtServiceAbstract" xlink:to="label_en_CoverageRateOfDebtServiceAbstract"/>
+    <link:label xlink:type="resource" xlink:label="label_es_CoverageRateOfDebtServiceAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Índice de cobertura de servicio de la deuda [Sinopsis]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="CoverageRateOfDebtServiceAbstract" xlink:to="label_es_CoverageRateOfDebtServiceAbstract"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_DescriptionOfWarrantyOrSignificantFeatures" xlink:label="DescriptionOfWarrantyOrSignificantFeatures"/>
+    <link:label xlink:type="resource" xlink:label="label_en_DescriptionOfWarrantyOrSignificantFeatures" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Description of warranty or significant features</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="DescriptionOfWarrantyOrSignificantFeatures" xlink:to="label_en_DescriptionOfWarrantyOrSignificantFeatures"/>
+    <link:label xlink:type="resource" xlink:label="label_es_DescriptionOfWarrantyOrSignificantFeatures" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Descripción de la garantía o características relevantes</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="DescriptionOfWarrantyOrSignificantFeatures" xlink:to="label_es_DescriptionOfWarrantyOrSignificantFeatures"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_DeterminationOfTheRateOfReference" xlink:label="DeterminationOfTheRateOfReference"/>
+    <link:label xlink:type="resource" xlink:label="label_en_DeterminationOfTheRateOfReference" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Determination of the rate of reference</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="DeterminationOfTheRateOfReference" xlink:to="label_en_DeterminationOfTheRateOfReference"/>
+    <link:label xlink:type="resource" xlink:label="label_es_DeterminationOfTheRateOfReference" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Determinación de tasa de referencia</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="DeterminationOfTheRateOfReference" xlink:to="label_es_DeterminationOfTheRateOfReference"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_DevelopmentExpendituresEstimatedNoDiscretionary" xlink:label="DevelopmentExpendituresEstimatedNoDiscretionary"/>
+    <link:label xlink:type="resource" xlink:label="label_en_DevelopmentExpendituresEstimatedNoDiscretionary" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Development expenditures estimated no discretionary</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="DevelopmentExpendituresEstimatedNoDiscretionary" xlink:to="label_en_DevelopmentExpendituresEstimatedNoDiscretionary"/>
+    <link:label xlink:type="resource" xlink:label="label_es_DevelopmentExpendituresEstimatedNoDiscretionary" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Gastos de desarrollo no discrecional estimados</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="DevelopmentExpendituresEstimatedNoDiscretionary" xlink:to="label_es_DevelopmentExpendituresEstimatedNoDiscretionary"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_Distributions" xlink:label="Distributions"/>
+    <link:label xlink:type="resource" xlink:label="label_en_Distributions" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Distributions</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="Distributions" xlink:to="label_en_Distributions"/>
+    <link:label xlink:type="resource" xlink:label="label_es_Distributions" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Distribuciones</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="Distributions" xlink:to="label_es_Distributions"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_EquitySecurities" xlink:label="EquitySecurities"/>
+    <link:label xlink:type="resource" xlink:label="label_en_EquitySecurities" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Equity securities</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="EquitySecurities" xlink:to="label_en_EquitySecurities"/>
+    <link:label xlink:type="resource" xlink:label="label_es_EquitySecurities" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Títulos de capital</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="EquitySecurities" xlink:to="label_es_EquitySecurities"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_EstimatedDepreciationInterest" xlink:label="EstimatedDepreciationInterest"/>
+    <link:label xlink:type="resource" xlink:label="label_en_EstimatedDepreciationInterest" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Estimated depreciation interest</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="EstimatedDepreciationInterest" xlink:to="label_en_EstimatedDepreciationInterest"/>
+    <link:label xlink:type="resource" xlink:label="label_es_EstimatedDepreciationInterest" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Amortización estimadas intereses</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="EstimatedDepreciationInterest" xlink:to="label_es_EstimatedDepreciationInterest"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_EstimatedOperatingIncome" xlink:label="EstimatedOperatingIncome"/>
+    <link:label xlink:type="resource" xlink:label="label_en_EstimatedOperatingIncome" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Estimated operating income</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="EstimatedOperatingIncome" xlink:to="label_en_EstimatedOperatingIncome"/>
+    <link:label xlink:type="resource" xlink:label="label_es_EstimatedOperatingIncome" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Utilidad operativa estimada</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="EstimatedOperatingIncome" xlink:to="label_es_EstimatedOperatingIncome"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_GrandTotalLiabilitiesMember" xlink:label="GrandTotalLiabilitiesMember"/>
+    <link:label xlink:type="resource" xlink:label="label_en_GrandTotalLiabilitiesMember" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Grand total liabilities [Member]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="GrandTotalLiabilitiesMember" xlink:to="label_en_GrandTotalLiabilitiesMember"/>
+    <link:label xlink:type="resource" xlink:label="label_es_GrandTotalLiabilitiesMember" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Total general [Miembro]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="GrandTotalLiabilitiesMember" xlink:to="label_es_GrandTotalLiabilitiesMember"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_IndebtednessAbstract" xlink:label="IndebtednessAbstract"/>
+    <link:label xlink:type="resource" xlink:label="label_en_IndebtednessAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Indebtedness</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="IndebtednessAbstract" xlink:to="label_en_IndebtednessAbstract"/>
+    <link:label xlink:type="resource" xlink:label="label_es_IndebtednessAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Endeudamiento [Sinopsis]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="IndebtednessAbstract" xlink:to="label_es_IndebtednessAbstract"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_IndebtednessLevelAtTheEndOfTheQuarter" xlink:label="IndebtednessLevelAtTheEndOfTheQuarter"/>
+    <link:label xlink:type="resource" xlink:label="label_en_IndebtednessLevelAtTheEndOfTheQuarter" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Indebtedness level at the end of the quarter</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="IndebtednessLevelAtTheEndOfTheQuarter" xlink:to="label_en_IndebtednessLevelAtTheEndOfTheQuarter"/>
+    <link:label xlink:type="resource" xlink:label="label_es_IndebtednessLevelAtTheEndOfTheQuarter" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Nivel de endeudamiento al cierre del trimestre</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="IndebtednessLevelAtTheEndOfTheQuarter" xlink:to="label_es_IndebtednessLevelAtTheEndOfTheQuarter"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_IndebtednessOrLeverageLeverAbstract" xlink:label="IndebtednessOrLeverageLeverAbstract"/>
+    <link:label xlink:type="resource" xlink:label="label_en_IndebtednessOrLeverageLeverAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Indebtedness or leverage level [Abstract]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="IndebtednessOrLeverageLeverAbstract" xlink:to="label_en_IndebtednessOrLeverageLeverAbstract"/>
+    <link:label xlink:type="resource" xlink:label="label_es_IndebtednessOrLeverageLeverAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Nivel de endeudamiento o apalancamiento [Sinopsis]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="IndebtednessOrLeverageLeverAbstract" xlink:to="label_es_IndebtednessOrLeverageLeverAbstract"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_InitialAmountOfTheIssuance" xlink:label="InitialAmountOfTheIssuance"/>
+    <link:label xlink:type="resource" xlink:label="label_en_InitialAmountOfTheIssuance" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Initial amount of the issuance</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="InitialAmountOfTheIssuance" xlink:to="label_en_InitialAmountOfTheIssuance"/>
+    <link:label xlink:type="resource" xlink:label="label_es_InitialAmountOfTheIssuance" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Monto inicial de la emisión</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="InitialAmountOfTheIssuance" xlink:to="label_es_InitialAmountOfTheIssuance"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_InitialCreditLine" xlink:label="InitialCreditLine"/>
+    <link:label xlink:type="resource" xlink:label="label_en_InitialCreditLine" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Initial credit line</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="InitialCreditLine" xlink:to="label_en_InitialCreditLine"/>
+    <link:label xlink:type="resource" xlink:label="label_es_InitialCreditLine" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Línea de crédito inicial</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="InitialCreditLine" xlink:to="label_es_InitialCreditLine"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_InstitutionName" xlink:label="InstitutionName"/>
+    <link:label xlink:type="resource" xlink:label="label_en_InstitutionName" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Institution Name</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="InstitutionName" xlink:to="label_en_InstitutionName"/>
+    <link:label xlink:type="resource" xlink:label="label_es_InstitutionName" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Institución</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="InstitutionName" xlink:to="label_es_InstitutionName"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_InterestRate" xlink:label="InterestRate"/>
+    <link:label xlink:type="resource" xlink:label="label_en_InterestRate" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Interest rate</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="InterestRate" xlink:to="label_en_InterestRate"/>
+    <link:label xlink:type="resource" xlink:label="label_es_InterestRate" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Tasa de interés</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="InterestRate" xlink:to="label_es_InterestRate"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_IsReferredAPlanOfRefinancingAtExpiration" xlink:label="IsReferredAPlanOfRefinancingAtExpiration"/>
+    <link:label xlink:type="resource" xlink:label="label_en_IsReferredAPlanOfRefinancingAtExpiration" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Is referred a plan of refinancing at expiration? yes/no</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="IsReferredAPlanOfRefinancingAtExpiration" xlink:to="label_en_IsReferredAPlanOfRefinancingAtExpiration"/>
+    <link:label xlink:type="resource" xlink:label="label_es_IsReferredAPlanOfRefinancingAtExpiration" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">¿Se contempla plan de refinanciamiento al vencimiento?</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="IsReferredAPlanOfRefinancingAtExpiration" xlink:to="label_es_IsReferredAPlanOfRefinancingAtExpiration"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_IsinAndOrTicker" xlink:label="IsinAndOrTicker"/>
+    <link:label xlink:type="resource" xlink:label="label_en_IsinAndOrTicker" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">ISIN and/or ticker</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="IsinAndOrTicker" xlink:to="label_en_IsinAndOrTicker"/>
+    <link:label xlink:type="resource" xlink:label="label_es_IsinAndOrTicker" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">ISIN y/o clave de pizarra</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="IsinAndOrTicker" xlink:to="label_es_IsinAndOrTicker"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_LeverageAbstract" xlink:label="LeverageAbstract"/>
+    <link:label xlink:type="resource" xlink:label="label_en_LeverageAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Leverage [Abstract]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="LeverageAbstract" xlink:to="label_en_LeverageAbstract"/>
+    <link:label xlink:type="resource" xlink:label="label_es_LeverageAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Apalancamiento [Sinopsis]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="LeverageAbstract" xlink:to="label_es_LeverageAbstract"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_LeverageLevel" xlink:label="LeverageLevel"/>
+    <link:label xlink:type="resource" xlink:label="label_en_LeverageLevel" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Leverage level</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="LeverageLevel" xlink:to="label_en_LeverageLevel"/>
+    <link:label xlink:type="resource" xlink:label="label_es_LeverageLevel" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Nivel de apalancamiento</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="LeverageLevel" xlink:to="label_es_LeverageLevel"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_LeverageLevelText" xlink:label="LeverageLevelText"/>
+    <link:label xlink:type="resource" xlink:label="label_en_LeverageLevelText" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Leverage level text</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="LeverageLevelText" xlink:to="label_en_LeverageLevelText"/>
+    <link:label xlink:type="resource" xlink:label="label_es_LeverageLevelText" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Nivel de apalancamiento</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="LeverageLevelText" xlink:to="label_es_LeverageLevelText"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_LiabilitiesSequenceTypedAxis" xlink:label="LiabilitiesSequenceTypedAxis"/>
+    <link:label xlink:type="resource" xlink:label="label_en_LiabilitiesSequenceTypedAxis" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Liabilities (Sequence) [Typed axis]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="LiabilitiesSequenceTypedAxis" xlink:to="label_en_LiabilitiesSequenceTypedAxis"/>
+    <link:label xlink:type="resource" xlink:label="label_es_LiabilitiesSequenceTypedAxis" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Pasivo (Secuencia) [Eje]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="LiabilitiesSequenceTypedAxis" xlink:to="label_es_LiabilitiesSequenceTypedAxis"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_LiabilityConcept" xlink:label="LiabilityConcept"/>
+    <link:label xlink:type="resource" xlink:label="label_en_LiabilityConcept" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Concept</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="LiabilityConcept" xlink:to="label_en_LiabilityConcept"/>
+    <link:label xlink:type="resource" xlink:label="label_es_LiabilityConcept" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Concepto</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="LiabilityConcept" xlink:to="label_es_LiabilityConcept"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_LiabilityCreditor" xlink:label="LiabilityCreditor"/>
+    <link:label xlink:type="resource" xlink:label="label_en_LiabilityCreditor" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Creditor</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="LiabilityCreditor" xlink:to="label_en_LiabilityCreditor"/>
+    <link:label xlink:type="resource" xlink:label="label_es_LiabilityCreditor" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Acreedor</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="LiabilityCreditor" xlink:to="label_es_LiabilityCreditor"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_LiabilityCurrency" xlink:label="LiabilityCurrency"/>
+    <link:label xlink:type="resource" xlink:label="label_en_LiabilityCurrency" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Currency</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="LiabilityCurrency" xlink:to="label_en_LiabilityCurrency"/>
+    <link:label xlink:type="resource" xlink:label="label_es_LiabilityCurrency" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Moneda</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="LiabilityCurrency" xlink:to="label_es_LiabilityCurrency"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_LiquidAssets" xlink:label="LiquidAssets"/>
+    <link:label xlink:type="resource" xlink:label="label_en_LiquidAssets" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Liquid assets</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="LiquidAssets" xlink:to="label_en_LiquidAssets"/>
+    <link:label xlink:type="resource" xlink:label="label_es_LiquidAssets" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Activos líquidos</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="LiquidAssets" xlink:to="label_es_LiquidAssets"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_ListedMexicoOrForeign" xlink:label="ListedMexicoOrForeign"/>
+    <link:label xlink:type="resource" xlink:label="label_en_ListedMexicoOrForeign" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Listed "México/Foreign"</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ListedMexicoOrForeign" xlink:to="label_en_ListedMexicoOrForeign"/>
+    <link:label xlink:type="resource" xlink:label="label_es_ListedMexicoOrForeign" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Listadas (México/Extranjero)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ListedMexicoOrForeign" xlink:to="label_es_ListedMexicoOrForeign"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_MonthsOfDelaysPrincipalOrInterest" xlink:label="MonthsOfDelaysPrincipalOrInterest"/>
+    <link:label xlink:type="resource" xlink:label="label_en_MonthsOfDelaysPrincipalOrInterest" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Months of delays (principal or interest)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="MonthsOfDelaysPrincipalOrInterest" xlink:to="label_en_MonthsOfDelaysPrincipalOrInterest"/>
+    <link:label xlink:type="resource" xlink:label="label_es_MonthsOfDelaysPrincipalOrInterest" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Meses de atraso (capital o interés)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="MonthsOfDelaysPrincipalOrInterest" xlink:to="label_es_MonthsOfDelaysPrincipalOrInterest"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_NineTeenToThirtySixMonthsMember" xlink:label="NineTeenToThirtySixMonthsMember"/>
+    <link:label xlink:type="resource" xlink:label="label_en_NineTeenToThirtySixMonthsMember" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">19 to 36 Months [Member]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="NineTeenToThirtySixMonthsMember" xlink:to="label_en_NineTeenToThirtySixMonthsMember"/>
+    <link:label xlink:type="resource" xlink:label="label_es_NineTeenToThirtySixMonthsMember" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">19 a 36 Meses [Miembro]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="NineTeenToThirtySixMonthsMember" xlink:to="label_es_NineTeenToThirtySixMonthsMember"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_NumberOfContract" xlink:label="NumberOfContract"/>
+    <link:label xlink:type="resource" xlink:label="label_en_NumberOfContract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Number Of contract</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="NumberOfContract" xlink:to="label_en_NumberOfContract"/>
+    <link:label xlink:type="resource" xlink:label="label_es_NumberOfContract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Número de contrato</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="NumberOfContract" xlink:to="label_es_NumberOfContract"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_OtherCurrentAndNonCurrentLiabilitiesWithCostMember" xlink:label="OtherCurrentAndNonCurrentLiabilitiesWithCostMember"/>
+    <link:label xlink:type="resource" xlink:label="label_en_OtherCurrentAndNonCurrentLiabilitiesWithCostMember" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Other current and non-current liabilities with cost [Member]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="OtherCurrentAndNonCurrentLiabilitiesWithCostMember" xlink:to="label_en_OtherCurrentAndNonCurrentLiabilitiesWithCostMember"/>
+    <link:label xlink:type="resource" xlink:label="label_es_OtherCurrentAndNonCurrentLiabilitiesWithCostMember" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Otros pasivos circulantes y no circulantes con costo [Miembro]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="OtherCurrentAndNonCurrentLiabilitiesWithCostMember" xlink:to="label_es_OtherCurrentAndNonCurrentLiabilitiesWithCostMember"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_OutstandingBalance" xlink:label="OutstandingBalance"/>
+    <link:label xlink:type="resource" xlink:label="label_en_OutstandingBalance" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Outstanding balance</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="OutstandingBalance" xlink:to="label_en_OutstandingBalance"/>
+    <link:label xlink:type="resource" xlink:label="label_es_OutstandingBalance" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Saldo insoluto</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="OutstandingBalance" xlink:to="label_es_OutstandingBalance"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_OutstandingBalanceDetail" xlink:label="OutstandingBalanceDetail"/>
+    <link:label xlink:type="resource" xlink:label="label_en_OutstandingBalanceDetail" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Outstanding balance detail</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="OutstandingBalanceDetail" xlink:to="label_en_OutstandingBalanceDetail"/>
+    <link:label xlink:type="resource" xlink:label="label_es_OutstandingBalanceDetail" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Saldo insoluto (Detalle)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="OutstandingBalanceDetail" xlink:to="label_es_OutstandingBalanceDetail"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_OutstandingBalanceDetailAbstract" xlink:label="OutstandingBalanceDetailAbstract"/>
+    <link:label xlink:type="resource" xlink:label="label_en_OutstandingBalanceDetailAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Outstanding balance detail [Abstract]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="OutstandingBalanceDetailAbstract" xlink:to="label_en_OutstandingBalanceDetailAbstract"/>
+    <link:label xlink:type="resource" xlink:label="label_es_OutstandingBalanceDetailAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Detalle del saldo insoluto [Sinopsis]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="OutstandingBalanceDetailAbstract" xlink:to="label_es_OutstandingBalanceDetailAbstract"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_OutstandingBalanceDetailTable" xlink:label="OutstandingBalanceDetailTable"/>
+    <link:label xlink:type="resource" xlink:label="label_en_OutstandingBalanceDetailTable" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Outstanding balance detail [Table]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="OutstandingBalanceDetailTable" xlink:to="label_en_OutstandingBalanceDetailTable"/>
+    <link:label xlink:type="resource" xlink:label="label_es_OutstandingBalanceDetailTable" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Detalle del saldo insoluto [Tabla]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="OutstandingBalanceDetailTable" xlink:to="label_es_OutstandingBalanceDetailTable"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_OutstandingBalanceLineItems" xlink:label="OutstandingBalanceLineItems"/>
+    <link:label xlink:type="resource" xlink:label="label_en_OutstandingBalanceLineItems" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Outstanding balance [Line items]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="OutstandingBalanceLineItems" xlink:to="label_en_OutstandingBalanceLineItems"/>
+    <link:label xlink:type="resource" xlink:label="label_es_OutstandingBalanceLineItems" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Saldo insoluto [Partidas]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="OutstandingBalanceLineItems" xlink:to="label_es_OutstandingBalanceLineItems"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_PaymentScheme" xlink:label="PaymentScheme"/>
+    <link:label xlink:type="resource" xlink:label="label_en_PaymentScheme" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Payment scheme</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="PaymentScheme" xlink:to="label_en_PaymentScheme"/>
+    <link:label xlink:type="resource" xlink:label="label_es_PaymentScheme" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Esquema de pago</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="PaymentScheme" xlink:to="label_es_PaymentScheme"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_PercentageOfTheTotalDebt" xlink:label="PercentageOfTheTotalDebt"/>
+    <link:label xlink:type="resource" xlink:label="label_en_PercentageOfTheTotalDebt" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">% of the total debt</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="PercentageOfTheTotalDebt" xlink:to="label_en_PercentageOfTheTotalDebt"/>
+    <link:label xlink:type="resource" xlink:label="label_es_PercentageOfTheTotalDebt" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Porcentaje de la deuda total</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="PercentageOfTheTotalDebt" xlink:to="label_es_PercentageOfTheTotalDebt"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_PlannedAmortizationOfPrincipalOfFinancing" xlink:label="PlannedAmortizationOfPrincipalOfFinancing"/>
+    <link:label xlink:type="resource" xlink:label="label_en_PlannedAmortizationOfPrincipalOfFinancing" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Planned amortization  of principal of financing</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="PlannedAmortizationOfPrincipalOfFinancing" xlink:to="label_en_PlannedAmortizationOfPrincipalOfFinancing"/>
+    <link:label xlink:type="resource" xlink:label="label_es_PlannedAmortizationOfPrincipalOfFinancing" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Amortizaciones programadas de principal de financiamientos</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="PlannedAmortizationOfPrincipalOfFinancing" xlink:to="label_es_PlannedAmortizationOfPrincipalOfFinancing"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_PlannedCapitalRedemption" xlink:label="PlannedCapitalRedemption"/>
+    <link:label xlink:type="resource" xlink:label="label_en_PlannedCapitalRedemption" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Planned capital redemption</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="PlannedCapitalRedemption" xlink:to="label_en_PlannedCapitalRedemption"/>
+    <link:label xlink:type="resource" xlink:label="label_es_PlannedCapitalRedemption" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Amortización programadas capital</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="PlannedCapitalRedemption" xlink:to="label_es_PlannedCapitalRedemption"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_PriorityOfPayment" xlink:label="PriorityOfPayment"/>
+    <link:label xlink:type="resource" xlink:label="label_en_PriorityOfPayment" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Priority of payment</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="PriorityOfPayment" xlink:to="label_en_PriorityOfPayment"/>
+    <link:label xlink:type="resource" xlink:label="label_es_PriorityOfPayment" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Prelación de pago</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="PriorityOfPayment" xlink:to="label_es_PriorityOfPayment"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_PrivatePlacementsMember" xlink:label="PrivatePlacementsMember"/>
+    <link:label xlink:type="resource" xlink:label="label_en_PrivatePlacementsMember" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Private placements [Member]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="PrivatePlacementsMember" xlink:to="label_en_PrivatePlacementsMember"/>
+    <link:label xlink:type="resource" xlink:label="label_es_PrivatePlacementsMember" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Colocaciones privadas [Miembro]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="PrivatePlacementsMember" xlink:to="label_es_PrivatePlacementsMember"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_RecoverableIVA" xlink:label="RecoverableIVA"/>
+    <link:label xlink:type="resource" xlink:label="label_en_RecoverableIVA" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Recoverable IVA</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="RecoverableIVA" xlink:to="label_en_RecoverableIVA"/>
+    <link:label xlink:type="resource" xlink:label="label_es_RecoverableIVA" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">IVA por recuperar</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="RecoverableIVA" xlink:to="label_es_RecoverableIVA"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_RecurringCapitalExpendituresEstimates" xlink:label="RecurringCapitalExpendituresEstimates"/>
+    <link:label xlink:type="resource" xlink:label="label_en_RecurringCapitalExpendituresEstimates" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Recurring capital expenditures estimates</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="RecurringCapitalExpendituresEstimates" xlink:to="label_en_RecurringCapitalExpendituresEstimates"/>
+    <link:label xlink:type="resource" xlink:label="label_es_RecurringCapitalExpendituresEstimates" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Gastos de capital recurrentes estimados</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="RecurringCapitalExpendituresEstimates" xlink:to="label_es_RecurringCapitalExpendituresEstimates"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_RefinancingClauseToMaturatyYesNo" xlink:label="RefinancingClauseToMaturatyYesNo"/>
+    <link:label xlink:type="resource" xlink:label="label_en_RefinancingClauseToMaturatyYesNo" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Refinancing clause to maturaty Yes / No</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="RefinancingClauseToMaturatyYesNo" xlink:to="label_en_RefinancingClauseToMaturatyYesNo"/>
+    <link:label xlink:type="resource" xlink:label="label_es_RefinancingClauseToMaturatyYesNo" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Cláusula de refinanciamiento al vencimiento</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="RefinancingClauseToMaturatyYesNo" xlink:to="label_es_RefinancingClauseToMaturatyYesNo"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_RevolvingCreditLines" xlink:label="RevolvingCreditLines"/>
+    <link:label xlink:type="resource" xlink:label="label_en_RevolvingCreditLines" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Revolving credit lines</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="RevolvingCreditLines" xlink:to="label_en_RevolvingCreditLines"/>
+    <link:label xlink:type="resource" xlink:label="label_es_RevolvingCreditLines" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Líneas de crédito revolventes</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="RevolvingCreditLines" xlink:to="label_es_RevolvingCreditLines"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_ScheduleOfAmortization" xlink:label="ScheduleOfAmortization"/>
+    <link:label xlink:type="resource" xlink:label="label_en_ScheduleOfAmortization" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Schedule of amortization</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ScheduleOfAmortization" xlink:to="label_en_ScheduleOfAmortization"/>
+    <link:label xlink:type="resource" xlink:label="label_es_ScheduleOfAmortization" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Esquema de amortización</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ScheduleOfAmortization" xlink:to="label_es_ScheduleOfAmortization"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_SettlementDate" xlink:label="SettlementDate"/>
+    <link:label xlink:type="resource" xlink:label="label_en_SettlementDate" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Settlement Date</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="SettlementDate" xlink:to="label_en_SettlementDate"/>
+    <link:label xlink:type="resource" xlink:label="label_es_SettlementDate" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Fecha de vencimiento</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="SettlementDate" xlink:to="label_es_SettlementDate"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_SevenToTwelveMonthsMember" xlink:label="SevenToTwelveMonthsMember"/>
+    <link:label xlink:type="resource" xlink:label="label_en_SevenToTwelveMonthsMember" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">7 to 12 Months [Member]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="SevenToTwelveMonthsMember" xlink:to="label_en_SevenToTwelveMonthsMember"/>
+    <link:label xlink:type="resource" xlink:label="label_es_SevenToTwelveMonthsMember" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">7 a 12 Meses [Miembro]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="SevenToTwelveMonthsMember" xlink:to="label_es_SevenToTwelveMonthsMember"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_SignatureDateContract" xlink:label="SignatureDateContract"/>
+    <link:label xlink:type="resource" xlink:label="label_en_SignatureDateContract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Signature Date/Contract</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="SignatureDateContract" xlink:to="label_en_SignatureDateContract"/>
+    <link:label xlink:type="resource" xlink:label="label_es_SignatureDateContract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Fecha de firma de contrato</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="SignatureDateContract" xlink:to="label_es_SignatureDateContract"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_SotckMarketMember" xlink:label="SotckMarketMember"/>
+    <link:label xlink:type="resource" xlink:label="label_en_SotckMarketMember" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Sotck market [Member]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="SotckMarketMember" xlink:to="label_en_SotckMarketMember"/>
+    <link:label xlink:type="resource" xlink:label="label_es_SotckMarketMember" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Listadas en bolsa [Miembro]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="SotckMarketMember" xlink:to="label_es_SotckMarketMember"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_ThirteenToEightTeenMonthsMember" xlink:label="ThirteenToEightTeenMonthsMember"/>
+    <link:label xlink:type="resource" xlink:label="label_en_ThirteenToEightTeenMonthsMember" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">13 to 18 Months [Member]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ThirteenToEightTeenMonthsMember" xlink:to="label_en_ThirteenToEightTeenMonthsMember"/>
+    <link:label xlink:type="resource" xlink:label="label_es_ThirteenToEightTeenMonthsMember" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">13 a 18 Meses [Miembro]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ThirteenToEightTeenMonthsMember" xlink:to="label_es_ThirteenToEightTeenMonthsMember"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_ThirtySevenMonthsOrMoreMember" xlink:label="ThirtySevenMonthsOrMoreMember"/>
+    <link:label xlink:type="resource" xlink:label="label_en_ThirtySevenMonthsOrMoreMember" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">37 Months or more [Member]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ThirtySevenMonthsOrMoreMember" xlink:to="label_en_ThirtySevenMonthsOrMoreMember"/>
+    <link:label xlink:type="resource" xlink:label="label_es_ThirtySevenMonthsOrMoreMember" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">37 Meses o más [Miembro]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ThirtySevenMonthsOrMoreMember" xlink:to="label_es_ThirtySevenMonthsOrMoreMember"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_TimeIntervalBreakdownOfLiabilitiesAxis" xlink:label="TimeIntervalBreakdownOfLiabilitiesAxis"/>
+    <link:label xlink:type="resource" xlink:label="label_en_TimeIntervalBreakdownOfLiabilitiesAxis" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Time interval - Breakdown of liabilities  [Axis]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="TimeIntervalBreakdownOfLiabilitiesAxis" xlink:to="label_en_TimeIntervalBreakdownOfLiabilitiesAxis"/>
+    <link:label xlink:type="resource" xlink:label="label_es_TimeIntervalBreakdownOfLiabilitiesAxis" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Intervalo de tiempo - desglose de pasivos [Eje]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="TimeIntervalBreakdownOfLiabilitiesAxis" xlink:to="label_es_TimeIntervalBreakdownOfLiabilitiesAxis"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_TotalBankingMember" xlink:label="TotalBankingMember"/>
+    <link:label xlink:type="resource" xlink:label="label_en_TotalBankingMember" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Total banking [Member]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="TotalBankingMember" xlink:to="label_en_TotalBankingMember"/>
+    <link:label xlink:type="resource" xlink:label="label_es_TotalBankingMember" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Total Bancarios [Miembro]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="TotalBankingMember" xlink:to="label_es_TotalBankingMember"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_TotalCreditsLoansOrNotRelevantFunding" xlink:label="TotalCreditsLoansOrNotRelevantFunding"/>
+    <link:label xlink:type="resource" xlink:label="label_en_TotalCreditsLoansOrNotRelevantFunding" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Total credits, loans or not relevant funding</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="TotalCreditsLoansOrNotRelevantFunding" xlink:to="label_en_TotalCreditsLoansOrNotRelevantFunding"/>
+    <link:label xlink:type="resource" xlink:label="label_es_TotalCreditsLoansOrNotRelevantFunding" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Total de créditos, préstamos o financiamientos no relevantes</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="TotalCreditsLoansOrNotRelevantFunding" xlink:to="label_es_TotalCreditsLoansOrNotRelevantFunding"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_TotalDebtInSecurities" xlink:label="TotalDebtInSecurities"/>
+    <link:label xlink:type="resource" xlink:label="label_en_TotalDebtInSecurities" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Total debt in securities</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="TotalDebtInSecurities" xlink:to="label_en_TotalDebtInSecurities"/>
+    <link:label xlink:type="resource" xlink:label="label_es_TotalDebtInSecurities" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Total de deuda bursátil</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="TotalDebtInSecurities" xlink:to="label_es_TotalDebtInSecurities"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_TotalFunding" xlink:label="TotalFunding"/>
+    <link:label xlink:type="resource" xlink:label="label_en_TotalFunding" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Total funding</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="TotalFunding" xlink:to="label_en_TotalFunding"/>
+    <link:label xlink:type="resource" xlink:label="label_es_TotalFunding" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Total de financiamientos</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="TotalFunding" xlink:to="label_es_TotalFunding"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_TotalInitialCreditLineAndInitialAmountOfTheIssuance" xlink:label="TotalInitialCreditLineAndInitialAmountOfTheIssuance"/>
+    <link:label xlink:type="resource" xlink:label="label_en_TotalInitialCreditLineAndInitialAmountOfTheIssuance" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Total initial credit line and initial amount of the issuance</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="TotalInitialCreditLineAndInitialAmountOfTheIssuance" xlink:to="label_en_TotalInitialCreditLineAndInitialAmountOfTheIssuance"/>
+    <link:label xlink:type="resource" xlink:label="label_es_TotalInitialCreditLineAndInitialAmountOfTheIssuance" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Total en línea de crédito y monto inicial de la emisión</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="TotalInitialCreditLineAndInitialAmountOfTheIssuance" xlink:to="label_es_TotalInitialCreditLineAndInitialAmountOfTheIssuance"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_TotalOtherCurrentAndNonCurrentLiabilitiesWithCostInNationalCurrencyMember" xlink:label="TotalOtherCurrentAndNonCurrentLiabilitiesWithCostInNationalCurrencyMember"/>
+    <link:label xlink:type="resource" xlink:label="label_en_TotalOtherCurrentAndNonCurrentLiabilitiesWithCostInNationalCurrencyMember" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Total other current and non-current liabilities with cost in national currency [Member]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="TotalOtherCurrentAndNonCurrentLiabilitiesWithCostInNationalCurrencyMember" xlink:to="label_en_TotalOtherCurrentAndNonCurrentLiabilitiesWithCostInNationalCurrencyMember"/>
+    <link:label xlink:type="resource" xlink:label="label_es_TotalOtherCurrentAndNonCurrentLiabilitiesWithCostInNationalCurrencyMember" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Total otros pasivos circulantes y no circulantes con costo [Miembro]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="TotalOtherCurrentAndNonCurrentLiabilitiesWithCostInNationalCurrencyMember" xlink:to="label_es_TotalOtherCurrentAndNonCurrentLiabilitiesWithCostInNationalCurrencyMember"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_TotalStockMarketListedInTheStockMarketAndPrivatePlacementsMember" xlink:label="TotalStockMarketListedInTheStockMarketAndPrivatePlacementsMember"/>
+    <link:label xlink:type="resource" xlink:label="label_en_TotalStockMarketListedInTheStockMarketAndPrivatePlacementsMember" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Total stock market, listed in the stock market and private placements [Member]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="TotalStockMarketListedInTheStockMarketAndPrivatePlacementsMember" xlink:to="label_en_TotalStockMarketListedInTheStockMarketAndPrivatePlacementsMember"/>
+    <link:label xlink:type="resource" xlink:label="label_es_TotalStockMarketListedInTheStockMarketAndPrivatePlacementsMember" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Total bursátiles y colocaciones privadas [Miembro]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="TotalStockMarketListedInTheStockMarketAndPrivatePlacementsMember" xlink:to="label_es_TotalStockMarketListedInTheStockMarketAndPrivatePlacementsMember"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_TotalTimeIntervalMember" xlink:label="TotalTimeIntervalMember"/>
+    <link:label xlink:type="resource" xlink:label="label_en_TotalTimeIntervalMember" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Total time interval [Member]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="TotalTimeIntervalMember" xlink:to="label_en_TotalTimeIntervalMember"/>
+    <link:label xlink:type="resource" xlink:label="label_es_TotalTimeIntervalMember" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Total [Miembro]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="TotalTimeIntervalMember" xlink:to="label_es_TotalTimeIntervalMember"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_TotalUnpaidAccruedInterest" xlink:label="TotalUnpaidAccruedInterest"/>
+    <link:label xlink:type="resource" xlink:label="label_en_TotalUnpaidAccruedInterest" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Total unpaid accrued interest</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="TotalUnpaidAccruedInterest" xlink:to="label_en_TotalUnpaidAccruedInterest"/>
+    <link:label xlink:type="resource" xlink:label="label_es_TotalUnpaidAccruedInterest" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Total de intereses devengados no pagados</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="TotalUnpaidAccruedInterest" xlink:to="label_es_TotalUnpaidAccruedInterest"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_TypeOfCreditRevolvingPayingAtExpirationConstantPayments" xlink:label="TypeOfCreditRevolvingPayingAtExpirationConstantPayments"/>
+    <link:label xlink:type="resource" xlink:label="label_en_TypeOfCreditRevolvingPayingAtExpirationConstantPayments" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Type of credit (Revolving, Paying At Expiration, Constant Payments )</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="TypeOfCreditRevolvingPayingAtExpirationConstantPayments" xlink:to="label_en_TypeOfCreditRevolvingPayingAtExpirationConstantPayments"/>
+    <link:label xlink:type="resource" xlink:label="label_es_TypeOfCreditRevolvingPayingAtExpirationConstantPayments" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Tipo de crédito (revolvente, pago a vencimiento, pagos constantes)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="TypeOfCreditRevolvingPayingAtExpirationConstantPayments" xlink:to="label_es_TypeOfCreditRevolvingPayingAtExpirationConstantPayments"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_TypesOfLiabilitiesAxis" xlink:label="TypesOfLiabilitiesAxis"/>
+    <link:label xlink:type="resource" xlink:label="label_en_TypesOfLiabilitiesAxis" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Types of liabilities [Axis]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="TypesOfLiabilitiesAxis" xlink:to="label_en_TypesOfLiabilitiesAxis"/>
+    <link:label xlink:type="resource" xlink:label="label_es_TypesOfLiabilitiesAxis" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Tipo de pasivo [Eje]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="TypesOfLiabilitiesAxis" xlink:to="label_es_TypesOfLiabilitiesAxis"/>
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_ZeroToSixMonthsMember" xlink:label="ZeroToSixMonthsMember"/>
+    <link:label xlink:type="resource" xlink:label="label_en_ZeroToSixMonthsMember" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">0 to 6 Months [Member]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ZeroToSixMonthsMember" xlink:to="label_en_ZeroToSixMonthsMember"/>
+    <link:label xlink:type="resource" xlink:label="label_es_ZeroToSixMonthsMember" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">0 a 6 Meses [Miembro]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ZeroToSixMonthsMember" xlink:to="label_es_ZeroToSixMonthsMember"/>
+
+
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_CorrectivePlanSummaryText" xlink:label="CorrectivePlanSummaryText"/>
+    <link:label xlink:type="resource" xlink:label="label_en_CorrectivePlanSummaryText" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Corrective Plan Summary</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="CorrectivePlanSummaryText" xlink:to="label_en_CorrectivePlanSummaryText"/>
+    <link:label xlink:type="resource" xlink:label="label_es_CorrectivePlanSummaryText" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Resumen del Plan Correctivo</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="CorrectivePlanSummaryText" xlink:to="label_es_CorrectivePlanSummaryText"/>
+	
+    <link:loc xlink:type="locator" xlink:href="../full_ifrs_mx-cor_2016-08-22.xsd#ifrs_mx-cor_20160822_RequiresSubmittingAnnexAA" xlink:label="RequiresSubmittingAnnexAA"/>
+    <link:label xlink:type="resource" xlink:label="label_en_RequiresSubmittingAnnexAA" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Requires Submit Annex AA</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="RequiresSubmittingAnnexAA" xlink:to="label_en_RequiresSubmittingAnnexAA"/>
+    <link:label xlink:type="resource" xlink:label="label_es_RequiresSubmittingAnnexAA" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="es">Requiere Presentar Anexo AA</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="RequiresSubmittingAnnexAA" xlink:to="label_es_RequiresSubmittingAnnexAA"/>
+
+  </link:labelLink>
+</link:linkbase>

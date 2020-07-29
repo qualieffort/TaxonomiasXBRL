@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Taxonomy: 2014-03-05 (Final release)
+        ********************** 
+        Copyright © 2014 International Financial Reporting Standards (IFRS) Foundation
+        All rights reserved.  No part of this publication may be translated, reprinted or reproduced 
+        or utilised in any form either in whole or in part without prior permission in writing from the IFRS Foundation.
+        For more information on the IFRS Foundation's copyright, please refer to http://www.ifrs.org/XBRL/Legal/
+        **********************
+-->
+<xsd:schema xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:rol_mc_2014-03-05="http://bmv.com.mx/role/ifrs/rol_mc_2014-03-05" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://bmv.com.mx/role/ifrs/rol_mc_2014-03-05" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xsd:annotation>
+		<xsd:appinfo>
+			<link:roleType id="mc_2014-03-05_role-105000" roleURI="http://bmv.com.mx/role/ifrs/mc_2014-03-05_role-105000">
+				<link:definition>[105000] Comentarios y Análisis de la Administración</link:definition>
+				<link:usedOn>link:calculationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:presentationLink</link:usedOn>
+			</link:roleType>
+		</xsd:appinfo>
+	</xsd:annotation>
+	<xsd:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+</xsd:schema>

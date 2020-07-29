@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Taxonomy: 2014-03-05 (Final release)
+        ********************** 
+        Copyright © 2014 International Financial Reporting Standards (IFRS) Foundation
+        All rights reserved.  No part of this publication may be translated, reprinted or reproduced 
+        or utilised in any form either in whole or in part without prior permission in writing from the IFRS Foundation.
+        For more information on the IFRS Foundation's copyright, please refer to http://www.ifrs.org/XBRL/Legal/
+        **********************
+-->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://bmv.com.mx/role/ifrs/trac/2015/ias_1_2014-03-05_role-800200" xlink:type="simple" xlink:href="rol_ias_1_2014-03-05.xsd#ias_1_2014-03-05_role-800200"/>
+  <link:roleRef roleURI="http://www.xbrl.org/2009/role/negatedLabel" xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedLabel"/>
+  <link:roleRef roleURI="http://www.xbrl.org/2009/role/netLabel" xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/net-2009-12-16.xsd#netLabel"/>
+  <link:roleRef roleURI="http://www.xbrl.org/2009/role/negatedTotalLabel" xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedTotalLabel"/>
+  <link:presentationLink xlink:type="extended" xlink:role="http://bmv.com.mx/role/ifrs/trac/2015/ias_1_2014-03-05_role-800200">
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_AnalysisOfIncomeAndExpenseAbstract" xlink:label="loc_13"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_RevenueAbstract" xlink:label="loc_12"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_13" xlink:to="loc_12" order="10.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_RevenueFromInterest" xlink:label="loc_2"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_12" xlink:to="loc_2" order="20.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_RevenueFromDividends" xlink:label="loc_160"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_12" xlink:to="loc_160" order="10.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_OtherRevenue" xlink:label="loc_168"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_12" xlink:to="loc_168" order="30.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_Revenue" xlink:label="loc_176"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_12" xlink:to="loc_176" order="40.0" preferredLabel="http://www.xbrl.org/2003/role/totalLabel"/>
+    <link:loc xlink:type="locator" xlink:href="../../../trac/core/mx_trac-cor_2015-06-05.xsd#mx_trac_AdministrativeExpenseAbstract" xlink:label="AdministrativeExpenseAbstract" xlink:title="AdministrativeExpenseAbstract"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_13" xlink:to="AdministrativeExpenseAbstract" xlink:title="presentation: AnalysisOfIncomeAndExpenseAbstract to AdministrativeExpenseAbstract" order="20.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../trac/core/mx_trac-cor_2015-06-05.xsd#mx_trac_ManagementFee" xlink:label="ManagementFee" xlink:title="ManagementFee"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="AdministrativeExpenseAbstract" xlink:to="ManagementFee" xlink:title="presentation: AdministrativeExpenseAbstract to ManagementFee" order="10.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../trac/core/mx_trac-cor_2015-06-05.xsd#mx_trac_ProfessionalFees" xlink:label="ProfessionalFees" xlink:title="ProfessionalFees"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="AdministrativeExpenseAbstract" xlink:to="ProfessionalFees" xlink:title="presentation: AdministrativeExpenseAbstract to ProfessionalFees" order="20.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../trac/core/mx_trac-cor_2015-06-05.xsd#mx_trac_Taxes" xlink:label="Taxes" xlink:title="Taxes"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="AdministrativeExpenseAbstract" xlink:to="Taxes" xlink:title="presentation: AdministrativeExpenseAbstract to Taxes" order="40.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../trac/core/mx_trac-cor_2015-06-05.xsd#mx_trac_FeesAndRights" xlink:label="FeesAndRights" xlink:title="FeesAndRights"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="AdministrativeExpenseAbstract" xlink:to="FeesAndRights" xlink:title="presentation: AdministrativeExpenseAbstract to FeesAndRights" order="30.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../trac/core/mx_trac-cor_2015-06-05.xsd#mx_trac_DividendsAndInterestPaid" xlink:label="DividendsAndInterestPaid" xlink:title="DividendsAndInterestPaid"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="AdministrativeExpenseAbstract" xlink:to="DividendsAndInterestPaid" xlink:title="presentation: AdministrativeExpenseAbstract to DividendsAndInterestPaid" order="50.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../trac/core/mx_trac-cor_2015-06-05.xsd#mx_trac_OtherAdministrativeExpenses" xlink:label="OtherAdministrativeExpenses" xlink:title="OtherAdministrativeExpenses"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="AdministrativeExpenseAbstract" xlink:to="OtherAdministrativeExpenses" xlink:title="presentation: AdministrativeExpenseAbstract to OtherAdministrativeExpenses" order="60.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_AdministrativeExpense" xlink:label="AdministrativeExpense" xlink:title="AdministrativeExpense"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="AdministrativeExpenseAbstract" xlink:to="AdministrativeExpense" xlink:title="presentation: AdministrativeExpenseAbstract to AdministrativeExpense" order="61.0" preferredLabel="http://www.xbrl.org/2003/role/totalLabel"/>
+    <link:loc xlink:type="locator" xlink:href="../../../trac/core/mx_trac-cor_2015-06-05.xsd#mx_trac_FinanceIncomeAbstract" xlink:label="FinanceIncomeAbstract" xlink:title="FinanceIncomeAbstract"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_13" xlink:to="FinanceIncomeAbstract" xlink:title="presentation: AnalysisOfIncomeAndExpenseAbstract to FinanceIncomeAbstract" order="30.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../trac/core/mx_trac-cor_2015-06-05.xsd#mx_trac_InterestIncome" xlink:label="InterestIncome" xlink:title="InterestIncome"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="FinanceIncomeAbstract" xlink:to="InterestIncome" xlink:title="presentation: FinanceIncomeAbstract to InterestIncome" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../trac/core/mx_trac-cor_2015-06-05.xsd#mx_trac_GainOnForeignExchange" xlink:label="GainOnForeignExchange" xlink:title="GainOnForeignExchange"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="FinanceIncomeAbstract" xlink:to="GainOnForeignExchange" xlink:title="presentation: FinanceIncomeAbstract to GainOnForeignExchange" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../trac/core/mx_trac-cor_2015-06-05.xsd#mx_trac_GainOnChangeInFairValueOfFinancialInstruments" xlink:label="GainOnChangeInFairValueOfFinancialInstruments" xlink:title="GainOnChangeInFairValueOfFinancialInstruments"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="FinanceIncomeAbstract" xlink:to="GainOnChangeInFairValueOfFinancialInstruments" xlink:title="presentation: FinanceIncomeAbstract to GainOnChangeInFairValueOfFinancialInstruments" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../trac/core/mx_trac-cor_2015-06-05.xsd#mx_trac_GainOnSaleOfSecurities" xlink:label="GainOnSaleOfSecurities" xlink:title="GainOnSaleOfSecurities"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="FinanceIncomeAbstract" xlink:to="GainOnSaleOfSecurities" xlink:title="presentation: FinanceIncomeAbstract to GainOnSaleOfSecurities" order="4.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_OtherFinanceIncome" xlink:label="OtherFinanceIncome" xlink:title="OtherFinanceIncome"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="FinanceIncomeAbstract" xlink:to="OtherFinanceIncome" xlink:title="presentation: FinanceIncomeAbstract to OtherFinanceIncome" order="5.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_FinanceIncome" xlink:label="FinanceIncome" xlink:title="FinanceIncome"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="FinanceIncomeAbstract" xlink:to="FinanceIncome" xlink:title="presentation: FinanceIncomeAbstract to FinanceIncome" order="6.0" preferredLabel="http://www.xbrl.org/2003/role/totalLabel"/>
+    <link:loc xlink:type="locator" xlink:href="../../../trac/core/mx_trac-cor_2015-06-05.xsd#mx_trac_FinanceCostsAbstract" xlink:label="FinanceCostsAbstract" xlink:title="FinanceCostsAbstract"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_13" xlink:to="FinanceCostsAbstract" xlink:title="presentation: AnalysisOfIncomeAndExpenseAbstract to FinanceCostsAbstract" order="40.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../trac/core/mx_trac-cor_2015-06-05.xsd#mx_trac_AccruedInterestExpense" xlink:label="AccruedInterestExpense" xlink:title="AccruedInterestExpense"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="FinanceCostsAbstract" xlink:to="AccruedInterestExpense" xlink:title="presentation: FinanceCostsAbstract to AccruedInterestExpense" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../trac/core/mx_trac-cor_2015-06-05.xsd#mx_trac_ForeignExchangeLoss" xlink:label="ForeignExchangeLoss" xlink:title="ForeignExchangeLoss"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="FinanceCostsAbstract" xlink:to="ForeignExchangeLoss" xlink:title="presentation: FinanceCostsAbstract to ForeignExchangeLoss" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../trac/core/mx_trac-cor_2015-06-05.xsd#mx_trac_LossOnChangesInFairValueOfFinancialInstruments" xlink:label="LossOnChangesInFairValueOfFinancialInstruments" xlink:title="LossOnChangesInFairValueOfFinancialInstruments"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="FinanceCostsAbstract" xlink:to="LossOnChangesInFairValueOfFinancialInstruments" xlink:title="presentation: FinanceCostsAbstract to LossOnChangesInFairValueOfFinancialInstruments" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../trac/core/mx_trac-cor_2015-06-05.xsd#mx_trac_LossOnSaleOfSecurities" xlink:label="LossOnSaleOfSecurities" xlink:title="LossOnSaleOfSecurities"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="FinanceCostsAbstract" xlink:to="LossOnSaleOfSecurities" xlink:title="presentation: FinanceCostsAbstract to LossOnSaleOfSecurities" order="4.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_OtherFinanceCost" xlink:label="OtherFinanceCost" xlink:title="OtherFinanceCost"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="FinanceCostsAbstract" xlink:to="OtherFinanceCost" xlink:title="presentation: FinanceCostsAbstract to OtherFinanceCost" order="5.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs-cor_2014-03-05.xsd#ifrs-full_FinanceCosts" xlink:label="FinanceCosts" xlink:title="FinanceCosts"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="FinanceCostsAbstract" xlink:to="FinanceCosts" xlink:title="presentation: FinanceCostsAbstract to FinanceCosts" order="6.0" preferredLabel="http://www.xbrl.org/2003/role/totalLabel"/>
+  </link:presentationLink>
+</link:linkbase>

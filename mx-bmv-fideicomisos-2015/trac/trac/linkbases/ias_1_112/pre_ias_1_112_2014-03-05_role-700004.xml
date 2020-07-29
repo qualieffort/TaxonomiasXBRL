@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Taxonomy: 2014-03-05 (Final release)
+        ********************** 
+        Copyright © 2014 International Financial Reporting Standards (IFRS) Foundation
+        All rights reserved.  No part of this publication may be translated, reprinted or reproduced 
+        or utilised in any form either in whole or in part without prior permission in writing from the IFRS Foundation.
+        For more information on the IFRS Foundation's copyright, please refer to http://www.ifrs.org/XBRL/Legal/
+        **********************
+-->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://bmv.com.mx/role/ifrs/trac/2015/ias_1_112_2014-03-05_role-700004" xlink:type="simple" xlink:href="rol_ias_1_112_2014-03-05_role-700004.xsd#ias_1_112_2014-03-05_role-700004"/>
+  <link:roleRef roleURI="http://www.xbrl.org/2009/role/negatedLabel" xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedLabel"/>
+  <link:presentationLink xlink:type="extended" xlink:role="http://bmv.com.mx/role/ifrs/trac/2015/ias_1_112_2014-03-05_role-700004">
+    <link:loc xlink:type="locator" xlink:href="../../core/mx_trac-cor_2015-06-05.xsd#mx_trac_OrderAccountsOfStatementOfFinancialPositionAbstract" xlink:label="loc_1"/>
+    <link:loc xlink:type="locator" xlink:href="../../core/mx_trac-cor_2015-06-05.xsd#mx_trac_NominalValueOfDerivatives" xlink:label="loc_3"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_1" xlink:to="loc_3" order="20.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../core/mx_trac-cor_2015-06-05.xsd#mx_trac_AuthorizedCreditLine" xlink:label="AuthorizedCreditLine" xlink:title="AuthorizedCreditLine"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_1" xlink:to="AuthorizedCreditLine" xlink:title="presentation: OrderAccountsOfStatementOfFinancialPositionAbstract to AuthorizedCreditLine" order="10.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../core/mx_trac-cor_2015-06-05.xsd#mx_trac_AuthorizedCertificates" xlink:label="AuthorizedCertificates" xlink:title="AuthorizedCertificates"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_1" xlink:to="AuthorizedCertificates" xlink:title="presentation: OrderAccountsOfStatementOfFinancialPositionAbstract to AuthorizedCertificates" order="30.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../core/mx_trac-cor_2015-06-05.xsd#mx_trac_CertificatesInCirculation" xlink:label="CertificatesInCirculation" xlink:title="CertificatesInCirculation"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_1" xlink:to="CertificatesInCirculation" xlink:title="presentation: OrderAccountsOfStatementOfFinancialPositionAbstract to CertificatesInCirculation" order="40.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../core/mx_trac-cor_2015-06-05.xsd#mx_trac_TreasuryCertificates" xlink:label="TreasuryCertificates" xlink:title="TreasuryCertificates"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_1" xlink:to="TreasuryCertificates" xlink:title="presentation: OrderAccountsOfStatementOfFinancialPositionAbstract to TreasuryCertificates" order="50.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../core/mx_trac-cor_2015-06-05.xsd#mx_trac_AmountOfAuthorizedCertificates" xlink:label="AmountOfAuthorizedCertificates" xlink:title="AmountOfAuthorizedCertificates"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_1" xlink:to="AmountOfAuthorizedCertificates" xlink:title="presentation: OrderAccountsOfStatementOfFinancialPositionAbstract to AmountOfAuthorizedCertificates" order="60.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../core/mx_trac-cor_2015-06-05.xsd#mx_trac_AmountOutstandingCertificates" xlink:label="AmountOutstandingCertificates" xlink:title="AmountOutstandingCertificates"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_1" xlink:to="AmountOutstandingCertificates" xlink:title="presentation: OrderAccountsOfStatementOfFinancialPositionAbstract to AmountOutstandingCertificates" order="70.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../core/mx_trac-cor_2015-06-05.xsd#mx_trac_AmountOfTreasuryCertificates" xlink:label="AmountOfTreasuryCertificates" xlink:title="AmountOfTreasuryCertificates"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_1" xlink:to="AmountOfTreasuryCertificates" xlink:title="presentation: OrderAccountsOfStatementOfFinancialPositionAbstract to AmountOfTreasuryCertificates" order="80.0"/>
+  </link:presentationLink>
+</link:linkbase>

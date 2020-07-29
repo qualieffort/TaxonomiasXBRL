@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<xsd:schema targetNamespace="http://bmv.com.mx/ifrs_mx-cor_20160822/full_ifrs_mx-cor_2016-08-22" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+xmlns:ifrs_mx-cor_20160822="http://bmv.com.mx/ifrs_mx-cor_20160822/full_ifrs_mx-cor_2016-08-22" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:gen="http://xbrl.org/2008/generic" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xsd:import namespace="http://www.xbrl.org/dtr/type/non-numeric" schemaLocation="http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd"/>
+  <xsd:import namespace="http://www.xbrl.org/dtr/type/numeric" schemaLocation="http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd"/>
+  <xsd:import namespace="http://www.xbrl.org/2006/ref" schemaLocation="http://www.xbrl.org/2006/ref-2006-02-27.xsd"/>
+  <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+  <xsd:import namespace="http://xbrl.org/2008/generic" schemaLocation="http://www.xbrl.org/2008/generic-link.xsd"/>
+  
+  <xsd:element name="LiabilitiesSequenceDomain" id="ifrs_mx-cor_20160822_LiabilitiesSequenceDomain"/>
+  
+  <xsd:complexType name="siNoItemType">
+		<xsd:simpleContent>
+			<xsd:restriction base="xbrli:tokenItemType">
+				<xsd:enumeration value="SI"/>
+				<xsd:enumeration value="NO"/>
+			</xsd:restriction>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	
+	<xsd:complexType name="listedMexicoOrForeignItemType">
+		<xsd:simpleContent>
+			<xsd:restriction base="xbrli:tokenItemType">
+				<xsd:enumeration value="Mexico"/>
+				<xsd:enumeration value="Extranjero"/>
+			</xsd:restriction>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	
+	
+
+
+
+
+
+<xsd:element name="AmortizationDenominatedInDomesticCurrency" id="ifrs_mx-cor_20160822_AmortizationDenominatedInDomesticCurrency" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" />
+<xsd:element name="BankingMember" id="ifrs_mx-cor_20160822_BankingMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"  />
+<xsd:element name="BreakdownOfLiabilitiesAbstract" id="ifrs_mx-cor_20160822_BreakdownOfLiabilitiesAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"  />
+<xsd:element name="BreakdownOfLiabilitiesExcludedTable" id="ifrs_mx-cor_20160822_BreakdownOfLiabilitiesExcludedTable" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="instant"  />
+<xsd:element name="BreakdownOfLiabilitiesLineItems" id="ifrs_mx-cor_20160822_BreakdownOfLiabilitiesLineItems" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"  />
+<xsd:element name="BreakdownOfLiabilitiesReportAbstract" id="ifrs_mx-cor_20160822_BreakdownOfLiabilitiesReportAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"  />
+<xsd:element name="BreakdownOfLiabilitiesTable" id="ifrs_mx-cor_20160822_BreakdownOfLiabilitiesTable" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="instant"  />
+<xsd:element name="CapitalAmortizationOfTheCreditPortfolio" id="ifrs_mx-cor_20160822_CapitalAmortizationOfTheCreditPortfolio" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" />
+<xsd:element name="CommentsOnAnnexAA" id="ifrs_mx-cor_20160822_CommentsOnAnnexAA" type="nonnum:textBlockItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="instant"  />
+<xsd:element name="CoverageRateDebtService" id="ifrs_mx-cor_20160822_CoverageRateDebtService" type="xbrli:decimalItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="instant"  />
+<xsd:element name="CoverageRateDebtServiceText" id="ifrs_mx-cor_20160822_CoverageRateDebtServiceText" type="nonnum:textBlockItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="instant"  />
+<xsd:element name="CoverageRateOfDebtServiceAbstract" id="ifrs_mx-cor_20160822_CoverageRateOfDebtServiceAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"  />
+<xsd:element name="DescriptionOfWarrantyOrSignificantFeatures" id="ifrs_mx-cor_20160822_DescriptionOfWarrantyOrSignificantFeatures" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="instant"  />
+<xsd:element name="DeterminationOfTheRateOfReference" id="ifrs_mx-cor_20160822_DeterminationOfTheRateOfReference" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="instant"  />
+<xsd:element name="DevelopmentExpendituresEstimatedNoDiscretionary" id="ifrs_mx-cor_20160822_DevelopmentExpendituresEstimatedNoDiscretionary" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" />
+<xsd:element name="Distributions" id="ifrs_mx-cor_20160822_Distributions" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" />
+<xsd:element name="EquitySecurities" id="ifrs_mx-cor_20160822_EquitySecurities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="instant"/>
+<xsd:element name="EstimatedDepreciationInterest" id="ifrs_mx-cor_20160822_EstimatedDepreciationInterest" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" />
+<xsd:element name="EstimatedOperatingIncome" id="ifrs_mx-cor_20160822_EstimatedOperatingIncome" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" />
+<xsd:element name="GrandTotalLiabilitiesMember" id="ifrs_mx-cor_20160822_GrandTotalLiabilitiesMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"  />
+<xsd:element name="IndebtednessAbstract" id="ifrs_mx-cor_20160822_IndebtednessAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"  />
+<xsd:element name="IndebtednessLevelAtTheEndOfTheQuarter" id="ifrs_mx-cor_20160822_IndebtednessLevelAtTheEndOfTheQuarter" type="xbrli:decimalItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="instant"  />
+<xsd:element name="IndebtednessOrLeverageLeverAbstract" id="ifrs_mx-cor_20160822_IndebtednessOrLeverageLeverAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"  />
+<xsd:element name="InitialAmountOfTheIssuance" id="ifrs_mx-cor_20160822_InitialAmountOfTheIssuance" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" />
+<xsd:element name="InitialCreditLine" id="ifrs_mx-cor_20160822_InitialCreditLine" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" />
+<xsd:element name="InstitutionName" id="ifrs_mx-cor_20160822_InstitutionName" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="instant"  />
+<xsd:element name="InterestRate" id="ifrs_mx-cor_20160822_InterestRate" type="xbrli:decimalItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="instant"  />
+<xsd:element name="IsReferredAPlanOfRefinancingAtExpiration" id="ifrs_mx-cor_20160822_IsReferredAPlanOfRefinancingAtExpiration" type="ifrs_mx-cor_20160822:siNoItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="instant"  />
+<xsd:element name="IsinAndOrTicker" id="ifrs_mx-cor_20160822_IsinAndOrTicker" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="instant"  />
+<xsd:element name="LeverageAbstract" id="ifrs_mx-cor_20160822_LeverageAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"  />
+<xsd:element name="LeverageLevel" id="ifrs_mx-cor_20160822_LeverageLevel" type="xbrli:decimalItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="instant"  />
+<xsd:element name="LeverageLevelText" id="ifrs_mx-cor_20160822_LeverageLevelText" type="nonnum:textBlockItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="instant"  />
+<xsd:element name="LiabilitiesSequenceTypedAxis" id="ifrs_mx-cor_20160822_LiabilitiesSequenceTypedAxis" type="xbrli:stringItemType" substitutionGroup="xbrldt:dimensionItem" abstract="true" nillable="true" xbrli:periodType="instant"  xbrldt:typedDomainRef="#ifrs_mx-cor_20160822_LiabilitiesSequenceDomain"/>
+<xsd:element name="LiabilityConcept" id="ifrs_mx-cor_20160822_LiabilityConcept" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="instant"  />
+<xsd:element name="LiabilityCreditor" id="ifrs_mx-cor_20160822_LiabilityCreditor" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="instant"  />
+<xsd:element name="LiabilityCurrency" id="ifrs_mx-cor_20160822_LiabilityCurrency" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="instant"  />
+<xsd:element name="LiquidAssets" id="ifrs_mx-cor_20160822_LiquidAssets" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" />
+<xsd:element name="ListedMexicoOrForeign" id="ifrs_mx-cor_20160822_ListedMexicoOrForeign" type="ifrs_mx-cor_20160822:listedMexicoOrForeignItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="instant"  />
+<xsd:element name="MonthsOfDelaysPrincipalOrInterest" id="ifrs_mx-cor_20160822_MonthsOfDelaysPrincipalOrInterest" type="xbrli:decimalItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="instant"  />
+<xsd:element name="NineTeenToThirtySixMonthsMember" id="ifrs_mx-cor_20160822_NineTeenToThirtySixMonthsMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"  />
+<xsd:element name="NumberOfContract" id="ifrs_mx-cor_20160822_NumberOfContract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="instant"  />
+<xsd:element name="OtherCurrentAndNonCurrentLiabilitiesWithCostMember" id="ifrs_mx-cor_20160822_OtherCurrentAndNonCurrentLiabilitiesWithCostMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"  />
+<xsd:element name="OutstandingBalance" id="ifrs_mx-cor_20160822_OutstandingBalance" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" />
+<xsd:element name="OutstandingBalanceDetail" id="ifrs_mx-cor_20160822_OutstandingBalanceDetail" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" />
+<xsd:element name="OutstandingBalanceDetailAbstract" id="ifrs_mx-cor_20160822_OutstandingBalanceDetailAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"  />
+<xsd:element name="OutstandingBalanceDetailTable" id="ifrs_mx-cor_20160822_OutstandingBalanceDetailTable" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="instant"  />
+<xsd:element name="OutstandingBalanceLineItems" id="ifrs_mx-cor_20160822_OutstandingBalanceLineItems" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"  />
+<xsd:element name="PaymentScheme" id="ifrs_mx-cor_20160822_PaymentScheme" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="instant"  />
+<xsd:element name="PercentageOfTheTotalDebt" id="ifrs_mx-cor_20160822_PercentageOfTheTotalDebt" type="xbrli:decimalItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="instant"  />
+<xsd:element name="PlannedAmortizationOfPrincipalOfFinancing" id="ifrs_mx-cor_20160822_PlannedAmortizationOfPrincipalOfFinancing" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" />
+<xsd:element name="PlannedCapitalRedemption" id="ifrs_mx-cor_20160822_PlannedCapitalRedemption" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" />
+<xsd:element name="PriorityOfPayment" id="ifrs_mx-cor_20160822_PriorityOfPayment" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="instant"  />
+<xsd:element name="PrivatePlacementsMember" id="ifrs_mx-cor_20160822_PrivatePlacementsMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"  />
+<xsd:element name="RecoverableIVA" id="ifrs_mx-cor_20160822_RecoverableIVA" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" />
+<xsd:element name="RecurringCapitalExpendituresEstimates" id="ifrs_mx-cor_20160822_RecurringCapitalExpendituresEstimates" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" />
+<xsd:element name="RefinancingClauseToMaturatyYesNo" id="ifrs_mx-cor_20160822_RefinancingClauseToMaturatyYesNo" type="ifrs_mx-cor_20160822:siNoItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="instant"  />
+<xsd:element name="RevolvingCreditLines" id="ifrs_mx-cor_20160822_RevolvingCreditLines" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" />
+<xsd:element name="ScheduleOfAmortization" id="ifrs_mx-cor_20160822_ScheduleOfAmortization" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="instant"  />
+<xsd:element name="SettlementDate" id="ifrs_mx-cor_20160822_SettlementDate" type="xbrli:dateItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="instant"  />
+<xsd:element name="SevenToTwelveMonthsMember" id="ifrs_mx-cor_20160822_SevenToTwelveMonthsMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"  />
+<xsd:element name="SignatureDateContract" id="ifrs_mx-cor_20160822_SignatureDateContract" type="xbrli:dateItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="instant"  />
+<xsd:element name="SotckMarketMember" id="ifrs_mx-cor_20160822_SotckMarketMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"  />
+<xsd:element name="ThirteenToEightTeenMonthsMember" id="ifrs_mx-cor_20160822_ThirteenToEightTeenMonthsMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"  />
+<xsd:element name="ThirtySevenMonthsOrMoreMember" id="ifrs_mx-cor_20160822_ThirtySevenMonthsOrMoreMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"  />
+<xsd:element name="TimeIntervalBreakdownOfLiabilitiesAxis" id="ifrs_mx-cor_20160822_TimeIntervalBreakdownOfLiabilitiesAxis" type="xbrli:stringItemType" substitutionGroup="xbrldt:dimensionItem" abstract="true" nillable="true" xbrli:periodType="instant"  />
+<xsd:element name="TotalBankingMember" id="ifrs_mx-cor_20160822_TotalBankingMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"  />
+<xsd:element name="TotalCreditsLoansOrNotRelevantFunding" id="ifrs_mx-cor_20160822_TotalCreditsLoansOrNotRelevantFunding" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" />
+<xsd:element name="TotalDebtInSecurities" id="ifrs_mx-cor_20160822_TotalDebtInSecurities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" />
+<xsd:element name="TotalFunding" id="ifrs_mx-cor_20160822_TotalFunding" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" />
+<xsd:element name="TotalInitialCreditLineAndInitialAmountOfTheIssuance" id="ifrs_mx-cor_20160822_TotalInitialCreditLineAndInitialAmountOfTheIssuance" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" />
+<xsd:element name="TotalOtherCurrentAndNonCurrentLiabilitiesWithCostInNationalCurrencyMember" id="ifrs_mx-cor_20160822_TotalOtherCurrentAndNonCurrentLiabilitiesWithCostInNationalCurrencyMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"  />
+<xsd:element name="TotalStockMarketListedInTheStockMarketAndPrivatePlacementsMember" id="ifrs_mx-cor_20160822_TotalStockMarketListedInTheStockMarketAndPrivatePlacementsMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"  />
+<xsd:element name="TotalTimeIntervalMember" id="ifrs_mx-cor_20160822_TotalTimeIntervalMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"  />
+<xsd:element name="TotalUnpaidAccruedInterest" id="ifrs_mx-cor_20160822_TotalUnpaidAccruedInterest" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" />
+<xsd:element name="TypeOfCreditRevolvingPayingAtExpirationConstantPayments" id="ifrs_mx-cor_20160822_TypeOfCreditRevolvingPayingAtExpirationConstantPayments" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="instant"  />
+<xsd:element name="TypesOfLiabilitiesAxis" id="ifrs_mx-cor_20160822_TypesOfLiabilitiesAxis" type="xbrli:stringItemType" substitutionGroup="xbrldt:dimensionItem" abstract="true" nillable="true" xbrli:periodType="instant"  />
+<xsd:element name="ZeroToSixMonthsMember" id="ifrs_mx-cor_20160822_ZeroToSixMonthsMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="instant"  />
+
+  
+</xsd:schema>

@@ -1,0 +1,882 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd http://xbrl.org/2008/label http://www.xbrl.org/2008/generic-label.xsd http://xbrl.org/2008/generic http://www.xbrl.org/2008/generic-link.xsd http://www.w3.org/1999/xlink http://www.xbrl.org/2003/xlink-2003-12-31.xsd http://xbrl.org/2008/assertion/value http://www.xbrl.org/2008/value-assertion.xsd http://xbrl.org/2010/message http://www.xbrl.org/2010/generic-message.xsd http://xbrl.org/2010/message/validation http://www.xbrl.org/2010/validation-message.xsd http://xbrl.org/2008/assertion/existence http://www.xbrl.org/2008/existence-assertion.xsd http://xbrl.org/2008/filter/concept http://www.xbrl.org/2008/concept-filter.xsd http://xbrl.org/2008/filter/dimension http://www.xbrl.org/2008/dimension-filter.xsd http://xbrl.org/2008/filter/boolean http://www.xbrl.org/2008/boolean-filter.xsd http://xbrl.org/2008/filter/general http://www.xbrl.org/2008/general-filter.xsd http://xbrl.org/2008/filter/match http://www.xbrl.org/2008/match-filter.xsd http://xbrl.org/2008/filter/relative http://www.xbrl.org/2008/relative-filter.xsd http://xbrl.org/2010/filter/aspect-cover http://www.xbrl.org/2010/aspect-cover-filter.xsd http://xbrl.org/2008/formula http://www.xbrl.org/2008/formula.xsd http://xbrl.org/2008/assertion/consistency http://www.xbrl.org/2008/consistency-assertion.xsd http://xbrl.org/2008/validation http://www.xbrl.org/2008/validation.xsd http://xbrl.org/2008/filter/entity http://www.xbrl.org/2008/entity-filter.xsd" xmlns:ifrs-full="http://xbrl.ifrs.org/taxonomy/2014-03-05/ifrs-full" xmlns:gen="http://xbrl.org/2008/generic" xmlns:ifrs_mx-cor_20141205="http://bmv.com.mx/ifrs_mx-cor_20141205/full_ifrs_mx-cor_2014-12-05" xmlns:variable="http://xbrl.org/2008/variable" xmlns:xfi="http://www.xbrl.org/2008/function/instance" xmlns:cf="http://xbrl.org/2008/filter/concept" xmlns:ifrs_mx-cor_20160822="http://bmv.com.mx/ifrs_mx-cor_20160822/full_ifrs_mx-cor_2016-08-22" xmlns:mf="http://xbrl.org/2008/filter/match" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:ea="http://xbrl.org/2008/assertion/existence" xmlns:df="http://xbrl.org/2008/filter/dimension" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rf="http://xbrl.org/2008/filter/relative" xmlns:validation="http://xbrl.org/2008/validation" xmlns:formula="http://xbrl.org/2008/formula" xmlns:msg="http://xbrl.org/2010/message" xmlns:mx_ccd="http://www.bmv.com.mx/2015-06-30/ccd" xmlns:va="http://xbrl.org/2008/assertion/value" xmlns:bf="http://xbrl.org/2008/filter/boolean" xmlns:ef="http://xbrl.org/2008/filter/entity">
+  <link:roleRef roleURI="http://www.xbrl.org/2008/role/link" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/generic-link.xsd#standard-link-role"/>
+  <link:roleRef roleURI="http://www.xbrl.org/2010/role/message" xlink:type="simple" xlink:href="http://www.xbrl.org/2010/generic-message.xsd#standard-message"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/variable-filter" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/variable.xsd#variable-filter"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/variable-set" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/variable.xsd#variable-set"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:type="simple" xlink:href="http://www.xbrl.org/2010/validation-message.xsd#assertion-unsatisfied-message"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/variable-set-precondition" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/variable.xsd#variable-set-precondition"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/assertion-set" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/validation.xsd#assertion-set"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/boolean-filter" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/boolean-filter.xsd#boolean-filter"/>
+  <gen:link xlink:type="extended" xlink:role="http://www.xbrl.org/2008/role/link">
+    <validation:assertionSet xlink:type="resource" xlink:label="assertionSet" xlink:title="assertionSet" id="AS_Subtotales_AA_Desglose_Pasivos"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="valueAssertion" xlink:title="valueAssertion" id="VA_TotalBancarios" test=" $v1 = sum( $v2 )" aspectModel="dimensional" implicitFiltering="false"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/assertion-set" xlink:from="assertionSet" xlink:to="valueAssertion" xlink:title="assertionSet to valueAssertion" priority="0" order="1.0"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable" xlink:title="factVariable" id="totalVar" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion" xlink:to="factVariable" xlink:title="valueAssertion to factVariable" priority="0" order="1.0" name="v1"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="explicitDimension" xlink:title="explicitDimension" id="explicitDimension">
+      <df:dimension>
+        <df:qname>ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>ifrs_mx-cor_20160822:TotalBankingMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable" xlink:to="explicitDimension" xlink:title="factVariable to explicitDimension" priority="0" order="2.0" cover="true" complement="false"/>
+    <df:typedDimension xlink:type="resource" xlink:label="typedDimension" xlink:title="typedDimension" id="typedDimension">
+      <df:dimension>
+        <df:qname>ifrs_mx-cor_20160822:LiabilitiesSequenceTypedAxis</df:qname>
+      </df:dimension>
+    </df:typedDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable" xlink:to="typedDimension" xlink:title="factVariable to typedDimension" priority="0" order="3.0" cover="true" complement="false"/>
+    <bf:orFilter xlink:type="resource" xlink:label="orFilter" xlink:title="orFilter" id="orFilter"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable" xlink:to="orFilter" xlink:title="factVariable to orFilter" priority="0" order="4.0" cover="true" complement="false"/>
+    <cf:conceptName xlink:type="resource" xlink:label="conceptName" xlink:title="conceptName" id="conceptName">
+      <cf:concept>
+        <cf:qname>ifrs_mx-cor_20160822:InitialCreditLine</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="orFilter" xlink:to="conceptName" xlink:title="orFilter to conceptName" priority="0" order="1.0" cover="true" complement="false"/>
+    <cf:conceptName xlink:type="resource" xlink:label="conceptName_2" xlink:title="conceptName_2" id="conceptName_2">
+      <cf:concept>
+        <cf:qname>ifrs_mx-cor_20160822:OutstandingBalance</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="orFilter" xlink:to="conceptName_2" xlink:title="orFilter to conceptName_2" priority="0" order="2.0" cover="true" complement="false"/>
+    <cf:conceptName xlink:type="resource" xlink:label="conceptName_3" xlink:title="conceptName_3" id="conceptName_3">
+      <cf:concept>
+        <cf:qname>ifrs_mx-cor_20160822:AmortizationDenominatedInDomesticCurrency</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="orFilter" xlink:to="conceptName_3" xlink:title="orFilter to conceptName_3" priority="0" order="3.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_2" xlink:title="factVariable_2" id="detalleVar" bindAsSequence="true" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion" xlink:to="factVariable_2" xlink:title="valueAssertion to factVariable_2" priority="0" order="2.0" name="v2"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="explicitDimension_2" xlink:title="explicitDimension_2" id="explicitDimension_2">
+      <df:dimension>
+        <df:qname>ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>ifrs_mx-cor_20160822:BankingMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_2" xlink:to="explicitDimension_2" xlink:title="factVariable_2 to explicitDimension_2" priority="0" order="1.0" cover="true" complement="false"/>
+    <mf:matchConcept xlink:type="resource" xlink:label="matchConcept" xlink:title="matchConcept" id="matchConcept" variable="v1"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_2" xlink:to="matchConcept" xlink:title="factVariable_2 to matchConcept" priority="0" order="2.0" cover="true" complement="false"/>
+    <mf:matchPeriod xlink:type="resource" xlink:label="matchPeriod" xlink:title="matchPeriod" id="matchPeriod" variable="v1"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_2" xlink:to="matchPeriod" xlink:title="factVariable_2 to matchPeriod" priority="0" order="3.0" cover="true" complement="false"/>
+    <mf:matchEntityIdentifier xlink:type="resource" xlink:label="matchEntityIdentifier" xlink:title="matchEntityIdentifier" id="matchEntityIdentifier" variable="v1"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_2" xlink:to="matchEntityIdentifier" xlink:title="factVariable_2 to matchEntityIdentifier" priority="0" order="4.0" cover="true" complement="false"/>
+    <df:typedDimension xlink:type="resource" xlink:label="typedDimension_2" xlink:title="typedDimension_2" id="typedDimension_2">
+      <df:dimension>
+        <df:qname>ifrs_mx-cor_20160822:LiabilitiesSequenceTypedAxis</df:qname>
+      </df:dimension>
+    </df:typedDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_2" xlink:to="typedDimension_2" xlink:title="factVariable_2 to typedDimension_2" priority="0" order="5.0" cover="true" complement="false"/>
+    <msg:message xlink:type="resource" xlink:label="label" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="label" xml:lang="es" id="label">El valor del hecho '{xfi:concept-label(node-name($v1),"http://www.xbrl.org/2003/role/link","http://www.xbrl.org/2003/role/label","es")}' desglosado como 'Total bancarios' ({ $v1 }) debe ser igual a la suma de los hechos desglosados como 'Bancarios' ({sum($v2)})</msg:message>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="valueAssertion" xlink:to="label" xlink:title="valueAssertion to label" priority="0" order="1.0"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="valueAssertion_2" xlink:title="valueAssertion_2" id="VA_Subtotales_SaldoInsoluto_TotalBancarios_AA" test="$v1 = sum( $v2 )" aspectModel="dimensional" implicitFiltering="false"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/assertion-set" xlink:from="assertionSet" xlink:to="valueAssertion_2" xlink:title="assertionSet to valueAssertion_2" priority="0" order="2.0"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_3" xlink:title="factVariable_3" id="factVariable" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_2" xlink:to="factVariable_3" xlink:title="valueAssertion_2 to factVariable_3" priority="0" order="1.0" name="v1"/>
+    <cf:conceptName xlink:type="resource" xlink:label="conceptName_4" xlink:title="conceptName_4" id="conceptName_4">
+      <cf:concept>
+        <cf:qname>ifrs_mx-cor_20160822:OutstandingBalanceDetail</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_3" xlink:to="conceptName_4" xlink:title="factVariable_3 to conceptName_4" priority="0" order="1.0" cover="true" complement="false"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_3" xlink:to="explicitDimension" xlink:title="factVariable_3 to explicitDimension" priority="0" order="2.0" cover="true" complement="false"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_3" xlink:to="typedDimension" xlink:title="factVariable_3 to typedDimension" priority="0" order="3.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="explicitDimension_3" xlink:title="explicitDimension_3" id="explicitDimension_3">
+      <df:dimension>
+        <df:qname>ifrs_mx-cor_20160822:TimeIntervalBreakdownOfLiabilitiesAxis</df:qname>
+      </df:dimension>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_3" xlink:to="explicitDimension_3" xlink:title="factVariable_3 to explicitDimension_3" priority="0" order="4.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_4" xlink:title="factVariable_4" id="factVariable_2" bindAsSequence="true" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_2" xlink:to="factVariable_4" xlink:title="valueAssertion_2 to factVariable_4" priority="0" order="2.0" name="v2"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_4" xlink:to="conceptName_4" xlink:title="factVariable_4 to conceptName_4" priority="0" order="1.0" cover="true" complement="false"/>
+    <mf:matchPeriod xlink:type="resource" xlink:label="matchPeriod_2" xlink:title="matchPeriod_2" id="matchPeriod_2" variable="v1"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_4" xlink:to="matchPeriod_2" xlink:title="factVariable_4 to matchPeriod_2" priority="0" order="2.0" cover="true" complement="false"/>
+    <mf:matchEntityIdentifier xlink:type="resource" xlink:label="matchEntityIdentifier_2" xlink:title="matchEntityIdentifier_2" id="matchEntityIdentifier_2" variable="v1"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_4" xlink:to="matchEntityIdentifier_2" xlink:title="factVariable_4 to matchEntityIdentifier_2" priority="0" order="3.0" cover="true" complement="false"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_4" xlink:to="explicitDimension_2" xlink:title="factVariable_4 to explicitDimension_2" priority="0" order="4.0" cover="true" complement="false"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_4" xlink:to="typedDimension" xlink:title="factVariable_4 to typedDimension" priority="0" order="6.0" cover="true" complement="false"/>
+    <mf:matchDimension xlink:type="resource" xlink:label="matchDimension" xlink:title="matchDimension" id="matchDimension" variable="v1" dimension="ifrs_mx-cor_20160822:TimeIntervalBreakdownOfLiabilitiesAxis"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_4" xlink:to="matchDimension" xlink:title="factVariable_4 to matchDimension" priority="0" order="7.0" cover="true" complement="false"/>
+    <msg:message xlink:type="resource" xlink:label="label_2" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="label_2" xml:lang="es" id="label_2">El valor del hecho 'Saldo insoluto' ({$v1}) en el rubro 'Total bancarios' debe corresponder a la suma de sus valores en el rubro 'Bancarios' para cada uno de los intervalos desglosados ({sum($v2)}).</msg:message>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="valueAssertion_2" xlink:to="label_2" xlink:title="valueAssertion_2 to label_2" priority="0" order="1.0"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="valueAssertion_3" xlink:title="valueAssertion_3" id="VA_TotalBursatilesYColocacionesPrivadas" test=" $v1 = sum( $v2 )" aspectModel="dimensional" implicitFiltering="false"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/assertion-set" xlink:from="assertionSet" xlink:to="valueAssertion_3" xlink:title="assertionSet to valueAssertion_3" priority="0" order="3.0"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_5" xlink:title="factVariable_5" id="factVariable_3" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_3" xlink:to="factVariable_5" xlink:title="valueAssertion_3 to factVariable_5" priority="0" order="1.0" name="v1"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="explicitDimension_4" xlink:title="explicitDimension_4" id="explicitDimension_4">
+      <df:dimension>
+        <df:qname>ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>ifrs_mx-cor_20160822:TotalStockMarketListedInTheStockMarketAndPrivatePlacementsMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_5" xlink:to="explicitDimension_4" xlink:title="factVariable_5 to explicitDimension_4" priority="0" order="1.0" cover="true" complement="false"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_5" xlink:to="typedDimension" xlink:title="factVariable_5 to typedDimension" priority="0" order="2.0" cover="true" complement="false"/>
+    <bf:orFilter xlink:type="resource" xlink:label="orFilter_2" xlink:title="orFilter_2" id="orFilter_2"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_5" xlink:to="orFilter_2" xlink:title="factVariable_5 to orFilter_2" priority="0" order="3.0" cover="true" complement="false"/>
+    <cf:conceptName xlink:type="resource" xlink:label="conceptName_5" xlink:title="conceptName_5" id="conceptName_5">
+      <cf:concept>
+        <cf:qname>ifrs_mx-cor_20160822:InitialAmountOfTheIssuance</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="orFilter_2" xlink:to="conceptName_5" xlink:title="orFilter_2 to conceptName_5" priority="0" order="1.0" cover="true" complement="false"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="orFilter_2" xlink:to="conceptName_2" xlink:title="orFilter_2 to conceptName_2" priority="0" order="2.0" cover="true" complement="false"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="orFilter_2" xlink:to="conceptName_3" xlink:title="orFilter_2 to conceptName_3" priority="0" order="3.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_6" xlink:title="factVariable_6" id="factVariable_4" bindAsSequence="true" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_3" xlink:to="factVariable_6" xlink:title="valueAssertion_3 to factVariable_6" priority="0" order="2.0" name="v2"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_6" xlink:to="typedDimension_2" xlink:title="factVariable_6 to typedDimension_2" priority="0" order="2.0" cover="true" complement="false"/>
+    <mf:matchConcept xlink:type="resource" xlink:label="matchConcept_2" xlink:title="matchConcept_2" id="matchConcept_2" variable="v1"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_6" xlink:to="matchConcept_2" xlink:title="factVariable_6 to matchConcept_2" priority="0" order="3.0" cover="true" complement="false"/>
+    <mf:matchPeriod xlink:type="resource" xlink:label="matchPeriod_3" xlink:title="matchPeriod_3" id="matchPeriod_3" variable="v1"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_6" xlink:to="matchPeriod_3" xlink:title="factVariable_6 to matchPeriod_3" priority="0" order="4.0" cover="true" complement="false"/>
+    <mf:matchEntityIdentifier xlink:type="resource" xlink:label="matchEntityIdentifier_3" xlink:title="matchEntityIdentifier_3" id="matchEntityIdentifier_3" variable="v1"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_6" xlink:to="matchEntityIdentifier_3" xlink:title="factVariable_6 to matchEntityIdentifier_3" priority="0" order="5.0" cover="true" complement="false"/>
+    <bf:orFilter xlink:type="resource" xlink:label="orFilter_3" xlink:title="orFilter_3" id="orFilter_3"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_6" xlink:to="orFilter_3" xlink:title="factVariable_6 to orFilter_3" priority="0" order="6.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="explicitDimension_5" xlink:title="explicitDimension_5" id="explicitDimension_5">
+      <df:dimension>
+        <df:qname>ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>ifrs_mx-cor_20160822:SotckMarketMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="orFilter_3" xlink:to="explicitDimension_5" xlink:title="orFilter_3 to explicitDimension_5" priority="0" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="explicitDimension_6" xlink:title="explicitDimension_6" id="explicitDimension_6">
+      <df:dimension>
+        <df:qname>ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>ifrs_mx-cor_20160822:PrivatePlacementsMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="orFilter_3" xlink:to="explicitDimension_6" xlink:title="orFilter_3 to explicitDimension_6" priority="0" order="2.0" cover="true" complement="false"/>
+    <msg:message xlink:type="resource" xlink:label="label_3" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="label_3" xml:lang="es" id="label_3">El valor del hecho '{xfi:concept-label(node-name($v1),"http://www.xbrl.org/2003/role/link","http://www.xbrl.org/2003/role/label","es")}' desglosado como 'Total bursátiles y colocaciones privadas' ({ $v1 }) debe ser igual a la suma de los hechos desglosados como 'Listadas en bolsa' y 'Colocaciones privadas' ({sum($v2)})</msg:message>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="valueAssertion_3" xlink:to="label_3" xlink:title="valueAssertion_3 to label_3" priority="0" order="1.0"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="valueAssertion_4" xlink:title="valueAssertion_4" id="VA_Subtotales_SaldoInsoluto_TotalBursatilesyColocacionesPrivadas_AA" test="$v1 = sum(  $v2 )" aspectModel="dimensional" implicitFiltering="false"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/assertion-set" xlink:from="assertionSet" xlink:to="valueAssertion_4" xlink:title="assertionSet to valueAssertion_4" priority="0" order="4.0"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_7" xlink:title="factVariable_7" id="factVariable_5" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_4" xlink:to="factVariable_7" xlink:title="valueAssertion_4 to factVariable_7" priority="0" order="1.0" name="v1"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_7" xlink:to="conceptName_4" xlink:title="factVariable_7 to conceptName_4" priority="0" order="1.0" cover="true" complement="false"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_7" xlink:to="typedDimension" xlink:title="factVariable_7 to typedDimension" priority="0" order="2.0" cover="true" complement="false"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_7" xlink:to="explicitDimension_4" xlink:title="factVariable_7 to explicitDimension_4" priority="0" order="3.0" cover="true" complement="false"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_7" xlink:to="explicitDimension_3" xlink:title="factVariable_7 to explicitDimension_3" priority="0" order="4.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_8" xlink:title="factVariable_8" id="factVariable_6" bindAsSequence="true"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_4" xlink:to="factVariable_8" xlink:title="valueAssertion_4 to factVariable_8" priority="0" order="2.0" name="v2"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_8" xlink:to="conceptName_4" xlink:title="factVariable_8 to conceptName_4" priority="0" order="1.0" cover="true" complement="false"/>
+    <mf:matchPeriod xlink:type="resource" xlink:label="matchPeriod_4" xlink:title="matchPeriod_4" id="matchPeriod_4" variable="v1"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_8" xlink:to="matchPeriod_4" xlink:title="factVariable_8 to matchPeriod_4" priority="0" order="2.0" cover="true" complement="false"/>
+    <mf:matchEntityIdentifier xlink:type="resource" xlink:label="matchEntityIdentifier_4" xlink:title="matchEntityIdentifier_4" id="matchEntityIdentifier_4" variable="v1"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_8" xlink:to="matchEntityIdentifier_4" xlink:title="factVariable_8 to matchEntityIdentifier_4" priority="0" order="3.0" cover="true" complement="false"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_8" xlink:to="orFilter_3" xlink:title="factVariable_8 to orFilter_3" priority="0" order="4.0" cover="true" complement="false"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_8" xlink:to="typedDimension" xlink:title="factVariable_8 to typedDimension" priority="0" order="5.0" cover="true" complement="false"/>
+    <mf:matchDimension xlink:type="resource" xlink:label="matchDimension_2" xlink:title="matchDimension_2" id="matchDimension_2" variable="v1" dimension="ifrs_mx-cor_20160822:TimeIntervalBreakdownOfLiabilitiesAxis"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_8" xlink:to="matchDimension_2" xlink:title="factVariable_8 to matchDimension_2" priority="0" order="6.0" cover="true" complement="false"/>
+    <msg:message xlink:type="resource" xlink:label="label_5" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="label_5" xml:lang="es" id="label_5">El valor del hecho 'Saldo insoluto' ({$v1}) en el rubro 'Total bursátiles y colocaciones privadas' debe corresponder a la suma de sus valores en el rubro 'Listadas en bolsa' y 'Colocaciones privadas' para cada uno de los intervalos desglosados ({sum($v2)}).</msg:message>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="valueAssertion_4" xlink:to="label_5" xlink:title="valueAssertion_4 to label_5" priority="0" order="1.0"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="valueAssertion_5" xlink:title="valueAssertion_5" id="VA_TotalOtrosPasivosCirculantesYNoCirculantesConCosto" test=" $v1 = sum ( $v2 )" aspectModel="dimensional" implicitFiltering="false"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/assertion-set" xlink:from="assertionSet" xlink:to="valueAssertion_5" xlink:title="assertionSet to valueAssertion_5" priority="0" order="5.0"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_9" xlink:title="factVariable_9" id="factVariable_7" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_5" xlink:to="factVariable_9" xlink:title="valueAssertion_5 to factVariable_9" priority="0" order="1.0" name="v1"/>
+    <bf:orFilter xlink:type="resource" xlink:label="orFilter_4" xlink:title="orFilter_4" id="orFilter_4"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_9" xlink:to="orFilter_4" xlink:title="factVariable_9 to orFilter_4" priority="0" order="1.0" cover="true" complement="false"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="orFilter_4" xlink:to="conceptName" xlink:title="orFilter_4 to conceptName" priority="0" order="1.0" cover="true" complement="false"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="orFilter_4" xlink:to="conceptName_2" xlink:title="orFilter_4 to conceptName_2" priority="0" order="2.0" cover="true" complement="false"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="orFilter_4" xlink:to="conceptName_3" xlink:title="orFilter_4 to conceptName_3" priority="0" order="3.0" cover="true" complement="false"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_9" xlink:to="typedDimension" xlink:title="factVariable_9 to typedDimension" priority="0" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="explicitDimension_7" xlink:title="explicitDimension_7" id="explicitDimension_7">
+      <df:dimension>
+        <df:qname>ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>ifrs_mx-cor_20160822:TotalOtherCurrentAndNonCurrentLiabilitiesWithCostInNationalCurrencyMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_9" xlink:to="explicitDimension_7" xlink:title="factVariable_9 to explicitDimension_7" priority="0" order="3.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_10" xlink:title="factVariable_10" id="factVariable_8" bindAsSequence="true" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_5" xlink:to="factVariable_10" xlink:title="valueAssertion_5 to factVariable_10" priority="0" order="2.0" name="v2"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_10" xlink:to="typedDimension" xlink:title="factVariable_10 to typedDimension" priority="0" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="explicitDimension_8" xlink:title="explicitDimension_8" id="explicitDimension_8">
+      <df:dimension>
+        <df:qname>ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>ifrs_mx-cor_20160822:OtherCurrentAndNonCurrentLiabilitiesWithCostMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_10" xlink:to="explicitDimension_8" xlink:title="factVariable_10 to explicitDimension_8" priority="0" order="2.0" cover="true" complement="false"/>
+    <mf:matchConcept xlink:type="resource" xlink:label="matchConcept_3" xlink:title="matchConcept_3" id="matchConcept_3" variable="v1"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_10" xlink:to="matchConcept_3" xlink:title="factVariable_10 to matchConcept_3" priority="0" order="3.0" cover="true" complement="false"/>
+    <mf:matchPeriod xlink:type="resource" xlink:label="matchPeriod_5" xlink:title="matchPeriod_5" id="matchPeriod_5" variable="v1"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_10" xlink:to="matchPeriod_5" xlink:title="factVariable_10 to matchPeriod_5" priority="0" order="4.0" cover="true" complement="false"/>
+    <mf:matchEntityIdentifier xlink:type="resource" xlink:label="matchEntityIdentifier_5" xlink:title="matchEntityIdentifier_5" id="matchEntityIdentifier_5" variable="v1"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_10" xlink:to="matchEntityIdentifier_5" xlink:title="factVariable_10 to matchEntityIdentifier_5" priority="0" order="5.0" cover="true" complement="false"/>
+    <msg:message xlink:type="resource" xlink:label="label_4" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="label_4" xml:lang="es" id="label_4">El valor del hecho '{xfi:concept-label(node-name($v1),"http://www.xbrl.org/2003/role/link","http://www.xbrl.org/2003/role/label","es")}' desglosado como 'Total otros pasivos circulantes y no circulantes con costo' ({ $v1 }) debe ser igual a la suma de los hechos desglosados como 'Otros pasivos circulantes y no circulantes con costo' ({sum($v2)})</msg:message>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="valueAssertion_5" xlink:to="label_4" xlink:title="valueAssertion_5 to label_4" priority="0" order="1.0"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="valueAssertion_6" xlink:title="valueAssertion_6" id="VA_Subtotales_SaldoInsoluto_TotalOtrosPasivosConCosto" test=" $v1 = sum( $v2 )" aspectModel="dimensional" implicitFiltering="false"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/assertion-set" xlink:from="assertionSet" xlink:to="valueAssertion_6" xlink:title="assertionSet to valueAssertion_6" priority="0" order="6.0"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_11" xlink:title="factVariable_11" id="factVariable_9" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_6" xlink:to="factVariable_11" xlink:title="valueAssertion_6 to factVariable_11" priority="0" order="1.0" name="v1"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_11" xlink:to="conceptName_4" xlink:title="factVariable_11 to conceptName_4" priority="0" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="explicitDimension_9" xlink:title="explicitDimension_9" id="explicitDimension_9">
+      <df:dimension>
+        <df:qname>ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>ifrs_mx-cor_20160822:TotalOtherCurrentAndNonCurrentLiabilitiesWithCostInNationalCurrencyMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_11" xlink:to="explicitDimension_9" xlink:title="factVariable_11 to explicitDimension_9" priority="0" order="2.0" cover="true" complement="false"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_11" xlink:to="typedDimension" xlink:title="factVariable_11 to typedDimension" priority="0" order="3.0" cover="true" complement="false"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_11" xlink:to="explicitDimension_3" xlink:title="factVariable_11 to explicitDimension_3" priority="0" order="4.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_12" xlink:title="factVariable_12" id="factVariable_10" bindAsSequence="true" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_6" xlink:to="factVariable_12" xlink:title="valueAssertion_6 to factVariable_12" priority="0" order="2.0" name="v2"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_12" xlink:to="conceptName_4" xlink:title="factVariable_12 to conceptName_4" priority="0" order="1.0" cover="true" complement="false"/>
+    <mf:matchPeriod xlink:type="resource" xlink:label="matchPeriod_6" xlink:title="matchPeriod_6" id="matchPeriod_6" variable="v1"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_12" xlink:to="matchPeriod_6" xlink:title="factVariable_12 to matchPeriod_6" priority="0" order="2.0" cover="true" complement="false"/>
+    <mf:matchEntityIdentifier xlink:type="resource" xlink:label="matchEntityIdentifier_6" xlink:title="matchEntityIdentifier_6" id="matchEntityIdentifier_6" variable="v1"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_12" xlink:to="matchEntityIdentifier_6" xlink:title="factVariable_12 to matchEntityIdentifier_6" priority="0" order="3.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="explicitDimension_10" xlink:title="explicitDimension_10" id="explicitDimension_10">
+      <df:dimension>
+        <df:qname>ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>ifrs_mx-cor_20160822:OtherCurrentAndNonCurrentLiabilitiesWithCostMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_12" xlink:to="explicitDimension_10" xlink:title="factVariable_12 to explicitDimension_10" priority="0" order="4.0" cover="true" complement="false"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_12" xlink:to="typedDimension" xlink:title="factVariable_12 to typedDimension" priority="0" order="5.0" cover="true" complement="false"/>
+    <mf:matchDimension xlink:type="resource" xlink:label="matchDimension_3" xlink:title="matchDimension_3" id="matchDimension_3" variable="v1" dimension="ifrs_mx-cor_20160822:TimeIntervalBreakdownOfLiabilitiesAxis"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_12" xlink:to="matchDimension_3" xlink:title="factVariable_12 to matchDimension_3" priority="0" order="6.0" cover="true" complement="false"/>
+    <msg:message xlink:type="resource" xlink:label="label_6" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="label_6" xml:lang="es" id="label_6">El valor del hecho 'Saldo insoluto' ({$v1}) en el rubro 'Total otros pasivos circulantes y no circulantes con costo' debe corresponder a la suma de sus valores en el rubro 'Otros pasivos circulantes y no circulantes con costo' para cada uno de los intervalos desglosados ({sum($v2)}).</msg:message>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="valueAssertion_6" xlink:to="label_6" xlink:title="valueAssertion_6 to label_6" priority="0" order="1.0"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="valueAssertion_7" xlink:title="valueAssertion_7" id="VA_TotalGeneral_MontoInicial" test=" $v1 = sum( $v2 )" aspectModel="dimensional" implicitFiltering="false"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/assertion-set" xlink:from="assertionSet" xlink:to="valueAssertion_7" xlink:title="assertionSet to valueAssertion_7" priority="0" order="7.0"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_13" xlink:title="factVariable_13" id="factVariable_11" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_7" xlink:to="factVariable_13" xlink:title="valueAssertion_7 to factVariable_13" priority="0" order="1.0" name="v1"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="explicitDimension_11" xlink:title="explicitDimension_11" id="explicitDimension_11">
+      <df:dimension>
+        <df:qname>ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>ifrs_mx-cor_20160822:GrandTotalLiabilitiesMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_13" xlink:to="explicitDimension_11" xlink:title="factVariable_13 to explicitDimension_11" priority="0" order="1.0" cover="true" complement="false"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_13" xlink:to="typedDimension" xlink:title="factVariable_13 to typedDimension" priority="0" order="3.0" cover="true" complement="false"/>
+    <bf:orFilter xlink:type="resource" xlink:label="orFilter_5" xlink:title="orFilter_5" id="orFilter_5"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_13" xlink:to="orFilter_5" xlink:title="factVariable_13 to orFilter_5" priority="0" order="4.0" cover="true" complement="false"/>
+    <cf:conceptName xlink:type="resource" xlink:label="conceptName_6" xlink:title="conceptName_6" id="conceptName_6">
+      <cf:concept>
+        <cf:qname>ifrs_mx-cor_20160822:TotalInitialCreditLineAndInitialAmountOfTheIssuance</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="orFilter_5" xlink:to="conceptName_6" xlink:title="orFilter_5 to conceptName_6" priority="0" order="1.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_14" xlink:title="factVariable_14" id="factVariable_12" bindAsSequence="true" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_7" xlink:to="factVariable_14" xlink:title="valueAssertion_7 to factVariable_14" priority="0" order="2.0" name="v2"/>
+    <bf:orFilter xlink:type="resource" xlink:label="orFilter_6" xlink:title="orFilter_6" id="orFilter_6"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_14" xlink:to="orFilter_6" xlink:title="factVariable_14 to orFilter_6" priority="0" order="1.0" cover="true" complement="false"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="orFilter_6" xlink:to="conceptName" xlink:title="orFilter_6 to conceptName" priority="0" order="1.0" cover="true" complement="false"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="orFilter_6" xlink:to="conceptName_5" xlink:title="orFilter_6 to conceptName_5" priority="0" order="2.0" cover="true" complement="false"/>
+    <bf:orFilter xlink:type="resource" xlink:label="orFilter_7" xlink:title="orFilter_7" id="orFilter_7"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_14" xlink:to="orFilter_7" xlink:title="factVariable_14 to orFilter_7" priority="0" order="2.0" cover="true" complement="false"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="orFilter_7" xlink:to="explicitDimension" xlink:title="orFilter_7 to explicitDimension" priority="0" order="1.0" cover="true" complement="false"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="orFilter_7" xlink:to="explicitDimension_4" xlink:title="orFilter_7 to explicitDimension_4" priority="0" order="2.0" cover="true" complement="false"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="orFilter_7" xlink:to="explicitDimension_7" xlink:title="orFilter_7 to explicitDimension_7" priority="0" order="3.0" cover="true" complement="false"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_14" xlink:to="typedDimension" xlink:title="factVariable_14 to typedDimension" priority="0" order="3.0" cover="true" complement="false"/>
+    <mf:matchPeriod xlink:type="resource" xlink:label="matchPeriod_7" xlink:title="matchPeriod_7" id="matchPeriod_7" variable="v1"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_14" xlink:to="matchPeriod_7" xlink:title="factVariable_14 to matchPeriod_7" priority="0" order="4.0" cover="true" complement="false"/>
+    <mf:matchEntityIdentifier xlink:type="resource" xlink:label="matchEntityIdentifier_7" xlink:title="matchEntityIdentifier_7" id="matchEntityIdentifier_7" variable="v1"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_14" xlink:to="matchEntityIdentifier_7" xlink:title="factVariable_14 to matchEntityIdentifier_7" priority="0" order="5.0" cover="true" complement="false"/>
+    <msg:message xlink:type="resource" xlink:label="label_7" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="label_7" xml:lang="es" id="label_7">El valor del hecho '{xfi:concept-label(node-name($v1),"http://www.xbrl.org/2003/role/link","http://www.xbrl.org/2003/role/label","es")}' desglosado como 'Total general' ({ $v1 }) debe ser igual a la suma de los hechos de 'Línea de crédito inicial' y 'Monto inicial de la emisión' desglosados como los totales 'Total bancarios', 'Total bursátiles y colocaciones privadas' y 'Total otros pasivos circulantes y no circulantes con costo' ({sum($v2)})</msg:message>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="valueAssertion_7" xlink:to="label_7" xlink:title="valueAssertion_7 to label_7" priority="0" order="1.0"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="valueAssertion_8" xlink:title="valueAssertion_8" id="VA_TotalGeneral_InteresesDevengados" test=" $v1 = sum( $v2 )" aspectModel="dimensional" implicitFiltering="false"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/assertion-set" xlink:from="assertionSet" xlink:to="valueAssertion_8" xlink:title="assertionSet to valueAssertion_8" priority="0" order="8.0"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_15" xlink:title="factVariable_15" id="factVariable_13" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_8" xlink:to="factVariable_15" xlink:title="valueAssertion_8 to factVariable_15" priority="0" order="1.0" name="v1"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_15" xlink:to="explicitDimension_11" xlink:title="factVariable_15 to explicitDimension_11" priority="0" order="1.0" cover="true" complement="false"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_15" xlink:to="typedDimension" xlink:title="factVariable_15 to typedDimension" priority="0" order="2.0" cover="true" complement="false"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_15" xlink:to="conceptName_3" xlink:title="factVariable_15 to conceptName_3" priority="0" order="3.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_16" xlink:title="factVariable_16" id="factVariable_14" bindAsSequence="true" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_8" xlink:to="factVariable_16" xlink:title="valueAssertion_8 to factVariable_16" priority="0" order="2.0" name="v2"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_16" xlink:to="conceptName_3" xlink:title="factVariable_16 to conceptName_3" priority="0" order="1.0" cover="true" complement="false"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_16" xlink:to="typedDimension" xlink:title="factVariable_16 to typedDimension" priority="0" order="2.0" cover="true" complement="false"/>
+    <mf:matchPeriod xlink:type="resource" xlink:label="matchPeriod_8" xlink:title="matchPeriod_8" id="matchPeriod_8" variable="v1"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_16" xlink:to="matchPeriod_8" xlink:title="factVariable_16 to matchPeriod_8" priority="0" order="3.0" cover="true" complement="false"/>
+    <mf:matchEntityIdentifier xlink:type="resource" xlink:label="matchEntityIdentifier_8" xlink:title="matchEntityIdentifier_8" id="matchEntityIdentifier_8" variable="v1"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_16" xlink:to="matchEntityIdentifier_8" xlink:title="factVariable_16 to matchEntityIdentifier_8" priority="0" order="4.0" cover="true" complement="false"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_16" xlink:to="orFilter_7" xlink:title="factVariable_16 to orFilter_7" priority="0" order="5.0" cover="true" complement="false"/>
+    <msg:message xlink:type="resource" xlink:label="label_8" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="label_8" xml:lang="es" id="label_8">El valor del hecho '{xfi:concept-label(node-name($v1),"http://www.xbrl.org/2003/role/link","http://www.xbrl.org/2003/role/label","es")}' desglosado como 'Total general' ({ $v1 }) debe ser igual a la suma del mismo concepto desglosados como los totales 'Total bancarios', 'Total bursátiles y colocaciones privadas' y 'Total otros pasivos circulantes y no circulantes con costo' ({sum($v2)})</msg:message>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="valueAssertion_8" xlink:to="label_8" xlink:title="valueAssertion_8 to label_8" priority="0" order="1.0"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="valueAssertion_16" xlink:title="valueAssertion_16" id="VA_Subtotales_SaldoInsoluto_TotalGeneral" test="$OutstandingBalanceDetail = sum( $v1 )" aspectModel="dimensional" implicitFiltering="false"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/assertion-set" xlink:from="assertionSet" xlink:to="valueAssertion_16" xlink:title="assertionSet to valueAssertion_16" priority="0" order="9.0"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_51" xlink:title="factVariable_51" id="factVariable_49" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_16" xlink:to="factVariable_51" xlink:title="valueAssertion_16 to factVariable_51" priority="0" order="1.0" name="OutstandingBalanceDetail"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_51" xlink:to="conceptName_4" xlink:title="factVariable_51 to conceptName_4" priority="0" order="1.0" cover="true" complement="false"/>
+    <df:typedDimension xlink:type="resource" xlink:label="typedDimension_4" xlink:title="typedDimension_4" id="typedDimension_4">
+      <df:dimension>
+        <df:qname>ifrs_mx-cor_20160822:LiabilitiesSequenceTypedAxis</df:qname>
+      </df:dimension>
+    </df:typedDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_51" xlink:to="typedDimension_4" xlink:title="factVariable_51 to typedDimension_4" priority="0" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="explicitDimension_16" xlink:title="explicitDimension_16" id="explicitDimension_16">
+      <df:dimension>
+        <df:qname>ifrs_mx-cor_20160822:TimeIntervalBreakdownOfLiabilitiesAxis</df:qname>
+      </df:dimension>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_51" xlink:to="explicitDimension_16" xlink:title="factVariable_51 to explicitDimension_16" priority="0" order="3.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="explicitDimension_17" xlink:title="explicitDimension_17" id="explicitDimension_17">
+      <df:dimension>
+        <df:qname>ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>ifrs_mx-cor_20160822:GrandTotalLiabilitiesMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_51" xlink:to="explicitDimension_17" xlink:title="factVariable_51 to explicitDimension_17" priority="0" order="4.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_52" xlink:title="factVariable_52" id="factVariable_50" bindAsSequence="true" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_16" xlink:to="factVariable_52" xlink:title="valueAssertion_16 to factVariable_52" priority="0" order="2.0" name="v1"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_52" xlink:to="conceptName_4" xlink:title="factVariable_52 to conceptName_4" priority="0" order="1.0" cover="true" complement="false"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_52" xlink:to="typedDimension_4" xlink:title="factVariable_52 to typedDimension_4" priority="0" order="2.0" cover="true" complement="false"/>
+    <mf:matchDimension xlink:type="resource" xlink:label="matchDimension_4" xlink:title="matchDimension_4" id="matchDimension_4" variable="OutstandingBalanceDetail" dimension="ifrs_mx-cor_20160822:TimeIntervalBreakdownOfLiabilitiesAxis"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_52" xlink:to="matchDimension_4" xlink:title="factVariable_52 to matchDimension_4" priority="0" order="3.0" cover="true" complement="false"/>
+    <mf:matchPeriod xlink:type="resource" xlink:label="matchPeriod_12" xlink:title="matchPeriod_12" id="matchPeriod_12" variable="OutstandingBalanceDetail"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_52" xlink:to="matchPeriod_12" xlink:title="factVariable_52 to matchPeriod_12" priority="0" order="5.0" cover="true" complement="false"/>
+    <bf:orFilter xlink:type="resource" xlink:label="orFilter_8" xlink:title="orFilter_8" id="orFilter_8"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_52" xlink:to="orFilter_8" xlink:title="factVariable_52 to orFilter_8" priority="0" order="6.0" cover="true" complement="false"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="orFilter_8" xlink:to="explicitDimension_4" xlink:title="orFilter_8 to explicitDimension_4" priority="0" order="2.0" cover="true" complement="false"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="orFilter_8" xlink:to="explicitDimension_7" xlink:title="orFilter_8 to explicitDimension_7" priority="0" order="3.0" cover="true" complement="false"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="orFilter_8" xlink:to="explicitDimension" xlink:title="orFilter_8 to explicitDimension" priority="0" order="4.0" cover="true" complement="false"/>
+    <msg:message xlink:type="resource" xlink:label="label_16" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="label_16" xml:lang="es" id="label_16">El hecho 'Saldo insoluto (detalle)' ({ $OutstandingBalanceDetail }) desglosado en el miembro de dimensión 'Total general' para un intervalo de tiempo en específico debe ser igual a la suma del mismo concepto desglosado en los miembros 'Total bancarios' + 'Total bursátiles y colocaciones privadas' + 'Total otros pasivos circulantes y no circulantes con costo' (sum( $v1 ))</msg:message>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="valueAssertion_16" xlink:to="label_16" xlink:title="valueAssertion_16 to label_16" priority="0" order="1.0"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="valueAssertion_17" xlink:title="valueAssertion_17" id="VA_SubtotalesSaldoInsoluto_SaldoInsoluto_sin_miembros_total" test=" $OutstandingBalance = sum( $v1 )" aspectModel="dimensional" implicitFiltering="false"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/assertion-set" xlink:from="assertionSet" xlink:to="valueAssertion_17" xlink:title="assertionSet to valueAssertion_17" priority="0" order="10.0"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_53" xlink:title="factVariable_53" id="factVariable_51" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_17" xlink:to="factVariable_53" xlink:title="valueAssertion_17 to factVariable_53" priority="0" order="1.0" name="OutstandingBalance"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_53" xlink:to="conceptName_2" xlink:title="factVariable_53 to conceptName_2" priority="0" order="1.0" cover="true" complement="false"/>
+    <bf:orFilter xlink:type="resource" xlink:label="orFilter_9" xlink:title="orFilter_9" id="orFilter_9"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_53" xlink:to="orFilter_9" xlink:title="factVariable_53 to orFilter_9" priority="0" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="explicitDimension_19" xlink:title="explicitDimension_19" id="explicitDimension_19">
+      <df:dimension>
+        <df:qname>ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>ifrs_mx-cor_20160822:BankingMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="orFilter_9" xlink:to="explicitDimension_19" xlink:title="orFilter_9 to explicitDimension_19" priority="0" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="explicitDimension_20" xlink:title="explicitDimension_20" id="explicitDimension_20">
+      <df:dimension>
+        <df:qname>ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>ifrs_mx-cor_20160822:SotckMarketMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="orFilter_9" xlink:to="explicitDimension_20" xlink:title="orFilter_9 to explicitDimension_20" priority="0" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="explicitDimension_21" xlink:title="explicitDimension_21" id="explicitDimension_21">
+      <df:dimension>
+        <df:qname>ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>ifrs_mx-cor_20160822:PrivatePlacementsMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="orFilter_9" xlink:to="explicitDimension_21" xlink:title="orFilter_9 to explicitDimension_21" priority="0" order="3.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="explicitDimension_22" xlink:title="explicitDimension_22" id="explicitDimension_22">
+      <df:dimension>
+        <df:qname>ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>ifrs_mx-cor_20160822:OtherCurrentAndNonCurrentLiabilitiesWithCostMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="orFilter_9" xlink:to="explicitDimension_22" xlink:title="orFilter_9 to explicitDimension_22" priority="0" order="4.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_54" xlink:title="factVariable_54" id="factVariable_52" bindAsSequence="true" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_17" xlink:to="factVariable_54" xlink:title="valueAssertion_17 to factVariable_54" priority="0" order="2.0" name="v1"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_54" xlink:to="conceptName_4" xlink:title="factVariable_54 to conceptName_4" priority="0" order="1.0" cover="true" complement="false"/>
+    <mf:matchPeriod xlink:type="resource" xlink:label="matchPeriod_13" xlink:title="matchPeriod_13" id="matchPeriod_13" variable="OutstandingBalance"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_54" xlink:to="matchPeriod_13" xlink:title="factVariable_54 to matchPeriod_13" priority="0" order="2.0" cover="true" complement="false"/>
+    <mf:matchDimension xlink:type="resource" xlink:label="matchDimension_5" xlink:title="matchDimension_5" id="matchDimension_5" variable="OutstandingBalance" dimension="ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_54" xlink:to="matchDimension_5" xlink:title="factVariable_54 to matchDimension_5" priority="0" order="3.0" cover="true" complement="false"/>
+    <mf:matchDimension xlink:type="resource" xlink:label="matchDimension_6" xlink:title="matchDimension_6" id="matchDimension_6" variable="OutstandingBalance" dimension="ifrs_mx-cor_20160822:LiabilitiesSequenceTypedAxis"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_54" xlink:to="matchDimension_6" xlink:title="factVariable_54 to matchDimension_6" priority="0" order="4.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="explicitDimension_18" xlink:title="explicitDimension_18" id="explicitDimension_18">
+      <df:dimension>
+        <df:qname>ifrs_mx-cor_20160822:TimeIntervalBreakdownOfLiabilitiesAxis</df:qname>
+      </df:dimension>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_54" xlink:to="explicitDimension_18" xlink:title="factVariable_54 to explicitDimension_18" priority="0" order="5.0" cover="true" complement="false"/>
+    <msg:message xlink:type="resource" xlink:label="label_17" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="label_17" xml:lang="es" id="label_17">El hecho 'Saldo insoluto' ({ $OutstandingBalance }) para cada desglose de pasivo debe ser igual a la suma del  'Saldo insoluto (detalle)' en todos los intervalos de tiempo ({ sum($v1) })</msg:message>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="valueAssertion_17" xlink:to="label_17" xlink:title="valueAssertion_17 to label_17" priority="0" order="1.0"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="valueAssertion_18" xlink:title="valueAssertion_18" id="VA_TotalGeneral_SaldoInsoluto" test="$v1 = sum($v2) " aspectModel="dimensional" implicitFiltering="false"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/assertion-set" xlink:from="assertionSet" xlink:to="valueAssertion_18" xlink:title="assertionSet to valueAssertion_18" priority="0" order="11.0"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_57" xlink:title="factVariable_57" id="factVariable_55" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_18" xlink:to="factVariable_57" xlink:title="valueAssertion_18 to factVariable_57" priority="0" order="1.0" name="v1"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_57" xlink:to="conceptName_2" xlink:title="factVariable_57 to conceptName_2" priority="0" order="1.0" cover="true" complement="false"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_57" xlink:to="explicitDimension_11" xlink:title="factVariable_57 to explicitDimension_11" priority="0" order="2.0" cover="true" complement="false"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_57" xlink:to="typedDimension" xlink:title="factVariable_57 to typedDimension" priority="0" order="3.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_58" xlink:title="factVariable_58" id="factVariable_56" bindAsSequence="true" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_18" xlink:to="factVariable_58" xlink:title="valueAssertion_18 to factVariable_58" priority="0" order="2.0" name="v2"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_58" xlink:to="conceptName_2" xlink:title="factVariable_58 to conceptName_2" priority="0" order="1.0" cover="true" complement="false"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_58" xlink:to="typedDimension" xlink:title="factVariable_58 to typedDimension" priority="0" order="2.0" cover="true" complement="false"/>
+    <mf:matchPeriod xlink:type="resource" xlink:label="matchPeriod_14" xlink:title="matchPeriod_14" id="matchPeriod_14" variable="v1"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_58" xlink:to="matchPeriod_14" xlink:title="factVariable_58 to matchPeriod_14" priority="0" order="3.0" cover="true" complement="false"/>
+    <mf:matchEntityIdentifier xlink:type="resource" xlink:label="matchEntityIdentifier_12" xlink:title="matchEntityIdentifier_12" id="matchEntityIdentifier_12" variable="v1"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_58" xlink:to="matchEntityIdentifier_12" xlink:title="factVariable_58 to matchEntityIdentifier_12" priority="0" order="4.0" cover="true" complement="false"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_58" xlink:to="orFilter_7" xlink:title="factVariable_58 to orFilter_7" priority="0" order="5.0" cover="true" complement="false"/>
+    <msg:message xlink:type="resource" xlink:label="label_20" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="label_20" xml:lang="es" id="label_20">El valor del hecho '{xfi:concept-label(node-name($v1),"http://www.xbrl.org/2003/role/link","http://www.xbrl.org/2003/role/label","es")}' desglosado como 'Total general' ({ $v1 }) debe ser igual a la suma del mismo concepto desglosados como los totales 'Total bancarios', 'Total bursátiles y colocaciones privadas' y 'Total otros pasivos circulantes y no circulantes con costo' ({sum($v2)})</msg:message>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="valueAssertion_18" xlink:to="label_20" xlink:title="valueAssertion_18 to label_20" priority="0" order="1.0"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="valueAssertion_19" xlink:title="valueAssertion_19" id="VA_SubtotalesSaldoInsoluto_SaldoInsoluto_con_miembros_total" test=" $OutstandingBalance = sum( $v1 )" aspectModel="dimensional" implicitFiltering="true"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/assertion-set" xlink:from="assertionSet" xlink:to="valueAssertion_19" xlink:title="assertionSet to valueAssertion_19" priority="0" order="12.0"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_69" xlink:title="factVariable_69" id="factVariable_67" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_19" xlink:to="factVariable_69" xlink:title="valueAssertion_19 to factVariable_69" priority="0" order="1.0" name="OutstandingBalance"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_69" xlink:to="conceptName_2" xlink:title="factVariable_69 to conceptName_2" priority="0" order="1.0" cover="true" complement="false"/>
+    <bf:orFilter xlink:type="resource" xlink:label="orFilter_10" xlink:title="orFilter_10" id="orFilter_10"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_69" xlink:to="orFilter_10" xlink:title="factVariable_69 to orFilter_10" priority="0" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="explicitDimension_24" xlink:title="explicitDimension_24" id="explicitDimension_24">
+      <df:dimension>
+        <df:qname>ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>ifrs_mx-cor_20160822:GrandTotalLiabilitiesMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="orFilter_10" xlink:to="explicitDimension_24" xlink:title="orFilter_10 to explicitDimension_24" priority="0" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="explicitDimension_25" xlink:title="explicitDimension_25" id="explicitDimension_25">
+      <df:dimension>
+        <df:qname>ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>ifrs_mx-cor_20160822:TotalBankingMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="orFilter_10" xlink:to="explicitDimension_25" xlink:title="orFilter_10 to explicitDimension_25" priority="0" order="2.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="explicitDimension_26" xlink:title="explicitDimension_26" id="explicitDimension_26">
+      <df:dimension>
+        <df:qname>ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>ifrs_mx-cor_20160822:TotalStockMarketListedInTheStockMarketAndPrivatePlacementsMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="orFilter_10" xlink:to="explicitDimension_26" xlink:title="orFilter_10 to explicitDimension_26" priority="0" order="3.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="explicitDimension_27" xlink:title="explicitDimension_27" id="explicitDimension_27">
+      <df:dimension>
+        <df:qname>ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>ifrs_mx-cor_20160822:TotalOtherCurrentAndNonCurrentLiabilitiesWithCostInNationalCurrencyMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/boolean-filter" xlink:from="orFilter_10" xlink:to="explicitDimension_27" xlink:title="orFilter_10 to explicitDimension_27" priority="0" order="4.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_70" xlink:title="factVariable_70" id="factVariable_68" bindAsSequence="true" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_19" xlink:to="factVariable_70" xlink:title="valueAssertion_19 to factVariable_70" priority="0" order="2.0" name="v1"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_70" xlink:to="conceptName_4" xlink:title="factVariable_70 to conceptName_4" priority="0" order="1.0" cover="true" complement="false"/>
+    <mf:matchPeriod xlink:type="resource" xlink:label="matchPeriod_18" xlink:title="matchPeriod_18" id="matchPeriod_18" variable="OutstandingBalance"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_70" xlink:to="matchPeriod_18" xlink:title="factVariable_70 to matchPeriod_18" priority="0" order="2.0" cover="true" complement="false"/>
+    <mf:matchDimension xlink:type="resource" xlink:label="matchDimension_7" xlink:title="matchDimension_7" id="matchDimension_7" variable="OutstandingBalance" dimension="ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_70" xlink:to="matchDimension_7" xlink:title="factVariable_70 to matchDimension_7" priority="0" order="3.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="explicitDimension_23" xlink:title="explicitDimension_23" id="explicitDimension_23">
+      <df:dimension>
+        <df:qname>ifrs_mx-cor_20160822:TimeIntervalBreakdownOfLiabilitiesAxis</df:qname>
+      </df:dimension>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_70" xlink:to="explicitDimension_23" xlink:title="factVariable_70 to explicitDimension_23" priority="0" order="5.0" cover="true" complement="false"/>
+    <df:typedDimension xlink:type="resource" xlink:label="typedDimension_5" xlink:title="typedDimension_5" id="typedDimension_5">
+      <df:dimension>
+        <df:qname>ifrs_mx-cor_20160822:LiabilitiesSequenceTypedAxis</df:qname>
+      </df:dimension>
+    </df:typedDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_70" xlink:to="typedDimension_5" xlink:title="factVariable_70 to typedDimension_5" priority="0" order="6.0" cover="true" complement="false"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="valueAssertion_9" xlink:title="valueAssertion_9" id="VA_NivelEndeudamiento" test=" $IndebtednessLevelAtTheEndOfTheQuarter =  round((($TotalFunding + $TotalDebtInSecurities + $TotalUnpaidAccruedInterest + $TotalCreditsLoansOrNotRelevantFunding ) div  $Assets )*100) div 100" aspectModel="dimensional" implicitFiltering="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_17" xlink:title="factVariable_17" id="factVariable_15" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_9" xlink:to="factVariable_17" xlink:title="valueAssertion_9 to factVariable_17" priority="0" order="1.0" name="IndebtednessLevelAtTheEndOfTheQuarter"/>
+    <cf:conceptName xlink:type="resource" xlink:label="conceptName_7" xlink:title="conceptName_7" id="conceptName_7">
+      <cf:concept>
+        <cf:qname>ifrs_mx-cor_20160822:IndebtednessLevelAtTheEndOfTheQuarter</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_17" xlink:to="conceptName_7" xlink:title="factVariable_17 to conceptName_7" priority="0" order="1.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_18" xlink:title="factVariable_18" id="factVariable_16" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_9" xlink:to="factVariable_18" xlink:title="valueAssertion_9 to factVariable_18" priority="0" order="2.0" name="TotalFunding"/>
+    <cf:conceptName xlink:type="resource" xlink:label="conceptName_8" xlink:title="conceptName_8" id="conceptName_8">
+      <cf:concept>
+        <cf:qname>ifrs_mx-cor_20160822:TotalFunding</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_18" xlink:to="conceptName_8" xlink:title="factVariable_18 to conceptName_8" priority="0" order="1.0" cover="true" complement="false"/>
+    <mf:matchPeriod xlink:type="resource" xlink:label="matchPeriod_17" xlink:title="matchPeriod_17" id="matchPeriod_17" variable="IndebtednessLevelAtTheEndOfTheQuarter"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_18" xlink:to="matchPeriod_17" xlink:title="factVariable_18 to matchPeriod_17" priority="0" order="2.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_19" xlink:title="factVariable_19" id="factVariable_17" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_9" xlink:to="factVariable_19" xlink:title="valueAssertion_9 to factVariable_19" priority="0" order="3.0" name="TotalDebtInSecurities"/>
+    <cf:conceptName xlink:type="resource" xlink:label="conceptName_9" xlink:title="conceptName_9" id="conceptName_9">
+      <cf:concept>
+        <cf:qname>ifrs_mx-cor_20160822:TotalDebtInSecurities</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_19" xlink:to="conceptName_9" xlink:title="factVariable_19 to conceptName_9" priority="0" order="1.0" cover="true" complement="false"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_19" xlink:to="matchPeriod_17" xlink:title="factVariable_19 to matchPeriod_17" priority="0" order="2.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_20" xlink:title="factVariable_20" id="factVariable_18" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_9" xlink:to="factVariable_20" xlink:title="valueAssertion_9 to factVariable_20" priority="0" order="4.0" name="TotalUnpaidAccruedInterest"/>
+    <cf:conceptName xlink:type="resource" xlink:label="conceptName_10" xlink:title="conceptName_10" id="conceptName_10">
+      <cf:concept>
+        <cf:qname>ifrs_mx-cor_20160822:TotalUnpaidAccruedInterest</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_20" xlink:to="conceptName_10" xlink:title="factVariable_20 to conceptName_10" priority="0" order="1.0" cover="true" complement="false"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_20" xlink:to="matchPeriod_17" xlink:title="factVariable_20 to matchPeriod_17" priority="0" order="2.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_21" xlink:title="factVariable_21" id="factVariable_19" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_9" xlink:to="factVariable_21" xlink:title="valueAssertion_9 to factVariable_21" priority="0" order="5.0" name="TotalCreditsLoansOrNotRelevantFunding"/>
+    <cf:conceptName xlink:type="resource" xlink:label="conceptName_11" xlink:title="conceptName_11" id="conceptName_11">
+      <cf:concept>
+        <cf:qname>ifrs_mx-cor_20160822:TotalCreditsLoansOrNotRelevantFunding</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_21" xlink:to="conceptName_11" xlink:title="factVariable_21 to conceptName_11" priority="0" order="1.0" cover="true" complement="false"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_21" xlink:to="matchPeriod_17" xlink:title="factVariable_21 to matchPeriod_17" priority="0" order="2.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_22" xlink:title="factVariable_22" id="factVariable_20" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_9" xlink:to="factVariable_22" xlink:title="valueAssertion_9 to factVariable_22" priority="0" order="6.0" name="Assets"/>
+    <cf:conceptName xlink:type="resource" xlink:label="conceptName_12" xlink:title="conceptName_12" id="conceptName_12">
+      <cf:concept>
+        <cf:qname>ifrs-full:Assets</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_22" xlink:to="conceptName_12" xlink:title="factVariable_22 to conceptName_12" priority="0" order="1.0" cover="true" complement="false"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_22" xlink:to="matchPeriod_17" xlink:title="factVariable_22 to matchPeriod_17" priority="0" order="2.0" cover="true" complement="false"/>
+    <msg:message xlink:type="resource" xlink:label="label_9" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="label_9" xml:lang="es" id="label_9">El 'Nivel de endeudamiento al cierre del trimestre' ({ $IndebtednessLevelAtTheEndOfTheQuarter }) debe corresponder a la operación  (Total de Financiamientos + Total de Deuda Bursátil + Total de Intereses Devengados no Pagados + Total de créditos, préstamos o financiamientos no relevantes) / 'Activos totales'; Resultado esperado ({round((($TotalFunding + $TotalDebtInSecurities + $TotalUnpaidAccruedInterest + $TotalCreditsLoansOrNotRelevantFunding ) div  $Assets )*100) div 100})</msg:message>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="valueAssertion_9" xlink:to="label_9" xlink:title="valueAssertion_9 to label_9" priority="0" order="1.0"/>
+    <variable:precondition xlink:type="resource" xlink:label="precondition_3" xlink:title="precondition_3" id="precondition_3" test="$Assets != 0"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set-precondition" xlink:from="valueAssertion_9" xlink:to="precondition_3" xlink:title="valueAssertion_9 to precondition_3" priority="0" order="1.0"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="valueAssertion_10" xlink:title="valueAssertion_10" id="VA_NivelDeApalancamiento" test="$LeverageLevel = round( ($Assets  div  $EquitySecurities) * 100) div 100 " aspectModel="dimensional" implicitFiltering="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_26" xlink:title="factVariable_26" id="factVariable_24" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_10" xlink:to="factVariable_26" xlink:title="valueAssertion_10 to factVariable_26" priority="0" order="4.0" name="LeverageLevel"/>
+    <cf:conceptName xlink:type="resource" xlink:label="conceptName_15" xlink:title="conceptName_15" id="conceptName_15">
+      <cf:concept>
+        <cf:qname>ifrs_mx-cor_20160822:LeverageLevel</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_26" xlink:to="conceptName_15" xlink:title="factVariable_26 to conceptName_15" priority="0" order="1.0" cover="true" complement="false"/>
+    <msg:message xlink:type="resource" xlink:label="label_10" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="label_10" xml:lang="es" id="label_10">El 'Nivel de apalancamiento' ( {$LeverageLevel} ) debe ser la razón de 'Activos totales' entre 'Títulos de capital' ({round( ($Assets  div  $EquitySecurities) * 100) div 100} )</msg:message>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="valueAssertion_10" xlink:to="label_10" xlink:title="valueAssertion_10 to label_10" priority="0" order="1.0"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_24" xlink:title="factVariable_24" id="factVariable_22" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_10" xlink:to="factVariable_24" xlink:title="valueAssertion_10 to factVariable_24" priority="0" order="5.0" name="Assets"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_24" xlink:to="conceptName_12" xlink:title="factVariable_24 to conceptName_12" priority="0" order="1.0" cover="true" complement="false"/>
+    <mf:matchPeriod xlink:type="resource" xlink:label="matchPeriod_16" xlink:title="matchPeriod_16" id="matchPeriod_16" variable="LeverageLevel"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_24" xlink:to="matchPeriod_16" xlink:title="factVariable_24 to matchPeriod_16" priority="0" order="2.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_25" xlink:title="factVariable_25" id="factVariable_23" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_10" xlink:to="factVariable_25" xlink:title="valueAssertion_10 to factVariable_25" priority="0" order="6.0" name="EquitySecurities"/>
+    <cf:conceptName xlink:type="resource" xlink:label="conceptName_14" xlink:title="conceptName_14" id="conceptName_14">
+      <cf:concept>
+        <cf:qname>ifrs_mx-cor_20160822:EquitySecurities</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_25" xlink:to="conceptName_14" xlink:title="factVariable_25 to conceptName_14" priority="0" order="1.0" cover="true" complement="false"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_25" xlink:to="matchPeriod_16" xlink:title="factVariable_25 to matchPeriod_16" priority="0" order="2.0" cover="true" complement="false"/>
+    <variable:precondition xlink:type="resource" xlink:label="precondition_2" xlink:title="precondition_2" id="precondition_2" test="$EquitySecurities != 0"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set-precondition" xlink:from="valueAssertion_10" xlink:to="precondition_2" xlink:title="valueAssertion_10 to precondition_2" priority="0" order="1.0"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_23" xlink:title="factVariable_23" id="factVariable_21" bindAsSequence="false"/>
+    <cf:conceptName xlink:type="resource" xlink:label="conceptName_13" xlink:title="conceptName_13" id="conceptName_13">
+      <cf:concept>
+        <cf:qname>ifrs_mx-cor_20160822:LeverageLevelText</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_23" xlink:to="conceptName_13" xlink:title="factVariable_23 to conceptName_13" priority="0" order="1.0" cover="true" complement="false"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="valueAssertion_11" xlink:title="valueAssertion_11" id="VA_IndiceDeCoberturaDelServicioDeLaDeuda" test=" $CoverageRateDebtService =  round(((&#10;$LiquidAssets +  $EstimatedOperatingIncome + $RevolvingCreditLines +  $CapitalAmortizationOfTheCreditPortfolio -  $Distributions )&#10; div&#10;(  $PlannedAmortizationOfPrincipalOfFinancing  )) * 100) div 100" aspectModel="dimensional" implicitFiltering="false"/>
+    <msg:message xlink:type="resource" xlink:label="label_11" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="label_11" xml:lang="es" id="label_11">EL 'Índice de cobertura de la deuda' ({ $CoverageRateDebtService }) deber ser igual a la operación  (Activos Líquidos + Utilidad Operativa Estimada + Líneas de Crédito Revolventes + Amortización de capital de cartera de crédito - Distribuciones)  /  ( Amortizaciones programadas de principal de financiamientos) ; valor esperado ({round(((
+$LiquidAssets +  $EstimatedOperatingIncome + $RevolvingCreditLines +  $CapitalAmortizationOfTheCreditPortfolio -  $Distributions )
+ div
+(  $PlannedAmortizationOfPrincipalOfFinancing  )) * 100) div 100})</msg:message>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="valueAssertion_11" xlink:to="label_11" xlink:title="valueAssertion_11 to label_11" priority="0" order="1.0"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_37" xlink:title="factVariable_37" id="factVariable_35" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_11" xlink:to="factVariable_37" xlink:title="valueAssertion_11 to factVariable_37" priority="0" order="16.0" name="CoverageRateDebtService"/>
+    <cf:conceptName xlink:type="resource" xlink:label="conceptName_25" xlink:title="conceptName_25" id="conceptName_25">
+      <cf:concept>
+        <cf:qname>ifrs_mx-cor_20160822:CoverageRateDebtService</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_37" xlink:to="conceptName_25" xlink:title="factVariable_37 to conceptName_25" priority="0" order="1.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_28" xlink:title="factVariable_28" id="factVariable_26" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_11" xlink:to="factVariable_28" xlink:title="valueAssertion_11 to factVariable_28" priority="0" order="17.0" name="LiquidAssets"/>
+    <cf:conceptName xlink:type="resource" xlink:label="conceptName_17" xlink:title="conceptName_17" id="conceptName_17">
+      <cf:concept>
+        <cf:qname>ifrs_mx-cor_20160822:LiquidAssets</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_28" xlink:to="conceptName_17" xlink:title="factVariable_28 to conceptName_17" priority="0" order="1.0" cover="true" complement="false"/>
+    <mf:matchPeriod xlink:type="resource" xlink:label="matchPeriod_15" xlink:title="matchPeriod_15" id="matchPeriod_15" variable="CoverageRateDebtService"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_28" xlink:to="matchPeriod_15" xlink:title="factVariable_28 to matchPeriod_15" priority="0" order="2.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_31" xlink:title="factVariable_31" id="factVariable_29" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_11" xlink:to="factVariable_31" xlink:title="valueAssertion_11 to factVariable_31" priority="0" order="18.0" name="RevolvingCreditLines"/>
+    <cf:conceptName xlink:type="resource" xlink:label="conceptName_20" xlink:title="conceptName_20" id="conceptName_20">
+      <cf:concept>
+        <cf:qname>ifrs_mx-cor_20160822:RevolvingCreditLines</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_31" xlink:to="conceptName_20" xlink:title="factVariable_31 to conceptName_20" priority="0" order="1.0" cover="true" complement="false"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_31" xlink:to="matchPeriod_15" xlink:title="factVariable_31 to matchPeriod_15" priority="0" order="2.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_59" xlink:title="factVariable_59" id="factVariable_57" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_11" xlink:to="factVariable_59" xlink:title="valueAssertion_11 to factVariable_59" priority="0" order="19.0" name="EstimatedOperatingIncome"/>
+    <cf:conceptName xlink:type="resource" xlink:label="conceptName_19" xlink:title="conceptName_19" id="conceptName_19">
+      <cf:concept>
+        <cf:qname>ifrs_mx-cor_20160822:EstimatedOperatingIncome</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_59" xlink:to="conceptName_19" xlink:title="factVariable_59 to conceptName_19" priority="0" order="1.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_60" xlink:title="factVariable_60" id="factVariable_58" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_11" xlink:to="factVariable_60" xlink:title="valueAssertion_11 to factVariable_60" priority="0" order="20.0" name="CapitalAmortizationOfTheCreditPortfolio"/>
+    <cf:conceptName xlink:type="resource" xlink:label="conceptName_28" xlink:title="conceptName_28" id="conceptName_28">
+      <cf:concept>
+        <cf:qname>ifrs_mx-cor_20160822:CapitalAmortizationOfTheCreditPortfolio</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_60" xlink:to="conceptName_28" xlink:title="factVariable_60 to conceptName_28" priority="0" order="1.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_61" xlink:title="factVariable_61" id="factVariable_59" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_11" xlink:to="factVariable_61" xlink:title="valueAssertion_11 to factVariable_61" priority="0" order="21.0" name="Distributions"/>
+    <cf:conceptName xlink:type="resource" xlink:label="conceptName_29" xlink:title="conceptName_29" id="conceptName_29">
+      <cf:concept>
+        <cf:qname>ifrs_mx-cor_20160822:Distributions</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_61" xlink:to="conceptName_29" xlink:title="factVariable_61 to conceptName_29" priority="0" order="1.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_62" xlink:title="factVariable_62" id="factVariable_60" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_11" xlink:to="factVariable_62" xlink:title="valueAssertion_11 to factVariable_62" priority="0" order="22.0" name="PlannedAmortizationOfPrincipalOfFinancing"/>
+    <cf:conceptName xlink:type="resource" xlink:label="conceptName_30" xlink:title="conceptName_30" id="conceptName_30">
+      <cf:concept>
+        <cf:qname>ifrs_mx-cor_20160822:PlannedAmortizationOfPrincipalOfFinancing</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_62" xlink:to="conceptName_30" xlink:title="factVariable_62 to conceptName_30" priority="0" order="1.0" cover="true" complement="false"/>
+    <variable:precondition xlink:type="resource" xlink:label="precondition" xlink:title="precondition" id="precondition" test="$PlannedAmortizationOfPrincipalOfFinancing != 0"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set-precondition" xlink:from="valueAssertion_11" xlink:to="precondition" xlink:title="valueAssertion_11 to precondition" priority="0" order="1.0"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_27" xlink:title="factVariable_27" id="factVariable_25" bindAsSequence="false"/>
+    <cf:conceptName xlink:type="resource" xlink:label="conceptName_16" xlink:title="conceptName_16" id="conceptName_16">
+      <cf:concept>
+        <cf:qname>ifrs_mx-cor_20160822:CoverageRateDebtServiceText</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_27" xlink:to="conceptName_16" xlink:title="factVariable_27 to conceptName_16" priority="0" order="1.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_36" xlink:title="factVariable_36" id="factVariable_34" bindAsSequence="false"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_36" xlink:to="conceptName_16" xlink:title="factVariable_36 to conceptName_16" priority="0" order="1.0" cover="true" complement="false"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="valueAssertion_12" xlink:title="valueAssertion_12" id="VA_TotalDeFinanciamientos" test=" $TotalFunding =  $v1 +  $v2 " aspectModel="dimensional" implicitFiltering="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_38" xlink:title="factVariable_38" id="factVariable_36" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_12" xlink:to="factVariable_38" xlink:title="valueAssertion_12 to factVariable_38" priority="0" order="1.0" name="TotalFunding"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_38" xlink:to="conceptName_8" xlink:title="factVariable_38 to conceptName_8" priority="0" order="1.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_39" xlink:title="factVariable_39" id="factVariable_37" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_12" xlink:to="factVariable_39" xlink:title="valueAssertion_12 to factVariable_39" priority="0" order="2.0" name="v1"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_39" xlink:to="conceptName_2" xlink:title="factVariable_39 to conceptName_2" priority="0" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="explicitDimension_12" xlink:title="explicitDimension_12" id="explicitDimension_12">
+      <df:dimension>
+        <df:qname>ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>ifrs_mx-cor_20160822:TotalBankingMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_39" xlink:to="explicitDimension_12" xlink:title="factVariable_39 to explicitDimension_12" priority="0" order="2.0" cover="true" complement="false"/>
+    <mf:matchPeriod xlink:type="resource" xlink:label="matchPeriod_9" xlink:title="matchPeriod_9" id="matchPeriod_9" variable="TotalFunding"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_39" xlink:to="matchPeriod_9" xlink:title="factVariable_39 to matchPeriod_9" priority="0" order="3.0" cover="true" complement="false"/>
+    <mf:matchEntityIdentifier xlink:type="resource" xlink:label="matchEntityIdentifier_9" xlink:title="matchEntityIdentifier_9" id="matchEntityIdentifier_9" variable="TotalFunding"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_39" xlink:to="matchEntityIdentifier_9" xlink:title="factVariable_39 to matchEntityIdentifier_9" priority="0" order="4.0" cover="true" complement="false"/>
+    <df:typedDimension xlink:type="resource" xlink:label="typedDimension_3" xlink:title="typedDimension_3" id="typedDimension_3">
+      <df:dimension>
+        <df:qname>ifrs_mx-cor_20160822:LiabilitiesSequenceTypedAxis</df:qname>
+      </df:dimension>
+    </df:typedDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_39" xlink:to="typedDimension_3" xlink:title="factVariable_39 to typedDimension_3" priority="0" order="5.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_40" xlink:title="factVariable_40" id="factVariable_38" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_12" xlink:to="factVariable_40" xlink:title="valueAssertion_12 to factVariable_40" priority="0" order="3.0" name="v2"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_40" xlink:to="conceptName_2" xlink:title="factVariable_40 to conceptName_2" priority="0" order="1.0" cover="true" complement="false"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_40" xlink:to="matchPeriod_9" xlink:title="factVariable_40 to matchPeriod_9" priority="0" order="2.0" cover="true" complement="false"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_40" xlink:to="matchEntityIdentifier_9" xlink:title="factVariable_40 to matchEntityIdentifier_9" priority="0" order="3.0" cover="true" complement="false"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_40" xlink:to="typedDimension_3" xlink:title="factVariable_40 to typedDimension_3" priority="0" order="4.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="explicitDimension_13" xlink:title="explicitDimension_13" id="explicitDimension_13">
+      <df:dimension>
+        <df:qname>ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>ifrs_mx-cor_20160822:TotalOtherCurrentAndNonCurrentLiabilitiesWithCostInNationalCurrencyMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_40" xlink:to="explicitDimension_13" xlink:title="factVariable_40 to explicitDimension_13" priority="0" order="5.0" cover="true" complement="false"/>
+    <msg:message xlink:type="resource" xlink:label="label_12" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="label_12" xml:lang="es" id="label_12">El valor de 'Total de financiamientos' ({ $TotalFunding }) debe ser igual a la suma del 'Saldo insoluto' desglosado en 'Total  de Saldo Insoluto de Bancarios + el 'Saldo insoluto' desglosado en 'Total de Saldo Insoluto de Otros Pasivos Circulantes y No Circulantes con costo'; valor esperado ({ $v1 +  $v2 })</msg:message>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="valueAssertion_12" xlink:to="label_12" xlink:title="valueAssertion_12 to label_12" priority="0" order="1.0"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="valueAssertion_13" xlink:title="valueAssertion_13" id="VA_TotalDeDeudaBursati" test=" $TotalDebtInSecurities =  $OutstandingBalance " aspectModel="dimensional" implicitFiltering="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_41" xlink:title="factVariable_41" id="factVariable_39" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_13" xlink:to="factVariable_41" xlink:title="valueAssertion_13 to factVariable_41" priority="0" order="1.0" name="TotalDebtInSecurities"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_41" xlink:to="conceptName_9" xlink:title="factVariable_41 to conceptName_9" priority="0" order="1.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_42" xlink:title="factVariable_42" id="factVariable_40" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_13" xlink:to="factVariable_42" xlink:title="valueAssertion_13 to factVariable_42" priority="0" order="2.0" name="OutstandingBalance"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_42" xlink:to="conceptName_2" xlink:title="factVariable_42 to conceptName_2" priority="0" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="explicitDimension_14" xlink:title="explicitDimension_14" id="explicitDimension_14">
+      <df:dimension>
+        <df:qname>ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>ifrs_mx-cor_20160822:TotalStockMarketListedInTheStockMarketAndPrivatePlacementsMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_42" xlink:to="explicitDimension_14" xlink:title="factVariable_42 to explicitDimension_14" priority="0" order="2.0" cover="true" complement="false"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_42" xlink:to="typedDimension_3" xlink:title="factVariable_42 to typedDimension_3" priority="0" order="3.0" cover="true" complement="false"/>
+    <mf:matchPeriod xlink:type="resource" xlink:label="matchPeriod_10" xlink:title="matchPeriod_10" id="matchPeriod_10" variable="TotalDebtInSecurities"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_42" xlink:to="matchPeriod_10" xlink:title="factVariable_42 to matchPeriod_10" priority="0" order="4.0" cover="true" complement="false"/>
+    <mf:matchEntityIdentifier xlink:type="resource" xlink:label="matchEntityIdentifier_10" xlink:title="matchEntityIdentifier_10" id="matchEntityIdentifier_10" variable="TotalDebtInSecurities"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_42" xlink:to="matchEntityIdentifier_10" xlink:title="factVariable_42 to matchEntityIdentifier_10" priority="0" order="5.0" cover="true" complement="false"/>
+    <msg:message xlink:type="resource" xlink:label="label_13" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="label_13" xml:lang="es" id="label_13">El hecho 'Total de deuda bursátil' ({ $TotalDebtInSecurities }) debe ser igual al hecho 'Saldo insoluto' desglosado en la dimensión 'Total de Saldo Insoluto de Bursátiles y colocaciones privadas' ({ $OutstandingBalance })</msg:message>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="valueAssertion_13" xlink:to="label_13" xlink:title="valueAssertion_13 to label_13" priority="0" order="1.0"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="valueAssertion_14" xlink:title="valueAssertion_14" id="VA_TotalInteresesDevengadosNoPagados" test=" $TotalUnpaidAccruedInterest =  $AmortizationDenominatedInDomesticCurrency " aspectModel="dimensional" implicitFiltering="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_43" xlink:title="factVariable_43" id="factVariable_41" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_14" xlink:to="factVariable_43" xlink:title="valueAssertion_14 to factVariable_43" priority="0" order="1.0" name="TotalUnpaidAccruedInterest"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_43" xlink:to="conceptName_10" xlink:title="factVariable_43 to conceptName_10" priority="0" order="1.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_44" xlink:title="factVariable_44" id="factVariable_42" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_14" xlink:to="factVariable_44" xlink:title="valueAssertion_14 to factVariable_44" priority="0" order="2.0" name="AmortizationDenominatedInDomesticCurrency"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_44" xlink:to="conceptName_3" xlink:title="factVariable_44 to conceptName_3" priority="0" order="1.0" cover="true" complement="false"/>
+    <df:explicitDimension xlink:type="resource" xlink:label="explicitDimension_15" xlink:title="explicitDimension_15" id="explicitDimension_15">
+      <df:dimension>
+        <df:qname>ifrs_mx-cor_20160822:TypesOfLiabilitiesAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>ifrs_mx-cor_20160822:GrandTotalLiabilitiesMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_44" xlink:to="explicitDimension_15" xlink:title="factVariable_44 to explicitDimension_15" priority="0" order="2.0" cover="true" complement="false"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_44" xlink:to="typedDimension_3" xlink:title="factVariable_44 to typedDimension_3" priority="0" order="3.0" cover="true" complement="false"/>
+    <mf:matchPeriod xlink:type="resource" xlink:label="matchPeriod_11" xlink:title="matchPeriod_11" id="matchPeriod_11" variable="TotalUnpaidAccruedInterest"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_44" xlink:to="matchPeriod_11" xlink:title="factVariable_44 to matchPeriod_11" priority="0" order="4.0" cover="true" complement="false"/>
+    <mf:matchEntityIdentifier xlink:type="resource" xlink:label="matchEntityIdentifier_11" xlink:title="matchEntityIdentifier_11" id="matchEntityIdentifier_11" variable="TotalUnpaidAccruedInterest"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_44" xlink:to="matchEntityIdentifier_11" xlink:title="factVariable_44 to matchEntityIdentifier_11" priority="0" order="5.0" cover="true" complement="false"/>
+    <msg:message xlink:type="resource" xlink:label="label_14" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="label_14" xml:lang="es" id="label_14">EL hecho 'Total de intereses devengados no pagados' ({ $TotalUnpaidAccruedInterest }) debe ser igual al hecho 'Intereses devengados no pagados al cierre del trimestre en moneda nacional' desglosado en 'Total general' ({ $AmortizationDenominatedInDomesticCurrency })</msg:message>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="valueAssertion_14" xlink:to="label_14" xlink:title="valueAssertion_14 to label_14" priority="0" order="1.0"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="valueAssertion_15" xlink:title="valueAssertion_15" id="VA_AnexoAA_VS_800100" test=" $TotalFunding + $TotalDebtInSecurities + $TotalUnpaidAccruedInterest + $TotalCreditsLoansOrNotRelevantFunding =  $BankLoansCurrent + $StockMarketLoansCurrent + $OtherCurrentPayables + $BankLoansNonCurrent + $StockMarketLoansNonCurrent + $OtherNoncurrentPayables " aspectModel="dimensional" implicitFiltering="true"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_45" xlink:title="factVariable_45" id="factVariable_43" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_15" xlink:to="factVariable_45" xlink:title="valueAssertion_15 to factVariable_45" priority="0" order="1.0" name="TotalFunding"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_45" xlink:to="conceptName_8" xlink:title="factVariable_45 to conceptName_8" priority="0" order="1.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_46" xlink:title="factVariable_46" id="factVariable_44" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_15" xlink:to="factVariable_46" xlink:title="valueAssertion_15 to factVariable_46" priority="0" order="2.0" name="TotalDebtInSecurities"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_46" xlink:to="conceptName_9" xlink:title="factVariable_46 to conceptName_9" priority="0" order="1.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_47" xlink:title="factVariable_47" id="factVariable_45" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_15" xlink:to="factVariable_47" xlink:title="valueAssertion_15 to factVariable_47" priority="0" order="3.0" name="TotalUnpaidAccruedInterest"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_47" xlink:to="conceptName_10" xlink:title="factVariable_47 to conceptName_10" priority="0" order="1.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_48" xlink:title="factVariable_48" id="factVariable_46" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_15" xlink:to="factVariable_48" xlink:title="valueAssertion_15 to factVariable_48" priority="0" order="4.0" name="TotalCreditsLoansOrNotRelevantFunding"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_48" xlink:to="conceptName_11" xlink:title="factVariable_48 to conceptName_11" priority="0" order="1.0" cover="true" complement="false"/>
+    <msg:message xlink:type="resource" xlink:label="label_15" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="label_15" xml:lang="es" id="label_15">El importe de
+Créditos Bancarios a corto plazo + Créditos Bursátiles a corto plazo + Otras cuentas por pagar a corto plazo + Créditos Bancarios a largo plazo + Créditos Bursátiles a largo plazo + Otras cuentas por pagar a largo plazo del rol [800100] ({ $BankLoansCurrent + $StockMarketLoansCurrent +  $OtherCurrentPayables + $BankLoansNonCurrent + $StockMarketLoansNonCurrent + $OtherNoncurrentPayables}) deber corresponder a la suma de: 'Total de financiamientos' + 'Total de deuda bursátil' + 'Total de intereses devengados no pagados' + 'Total de créditos, préstamos o financiamientos no relevantes' ({ $TotalFunding + $TotalDebtInSecurities + $TotalUnpaidAccruedInterest + $TotalCreditsLoansOrNotRelevantFunding }) </msg:message>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="valueAssertion_15" xlink:to="label_15" xlink:title="valueAssertion_15 to label_15" priority="0" order="1.0"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_63" xlink:title="factVariable_63" id="factVariable_61" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_15" xlink:to="factVariable_63" xlink:title="valueAssertion_15 to factVariable_63" priority="0" order="5.0" name="BankLoansCurrent"/>
+    <cf:conceptName xlink:type="resource" xlink:label="conceptName_31" xlink:title="conceptName_31" id="conceptName_31">
+      <cf:concept>
+        <cf:qname>mx_ccd:BankLoansCurrent</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_63" xlink:to="conceptName_31" xlink:title="factVariable_63 to conceptName_31" priority="0" order="1.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_64" xlink:title="factVariable_64" id="factVariable_62" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_15" xlink:to="factVariable_64" xlink:title="valueAssertion_15 to factVariable_64" priority="0" order="6.0" name="StockMarketLoansCurrent"/>
+    <cf:conceptName xlink:type="resource" xlink:label="conceptName_32" xlink:title="conceptName_32" id="conceptName_32">
+      <cf:concept>
+        <cf:qname>mx_ccd:StockMarketLoansCurrent</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_64" xlink:to="conceptName_32" xlink:title="factVariable_64 to conceptName_32" priority="0" order="1.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_65" xlink:title="factVariable_65" id="factVariable_63" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_15" xlink:to="factVariable_65" xlink:title="valueAssertion_15 to factVariable_65" priority="0" order="7.0" name="OtherCurrentPayables"/>
+    <cf:conceptName xlink:type="resource" xlink:label="conceptName_33" xlink:title="conceptName_33" id="conceptName_33">
+      <cf:concept>
+        <cf:qname>ifrs-full:OtherCurrentPayables</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_65" xlink:to="conceptName_33" xlink:title="factVariable_65 to conceptName_33" priority="0" order="1.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_66" xlink:title="factVariable_66" id="factVariable_64" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_15" xlink:to="factVariable_66" xlink:title="valueAssertion_15 to factVariable_66" priority="0" order="8.0" name="BankLoansNonCurrent"/>
+    <cf:conceptName xlink:type="resource" xlink:label="conceptName_34" xlink:title="conceptName_34" id="conceptName_34">
+      <cf:concept>
+        <cf:qname>mx_ccd:BankLoansNonCurrent</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_66" xlink:to="conceptName_34" xlink:title="factVariable_66 to conceptName_34" priority="0" order="1.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_67" xlink:title="factVariable_67" id="factVariable_65" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_15" xlink:to="factVariable_67" xlink:title="valueAssertion_15 to factVariable_67" priority="0" order="9.0" name="StockMarketLoansNonCurrent"/>
+    <cf:conceptName xlink:type="resource" xlink:label="conceptName_35" xlink:title="conceptName_35" id="conceptName_35">
+      <cf:concept>
+        <cf:qname>mx_ccd:StockMarketLoansNonCurrent</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_67" xlink:to="conceptName_35" xlink:title="factVariable_67 to conceptName_35" priority="0" order="1.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_68" xlink:title="factVariable_68" id="factVariable_66" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_15" xlink:to="factVariable_68" xlink:title="valueAssertion_15 to factVariable_68" priority="0" order="10.0" name="OtherNoncurrentPayables"/>
+    <cf:conceptName xlink:type="resource" xlink:label="conceptName_36" xlink:title="conceptName_36" id="conceptName_36">
+      <cf:concept>
+        <cf:qname>ifrs-full:OtherNoncurrentPayables</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_68" xlink:to="conceptName_36" xlink:title="factVariable_68 to conceptName_36" priority="0" order="1.0" cover="true" complement="false"/>
+    <ea:existenceAssertion xlink:type="resource" xlink:label="existenceAssertion_2" xlink:title="existenceAssertion_2" id="EA_IndiceCobertura" aspectModel="dimensional" implicitFiltering="true" test=". = 1"/>
+    <msg:message xlink:type="resource" xlink:label="label_19" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="label_19" xml:lang="es" id="label_19">El hecho 'Índice de cobertura de servicio de la deuda' debe existir y ser reportado una sola vez</msg:message>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="existenceAssertion_2" xlink:to="label_19" xlink:title="existenceAssertion_2 to label_19" priority="0" order="1.0"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_56" xlink:title="factVariable_56" id="factVariable_54" bindAsSequence="false"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="existenceAssertion_2" xlink:to="factVariable_56" xlink:title="existenceAssertion_2 to factVariable_56" priority="0" order="1.0" name="CoverageRateDebtService"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_56" xlink:to="conceptName_25" xlink:title="factVariable_56 to conceptName_25" priority="0" order="1.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_29" xlink:title="factVariable_29" id="factVariable_27" bindAsSequence="false"/>
+    <cf:conceptName xlink:type="resource" xlink:label="conceptName_18" xlink:title="conceptName_18" id="conceptName_18">
+      <cf:concept>
+        <cf:qname>ifrs_mx-cor_20160822:RecoverableIVA</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_29" xlink:to="conceptName_18" xlink:title="factVariable_29 to conceptName_18" priority="0" order="1.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_30" xlink:title="factVariable_30" id="factVariable_28" bindAsSequence="false"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_30" xlink:to="conceptName_19" xlink:title="factVariable_30 to conceptName_19" priority="0" order="1.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_33" xlink:title="factVariable_33" id="factVariable_31" bindAsSequence="false"/>
+    <cf:conceptName xlink:type="resource" xlink:label="conceptName_22" xlink:title="conceptName_22" id="conceptName_22">
+      <cf:concept>
+        <cf:qname>ifrs_mx-cor_20160822:PlannedCapitalRedemption</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_33" xlink:to="conceptName_22" xlink:title="factVariable_33 to conceptName_22" priority="0" order="1.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_34" xlink:title="factVariable_34" id="factVariable_32" bindAsSequence="false"/>
+    <cf:conceptName xlink:type="resource" xlink:label="conceptName_23" xlink:title="conceptName_23" id="conceptName_23">
+      <cf:concept>
+        <cf:qname>ifrs_mx-cor_20160822:RecurringCapitalExpendituresEstimates</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_34" xlink:to="conceptName_23" xlink:title="factVariable_34 to conceptName_23" priority="0" order="1.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_35" xlink:title="factVariable_35" id="factVariable_33" bindAsSequence="false"/>
+    <cf:conceptName xlink:type="resource" xlink:label="conceptName_24" xlink:title="conceptName_24" id="conceptName_24">
+      <cf:concept>
+        <cf:qname>ifrs_mx-cor_20160822:DevelopmentExpendituresEstimatedNoDiscretionary</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_35" xlink:to="conceptName_24" xlink:title="factVariable_35 to conceptName_24" priority="0" order="1.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_32" xlink:title="factVariable_32" id="factVariable_30" bindAsSequence="false" fallbackValue="0"/>
+    <cf:conceptName xlink:type="resource" xlink:label="conceptName_21" xlink:title="conceptName_21" id="conceptName_21">
+      <cf:concept>
+        <cf:qname>ifrs_mx-cor_20160822:EstimatedDepreciationInterest</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_32" xlink:to="conceptName_21" xlink:title="factVariable_32 to conceptName_21" priority="0" order="1.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_55" xlink:title="factVariable_55" id="factVariable_53" bindAsSequence="false"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_55" xlink:to="conceptName_7" xlink:title="factVariable_55 to conceptName_7" priority="0" order="1.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_49" xlink:title="factVariable_49" id="factVariable_47" bindAsSequence="false"/>
+    <cf:conceptName xlink:type="resource" xlink:label="conceptName_26" xlink:title="conceptName_26" id="conceptName_26">
+      <cf:concept>
+        <cf:qname>ifrs_mx-cor_20141205:TotalDeOtrosPasivosFinancierosACortoPlazo</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_49" xlink:to="conceptName_26" xlink:title="factVariable_49 to conceptName_26" priority="0" order="1.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="factVariable_50" xlink:title="factVariable_50" id="factVariable_48" bindAsSequence="false"/>
+    <cf:conceptName xlink:type="resource" xlink:label="conceptName_27" xlink:title="conceptName_27" id="conceptName_27">
+      <cf:concept>
+        <cf:qname>ifrs_mx-cor_20141205:TotalDeOtrosPasivosFinancierosALargoPlazo</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="factVariable_50" xlink:to="conceptName_27" xlink:title="factVariable_50 to conceptName_27" priority="0" order="1.0" cover="true" complement="false"/>
+  </gen:link>
+</link:linkbase>

@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2006/ref http://www.xbrl.org/2006/ref-2006-02-27.xsd http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/reference-2009-12-16.xsd#commonPracticeRef"/>
+  <link:referenceLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_TheSecuritizationTransaction" xlink:label="TheSecuritizationTransaction" xlink:title="TheSecuritizationTransaction"/>
+    <link:reference xlink:type="resource" xlink:label="reference_TheSecuritizationTransaction" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_TheSecuritizationTransaction" id="reference_TheSecuritizationTransaction">
+      <ref:Name>MC</ref:Name>
+      <ref:Number>24</ref:Number>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="TheSecuritizationTransaction" xlink:to="reference_TheSecuritizationTransaction" xlink:title="reference: TheSecuritizationTransaction to reference_TheSecuritizationTransaction"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_HeritageOfTheFund" xlink:label="HeritageOfTheFund" xlink:title="HeritageOfTheFund"/>
+    <link:reference xlink:type="resource" xlink:label="reference_HeritageOfTheFund" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_HeritageOfTheFund" id="reference_HeritageOfTheFund">
+      <ref:Name>MC</ref:Name>
+      <ref:Number>24</ref:Number>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="HeritageOfTheFund" xlink:to="reference_HeritageOfTheFund" xlink:title="reference: HeritageOfTheFund to reference_HeritageOfTheFund"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_RelevantDisclosureAboutThePeriod" xlink:label="RelevantDisclosureAboutThePeriod" xlink:title="RelevantDisclosureAboutThePeriod"/>
+    <link:reference xlink:type="resource" xlink:label="reference_RelevantDisclosureAboutThePeriod" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_RelevantDisclosureAboutThePeriod" id="reference_RelevantDisclosureAboutThePeriod">
+      <ref:Name>MC</ref:Name>
+      <ref:Number>24</ref:Number>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="RelevantDisclosureAboutThePeriod" xlink:to="reference_RelevantDisclosureAboutThePeriod" xlink:title="reference: RelevantDisclosureAboutThePeriod to reference_RelevantDisclosureAboutThePeriod"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_OtherRequiredThirdToTheTrustOrSecurityHoldersIfAny" xlink:label="OtherRequiredThirdToTheTrustOrSecurityHoldersIfAny" xlink:title="OtherRequiredThirdToTheTrustOrSecurityHoldersIfAny"/>
+    <link:reference xlink:type="resource" xlink:label="reference_OtherRequiredThirdToTheTrustOrSecurityHoldersIfAny" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_OtherRequiredThirdToTheTrustOrSecurityHoldersIfAny" id="reference_OtherRequiredThirdToTheTrustOrSecurityHoldersIfAny">
+      <ref:Name>MC</ref:Name>
+      <ref:Number>24</ref:Number>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="OtherRequiredThirdToTheTrustOrSecurityHoldersIfAny" xlink:to="reference_OtherRequiredThirdToTheTrustOrSecurityHoldersIfAny" xlink:title="reference: OtherRequiredThirdToTheTrustOrSecurityHoldersIfAny to reference_OtherRequiredThirdToTheTrustOrSecurityHoldersIfAny"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_Ticker" xlink:label="Ticker" xlink:title="Ticker"/>
+    <link:reference xlink:type="resource" xlink:label="reference_Ticker" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_Ticker" id="reference_Ticker">
+      <ref:Name>IAS</ref:Name>
+      <ref:Name>1</ref:Name>
+      <ref:Paragraph>51</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="Ticker" xlink:to="reference_Ticker" xlink:title="reference: Ticker to reference_Ticker"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_TrusteesAdministratorAvalOrGuarantor" xlink:label="TrusteesAdministratorAvalOrGuarantor" xlink:title="TrusteesAdministratorAvalOrGuarantor"/>
+    <link:reference xlink:type="resource" xlink:label="reference_TrusteesAdministratorAvalOrGuarantor" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_TrusteesAdministratorAvalOrGuarantor" id="reference_TrusteesAdministratorAvalOrGuarantor">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>51</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="TrusteesAdministratorAvalOrGuarantor" xlink:to="reference_TrusteesAdministratorAvalOrGuarantor" xlink:title="reference: TrusteesAdministratorAvalOrGuarantor to reference_TrusteesAdministratorAvalOrGuarantor"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_TrustNumber" xlink:label="TrustNumber" xlink:title="TrustNumber"/>
+    <link:reference xlink:type="resource" xlink:label="reference_TrustNumber" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_TrustNumber" id="reference_TrustNumber">
+      <ref:Name>IAS</ref:Name>
+      <ref:Name>1</ref:Name>
+      <ref:Paragraph>51</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="TrustNumber" xlink:to="reference_TrustNumber" xlink:title="reference: TrustNumber to reference_TrustNumber"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_CashFlowStatementForInderectMethod" xlink:label="CashFlowStatementForInderectMethod" xlink:title="CashFlowStatementForInderectMethod"/>
+    <link:reference xlink:type="resource" xlink:label="reference_CashFlowStatementForInderectMethod" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_CashFlowStatementForInderectMethod" id="reference_CashFlowStatementForInderectMethod">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>51</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="CashFlowStatementForInderectMethod" xlink:to="reference_CashFlowStatementForInderectMethod" xlink:title="reference: CashFlowStatementForInderectMethod to reference_CashFlowStatementForInderectMethod"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_NumberOfQuarter" xlink:label="NumberOfQuarter" xlink:title="NumberOfQuarter"/>
+    <link:reference xlink:type="resource" xlink:label="reference_NumberOfQuarter" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_NumberOfQuarter" id="reference_NumberOfQuarter">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>51</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="NumberOfQuarter" xlink:to="reference_NumberOfQuarter" xlink:title="reference: NumberOfQuarter to reference_NumberOfQuarter"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_NameServiceProviderExternalAudit" xlink:label="NameServiceProviderExternalAudit" xlink:title="NameServiceProviderExternalAudit"/>
+    <link:reference xlink:type="resource" xlink:label="reference_NameServiceProviderExternalAudit" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_NameServiceProviderExternalAudit" id="reference_NameServiceProviderExternalAudit">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>51</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="NameServiceProviderExternalAudit" xlink:to="reference_NameServiceProviderExternalAudit" xlink:title="reference: NameServiceProviderExternalAudit to reference_NameServiceProviderExternalAudit"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_NameOfTheAsociadoSigningOpinion" xlink:label="NameOfTheAsociadoSigningOpinion" xlink:title="NameOfTheAsociadoSigningOpinion"/>
+    <link:reference xlink:type="resource" xlink:label="reference_NameOfTheAsociadoSigningOpinion" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_NameOfTheAsociadoSigningOpinion" id="reference_NameOfTheAsociadoSigningOpinion">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>51</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="NameOfTheAsociadoSigningOpinion" xlink:to="reference_NameOfTheAsociadoSigningOpinion" xlink:title="reference: NameOfTheAsociadoSigningOpinion to reference_NameOfTheAsociadoSigningOpinion"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_TypeOfOpinionOnTheFinancialStatements" xlink:label="TypeOfOpinionOnTheFinancialStatements" xlink:title="TypeOfOpinionOnTheFinancialStatements"/>
+    <link:reference xlink:type="resource" xlink:label="reference_TypeOfOpinionOnTheFinancialStatements" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_TypeOfOpinionOnTheFinancialStatements" id="reference_TypeOfOpinionOnTheFinancialStatements">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>51</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="TypeOfOpinionOnTheFinancialStatements" xlink:to="reference_TypeOfOpinionOnTheFinancialStatements" xlink:title="reference: TypeOfOpinionOnTheFinancialStatements to reference_TypeOfOpinionOnTheFinancialStatements"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_DateOfOpinionOnTheFinancialStatements" xlink:label="DateOfOpinionOnTheFinancialStatements" xlink:title="DateOfOpinionOnTheFinancialStatements"/>
+    <link:reference xlink:type="resource" xlink:label="reference_DateOfOpinionOnTheFinancialStatements" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_DateOfOpinionOnTheFinancialStatements" id="reference_DateOfOpinionOnTheFinancialStatements">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>51</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DateOfOpinionOnTheFinancialStatements" xlink:to="reference_DateOfOpinionOnTheFinancialStatements" xlink:title="reference: DateOfOpinionOnTheFinancialStatements to reference_DateOfOpinionOnTheFinancialStatements"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_Collateralizedloan" xlink:label="Collateralizedloan" xlink:title="Collateralizedloan"/>
+    <link:reference xlink:type="resource" xlink:label="reference_Collateralizedloan" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_Collateralizedloan" id="reference_Collateralizedloan">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>55</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="Collateralizedloan" xlink:to="reference_Collateralizedloan" xlink:title="reference: Collateralizedloan to reference_Collateralizedloan"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_Receivable" xlink:label="Receivable" xlink:title="Receivable"/>
+    <link:reference xlink:type="resource" xlink:label="reference_Receivable" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_Receivable" id="reference_Receivable">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>55</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="Receivable" xlink:to="reference_Receivable" xlink:title="reference: Receivable to reference_Receivable"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_EstimatedPaymentsOfISRToDistributeToHolders" xlink:label="EstimatedPaymentsOfISRToDistributeToHolders" xlink:title="EstimatedPaymentsOfISRToDistributeToHolders"/>
+    <link:reference xlink:type="resource" xlink:label="reference_EstimatedPaymentsOfISRToDistributeToHolders" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_EstimatedPaymentsOfISRToDistributeToHolders" id="reference_EstimatedPaymentsOfISRToDistributeToHolders">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>55</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="EstimatedPaymentsOfISRToDistributeToHolders" xlink:to="reference_EstimatedPaymentsOfISRToDistributeToHolders" xlink:title="reference: EstimatedPaymentsOfISRToDistributeToHolders to reference_EstimatedPaymentsOfISRToDistributeToHolders"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_Foreclosed" xlink:label="Foreclosed" xlink:title="Foreclosed"/>
+    <link:reference xlink:type="resource" xlink:label="reference_Foreclosed" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_Foreclosed" id="reference_Foreclosed">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>55</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="Foreclosed" xlink:to="reference_Foreclosed" xlink:title="reference: Foreclosed to reference_Foreclosed"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_DerivativeFinancialInstrumentsAndHedging" xlink:label="DerivativeFinancialInstrumentsAndHedging" xlink:title="DerivativeFinancialInstrumentsAndHedging"/>
+    <link:reference xlink:type="resource" xlink:label="reference_DerivativeFinancialInstrumentsAndHedging" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_DerivativeFinancialInstrumentsAndHedging" id="reference_DerivativeFinancialInstrumentsAndHedging">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>55</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DerivativeFinancialInstrumentsAndHedging" xlink:to="reference_DerivativeFinancialInstrumentsAndHedging" xlink:title="reference: DerivativeFinancialInstrumentsAndHedging to reference_DerivativeFinancialInstrumentsAndHedging"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_DerivativeFinancialInstrumentsAndHedgingClassifiedAsShortTermLiabilities" xlink:label="DerivativeFinancialInstrumentsAndHedgingClassifiedAsShortTermLiabilities" xlink:title="DerivativeFinancialInstrumentsAndHedgingClassifiedAsShortTermLiabilities"/>
+    <link:reference xlink:type="resource" xlink:label="reference_DerivativeFinancialInstrumentsAndHedgingClassifiedAsShortTermLiabilities" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_DerivativeFinancialInstrumentsAndHedgingClassifiedAsShortTermLiabilities" id="reference_DerivativeFinancialInstrumentsAndHedgingClassifiedAsShortTermLiabilities">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>55</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DerivativeFinancialInstrumentsAndHedgingClassifiedAsShortTermLiabilities" xlink:to="reference_DerivativeFinancialInstrumentsAndHedgingClassifiedAsShortTermLiabilities" xlink:title="reference: DerivativeFinancialInstrumentsAndHedgingClassifiedAsShortTermLiabilities to reference_DerivativeFinancialInstrumentsAndHedgingClassifiedAsShortTermLiabilities"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_DerivativeFinancialInstrumentsAndHedgingClassifiedAsLongTermLiabilities" xlink:label="DerivativeFinancialInstrumentsAndHedgingClassifiedAsLongTermLiabilities" xlink:title="DerivativeFinancialInstrumentsAndHedgingClassifiedAsLongTermLiabilities"/>
+    <link:reference xlink:type="resource" xlink:label="reference_DerivativeFinancialInstrumentsAndHedgingClassifiedAsLongTermLiabilities" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_DerivativeFinancialInstrumentsAndHedgingClassifiedAsLongTermLiabilities" id="reference_DerivativeFinancialInstrumentsAndHedgingClassifiedAsLongTermLiabilities">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>55</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DerivativeFinancialInstrumentsAndHedgingClassifiedAsLongTermLiabilities" xlink:to="reference_DerivativeFinancialInstrumentsAndHedgingClassifiedAsLongTermLiabilities" xlink:title="reference: DerivativeFinancialInstrumentsAndHedgingClassifiedAsLongTermLiabilities to reference_DerivativeFinancialInstrumentsAndHedgingClassifiedAsLongTermLiabilities"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_EstimatesAndReservesForImpairmentAssets" xlink:label="EstimatesAndReservesForImpairmentAssets" xlink:title="EstimatesAndReservesForImpairmentAssets"/>
+    <link:reference xlink:type="resource" xlink:label="reference_EstimatesAndReservesForImpairmentAssets" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_EstimatesAndReservesForImpairmentAssets" id="reference_EstimatesAndReservesForImpairmentAssets">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>85</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="EstimatesAndReservesForImpairmentAssets" xlink:to="reference_EstimatesAndReservesForImpairmentAssets" xlink:title="reference: EstimatesAndReservesForImpairmentAssets to reference_EstimatesAndReservesForImpairmentAssets"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_CollectionsFromAccountsReceivable" xlink:label="CollectionsFromAccountsReceivable" xlink:title="CollectionsFromAccountsReceivable"/>
+    <link:reference xlink:type="resource" xlink:label="reference_CollectionsFromAccountsReceivable" xlink:role="http://www.xbrl.org/2003/role/exampleRef" xlink:title="reference_CollectionsFromAccountsReceivable" id="reference_CollectionsFromAccountsReceivable">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>7</ref:Number>
+      <ref:Paragraph>14</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="CollectionsFromAccountsReceivable" xlink:to="reference_CollectionsFromAccountsReceivable" xlink:title="reference: CollectionsFromAccountsReceivable to reference_CollectionsFromAccountsReceivable"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_SaleOfRepossessedAssets" xlink:label="SaleOfRepossessedAssets" xlink:title="SaleOfRepossessedAssets"/>
+    <link:reference xlink:type="resource" xlink:label="reference_SaleOfRepossessedAssets" xlink:role="http://www.xbrl.org/2003/role/exampleRef" xlink:title="reference_SaleOfRepossessedAssets" id="reference_SaleOfRepossessedAssets">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>7</ref:Number>
+      <ref:Paragraph>14</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="SaleOfRepossessedAssets" xlink:to="reference_SaleOfRepossessedAssets" xlink:title="reference: SaleOfRepossessedAssets to reference_SaleOfRepossessedAssets"/>
+    <link:reference xlink:type="resource" xlink:label="reference_SaleOfRepossessedAssets_2" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_SaleOfRepossessedAssets" id="reference_SaleOfRepossessedAssets_2">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>7</ref:Number>
+      <ref:Paragraph>20</ref:Paragraph>
+      <ref:Subparagraph>a</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="SaleOfRepossessedAssets" xlink:to="reference_SaleOfRepossessedAssets_2" xlink:title="reference: SaleOfRepossessedAssets to reference_SaleOfRepossessedAssets"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_FinancialIncome" xlink:label="FinancialIncome" xlink:title="FinancialIncome"/>
+    <link:reference xlink:type="resource" xlink:label="reference_FinancialIncome" xlink:role="http://www.xbrl.org/2003/role/exampleRef" xlink:title="reference_FinancialIncome" id="reference_FinancialIncome">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>7</ref:Number>
+      <ref:Paragraph>14</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="FinancialIncome" xlink:to="reference_FinancialIncome" xlink:title="reference: FinancialIncome to reference_FinancialIncome"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_MaintenanceAndAdministrationExpenses" xlink:label="MaintenanceAndAdministrationExpenses" xlink:title="MaintenanceAndAdministrationExpenses"/>
+    <link:reference xlink:type="resource" xlink:label="reference_MaintenanceAndAdministrationExpenses" xlink:role="http://www.xbrl.org/2003/role/exampleRef" xlink:title="reference_MaintenanceAndAdministrationExpenses" id="reference_MaintenanceAndAdministrationExpenses">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>7</ref:Number>
+      <ref:Paragraph>14</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="MaintenanceAndAdministrationExpenses" xlink:to="reference_MaintenanceAndAdministrationExpenses" xlink:title="reference: MaintenanceAndAdministrationExpenses to reference_MaintenanceAndAdministrationExpenses"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_RepaymentOfReceivables" xlink:label="RepaymentOfReceivables" xlink:title="RepaymentOfReceivables"/>
+    <link:reference xlink:type="resource" xlink:label="reference_RepaymentOfReceivables" xlink:role="http://www.xbrl.org/2003/role/exampleRef" xlink:title="reference_RepaymentOfReceivables" id="reference_RepaymentOfReceivables">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>7</ref:Number>
+      <ref:Paragraph>14</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="RepaymentOfReceivables" xlink:to="reference_RepaymentOfReceivables" xlink:title="reference: RepaymentOfReceivables to reference_RepaymentOfReceivables"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_PaymentsMadeOnAccountsPayable" xlink:label="PaymentsMadeOnAccountsPayable" xlink:title="PaymentsMadeOnAccountsPayable"/>
+    <link:reference xlink:type="resource" xlink:label="reference_PaymentsMadeOnAccountsPayable" xlink:role="http://www.xbrl.org/2003/role/exampleRef" xlink:title="reference_PaymentsMadeOnAccountsPayable" id="reference_PaymentsMadeOnAccountsPayable">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>7</ref:Number>
+      <ref:Paragraph>14</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="PaymentsMadeOnAccountsPayable" xlink:to="reference_PaymentsMadeOnAccountsPayable" xlink:title="reference: PaymentsMadeOnAccountsPayable to reference_PaymentsMadeOnAccountsPayable"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_InterestPayments" xlink:label="InterestPayments" xlink:title="InterestPayments"/>
+    <link:reference xlink:type="resource" xlink:label="reference_InterestPayments" xlink:role="http://www.xbrl.org/2003/role/exampleRef" xlink:title="reference_InterestPayments" id="reference_InterestPayments">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>7</ref:Number>
+      <ref:Paragraph>14</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InterestPayments" xlink:to="reference_InterestPayments" xlink:title="reference: InterestPayments to reference_InterestPayments"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_FinanceCharges" xlink:label="FinanceCharges" xlink:title="FinanceCharges"/>
+    <link:reference xlink:type="resource" xlink:label="reference_FinanceCharges" xlink:role="http://www.xbrl.org/2003/role/exampleRef" xlink:title="reference_FinanceCharges" id="reference_FinanceCharges">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>7</ref:Number>
+      <ref:Paragraph>14</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="FinanceCharges" xlink:to="reference_FinanceCharges" xlink:title="reference: FinanceCharges to reference_FinanceCharges"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_IssueAndPlacementOfStockCertificates" xlink:label="IssueAndPlacementOfStockCertificates" xlink:title="IssueAndPlacementOfStockCertificates"/>
+    <link:reference xlink:type="resource" xlink:label="reference_IssueAndPlacementOfStockCertificates" xlink:role="http://www.xbrl.org/2003/role/exampleRef" xlink:title="reference_IssueAndPlacementOfStockCertificates" id="reference_IssueAndPlacementOfStockCertificates">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>7</ref:Number>
+      <ref:Paragraph>17</ref:Paragraph>
+      <ref:Subparagraph>c</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="IssueAndPlacementOfStockCertificates" xlink:to="reference_IssueAndPlacementOfStockCertificates" xlink:title="reference: IssueAndPlacementOfStockCertificates to reference_IssueAndPlacementOfStockCertificates"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_DecreaseIncreaseReceivables" xlink:label="DecreaseIncreaseReceivables" xlink:title="DecreaseIncreaseReceivables"/>
+    <link:reference xlink:type="resource" xlink:label="reference_DecreaseIncreaseReceivables" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_DecreaseIncreaseReceivables" id="reference_DecreaseIncreaseReceivables">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>7</ref:Number>
+      <ref:Paragraph>20</ref:Paragraph>
+      <ref:Subparagraph>a</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DecreaseIncreaseReceivables" xlink:to="reference_DecreaseIncreaseReceivables" xlink:title="reference: DecreaseIncreaseReceivables to reference_DecreaseIncreaseReceivables"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_DecreaseIncreaseInLoansWithCollateral" xlink:label="DecreaseIncreaseInLoansWithCollateral" xlink:title="DecreaseIncreaseInLoansWithCollateral"/>
+    <link:reference xlink:type="resource" xlink:label="reference_DecreaseIncreaseInLoansWithCollateral" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_DecreaseIncreaseInLoansWithCollateral" id="reference_DecreaseIncreaseInLoansWithCollateral">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>7</ref:Number>
+      <ref:Paragraph>20</ref:Paragraph>
+      <ref:Subparagraph>a</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DecreaseIncreaseInLoansWithCollateral" xlink:to="reference_DecreaseIncreaseInLoansWithCollateral" xlink:title="reference: DecreaseIncreaseInLoansWithCollateral to reference_DecreaseIncreaseInLoansWithCollateral"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_OtherComprehensiveIncomeMember" xlink:label="OtherComprehensiveIncomeMember" xlink:title="OtherComprehensiveIncomeMember"/>
+    <link:reference xlink:type="resource" xlink:label="reference_OtherComprehensiveIncomeMember" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_OtherComprehensiveIncomeMember" id="reference_OtherComprehensiveIncomeMember">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>106</ref:Paragraph>
+      <ref:Subparagraph>d</ref:Subparagraph>
+      <ref:Clause>ii</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="OtherComprehensiveIncomeMember" xlink:to="reference_OtherComprehensiveIncomeMember" xlink:title="reference: OtherComprehensiveIncomeMember to reference_OtherComprehensiveIncomeMember"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_IncrementsForContributionsToVentureCapital" xlink:label="IncrementsForContributionsToVentureCapital" xlink:title="IncrementsForContributionsToVentureCapital"/>
+    <link:reference xlink:type="resource" xlink:label="reference_IncrementsForContributionsToVentureCapital" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_IncrementsForContributionsToVentureCapital" id="reference_IncrementsForContributionsToVentureCapital">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>106</ref:Paragraph>
+      <ref:Subparagraph>d</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="IncrementsForContributionsToVentureCapital" xlink:to="reference_IncrementsForContributionsToVentureCapital" xlink:title="reference: IncrementsForContributionsToVentureCapital to reference_IncrementsForContributionsToVentureCapital"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_WithdrawalOfResourcesDecreasedByResidualBalances" xlink:label="WithdrawalOfResourcesDecreasedByResidualBalances" xlink:title="WithdrawalOfResourcesDecreasedByResidualBalances"/>
+    <link:reference xlink:type="resource" xlink:label="reference_WithdrawalOfResourcesDecreasedByResidualBalances" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_WithdrawalOfResourcesDecreasedByResidualBalances" id="reference_WithdrawalOfResourcesDecreasedByResidualBalances">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>106</ref:Paragraph>
+      <ref:Subparagraph>d</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="WithdrawalOfResourcesDecreasedByResidualBalances" xlink:to="reference_WithdrawalOfResourcesDecreasedByResidualBalances" xlink:title="reference: WithdrawalOfResourcesDecreasedByResidualBalances to reference_WithdrawalOfResourcesDecreasedByResidualBalances"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_NonCurrentPrepaidExpenses" xlink:label="NonCurrentPrepaidExpenses" xlink:title="NonCurrentPrepaidExpenses"/>
+    <link:reference xlink:type="resource" xlink:label="reference_NonCurrentPrepaidExpenses" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_NonCurrentPrepaidExpenses" id="reference_NonCurrentPrepaidExpenses">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>112</ref:Paragraph>
+      <ref:Subparagraph>c</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="NonCurrentPrepaidExpenses" xlink:to="reference_NonCurrentPrepaidExpenses" xlink:title="reference: NonCurrentPrepaidExpenses to reference_NonCurrentPrepaidExpenses"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_NonCurrentAdvancesDeuda" xlink:label="NonCurrentAdvancesDeuda" xlink:title="NonCurrentAdvancesDeuda"/>
+    <link:reference xlink:type="resource" xlink:label="reference_NonCurrentAdvancesDeuda" xlink:role="http://www.xbrl.org/2003/role/exampleRef" xlink:title="reference_NonCurrentAdvancesDeuda" id="reference_NonCurrentAdvancesDeuda">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>78</ref:Paragraph>
+      <ref:Subparagraph>b</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="NonCurrentAdvancesDeuda" xlink:to="reference_NonCurrentAdvancesDeuda" xlink:title="reference: NonCurrentAdvancesDeuda to reference_NonCurrentAdvancesDeuda"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_BankLoansCurrent" xlink:label="BankLoansCurrent" xlink:title="BankLoansCurrent"/>
+    <link:reference xlink:type="resource" xlink:label="reference_BankLoansCurrent" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_BankLoansCurrent" id="reference_BankLoansCurrent">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>54</ref:Paragraph>
+      <ref:Subparagraph>m</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="BankLoansCurrent" xlink:to="reference_BankLoansCurrent" xlink:title="reference: BankLoansCurrent to reference_BankLoansCurrent"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_StockMarketLoansCurrent" xlink:label="StockMarketLoansCurrent" xlink:title="StockMarketLoansCurrent"/>
+    <link:reference xlink:type="resource" xlink:label="reference_StockMarketLoansCurrent" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_StockMarketLoansCurrent" id="reference_StockMarketLoansCurrent">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>54</ref:Paragraph>
+      <ref:Subparagraph>m</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="StockMarketLoansCurrent" xlink:to="reference_StockMarketLoansCurrent" xlink:title="reference: StockMarketLoansCurrent to reference_StockMarketLoansCurrent"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_InterestPayableInTheShortTerm" xlink:label="InterestPayableInTheShortTerm" xlink:title="InterestPayableInTheShortTerm"/>
+    <link:reference xlink:type="resource" xlink:label="reference_InterestPayableInTheShortTerm" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_InterestPayableInTheShortTerm" id="reference_InterestPayableInTheShortTerm">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>54</ref:Paragraph>
+      <ref:Subparagraph>m</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InterestPayableInTheShortTerm" xlink:to="reference_InterestPayableInTheShortTerm" xlink:title="reference: InterestPayableInTheShortTerm to reference_InterestPayableInTheShortTerm"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_BankLoansNonCurrent" xlink:label="BankLoansNonCurrent" xlink:title="BankLoansNonCurrent"/>
+    <link:reference xlink:type="resource" xlink:label="reference_BankLoansNonCurrent" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_BankLoansNonCurrent" id="reference_BankLoansNonCurrent">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>54</ref:Paragraph>
+      <ref:Subparagraph>m</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="BankLoansNonCurrent" xlink:to="reference_BankLoansNonCurrent" xlink:title="reference: BankLoansNonCurrent to reference_BankLoansNonCurrent"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_StockMarketLoansNonCurrent" xlink:label="StockMarketLoansNonCurrent" xlink:title="StockMarketLoansNonCurrent"/>
+    <link:reference xlink:type="resource" xlink:label="reference_StockMarketLoansNonCurrent" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_StockMarketLoansNonCurrent" id="reference_StockMarketLoansNonCurrent">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>54</ref:Paragraph>
+      <ref:Subparagraph>m</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="StockMarketLoansNonCurrent" xlink:to="reference_StockMarketLoansNonCurrent" xlink:title="reference: StockMarketLoansNonCurrent to reference_StockMarketLoansNonCurrent"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_InterestOnLongTermDebt" xlink:label="InterestOnLongTermDebt" xlink:title="InterestOnLongTermDebt"/>
+    <link:reference xlink:type="resource" xlink:label="reference_InterestOnLongTermDebt" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_InterestOnLongTermDebt" id="reference_InterestOnLongTermDebt">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>54</ref:Paragraph>
+      <ref:Subparagraph>m</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InterestOnLongTermDebt" xlink:to="reference_InterestOnLongTermDebt" xlink:title="reference: InterestOnLongTermDebt to reference_InterestOnLongTermDebt"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_OtherComprehensiveIncomeDeuda" xlink:label="OtherComprehensiveIncomeDeuda" xlink:title="OtherComprehensiveIncomeDeuda"/>
+    <link:reference xlink:type="resource" xlink:label="reference_OtherComprehensiveIncomeDeuda" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:title="reference_OtherComprehensiveIncomeDeuda" id="reference_OtherComprehensiveIncomeDeuda">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>106</ref:Paragraph>
+      <ref:Subparagraph>d</ref:Subparagraph>
+      <ref:Clause>ii</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="OtherComprehensiveIncomeDeuda" xlink:to="reference_OtherComprehensiveIncomeDeuda" xlink:title="reference: OtherComprehensiveIncomeDeuda to reference_OtherComprehensiveIncomeDeuda"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_FinancialProductsInvestment" xlink:label="FinancialProductsInvestment" xlink:title="FinancialProductsInvestment"/>
+    <link:reference xlink:type="resource" xlink:label="reference_FinancialProductsInvestment" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_FinancialProductsInvestment" id="reference_FinancialProductsInvestment">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>18</ref:Number>
+      <ref:Paragraph>35</ref:Paragraph>
+      <ref:Subparagraph>b</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="FinancialProductsInvestment" xlink:to="reference_FinancialProductsInvestment" xlink:title="reference: FinancialProductsInvestment to reference_FinancialProductsInvestment"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_FinancialsCreditRights" xlink:label="FinancialsCreditRights" xlink:title="FinancialsCreditRights"/>
+    <link:reference xlink:type="resource" xlink:label="reference_FinancialsCreditRights" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_FinancialsCreditRights" id="reference_FinancialsCreditRights">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>18</ref:Number>
+      <ref:Paragraph>35</ref:Paragraph>
+      <ref:Subparagraph>b</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="FinancialsCreditRights" xlink:to="reference_FinancialsCreditRights" xlink:title="reference: FinancialsCreditRights to reference_FinancialsCreditRights"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_InvestmentValuationSurplus" xlink:label="InvestmentValuationSurplus" xlink:title="InvestmentValuationSurplus"/>
+    <link:reference xlink:type="resource" xlink:label="reference_InvestmentValuationSurplus" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_InvestmentValuationSurplus" id="reference_InvestmentValuationSurplus">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>18</ref:Number>
+      <ref:Paragraph>35</ref:Paragraph>
+      <ref:Subparagraph>b</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InvestmentValuationSurplus" xlink:to="reference_InvestmentValuationSurplus" xlink:title="reference: InvestmentValuationSurplus to reference_InvestmentValuationSurplus"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_BiologicalAssetsGain" xlink:label="BiologicalAssetsGain" xlink:title="BiologicalAssetsGain"/>
+    <link:reference xlink:type="resource" xlink:label="reference_BiologicalAssetsGain" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_BiologicalAssetsGain" id="reference_BiologicalAssetsGain">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>18</ref:Number>
+      <ref:Paragraph>35</ref:Paragraph>
+      <ref:Subparagraph>b</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="BiologicalAssetsGain" xlink:to="reference_BiologicalAssetsGain" xlink:title="reference: BiologicalAssetsGain to reference_BiologicalAssetsGain"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_ComissionRepresentativeServices" xlink:label="ComissionRepresentativeServices" xlink:title="ComissionRepresentativeServices"/>
+    <link:reference xlink:type="resource" xlink:label="reference_ComissionRepresentativeServices" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_ComissionRepresentativeServices" id="reference_ComissionRepresentativeServices">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>85</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ComissionRepresentativeServices" xlink:to="reference_ComissionRepresentativeServices" xlink:title="reference: ComissionRepresentativeServices to reference_ComissionRepresentativeServices"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_ManagementFee" xlink:label="ManagementFee" xlink:title="ManagementFee"/>
+    <link:reference xlink:type="resource" xlink:label="reference_ManagementFee" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_ManagementFee" id="reference_ManagementFee">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>85</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ManagementFee" xlink:to="reference_ManagementFee" xlink:title="reference: ManagementFee to reference_ManagementFee"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_Honorariums" xlink:label="Honorariums" xlink:title="Honorariums"/>
+    <link:reference xlink:type="resource" xlink:label="reference_Honorariums" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_Honorariums" id="reference_Honorariums">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>85</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="Honorariums" xlink:to="reference_Honorariums" xlink:title="reference: Honorariums to reference_Honorariums"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_Taxes" xlink:label="Taxes" xlink:title="Taxes"/>
+    <link:reference xlink:type="resource" xlink:label="reference_Taxes" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_Taxes" id="reference_Taxes">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>85</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="Taxes" xlink:to="reference_Taxes" xlink:title="reference: Taxes to reference_Taxes"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_InsurancesAndGuarantees" xlink:label="InsurancesAndGuarantees" xlink:title="InsurancesAndGuarantees"/>
+    <link:reference xlink:type="resource" xlink:label="reference_InsurancesAndGuarantees" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_InsurancesAndGuarantees" id="reference_InsurancesAndGuarantees">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>85</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InsurancesAndGuarantees" xlink:to="reference_InsurancesAndGuarantees" xlink:title="reference: InsurancesAndGuarantees to reference_InsurancesAndGuarantees"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_FeesAndRights" xlink:label="FeesAndRights" xlink:title="FeesAndRights"/>
+    <link:reference xlink:type="resource" xlink:label="reference_FeesAndRights" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_FeesAndRights" id="reference_FeesAndRights">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>85</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="FeesAndRights" xlink:to="reference_FeesAndRights" xlink:title="reference: FeesAndRights to reference_FeesAndRights"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_AssetMaintenanceCosts" xlink:label="AssetMaintenanceCosts" xlink:title="AssetMaintenanceCosts"/>
+    <link:reference xlink:type="resource" xlink:label="reference_AssetMaintenanceCosts" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_AssetMaintenanceCosts" id="reference_AssetMaintenanceCosts">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>85</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AssetMaintenanceCosts" xlink:to="reference_AssetMaintenanceCosts" xlink:title="reference: AssetMaintenanceCosts to reference_AssetMaintenanceCosts"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_InterestIncome" xlink:label="InterestIncome" xlink:title="InterestIncome"/>
+    <link:reference xlink:type="resource" xlink:label="reference_InterestIncome" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_InterestIncome" id="reference_InterestIncome">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>85</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InterestIncome" xlink:to="reference_InterestIncome" xlink:title="reference: InterestIncome to reference_InterestIncome"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_GainOnForeignExchange" xlink:label="GainOnForeignExchange" xlink:title="GainOnForeignExchange"/>
+    <link:reference xlink:type="resource" xlink:label="reference_GainOnForeignExchange" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_GainOnForeignExchange" id="reference_GainOnForeignExchange">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>85</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="GainOnForeignExchange" xlink:to="reference_GainOnForeignExchange" xlink:title="reference: GainOnForeignExchange to reference_GainOnForeignExchange"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_GainOnChangeInFairValueOfFinancialInstruments" xlink:label="GainOnChangeInFairValueOfFinancialInstruments" xlink:title="GainOnChangeInFairValueOfFinancialInstruments"/>
+    <link:reference xlink:type="resource" xlink:label="reference_GainOnChangeInFairValueOfFinancialInstruments" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_GainOnChangeInFairValueOfFinancialInstruments" id="reference_GainOnChangeInFairValueOfFinancialInstruments">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>85</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="GainOnChangeInFairValueOfFinancialInstruments" xlink:to="reference_GainOnChangeInFairValueOfFinancialInstruments" xlink:title="reference: GainOnChangeInFairValueOfFinancialInstruments to reference_GainOnChangeInFairValueOfFinancialInstruments"/>
+    <link:loc xlink:type="locator" xlink:href="../core/mx_deuda-cor_2015-06-05.xsd#mx_deuda_NoncurrentPrepaymentsDeuda" xlink:label="NoncurrentPrepaymentsDeuda" xlink:title="NoncurrentPrepaymentsDeuda"/>
+    <link:reference xlink:type="resource" xlink:label="reference_NoncurrentPrepaymentsDeuda" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_NoncurrentPrepaymentsDeuda" id="reference_NoncurrentPrepaymentsDeuda">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>112</ref:Paragraph>
+      <ref:Subparagraph>c</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="NoncurrentPrepaymentsDeuda" xlink:to="reference_NoncurrentPrepaymentsDeuda" xlink:title="reference: NoncurrentPrepaymentsDeuda to reference_NoncurrentPrepaymentsDeuda"/>
+  </link:referenceLink>
+</link:linkbase>

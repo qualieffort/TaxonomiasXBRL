@@ -1,0 +1,1092 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2006/ref http://www.xbrl.org/2006/ref-2006-02-27.xsd http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:full_ifrs_mc_mx_ics_entry_point_2014-12-05="http://www.bmv.com.mx/taxonomy/ifrs_mx/full_ifrs_mc_mx_ics_entry_point_2014-12-05" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/reference-2009-12-16.xsd#commonPracticeRef"/>
+  <link:referenceLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_Consolidado" xlink:label="Consolidado" xlink:title="Consolidado"/>
+    <link:reference xlink:type="resource" xlink:label="reference_Consolidado" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_Consolidado" id="reference_Consolidado">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>51</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="Consolidado" xlink:to="reference_Consolidado" xlink:title="reference: Consolidado to reference_Consolidado"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_NumeroDeTrimestre" xlink:label="NumeroDeTrimestre" xlink:title="NumeroDeTrimestre"/>
+    <link:reference xlink:type="resource" xlink:label="reference_NumeroDeTrimestre" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_NumeroDeTrimestre" id="reference_NumeroDeTrimestre">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>51</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="NumeroDeTrimestre" xlink:to="reference_NumeroDeTrimestre" xlink:title="reference: NumeroDeTrimestre to reference_NumeroDeTrimestre"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_NombreDeProveedorDeServiciosDeAuditoriaExternaBloqueDeTexto" xlink:label="NombreDeProveedorDeServiciosDeAuditoriaExternaBloqueDeTexto" xlink:title="NombreDeProveedorDeServiciosDeAuditoriaExternaBloqueDeTexto"/>
+    <link:reference xlink:type="resource" xlink:label="reference_NombreDeProveedorDeServiciosDeAuditoriaExternaBloqueDeTexto" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_NombreDeProveedorDeServiciosDeAuditoriaExternaBloqueDeTexto" id="reference_NombreDeProveedorDeServiciosDeAuditoriaExternaBloqueDeTexto">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>51</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="NombreDeProveedorDeServiciosDeAuditoriaExternaBloqueDeTexto" xlink:to="reference_NombreDeProveedorDeServiciosDeAuditoriaExternaBloqueDeTexto" xlink:title="reference: NombreDeProveedorDeServiciosDeAuditoriaExternaBloqueDeTexto to reference_NombreDeProveedorDeServiciosDeAuditoriaExternaBloqueDeTexto"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_NombreDelSocioQueFirmaLaOpinionBloqueDeTexto" xlink:label="NombreDelSocioQueFirmaLaOpinionBloqueDeTexto" xlink:title="NombreDelSocioQueFirmaLaOpinionBloqueDeTexto"/>
+    <link:reference xlink:type="resource" xlink:label="reference_NombreDelSocioQueFirmaLaOpinionBloqueDeTexto" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_NombreDelSocioQueFirmaLaOpinionBloqueDeTexto" id="reference_NombreDelSocioQueFirmaLaOpinionBloqueDeTexto">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>51</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="NombreDelSocioQueFirmaLaOpinionBloqueDeTexto" xlink:to="reference_NombreDelSocioQueFirmaLaOpinionBloqueDeTexto" xlink:title="reference: NombreDelSocioQueFirmaLaOpinionBloqueDeTexto to reference_NombreDelSocioQueFirmaLaOpinionBloqueDeTexto"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_TipoDeOpinionALosEstadosFinancierosBloqueDeTexto" xlink:label="TipoDeOpinionALosEstadosFinancierosBloqueDeTexto" xlink:title="TipoDeOpinionALosEstadosFinancierosBloqueDeTexto"/>
+    <link:reference xlink:type="resource" xlink:label="reference_TipoDeOpinionALosEstadosFinancierosBloqueDeTexto" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_TipoDeOpinionALosEstadosFinancierosBloqueDeTexto" id="reference_TipoDeOpinionALosEstadosFinancierosBloqueDeTexto">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>51</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="TipoDeOpinionALosEstadosFinancierosBloqueDeTexto" xlink:to="reference_TipoDeOpinionALosEstadosFinancierosBloqueDeTexto" xlink:title="reference: TipoDeOpinionALosEstadosFinancierosBloqueDeTexto to reference_TipoDeOpinionALosEstadosFinancierosBloqueDeTexto"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_FechaDeOpinionSobreLosEstadosFinancierosBloqueDeTexto" xlink:label="FechaDeOpinionSobreLosEstadosFinancierosBloqueDeTexto" xlink:title="FechaDeOpinionSobreLosEstadosFinancierosBloqueDeTexto"/>
+    <link:reference xlink:type="resource" xlink:label="reference_FechaDeOpinionSobreLosEstadosFinancierosBloqueDeTexto" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_FechaDeOpinionSobreLosEstadosFinancierosBloqueDeTexto" id="reference_FechaDeOpinionSobreLosEstadosFinancierosBloqueDeTexto">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>51</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="FechaDeOpinionSobreLosEstadosFinancierosBloqueDeTexto" xlink:to="reference_FechaDeOpinionSobreLosEstadosFinancierosBloqueDeTexto" xlink:title="reference: FechaDeOpinionSobreLosEstadosFinancierosBloqueDeTexto to reference_FechaDeOpinionSobreLosEstadosFinancierosBloqueDeTexto"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_FechaDeAsambleaEnQueSeAprobaronLosEstadosFinancierosBloqueDeTexto" xlink:label="FechaDeAsambleaEnQueSeAprobaronLosEstadosFinancierosBloqueDeTexto" xlink:title="FechaDeAsambleaEnQueSeAprobaronLosEstadosFinancierosBloqueDeTexto"/>
+    <link:reference xlink:type="resource" xlink:label="reference_FechaDeAsambleaEnQueSeAprobaronLosEstadosFinancierosBloqueDeTexto" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_FechaDeAsambleaEnQueSeAprobaronLosEstadosFinancierosBloqueDeTexto" id="reference_FechaDeAsambleaEnQueSeAprobaronLosEstadosFinancierosBloqueDeTexto">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>51</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="FechaDeAsambleaEnQueSeAprobaronLosEstadosFinancierosBloqueDeTexto" xlink:to="reference_FechaDeAsambleaEnQueSeAprobaronLosEstadosFinancierosBloqueDeTexto" xlink:title="reference: FechaDeAsambleaEnQueSeAprobaronLosEstadosFinancierosBloqueDeTexto to reference_FechaDeAsambleaEnQueSeAprobaronLosEstadosFinancierosBloqueDeTexto"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_SeguimientoDeAnalisisBloqueDeTexto" xlink:label="SeguimientoDeAnalisisBloqueDeTexto" xlink:title="SeguimientoDeAnalisisBloqueDeTexto"/>
+    <link:reference xlink:type="resource" xlink:label="reference_SeguimientoDeAnalisisBloqueDeTexto" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_SeguimientoDeAnalisisBloqueDeTexto" id="reference_SeguimientoDeAnalisisBloqueDeTexto">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>51</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="SeguimientoDeAnalisisBloqueDeTexto" xlink:to="reference_SeguimientoDeAnalisisBloqueDeTexto" xlink:title="reference: SeguimientoDeAnalisisBloqueDeTexto to reference_SeguimientoDeAnalisisBloqueDeTexto"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_ClaveDeCotizacionBloqueDeTexto" xlink:label="ClaveDeCotizacionBloqueDeTexto" xlink:title="ClaveDeCotizacionBloqueDeTexto"/>
+    <link:reference xlink:type="resource" xlink:label="reference_ClaveDeCotizacionBloqueDeTexto" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_ClaveDeCotizacionBloqueDeTexto" id="reference_ClaveDeCotizacionBloqueDeTexto">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>51</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ClaveDeCotizacionBloqueDeTexto" xlink:to="reference_ClaveDeCotizacionBloqueDeTexto" xlink:title="reference: ClaveDeCotizacionBloqueDeTexto to reference_ClaveDeCotizacionBloqueDeTexto"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_OperacionesDiscontinuas" xlink:label="OperacionesDiscontinuas" xlink:title="OperacionesDiscontinuas"/>
+    <link:reference xlink:type="resource" xlink:label="reference_OperacionesDiscontinuas" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_OperacionesDiscontinuas" id="reference_OperacionesDiscontinuas">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>7</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>20</ref:Paragraph>
+      <ref:Subparagraph>b</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="OperacionesDiscontinuas" xlink:to="reference_OperacionesDiscontinuas" xlink:title="reference: OperacionesDiscontinuas to reference_OperacionesDiscontinuas"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_ParticipacionEnAsociadasYNegociosConjuntos" xlink:label="ParticipacionEnAsociadasYNegociosConjuntos" xlink:title="ParticipacionEnAsociadasYNegociosConjuntos"/>
+    <link:reference xlink:type="resource" xlink:label="reference_ParticipacionEnAsociadasYNegociosConjuntos" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_ParticipacionEnAsociadasYNegociosConjuntos" id="reference_ParticipacionEnAsociadasYNegociosConjuntos">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>7</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>20</ref:Paragraph>
+      <ref:Subparagraph>b</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ParticipacionEnAsociadasYNegociosConjuntos" xlink:to="reference_ParticipacionEnAsociadasYNegociosConjuntos" xlink:title="reference: ParticipacionEnAsociadasYNegociosConjuntos to reference_ParticipacionEnAsociadasYNegociosConjuntos"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_AjusteLinealDeIngresosPorArrendamientos" xlink:label="AjusteLinealDeIngresosPorArrendamientos" xlink:title="AjusteLinealDeIngresosPorArrendamientos"/>
+    <link:reference xlink:type="resource" xlink:label="reference_AjusteLinealDeIngresosPorArrendamientos" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_AjusteLinealDeIngresosPorArrendamientos" id="reference_AjusteLinealDeIngresosPorArrendamientos">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>7</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>20</ref:Paragraph>
+      <ref:Subparagraph>b</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AjusteLinealDeIngresosPorArrendamientos" xlink:to="reference_AjusteLinealDeIngresosPorArrendamientos" xlink:title="reference: AjusteLinealDeIngresosPorArrendamientos to reference_AjusteLinealDeIngresosPorArrendamientos"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_AmortizacionDeComisionesPorArrendamiento" xlink:label="AmortizacionDeComisionesPorArrendamiento" xlink:title="AmortizacionDeComisionesPorArrendamiento"/>
+    <link:reference xlink:type="resource" xlink:label="reference_AmortizacionDeComisionesPorArrendamiento" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_AmortizacionDeComisionesPorArrendamiento" id="reference_AmortizacionDeComisionesPorArrendamiento">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>7</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>20</ref:Paragraph>
+      <ref:Subparagraph>b</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AmortizacionDeComisionesPorArrendamiento" xlink:to="reference_AmortizacionDeComisionesPorArrendamiento" xlink:title="reference: AmortizacionDeComisionesPorArrendamiento to reference_AmortizacionDeComisionesPorArrendamiento"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_AjustePorValorDeLasPropiedades" xlink:label="AjustePorValorDeLasPropiedades" xlink:title="AjustePorValorDeLasPropiedades"/>
+    <link:reference xlink:type="resource" xlink:label="reference_AjustePorValorDeLasPropiedades" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_AjustePorValorDeLasPropiedades" id="reference_AjustePorValorDeLasPropiedades">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>7</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>20</ref:Paragraph>
+      <ref:Subparagraph>b</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AjustePorValorDeLasPropiedades" xlink:to="reference_AjustePorValorDeLasPropiedades" xlink:title="reference: AjustePorValorDeLasPropiedades to reference_AjustePorValorDeLasPropiedades"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_OtrosResultadosIntegralesMiembro" xlink:label="OtrosResultadosIntegralesMiembro" xlink:title="OtrosResultadosIntegralesMiembro"/>
+    <link:reference xlink:type="resource" xlink:label="reference_OtrosResultadosIntegralesMiembro" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_OtrosResultadosIntegralesMiembro" id="reference_OtrosResultadosIntegralesMiembro">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>106</ref:Paragraph>
+      <ref:Subparagraph>d</ref:Subparagraph>
+      <ref:Clause>ii</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="OtrosResultadosIntegralesMiembro" xlink:to="reference_OtrosResultadosIntegralesMiembro" xlink:title="reference: OtrosResultadosIntegralesMiembro to reference_OtrosResultadosIntegralesMiembro"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_RentasPorFacturar" xlink:label="RentasPorFacturar" xlink:title="RentasPorFacturar"/>
+    <link:reference xlink:type="resource" xlink:label="reference_RentasPorFacturar" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_RentasPorFacturar" id="reference_RentasPorFacturar">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>55</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="RentasPorFacturar" xlink:to="reference_RentasPorFacturar" xlink:title="reference: RentasPorFacturar to reference_RentasPorFacturar"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_OtrosPasivosFinancierosACortoPlazoSinopsis" xlink:label="OtrosPasivosFinancierosACortoPlazoSinopsis" xlink:title="OtrosPasivosFinancierosACortoPlazoSinopsis"/>
+    <link:reference xlink:type="resource" xlink:label="reference_OtrosPasivosFinancierosACortoPlazoSinopsis" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_OtrosPasivosFinancierosACortoPlazoSinopsis" id="reference_OtrosPasivosFinancierosACortoPlazoSinopsis">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>54</ref:Paragraph>
+      <ref:Subparagraph>m</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="OtrosPasivosFinancierosACortoPlazoSinopsis" xlink:to="reference_OtrosPasivosFinancierosACortoPlazoSinopsis" xlink:title="reference: OtrosPasivosFinancierosACortoPlazoSinopsis to reference_OtrosPasivosFinancierosACortoPlazoSinopsis"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_CreditosBancariosACortoPlazo" xlink:label="CreditosBancariosACortoPlazo" xlink:title="CreditosBancariosACortoPlazo"/>
+    <link:reference xlink:type="resource" xlink:label="reference_CreditosBancariosACortoPlazo" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_CreditosBancariosACortoPlazo" id="reference_CreditosBancariosACortoPlazo">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>54</ref:Paragraph>
+      <ref:Subparagraph>m</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="CreditosBancariosACortoPlazo" xlink:to="reference_CreditosBancariosACortoPlazo" xlink:title="reference: CreditosBancariosACortoPlazo to reference_CreditosBancariosACortoPlazo"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_CreditosBursatilesACortoPlazo" xlink:label="CreditosBursatilesACortoPlazo" xlink:title="CreditosBursatilesACortoPlazo"/>
+    <link:reference xlink:type="resource" xlink:label="reference_CreditosBursatilesACortoPlazo" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_CreditosBursatilesACortoPlazo" id="reference_CreditosBursatilesACortoPlazo">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>54</ref:Paragraph>
+      <ref:Subparagraph>m</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="CreditosBursatilesACortoPlazo" xlink:to="reference_CreditosBursatilesACortoPlazo" xlink:title="reference: CreditosBursatilesACortoPlazo to reference_CreditosBursatilesACortoPlazo"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_OtrosCreditosConCostoACortoPlazo" xlink:label="OtrosCreditosConCostoACortoPlazo" xlink:title="OtrosCreditosConCostoACortoPlazo"/>
+    <link:reference xlink:type="resource" xlink:label="reference_OtrosCreditosConCostoACortoPlazo" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_OtrosCreditosConCostoACortoPlazo" id="reference_OtrosCreditosConCostoACortoPlazo">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>54</ref:Paragraph>
+      <ref:Subparagraph>m</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="OtrosCreditosConCostoACortoPlazo" xlink:to="reference_OtrosCreditosConCostoACortoPlazo" xlink:title="reference: OtrosCreditosConCostoACortoPlazo to reference_OtrosCreditosConCostoACortoPlazo"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_OtrosCreditosSinCostoACortoPlazo" xlink:label="OtrosCreditosSinCostoACortoPlazo" xlink:title="OtrosCreditosSinCostoACortoPlazo"/>
+    <link:reference xlink:type="resource" xlink:label="reference_OtrosCreditosSinCostoACortoPlazo" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_OtrosCreditosSinCostoACortoPlazo" id="reference_OtrosCreditosSinCostoACortoPlazo">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>54</ref:Paragraph>
+      <ref:Subparagraph>m</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="OtrosCreditosSinCostoACortoPlazo" xlink:to="reference_OtrosCreditosSinCostoACortoPlazo" xlink:title="reference: OtrosCreditosSinCostoACortoPlazo to reference_OtrosCreditosSinCostoACortoPlazo"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_OtrosPasivosFinancierosACortoPlazo" xlink:label="OtrosPasivosFinancierosACortoPlazo" xlink:title="OtrosPasivosFinancierosACortoPlazo"/>
+    <link:reference xlink:type="resource" xlink:label="reference_OtrosPasivosFinancierosACortoPlazo" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_OtrosPasivosFinancierosACortoPlazo" id="reference_OtrosPasivosFinancierosACortoPlazo">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>54</ref:Paragraph>
+      <ref:Subparagraph>m</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="OtrosPasivosFinancierosACortoPlazo" xlink:to="reference_OtrosPasivosFinancierosACortoPlazo" xlink:title="reference: OtrosPasivosFinancierosACortoPlazo to reference_OtrosPasivosFinancierosACortoPlazo"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_TotalDeOtrosPasivosFinancierosACortoPlazo" xlink:label="TotalDeOtrosPasivosFinancierosACortoPlazo" xlink:title="TotalDeOtrosPasivosFinancierosACortoPlazo"/>
+    <link:reference xlink:type="resource" xlink:label="reference_TotalDeOtrosPasivosFinancierosACortoPlazo" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_TotalDeOtrosPasivosFinancierosACortoPlazo" id="reference_TotalDeOtrosPasivosFinancierosACortoPlazo">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>54</ref:Paragraph>
+      <ref:Subparagraph>m</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="TotalDeOtrosPasivosFinancierosACortoPlazo" xlink:to="reference_TotalDeOtrosPasivosFinancierosACortoPlazo" xlink:title="reference: TotalDeOtrosPasivosFinancierosACortoPlazo to reference_TotalDeOtrosPasivosFinancierosACortoPlazo"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_OtrosPasivosFinancierosALargoPlazoSinopsis" xlink:label="OtrosPasivosFinancierosALargoPlazoSinopsis" xlink:title="OtrosPasivosFinancierosALargoPlazoSinopsis"/>
+    <link:reference xlink:type="resource" xlink:label="reference_OtrosPasivosFinancierosALargoPlazoSinopsis" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_OtrosPasivosFinancierosALargoPlazoSinopsis" id="reference_OtrosPasivosFinancierosALargoPlazoSinopsis">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>54</ref:Paragraph>
+      <ref:Subparagraph>m</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="OtrosPasivosFinancierosALargoPlazoSinopsis" xlink:to="reference_OtrosPasivosFinancierosALargoPlazoSinopsis" xlink:title="reference: OtrosPasivosFinancierosALargoPlazoSinopsis to reference_OtrosPasivosFinancierosALargoPlazoSinopsis"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_CreditosBancariosALargoPlazo" xlink:label="CreditosBancariosALargoPlazo" xlink:title="CreditosBancariosALargoPlazo"/>
+    <link:reference xlink:type="resource" xlink:label="reference_CreditosBancariosALargoPlazo" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_CreditosBancariosALargoPlazo" id="reference_CreditosBancariosALargoPlazo">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>54</ref:Paragraph>
+      <ref:Subparagraph>m</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="CreditosBancariosALargoPlazo" xlink:to="reference_CreditosBancariosALargoPlazo" xlink:title="reference: CreditosBancariosALargoPlazo to reference_CreditosBancariosALargoPlazo"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_CreditosBursatilesALargoPlazo" xlink:label="CreditosBursatilesALargoPlazo" xlink:title="CreditosBursatilesALargoPlazo"/>
+    <link:reference xlink:type="resource" xlink:label="reference_CreditosBursatilesALargoPlazo" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_CreditosBursatilesALargoPlazo" id="reference_CreditosBursatilesALargoPlazo">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>54</ref:Paragraph>
+      <ref:Subparagraph>m</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="CreditosBursatilesALargoPlazo" xlink:to="reference_CreditosBursatilesALargoPlazo" xlink:title="reference: CreditosBursatilesALargoPlazo to reference_CreditosBursatilesALargoPlazo"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_OtrosCreditosConCostoALargoPlazo" xlink:label="OtrosCreditosConCostoALargoPlazo" xlink:title="OtrosCreditosConCostoALargoPlazo"/>
+    <link:reference xlink:type="resource" xlink:label="reference_OtrosCreditosConCostoALargoPlazo" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_OtrosCreditosConCostoALargoPlazo" id="reference_OtrosCreditosConCostoALargoPlazo">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>54</ref:Paragraph>
+      <ref:Subparagraph>m</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="OtrosCreditosConCostoALargoPlazo" xlink:to="reference_OtrosCreditosConCostoALargoPlazo" xlink:title="reference: OtrosCreditosConCostoALargoPlazo to reference_OtrosCreditosConCostoALargoPlazo"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_OtrosCreditosSinCostoALargoPlazo" xlink:label="OtrosCreditosSinCostoALargoPlazo" xlink:title="OtrosCreditosSinCostoALargoPlazo"/>
+    <link:reference xlink:type="resource" xlink:label="reference_OtrosCreditosSinCostoALargoPlazo" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_OtrosCreditosSinCostoALargoPlazo" id="reference_OtrosCreditosSinCostoALargoPlazo">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>54</ref:Paragraph>
+      <ref:Subparagraph>m</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="OtrosCreditosSinCostoALargoPlazo" xlink:to="reference_OtrosCreditosSinCostoALargoPlazo" xlink:title="reference: OtrosCreditosSinCostoALargoPlazo to reference_OtrosCreditosSinCostoALargoPlazo"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_OtrosPasivosFinancierosALargoPlazo" xlink:label="OtrosPasivosFinancierosALargoPlazo" xlink:title="OtrosPasivosFinancierosALargoPlazo"/>
+    <link:reference xlink:type="resource" xlink:label="reference_OtrosPasivosFinancierosALargoPlazo" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_OtrosPasivosFinancierosALargoPlazo" id="reference_OtrosPasivosFinancierosALargoPlazo">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>54</ref:Paragraph>
+      <ref:Subparagraph>m</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="OtrosPasivosFinancierosALargoPlazo" xlink:to="reference_OtrosPasivosFinancierosALargoPlazo" xlink:title="reference: OtrosPasivosFinancierosALargoPlazo to reference_OtrosPasivosFinancierosALargoPlazo"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_OtrosResultadosIntegrales" xlink:label="OtrosResultadosIntegrales" xlink:title="OtrosResultadosIntegrales"/>
+    <link:reference xlink:type="resource" xlink:label="reference_OtrosResultadosIntegrales" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_OtrosResultadosIntegrales" id="reference_OtrosResultadosIntegrales">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>106</ref:Paragraph>
+      <ref:Subparagraph>d</ref:Subparagraph>
+      <ref:Clause>ii</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="OtrosResultadosIntegrales" xlink:to="reference_OtrosResultadosIntegrales" xlink:title="reference: OtrosResultadosIntegrales to reference_OtrosResultadosIntegrales"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_IngresosFinancierosSinopsis" xlink:label="IngresosFinancierosSinopsis" xlink:title="IngresosFinancierosSinopsis"/>
+    <link:reference xlink:type="resource" xlink:label="reference_IngresosFinancierosSinopsis" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_IngresosFinancierosSinopsis" id="reference_IngresosFinancierosSinopsis">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>85</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="IngresosFinancierosSinopsis" xlink:to="reference_IngresosFinancierosSinopsis" xlink:title="reference: IngresosFinancierosSinopsis to reference_IngresosFinancierosSinopsis"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_InteresesGanados" xlink:label="InteresesGanados" xlink:title="InteresesGanados"/>
+    <link:reference xlink:type="resource" xlink:label="reference_InteresesGanados" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_InteresesGanados" id="reference_InteresesGanados">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>85</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InteresesGanados" xlink:to="reference_InteresesGanados" xlink:title="reference: InteresesGanados to reference_InteresesGanados"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_UtilidadPorFluctuacionCambiaria" xlink:label="UtilidadPorFluctuacionCambiaria" xlink:title="UtilidadPorFluctuacionCambiaria"/>
+    <link:reference xlink:type="resource" xlink:label="reference_UtilidadPorFluctuacionCambiaria" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_UtilidadPorFluctuacionCambiaria" id="reference_UtilidadPorFluctuacionCambiaria">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>85</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="UtilidadPorFluctuacionCambiaria" xlink:to="reference_UtilidadPorFluctuacionCambiaria" xlink:title="reference: UtilidadPorFluctuacionCambiaria to reference_UtilidadPorFluctuacionCambiaria"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_UtilidadPorCambiosEnValorRazonableDeInstrumentosFinancieros" xlink:label="UtilidadPorCambiosEnValorRazonableDeInstrumentosFinancieros" xlink:title="UtilidadPorCambiosEnValorRazonableDeInstrumentosFinancieros"/>
+    <link:reference xlink:type="resource" xlink:label="reference_UtilidadPorCambiosEnValorRazonableDeInstrumentosFinancieros" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_UtilidadPorCambiosEnValorRazonableDeInstrumentosFinancieros" id="reference_UtilidadPorCambiosEnValorRazonableDeInstrumentosFinancieros">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>85</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="UtilidadPorCambiosEnValorRazonableDeInstrumentosFinancieros" xlink:to="reference_UtilidadPorCambiosEnValorRazonableDeInstrumentosFinancieros" xlink:title="reference: UtilidadPorCambiosEnValorRazonableDeInstrumentosFinancieros to reference_UtilidadPorCambiosEnValorRazonableDeInstrumentosFinancieros"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_TotalDeIngresosFinancieros" xlink:label="TotalDeIngresosFinancieros" xlink:title="TotalDeIngresosFinancieros"/>
+    <link:reference xlink:type="resource" xlink:label="reference_TotalDeIngresosFinancieros" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_TotalDeIngresosFinancieros" id="reference_TotalDeIngresosFinancieros">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>85</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="TotalDeIngresosFinancieros" xlink:to="reference_TotalDeIngresosFinancieros" xlink:title="reference: TotalDeIngresosFinancieros to reference_TotalDeIngresosFinancieros"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_GastosFinancierosSinopsis" xlink:label="GastosFinancierosSinopsis" xlink:title="GastosFinancierosSinopsis"/>
+    <link:reference xlink:type="resource" xlink:label="reference_GastosFinancierosSinopsis" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_GastosFinancierosSinopsis" id="reference_GastosFinancierosSinopsis">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>82</ref:Paragraph>
+      <ref:Clause>b</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="GastosFinancierosSinopsis" xlink:to="reference_GastosFinancierosSinopsis" xlink:title="reference: GastosFinancierosSinopsis to reference_GastosFinancierosSinopsis"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_InteresesDevengadosACargo" xlink:label="InteresesDevengadosACargo" xlink:title="InteresesDevengadosACargo"/>
+    <link:reference xlink:type="resource" xlink:label="reference_InteresesDevengadosACargo" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_InteresesDevengadosACargo" id="reference_InteresesDevengadosACargo">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>85</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="InteresesDevengadosACargo" xlink:to="reference_InteresesDevengadosACargo" xlink:title="reference: InteresesDevengadosACargo to reference_InteresesDevengadosACargo"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_PerdidaPorFluctuacionCambiaria" xlink:label="PerdidaPorFluctuacionCambiaria" xlink:title="PerdidaPorFluctuacionCambiaria"/>
+    <link:reference xlink:type="resource" xlink:label="reference_PerdidaPorFluctuacionCambiaria" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_PerdidaPorFluctuacionCambiaria" id="reference_PerdidaPorFluctuacionCambiaria">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>85</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="PerdidaPorFluctuacionCambiaria" xlink:to="reference_PerdidaPorFluctuacionCambiaria" xlink:title="reference: PerdidaPorFluctuacionCambiaria to reference_PerdidaPorFluctuacionCambiaria"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_PerdidaPorCambiosEnValorRazonableDeInstrumentosFinancieros" xlink:label="PerdidaPorCambiosEnValorRazonableDeInstrumentosFinancieros" xlink:title="PerdidaPorCambiosEnValorRazonableDeInstrumentosFinancieros"/>
+    <link:reference xlink:type="resource" xlink:label="reference_PerdidaPorCambiosEnValorRazonableDeInstrumentosFinancieros" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_PerdidaPorCambiosEnValorRazonableDeInstrumentosFinancieros" id="reference_PerdidaPorCambiosEnValorRazonableDeInstrumentosFinancieros">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>85</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="PerdidaPorCambiosEnValorRazonableDeInstrumentosFinancieros" xlink:to="reference_PerdidaPorCambiosEnValorRazonableDeInstrumentosFinancieros" xlink:title="reference: PerdidaPorCambiosEnValorRazonableDeInstrumentosFinancieros to reference_PerdidaPorCambiosEnValorRazonableDeInstrumentosFinancieros"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_TotalDeGastosFinancieros" xlink:label="TotalDeGastosFinancieros" xlink:title="TotalDeGastosFinancieros"/>
+    <link:reference xlink:type="resource" xlink:label="reference_TotalDeGastosFinancieros" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_TotalDeGastosFinancieros" id="reference_TotalDeGastosFinancieros">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>82</ref:Paragraph>
+      <ref:Clause>b</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="TotalDeGastosFinancieros" xlink:to="reference_TotalDeGastosFinancieros" xlink:title="reference: TotalDeGastosFinancieros to reference_TotalDeGastosFinancieros"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_ImpuestosALaUtilidadSinopsis" xlink:label="ImpuestosALaUtilidadSinopsis" xlink:title="ImpuestosALaUtilidadSinopsis"/>
+    <link:reference xlink:type="resource" xlink:label="reference_ImpuestosALaUtilidadSinopsis_2" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_ImpuestosALaUtilidadSinopsis" id="reference_ImpuestosALaUtilidadSinopsis_2">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>12</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>79</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ImpuestosALaUtilidadSinopsis" xlink:to="reference_ImpuestosALaUtilidadSinopsis_2" xlink:title="reference: ImpuestosALaUtilidadSinopsis to reference_ImpuestosALaUtilidadSinopsis"/>
+    <link:reference xlink:type="resource" xlink:label="reference_ImpuestosALaUtilidadSinopsis_3" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_ImpuestosALaUtilidadSinopsis" id="reference_ImpuestosALaUtilidadSinopsis_3">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>12</ref:Number>
+      <ref:Paragraph>81</ref:Paragraph>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Subparagraph>c</ref:Subparagraph>
+      <ref:Clause>i</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ImpuestosALaUtilidadSinopsis" xlink:to="reference_ImpuestosALaUtilidadSinopsis_3" xlink:title="reference: ImpuestosALaUtilidadSinopsis to reference_ImpuestosALaUtilidadSinopsis"/>
+    <link:reference xlink:type="resource" xlink:label="reference_ImpuestosALaUtilidadSinopsis_4" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_ImpuestosALaUtilidadSinopsis" id="reference_ImpuestosALaUtilidadSinopsis_4">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>12</ref:Number>
+      <ref:Paragraph>81</ref:Paragraph>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Subparagraph>c</ref:Subparagraph>
+      <ref:Clause>ii</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ImpuestosALaUtilidadSinopsis" xlink:to="reference_ImpuestosALaUtilidadSinopsis_4" xlink:title="reference: ImpuestosALaUtilidadSinopsis to reference_ImpuestosALaUtilidadSinopsis"/>
+    <link:reference xlink:type="resource" xlink:label="reference_ImpuestosALaUtilidadSinopsis_5" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_ImpuestosALaUtilidadSinopsis" id="reference_ImpuestosALaUtilidadSinopsis_5">
+      <ref:Name>IFRS</ref:Name>
+      <ref:Number>12</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>B13</ref:Paragraph>
+      <ref:Clause>g</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ImpuestosALaUtilidadSinopsis" xlink:to="reference_ImpuestosALaUtilidadSinopsis_5" xlink:title="reference: ImpuestosALaUtilidadSinopsis to reference_ImpuestosALaUtilidadSinopsis"/>
+    <link:reference xlink:type="resource" xlink:label="reference_ImpuestosALaUtilidadSinopsis_6" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_ImpuestosALaUtilidadSinopsis" id="reference_ImpuestosALaUtilidadSinopsis_6">
+      <ref:Name>IFRS</ref:Name>
+      <ref:Number>8</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>23</ref:Paragraph>
+      <ref:Clause>h</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ImpuestosALaUtilidadSinopsis" xlink:to="reference_ImpuestosALaUtilidadSinopsis_6" xlink:title="reference: ImpuestosALaUtilidadSinopsis to reference_ImpuestosALaUtilidadSinopsis"/>
+    <link:reference xlink:type="resource" xlink:label="reference_ImpuestosALaUtilidadSinopsis_7" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_ImpuestosALaUtilidadSinopsis" id="reference_ImpuestosALaUtilidadSinopsis_7">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>26</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>35</ref:Paragraph>
+      <ref:Subparagraph>b</ref:Subparagraph>
+      <ref:Clause>viii</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ImpuestosALaUtilidadSinopsis" xlink:to="reference_ImpuestosALaUtilidadSinopsis_7" xlink:title="reference: ImpuestosALaUtilidadSinopsis to reference_ImpuestosALaUtilidadSinopsis"/>
+    <link:reference xlink:type="resource" xlink:label="reference_ImpuestosALaUtilidadSinopsis" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_ImpuestosALaUtilidadSinopsis" id="reference_ImpuestosALaUtilidadSinopsis">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>82</ref:Paragraph>
+      <ref:Clause>d</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ImpuestosALaUtilidadSinopsis" xlink:to="reference_ImpuestosALaUtilidadSinopsis" xlink:title="reference: ImpuestosALaUtilidadSinopsis to reference_ImpuestosALaUtilidadSinopsis"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_ImpuestoCausado" xlink:label="ImpuestoCausado" xlink:title="ImpuestoCausado"/>
+    <link:reference xlink:type="resource" xlink:label="reference_ImpuestoCausado" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_ImpuestoCausado" id="reference_ImpuestoCausado">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>12</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>79</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ImpuestoCausado" xlink:to="reference_ImpuestoCausado" xlink:title="reference: ImpuestoCausado to reference_ImpuestoCausado"/>
+    <link:reference xlink:type="resource" xlink:label="reference_ImpuestoCausado_2" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_ImpuestoCausado" id="reference_ImpuestoCausado_2">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>12</ref:Number>
+      <ref:Paragraph>81</ref:Paragraph>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Subparagraph>c</ref:Subparagraph>
+      <ref:Clause>i</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ImpuestoCausado" xlink:to="reference_ImpuestoCausado_2" xlink:title="reference: ImpuestoCausado to reference_ImpuestoCausado"/>
+    <link:reference xlink:type="resource" xlink:label="reference_ImpuestoCausado_3" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_ImpuestoCausado" id="reference_ImpuestoCausado_3">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>12</ref:Number>
+      <ref:Paragraph>81</ref:Paragraph>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Subparagraph>c</ref:Subparagraph>
+      <ref:Clause>ii</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ImpuestoCausado" xlink:to="reference_ImpuestoCausado_3" xlink:title="reference: ImpuestoCausado to reference_ImpuestoCausado"/>
+    <link:reference xlink:type="resource" xlink:label="reference_ImpuestoCausado_4" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_ImpuestoCausado" id="reference_ImpuestoCausado_4">
+      <ref:Name>IFRS</ref:Name>
+      <ref:Number>12</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>B13</ref:Paragraph>
+      <ref:Clause>g</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ImpuestoCausado" xlink:to="reference_ImpuestoCausado_4" xlink:title="reference: ImpuestoCausado to reference_ImpuestoCausado"/>
+    <link:reference xlink:type="resource" xlink:label="reference_ImpuestoCausado_5" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_ImpuestoCausado" id="reference_ImpuestoCausado_5">
+      <ref:Name>IFRS</ref:Name>
+      <ref:Number>8</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>23</ref:Paragraph>
+      <ref:Clause>h</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ImpuestoCausado" xlink:to="reference_ImpuestoCausado_5" xlink:title="reference: ImpuestoCausado to reference_ImpuestoCausado"/>
+    <link:reference xlink:type="resource" xlink:label="reference_ImpuestoCausado_6" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_ImpuestoCausado" id="reference_ImpuestoCausado_6">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>26</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>35</ref:Paragraph>
+      <ref:Subparagraph>b</ref:Subparagraph>
+      <ref:Clause>viii</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ImpuestoCausado" xlink:to="reference_ImpuestoCausado_6" xlink:title="reference: ImpuestoCausado to reference_ImpuestoCausado"/>
+    <link:reference xlink:type="resource" xlink:label="reference_ImpuestoCausado_7" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_ImpuestoCausado" id="reference_ImpuestoCausado_7">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>82</ref:Paragraph>
+      <ref:Clause>d</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ImpuestoCausado" xlink:to="reference_ImpuestoCausado_7" xlink:title="reference: ImpuestoCausado to reference_ImpuestoCausado"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_ImpuestoDiferido" xlink:label="ImpuestoDiferido" xlink:title="ImpuestoDiferido"/>
+    <link:reference xlink:type="resource" xlink:label="reference_ImpuestoDiferido" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_ImpuestoDiferido" id="reference_ImpuestoDiferido">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>12</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>79</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ImpuestoDiferido" xlink:to="reference_ImpuestoDiferido" xlink:title="reference: ImpuestoDiferido to reference_ImpuestoDiferido"/>
+    <link:reference xlink:type="resource" xlink:label="reference_ImpuestoDiferido_2" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_ImpuestoDiferido" id="reference_ImpuestoDiferido_2">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>12</ref:Number>
+      <ref:Paragraph>81</ref:Paragraph>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Subparagraph>c</ref:Subparagraph>
+      <ref:Clause>i</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ImpuestoDiferido" xlink:to="reference_ImpuestoDiferido_2" xlink:title="reference: ImpuestoDiferido to reference_ImpuestoDiferido"/>
+    <link:reference xlink:type="resource" xlink:label="reference_ImpuestoDiferido_3" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_ImpuestoDiferido" id="reference_ImpuestoDiferido_3">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>12</ref:Number>
+      <ref:Paragraph>81</ref:Paragraph>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Subparagraph>c</ref:Subparagraph>
+      <ref:Clause>ii</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ImpuestoDiferido" xlink:to="reference_ImpuestoDiferido_3" xlink:title="reference: ImpuestoDiferido to reference_ImpuestoDiferido"/>
+    <link:reference xlink:type="resource" xlink:label="reference_ImpuestoDiferido_4" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_ImpuestoDiferido" id="reference_ImpuestoDiferido_4">
+      <ref:Name>IFRS</ref:Name>
+      <ref:Number>12</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>B13</ref:Paragraph>
+      <ref:Clause>g</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ImpuestoDiferido" xlink:to="reference_ImpuestoDiferido_4" xlink:title="reference: ImpuestoDiferido to reference_ImpuestoDiferido"/>
+    <link:reference xlink:type="resource" xlink:label="reference_ImpuestoDiferido_5" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_ImpuestoDiferido" id="reference_ImpuestoDiferido_5">
+      <ref:Name>IFRS</ref:Name>
+      <ref:Number>8</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>23</ref:Paragraph>
+      <ref:Clause>h</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ImpuestoDiferido" xlink:to="reference_ImpuestoDiferido_5" xlink:title="reference: ImpuestoDiferido to reference_ImpuestoDiferido"/>
+    <link:reference xlink:type="resource" xlink:label="reference_ImpuestoDiferido_6" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_ImpuestoDiferido" id="reference_ImpuestoDiferido_6">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>26</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>35</ref:Paragraph>
+      <ref:Subparagraph>b</ref:Subparagraph>
+      <ref:Clause>viii</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ImpuestoDiferido" xlink:to="reference_ImpuestoDiferido_6" xlink:title="reference: ImpuestoDiferido to reference_ImpuestoDiferido"/>
+    <link:reference xlink:type="resource" xlink:label="reference_ImpuestoDiferido_7" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_ImpuestoDiferido" id="reference_ImpuestoDiferido_7">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>82</ref:Paragraph>
+      <ref:Clause>d</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ImpuestoDiferido" xlink:to="reference_ImpuestoDiferido_7" xlink:title="reference: ImpuestoDiferido to reference_ImpuestoDiferido"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_TotalDeImpuestosALaUtilidad" xlink:label="TotalDeImpuestosALaUtilidad" xlink:title="TotalDeImpuestosALaUtilidad"/>
+    <link:reference xlink:type="resource" xlink:label="reference_TotalDeImpuestosALaUtilidad" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_TotalDeImpuestosALaUtilidad" id="reference_TotalDeImpuestosALaUtilidad">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>12</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>79</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="TotalDeImpuestosALaUtilidad" xlink:to="reference_TotalDeImpuestosALaUtilidad" xlink:title="reference: TotalDeImpuestosALaUtilidad to reference_TotalDeImpuestosALaUtilidad"/>
+    <link:reference xlink:type="resource" xlink:label="reference_TotalDeImpuestosALaUtilidad_2" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_TotalDeImpuestosALaUtilidad" id="reference_TotalDeImpuestosALaUtilidad_2">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>12</ref:Number>
+      <ref:Paragraph>81</ref:Paragraph>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Subparagraph>c</ref:Subparagraph>
+      <ref:Clause>i</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="TotalDeImpuestosALaUtilidad" xlink:to="reference_TotalDeImpuestosALaUtilidad_2" xlink:title="reference: TotalDeImpuestosALaUtilidad to reference_TotalDeImpuestosALaUtilidad"/>
+    <link:reference xlink:type="resource" xlink:label="reference_TotalDeImpuestosALaUtilidad_3" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_TotalDeImpuestosALaUtilidad" id="reference_TotalDeImpuestosALaUtilidad_3">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>12</ref:Number>
+      <ref:Paragraph>81</ref:Paragraph>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Subparagraph>c</ref:Subparagraph>
+      <ref:Clause>ii</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="TotalDeImpuestosALaUtilidad" xlink:to="reference_TotalDeImpuestosALaUtilidad_3" xlink:title="reference: TotalDeImpuestosALaUtilidad to reference_TotalDeImpuestosALaUtilidad"/>
+    <link:reference xlink:type="resource" xlink:label="reference_TotalDeImpuestosALaUtilidad_4" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_TotalDeImpuestosALaUtilidad" id="reference_TotalDeImpuestosALaUtilidad_4">
+      <ref:Name>IFRS</ref:Name>
+      <ref:Number>12</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>B13</ref:Paragraph>
+      <ref:Clause>g</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="TotalDeImpuestosALaUtilidad" xlink:to="reference_TotalDeImpuestosALaUtilidad_4" xlink:title="reference: TotalDeImpuestosALaUtilidad to reference_TotalDeImpuestosALaUtilidad"/>
+    <link:reference xlink:type="resource" xlink:label="reference_TotalDeImpuestosALaUtilidad_5" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_TotalDeImpuestosALaUtilidad" id="reference_TotalDeImpuestosALaUtilidad_5">
+      <ref:Name>IFRS</ref:Name>
+      <ref:Number>8</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>23</ref:Paragraph>
+      <ref:Clause>h</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="TotalDeImpuestosALaUtilidad" xlink:to="reference_TotalDeImpuestosALaUtilidad_5" xlink:title="reference: TotalDeImpuestosALaUtilidad to reference_TotalDeImpuestosALaUtilidad"/>
+    <link:reference xlink:type="resource" xlink:label="reference_TotalDeImpuestosALaUtilidad_6" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_TotalDeImpuestosALaUtilidad" id="reference_TotalDeImpuestosALaUtilidad_6">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>26</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>35</ref:Paragraph>
+      <ref:Subparagraph>b</ref:Subparagraph>
+      <ref:Clause>viii</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="TotalDeImpuestosALaUtilidad" xlink:to="reference_TotalDeImpuestosALaUtilidad_6" xlink:title="reference: TotalDeImpuestosALaUtilidad to reference_TotalDeImpuestosALaUtilidad"/>
+    <link:reference xlink:type="resource" xlink:label="reference_TotalDeImpuestosALaUtilidad_7" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_TotalDeImpuestosALaUtilidad" id="reference_TotalDeImpuestosALaUtilidad_7">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>82</ref:Paragraph>
+      <ref:Clause>d</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="TotalDeImpuestosALaUtilidad" xlink:to="reference_TotalDeImpuestosALaUtilidad_7" xlink:title="reference: TotalDeImpuestosALaUtilidad to reference_TotalDeImpuestosALaUtilidad"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_IngresosPorRentaFija" xlink:label="IngresosPorRentaFija" xlink:title="IngresosPorRentaFija"/>
+    <link:reference xlink:type="resource" xlink:label="reference_IngresosPorRentaFija" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_IngresosPorRentaFija" id="reference_IngresosPorRentaFija">
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>18</ref:Number>
+      <ref:Paragraph>35</ref:Paragraph>
+      <ref:Subparagraph>b</ref:Subparagraph>
+      <ref:Clause>i</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="IngresosPorRentaFija" xlink:to="reference_IngresosPorRentaFija" xlink:title="reference: IngresosPorRentaFija to reference_IngresosPorRentaFija"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_IngresosPorRentaVariable" xlink:label="IngresosPorRentaVariable" xlink:title="IngresosPorRentaVariable"/>
+    <link:reference xlink:type="resource" xlink:label="reference_IngresosPorRentaVariable" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_IngresosPorRentaVariable" id="reference_IngresosPorRentaVariable">
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>18</ref:Number>
+      <ref:Paragraph>35</ref:Paragraph>
+      <ref:Subparagraph>b</ref:Subparagraph>
+      <ref:Clause>i</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="IngresosPorRentaVariable" xlink:to="reference_IngresosPorRentaVariable" xlink:title="reference: IngresosPorRentaVariable to reference_IngresosPorRentaVariable"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_IngresosPorRentaDeHabitacion" xlink:label="IngresosPorRentaDeHabitacion" xlink:title="IngresosPorRentaDeHabitacion"/>
+    <link:reference xlink:type="resource" xlink:label="reference_IngresosPorRentaDeHabitacion" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_IngresosPorRentaDeHabitacion" id="reference_IngresosPorRentaDeHabitacion">
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>18</ref:Number>
+      <ref:Paragraph>35</ref:Paragraph>
+      <ref:Subparagraph>b</ref:Subparagraph>
+      <ref:Clause>i</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="IngresosPorRentaDeHabitacion" xlink:to="reference_IngresosPorRentaDeHabitacion" xlink:title="reference: IngresosPorRentaDeHabitacion to reference_IngresosPorRentaDeHabitacion"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_IngresosPorAlimentosYBebidas" xlink:label="IngresosPorAlimentosYBebidas" xlink:title="IngresosPorAlimentosYBebidas"/>
+    <link:reference xlink:type="resource" xlink:label="reference_IngresosPorAlimentosYBebidas" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_IngresosPorAlimentosYBebidas" id="reference_IngresosPorAlimentosYBebidas">
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>18</ref:Number>
+      <ref:Paragraph>35</ref:Paragraph>
+      <ref:Subparagraph>b</ref:Subparagraph>
+      <ref:Clause>i</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="IngresosPorAlimentosYBebidas" xlink:to="reference_IngresosPorAlimentosYBebidas" xlink:title="reference: IngresosPorAlimentosYBebidas to reference_IngresosPorAlimentosYBebidas"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_IngresosPorContraprestacionUnica" xlink:label="IngresosPorContraprestacionUnica" xlink:title="IngresosPorContraprestacionUnica"/>
+    <link:reference xlink:type="resource" xlink:label="reference_IngresosPorContraprestacionUnica" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_IngresosPorContraprestacionUnica" id="reference_IngresosPorContraprestacionUnica">
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>18</ref:Number>
+      <ref:Paragraph>35</ref:Paragraph>
+      <ref:Subparagraph>b</ref:Subparagraph>
+      <ref:Clause>i</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="IngresosPorContraprestacionUnica" xlink:to="reference_IngresosPorContraprestacionUnica" xlink:title="reference: IngresosPorContraprestacionUnica to reference_IngresosPorContraprestacionUnica"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_IngresosPorDividendosSobreRentasDeDerechosFiduciarios" xlink:label="IngresosPorDividendosSobreRentasDeDerechosFiduciarios" xlink:title="IngresosPorDividendosSobreRentasDeDerechosFiduciarios"/>
+    <link:reference xlink:type="resource" xlink:label="reference_IngresosPorDividendosSobreRentasDeDerechosFiduciarios" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_IngresosPorDividendosSobreRentasDeDerechosFiduciarios" id="reference_IngresosPorDividendosSobreRentasDeDerechosFiduciarios">
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>18</ref:Number>
+      <ref:Paragraph>35</ref:Paragraph>
+      <ref:Subparagraph>b</ref:Subparagraph>
+      <ref:Clause>i</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="IngresosPorDividendosSobreRentasDeDerechosFiduciarios" xlink:to="reference_IngresosPorDividendosSobreRentasDeDerechosFiduciarios" xlink:title="reference: IngresosPorDividendosSobreRentasDeDerechosFiduciarios to reference_IngresosPorDividendosSobreRentasDeDerechosFiduciarios"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_IngresosPorEstacionamientos" xlink:label="IngresosPorEstacionamientos" xlink:title="IngresosPorEstacionamientos"/>
+    <link:reference xlink:type="resource" xlink:label="reference_IngresosPorEstacionamientos" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_IngresosPorEstacionamientos" id="reference_IngresosPorEstacionamientos">
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>18</ref:Number>
+      <ref:Paragraph>35</ref:Paragraph>
+      <ref:Subparagraph>b</ref:Subparagraph>
+      <ref:Clause>i</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="IngresosPorEstacionamientos" xlink:to="reference_IngresosPorEstacionamientos" xlink:title="reference: IngresosPorEstacionamientos to reference_IngresosPorEstacionamientos"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_IngresosPorMantenimiento" xlink:label="IngresosPorMantenimiento" xlink:title="IngresosPorMantenimiento"/>
+    <link:reference xlink:type="resource" xlink:label="reference_IngresosPorMantenimiento" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_IngresosPorMantenimiento" id="reference_IngresosPorMantenimiento">
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>18</ref:Number>
+      <ref:Paragraph>35</ref:Paragraph>
+      <ref:Subparagraph>b</ref:Subparagraph>
+      <ref:Clause>i</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="IngresosPorMantenimiento" xlink:to="reference_IngresosPorMantenimiento" xlink:title="reference: IngresosPorMantenimiento to reference_IngresosPorMantenimiento"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_IngresosPorPublicidad" xlink:label="IngresosPorPublicidad" xlink:title="IngresosPorPublicidad"/>
+    <link:reference xlink:type="resource" xlink:label="reference_IngresosPorPublicidad" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_IngresosPorPublicidad" id="reference_IngresosPorPublicidad">
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>18</ref:Number>
+      <ref:Paragraph>35</ref:Paragraph>
+      <ref:Subparagraph>b</ref:Subparagraph>
+      <ref:Clause>i</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="IngresosPorPublicidad" xlink:to="reference_IngresosPorPublicidad" xlink:title="reference: IngresosPorPublicidad to reference_IngresosPorPublicidad"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_IngresosPorVentaDePropiedades" xlink:label="IngresosPorVentaDePropiedades" xlink:title="IngresosPorVentaDePropiedades"/>
+    <link:reference xlink:type="resource" xlink:label="reference_IngresosPorVentaDePropiedades" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_IngresosPorVentaDePropiedades" id="reference_IngresosPorVentaDePropiedades">
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>18</ref:Number>
+      <ref:Paragraph>35</ref:Paragraph>
+      <ref:Subparagraph>b</ref:Subparagraph>
+      <ref:Clause>i</ref:Clause>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="IngresosPorVentaDePropiedades" xlink:to="reference_IngresosPorVentaDePropiedades" xlink:title="reference: IngresosPorVentaDePropiedades to reference_IngresosPorVentaDePropiedades"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_CostoDeVentaSinopsis" xlink:label="CostoDeVentaSinopsis" xlink:title="CostoDeVentaSinopsis"/>
+    <link:reference xlink:type="resource" xlink:label="reference_CostoDeVentaSinopsis" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_CostoDeVentaSinopsis" id="reference_CostoDeVentaSinopsis">
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>112</ref:Paragraph>
+      <ref:Subparagraph>c</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="CostoDeVentaSinopsis" xlink:to="reference_CostoDeVentaSinopsis" xlink:title="reference: CostoDeVentaSinopsis to reference_CostoDeVentaSinopsis"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_CostoPorHabitacion" xlink:label="CostoPorHabitacion" xlink:title="CostoPorHabitacion"/>
+    <link:reference xlink:type="resource" xlink:label="reference_CostoPorHabitacion" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_CostoPorHabitacion" id="reference_CostoPorHabitacion">
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>112</ref:Paragraph>
+      <ref:Subparagraph>c</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="CostoPorHabitacion" xlink:to="reference_CostoPorHabitacion" xlink:title="reference: CostoPorHabitacion to reference_CostoPorHabitacion"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_AlimentosYBebidas" xlink:label="AlimentosYBebidas" xlink:title="AlimentosYBebidas"/>
+    <link:reference xlink:type="resource" xlink:label="reference_AlimentosYBebidas" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_AlimentosYBebidas" id="reference_AlimentosYBebidas">
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>112</ref:Paragraph>
+      <ref:Subparagraph>c</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AlimentosYBebidas" xlink:to="reference_AlimentosYBebidas" xlink:title="reference: AlimentosYBebidas to reference_AlimentosYBebidas"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_CostoPorVentaDePropiedades" xlink:label="CostoPorVentaDePropiedades" xlink:title="CostoPorVentaDePropiedades"/>
+    <link:reference xlink:type="resource" xlink:label="reference_CostoPorVentaDePropiedades" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_CostoPorVentaDePropiedades" id="reference_CostoPorVentaDePropiedades">
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>112</ref:Paragraph>
+      <ref:Subparagraph>c</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="CostoPorVentaDePropiedades" xlink:to="reference_CostoPorVentaDePropiedades" xlink:title="reference: CostoPorVentaDePropiedades to reference_CostoPorVentaDePropiedades"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_OtrosCostos" xlink:label="OtrosCostos" xlink:title="OtrosCostos"/>
+    <link:reference xlink:type="resource" xlink:label="reference_OtrosCostos" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_OtrosCostos" id="reference_OtrosCostos">
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>112</ref:Paragraph>
+      <ref:Subparagraph>c</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="OtrosCostos" xlink:to="reference_OtrosCostos" xlink:title="reference: OtrosCostos to reference_OtrosCostos"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_GastosDeMantenimiento" xlink:label="GastosDeMantenimiento" xlink:title="GastosDeMantenimiento"/>
+    <link:reference xlink:type="resource" xlink:label="reference_GastosDeMantenimiento" xlink:role="http://www.xbrl.org/2003/role/exampleRef" xlink:title="reference_GastosDeMantenimiento" id="reference_GastosDeMantenimiento">
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>102</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="GastosDeMantenimiento" xlink:to="reference_GastosDeMantenimiento" xlink:title="reference: GastosDeMantenimiento to reference_GastosDeMantenimiento"/>
+    <link:reference xlink:type="resource" xlink:label="reference_GastosDeMantenimiento_2" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_GastosDeMantenimiento" id="reference_GastosDeMantenimiento_2">
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>104</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="GastosDeMantenimiento" xlink:to="reference_GastosDeMantenimiento_2" xlink:title="reference: GastosDeMantenimiento to reference_GastosDeMantenimiento"/>
+    <link:reference xlink:type="resource" xlink:label="reference_GastosDeMantenimiento_3" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_GastosDeMantenimiento" id="reference_GastosDeMantenimiento_3">
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>99</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="GastosDeMantenimiento" xlink:to="reference_GastosDeMantenimiento_3" xlink:title="reference: GastosDeMantenimiento to reference_GastosDeMantenimiento"/>
+    <link:reference xlink:type="resource" xlink:label="reference_GastosDeMantenimiento_4" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_GastosDeMantenimiento" id="reference_GastosDeMantenimiento_4">
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Name>IFRS</ref:Name>
+      <ref:Number>12</ref:Number>
+      <ref:Paragraph>B13</ref:Paragraph>
+      <ref:Subparagraph>d</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="GastosDeMantenimiento" xlink:to="reference_GastosDeMantenimiento_4" xlink:title="reference: GastosDeMantenimiento to reference_GastosDeMantenimiento"/>
+    <link:reference xlink:type="resource" xlink:label="reference_GastosDeMantenimiento_5" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_GastosDeMantenimiento" id="reference_GastosDeMantenimiento_5">
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Name>IFRS</ref:Name>
+      <ref:Number>8</ref:Number>
+      <ref:Paragraph>23</ref:Paragraph>
+      <ref:Subparagraph>e</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="GastosDeMantenimiento" xlink:to="reference_GastosDeMantenimiento_5" xlink:title="reference: GastosDeMantenimiento to reference_GastosDeMantenimiento"/>
+    <link:reference xlink:type="resource" xlink:label="reference_GastosDeMantenimiento_6" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_GastosDeMantenimiento" id="reference_GastosDeMantenimiento_6">
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Name>IFRS</ref:Name>
+      <ref:Number>8</ref:Number>
+      <ref:Paragraph>28</ref:Paragraph>
+      <ref:Subparagraph>e</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="GastosDeMantenimiento" xlink:to="reference_GastosDeMantenimiento_6" xlink:title="reference: GastosDeMantenimiento to reference_GastosDeMantenimiento"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_GastosPorAdministracion" xlink:label="GastosPorAdministracion" xlink:title="GastosPorAdministracion"/>
+    <link:reference xlink:type="resource" xlink:label="reference_GastosPorAdministracion" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_GastosPorAdministracion" id="reference_GastosPorAdministracion">
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>85</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="GastosPorAdministracion" xlink:to="reference_GastosPorAdministracion" xlink:title="reference: GastosPorAdministracion to reference_GastosPorAdministracion"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_GastosRelacionadosConAdquisicionesYDesarrollos" xlink:label="GastosRelacionadosConAdquisicionesYDesarrollos" xlink:title="GastosRelacionadosConAdquisicionesYDesarrollos"/>
+    <link:reference xlink:type="resource" xlink:label="reference_GastosRelacionadosConAdquisicionesYDesarrollos" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_GastosRelacionadosConAdquisicionesYDesarrollos" id="reference_GastosRelacionadosConAdquisicionesYDesarrollos">
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>85</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="GastosRelacionadosConAdquisicionesYDesarrollos" xlink:to="reference_GastosRelacionadosConAdquisicionesYDesarrollos" xlink:title="reference: GastosRelacionadosConAdquisicionesYDesarrollos to reference_GastosRelacionadosConAdquisicionesYDesarrollos"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_Energeticos" xlink:label="Energeticos" xlink:title="Energeticos"/>
+    <link:reference xlink:type="resource" xlink:label="reference_Energeticos" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_Energeticos" id="reference_Energeticos">
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>112</ref:Paragraph>
+      <ref:Subparagraph>c</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="Energeticos" xlink:to="reference_Energeticos" xlink:title="reference: Energeticos to reference_Energeticos"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_VentaYPublicidad" xlink:label="VentaYPublicidad" xlink:title="VentaYPublicidad"/>
+    <link:reference xlink:type="resource" xlink:label="reference_VentaYPublicidad" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_VentaYPublicidad" id="reference_VentaYPublicidad">
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>85</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="VentaYPublicidad" xlink:to="reference_VentaYPublicidad" xlink:title="reference: VentaYPublicidad to reference_VentaYPublicidad"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_Predial" xlink:label="Predial" xlink:title="Predial"/>
+    <link:reference xlink:type="resource" xlink:label="reference_Predial" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_Predial" id="reference_Predial">
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>85</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="Predial" xlink:to="reference_Predial" xlink:title="reference: Predial to reference_Predial"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_ComisionPorAsesoria" xlink:label="ComisionPorAsesoria" xlink:title="ComisionPorAsesoria"/>
+    <link:reference xlink:type="resource" xlink:label="reference_ComisionPorAsesoria" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_ComisionPorAsesoria" id="reference_ComisionPorAsesoria">
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>85</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ComisionPorAsesoria" xlink:to="reference_ComisionPorAsesoria" xlink:title="reference: ComisionPorAsesoria to reference_ComisionPorAsesoria"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_ComisionPorServiciosDeRepresentacion" xlink:label="ComisionPorServiciosDeRepresentacion" xlink:title="ComisionPorServiciosDeRepresentacion"/>
+    <link:reference xlink:type="resource" xlink:label="reference_ComisionPorServiciosDeRepresentacion" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_ComisionPorServiciosDeRepresentacion" id="reference_ComisionPorServiciosDeRepresentacion">
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>85</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="ComisionPorServiciosDeRepresentacion" xlink:to="reference_ComisionPorServiciosDeRepresentacion" xlink:title="reference: ComisionPorServiciosDeRepresentacion to reference_ComisionPorServiciosDeRepresentacion"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_HonorariosLegales" xlink:label="HonorariosLegales" xlink:title="HonorariosLegales"/>
+    <link:reference xlink:type="resource" xlink:label="reference_HonorariosLegales" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_HonorariosLegales" id="reference_HonorariosLegales">
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>85</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="HonorariosLegales" xlink:to="reference_HonorariosLegales" xlink:title="reference: HonorariosLegales to reference_HonorariosLegales"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_HonorariosAdministrativos" xlink:label="HonorariosAdministrativos" xlink:title="HonorariosAdministrativos"/>
+    <link:reference xlink:type="resource" xlink:label="reference_HonorariosAdministrativos" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_HonorariosAdministrativos" id="reference_HonorariosAdministrativos">
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>85</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="HonorariosAdministrativos" xlink:to="reference_HonorariosAdministrativos" xlink:title="reference: HonorariosAdministrativos to reference_HonorariosAdministrativos"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_HonorariosProfesionales" xlink:label="HonorariosProfesionales" xlink:title="HonorariosProfesionales"/>
+    <link:reference xlink:type="resource" xlink:label="reference_HonorariosProfesionales" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_HonorariosProfesionales" id="reference_HonorariosProfesionales">
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>85</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="HonorariosProfesionales" xlink:to="reference_HonorariosProfesionales" xlink:title="reference: HonorariosProfesionales to reference_HonorariosProfesionales"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_Sueldos" xlink:label="Sueldos" xlink:title="Sueldos"/>
+    <link:reference xlink:type="resource" xlink:label="reference_Sueldos" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_Sueldos" id="reference_Sueldos">
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>85</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="Sueldos" xlink:to="reference_Sueldos" xlink:title="reference: Sueldos to reference_Sueldos"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_DepreciacionYAmortizacion" xlink:label="DepreciacionYAmortizacion" xlink:title="DepreciacionYAmortizacion"/>
+    <link:reference xlink:type="resource" xlink:label="reference_DepreciacionYAmortizacion" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_DepreciacionYAmortizacion" id="reference_DepreciacionYAmortizacion">
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>85</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DepreciacionYAmortizacion" xlink:to="reference_DepreciacionYAmortizacion" xlink:title="reference: DepreciacionYAmortizacion to reference_DepreciacionYAmortizacion"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_OtrosGastosAdministrativos" xlink:label="OtrosGastosAdministrativos" xlink:title="OtrosGastosAdministrativos"/>
+    <link:reference xlink:type="resource" xlink:label="reference_OtrosGastosAdministrativos" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_OtrosGastosAdministrativos" id="reference_OtrosGastosAdministrativos">
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>85</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="OtrosGastosAdministrativos" xlink:to="reference_OtrosGastosAdministrativos" xlink:title="reference: OtrosGastosAdministrativos to reference_OtrosGastosAdministrativos"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_TotalDeGastosAdministrativos" xlink:label="TotalDeGastosAdministrativos" xlink:title="TotalDeGastosAdministrativos"/>
+    <link:reference xlink:type="resource" xlink:label="reference_TotalDeGastosAdministrativos" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_TotalDeGastosAdministrativos" id="reference_TotalDeGastosAdministrativos">
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>85</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="TotalDeGastosAdministrativos" xlink:to="reference_TotalDeGastosAdministrativos" xlink:title="reference: TotalDeGastosAdministrativos to reference_TotalDeGastosAdministrativos"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_UtilidadPorVentaDeActivoFijo" xlink:label="UtilidadPorVentaDeActivoFijo" xlink:title="UtilidadPorVentaDeActivoFijo"/>
+    <link:reference xlink:type="resource" xlink:label="reference_UtilidadPorVentaDeActivoFijo" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_UtilidadPorVentaDeActivoFijo" id="reference_UtilidadPorVentaDeActivoFijo">
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>112</ref:Paragraph>
+      <ref:Subparagraph>c</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="UtilidadPorVentaDeActivoFijo" xlink:to="reference_UtilidadPorVentaDeActivoFijo" xlink:title="reference: UtilidadPorVentaDeActivoFijo to reference_UtilidadPorVentaDeActivoFijo"/>
+    <link:reference xlink:type="resource" xlink:label="reference_UtilidadPorVentaDeActivoFijo_2" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_UtilidadPorVentaDeActivoFijo" id="reference_UtilidadPorVentaDeActivoFijo_2">
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>98</ref:Paragraph>
+      <ref:Subparagraph>c</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="UtilidadPorVentaDeActivoFijo" xlink:to="reference_UtilidadPorVentaDeActivoFijo_2" xlink:title="reference: UtilidadPorVentaDeActivoFijo to reference_UtilidadPorVentaDeActivoFijo"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_UtilidadPorCambiosEnValorRazonableDePrestamos" xlink:label="UtilidadPorCambiosEnValorRazonableDePrestamos" xlink:title="UtilidadPorCambiosEnValorRazonableDePrestamos"/>
+    <link:reference xlink:type="resource" xlink:label="reference_UtilidadPorCambiosEnValorRazonableDePrestamos" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_UtilidadPorCambiosEnValorRazonableDePrestamos" id="reference_UtilidadPorCambiosEnValorRazonableDePrestamos">
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>85</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="UtilidadPorCambiosEnValorRazonableDePrestamos" xlink:to="reference_UtilidadPorCambiosEnValorRazonableDePrestamos" xlink:title="reference: UtilidadPorCambiosEnValorRazonableDePrestamos to reference_UtilidadPorCambiosEnValorRazonableDePrestamos"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_UtilidadNetaPorAjusteAValorRazonableDeLasPropiedadesDeInversion" xlink:label="UtilidadNetaPorAjusteAValorRazonableDeLasPropiedadesDeInversion" xlink:title="UtilidadNetaPorAjusteAValorRazonableDeLasPropiedadesDeInversion"/>
+    <link:reference xlink:type="resource" xlink:label="reference_UtilidadNetaPorAjusteAValorRazonableDeLasPropiedadesDeInversion" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_UtilidadNetaPorAjusteAValorRazonableDeLasPropiedadesDeInversion" id="reference_UtilidadNetaPorAjusteAValorRazonableDeLasPropiedadesDeInversion">
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>85</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="UtilidadNetaPorAjusteAValorRazonableDeLasPropiedadesDeInversion" xlink:to="reference_UtilidadNetaPorAjusteAValorRazonableDeLasPropiedadesDeInversion" xlink:title="reference: UtilidadNetaPorAjusteAValorRazonableDeLasPropiedadesDeInversion to reference_UtilidadNetaPorAjusteAValorRazonableDeLasPropiedadesDeInversion"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_PerdidaPorVentaDeActivoFijo" xlink:label="PerdidaPorVentaDeActivoFijo" xlink:title="PerdidaPorVentaDeActivoFijo"/>
+    <link:reference xlink:type="resource" xlink:label="reference_PerdidaPorVentaDeActivoFijo" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_PerdidaPorVentaDeActivoFijo" id="reference_PerdidaPorVentaDeActivoFijo">
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>85</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="PerdidaPorVentaDeActivoFijo" xlink:to="reference_PerdidaPorVentaDeActivoFijo" xlink:title="reference: PerdidaPorVentaDeActivoFijo to reference_PerdidaPorVentaDeActivoFijo"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_PerdidaPorCambiosEnValorRazonableDePrestamos" xlink:label="PerdidaPorCambiosEnValorRazonableDePrestamos" xlink:title="PerdidaPorCambiosEnValorRazonableDePrestamos"/>
+    <link:reference xlink:type="resource" xlink:label="reference_PerdidaPorCambiosEnValorRazonableDePrestamos" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_PerdidaPorCambiosEnValorRazonableDePrestamos" id="reference_PerdidaPorCambiosEnValorRazonableDePrestamos">
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>85</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="PerdidaPorCambiosEnValorRazonableDePrestamos" xlink:to="reference_PerdidaPorCambiosEnValorRazonableDePrestamos" xlink:title="reference: PerdidaPorCambiosEnValorRazonableDePrestamos to reference_PerdidaPorCambiosEnValorRazonableDePrestamos"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_PerdidaNetaPorAjusteAValorRazonableDeLasPropiedadesDeInversion" xlink:label="PerdidaNetaPorAjusteAValorRazonableDeLasPropiedadesDeInversion" xlink:title="PerdidaNetaPorAjusteAValorRazonableDeLasPropiedadesDeInversion"/>
+    <link:reference xlink:type="resource" xlink:label="reference_PerdidaNetaPorAjusteAValorRazonableDeLasPropiedadesDeInversion" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_PerdidaNetaPorAjusteAValorRazonableDeLasPropiedadesDeInversion" id="reference_PerdidaNetaPorAjusteAValorRazonableDeLasPropiedadesDeInversion">
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>85</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="PerdidaNetaPorAjusteAValorRazonableDeLasPropiedadesDeInversion" xlink:to="reference_PerdidaNetaPorAjusteAValorRazonableDeLasPropiedadesDeInversion" xlink:title="reference: PerdidaNetaPorAjusteAValorRazonableDeLasPropiedadesDeInversion to reference_PerdidaNetaPorAjusteAValorRazonableDeLasPropiedadesDeInversion"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_AnticiposParaConstrucciones" xlink:label="AnticiposParaConstrucciones" xlink:title="AnticiposParaConstrucciones"/>
+    <link:reference xlink:type="resource" xlink:label="reference_AnticiposParaConstrucciones" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_AnticiposParaConstrucciones" id="reference_AnticiposParaConstrucciones">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>16</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>37</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AnticiposParaConstrucciones" xlink:to="reference_AnticiposParaConstrucciones" xlink:title="reference: AnticiposParaConstrucciones to reference_AnticiposParaConstrucciones"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_AnticiposParaLaAdquisicionDePropiedadesDeInversion" xlink:label="AnticiposParaLaAdquisicionDePropiedadesDeInversion" xlink:title="AnticiposParaLaAdquisicionDePropiedadesDeInversion"/>
+    <link:reference xlink:type="resource" xlink:label="reference_AnticiposParaLaAdquisicionDePropiedadesDeInversion" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_AnticiposParaLaAdquisicionDePropiedadesDeInversion" id="reference_AnticiposParaLaAdquisicionDePropiedadesDeInversion">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>27</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>10</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="AnticiposParaLaAdquisicionDePropiedadesDeInversion" xlink:to="reference_AnticiposParaLaAdquisicionDePropiedadesDeInversion" xlink:title="reference: AnticiposParaLaAdquisicionDePropiedadesDeInversion to reference_AnticiposParaLaAdquisicionDePropiedadesDeInversion"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_TotalDeCostosDeVenta" xlink:label="TotalDeCostosDeVenta" xlink:title="TotalDeCostosDeVenta"/>
+    <link:reference xlink:type="resource" xlink:label="reference_TotalDeCostosDeVenta" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_TotalDeCostosDeVenta" id="reference_TotalDeCostosDeVenta">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>112</ref:Paragraph>
+      <ref:Subparagraph>C</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="TotalDeCostosDeVenta" xlink:to="reference_TotalDeCostosDeVenta" xlink:title="reference: TotalDeCostosDeVenta to reference_TotalDeCostosDeVenta"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_Seguros" xlink:label="Seguros" xlink:title="Seguros"/>
+    <link:reference xlink:type="resource" xlink:label="reference_Seguros" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_Seguros" id="reference_Seguros">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>112</ref:Paragraph>
+      <ref:Subparagraph>c</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="Seguros" xlink:to="reference_Seguros" xlink:title="reference: Seguros to reference_Seguros"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_OtrosGastosDeOperacion" xlink:label="OtrosGastosDeOperacion" xlink:title="OtrosGastosDeOperacion"/>
+    <link:reference xlink:type="resource" xlink:label="reference_OtrosGastosDeOperacion" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_OtrosGastosDeOperacion" id="reference_OtrosGastosDeOperacion">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>112</ref:Paragraph>
+      <ref:Subparagraph>c</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="OtrosGastosDeOperacion" xlink:to="reference_OtrosGastosDeOperacion" xlink:title="reference: OtrosGastosDeOperacion to reference_OtrosGastosDeOperacion"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_DepreciacionYAmortizacionOperativa" xlink:label="DepreciacionYAmortizacionOperativa" xlink:title="DepreciacionYAmortizacionOperativa"/>
+    <link:reference xlink:type="resource" xlink:label="reference_DepreciacionYAmortizacionOperativa" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_DepreciacionYAmortizacionOperativa" id="reference_DepreciacionYAmortizacionOperativa">
+      <ref:Name>IAS</ref:Name>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>112</ref:Paragraph>
+      <ref:Subparagraph>c</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DepreciacionYAmortizacionOperativa" xlink:to="reference_DepreciacionYAmortizacionOperativa" xlink:title="reference: DepreciacionYAmortizacionOperativa to reference_DepreciacionYAmortizacionOperativa"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_CapitalSocialNominal" xlink:label="CapitalSocialNominal" xlink:title="CapitalSocialNominal"/>
+    <link:reference xlink:type="resource" xlink:label="reference_CapitalSocialNominal" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_CapitalSocialNominal" id="reference_CapitalSocialNominal">
+      <ref:Name>IAS</ref:Name>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>106</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="CapitalSocialNominal" xlink:to="reference_CapitalSocialNominal" xlink:title="reference: CapitalSocialNominal to reference_CapitalSocialNominal"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_CapitalSocialPorActualizacion" xlink:label="CapitalSocialPorActualizacion" xlink:title="CapitalSocialPorActualizacion"/>
+    <link:reference xlink:type="resource" xlink:label="reference_CapitalSocialPorActualizacion" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_CapitalSocialPorActualizacion" id="reference_CapitalSocialPorActualizacion">
+      <ref:Name>IAS</ref:Name>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>106</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="CapitalSocialPorActualizacion" xlink:to="reference_CapitalSocialPorActualizacion" xlink:title="reference: CapitalSocialPorActualizacion to reference_CapitalSocialPorActualizacion"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_FondosParaPensionesYPrimaDeAntiguedad" xlink:label="FondosParaPensionesYPrimaDeAntiguedad" xlink:title="FondosParaPensionesYPrimaDeAntiguedad"/>
+    <link:reference xlink:type="resource" xlink:label="reference_FondosParaPensionesYPrimaDeAntiguedad" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_FondosParaPensionesYPrimaDeAntiguedad" id="reference_FondosParaPensionesYPrimaDeAntiguedad">
+      <ref:Name>IAS</ref:Name>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>78</ref:Paragraph>
+      <ref:Subparagraph>d</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="FondosParaPensionesYPrimaDeAntiguedad" xlink:to="reference_FondosParaPensionesYPrimaDeAntiguedad" xlink:title="reference: FondosParaPensionesYPrimaDeAntiguedad to reference_FondosParaPensionesYPrimaDeAntiguedad"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_NumeroDeFuncionarios" xlink:label="NumeroDeFuncionarios" xlink:title="NumeroDeFuncionarios"/>
+    <link:reference xlink:type="resource" xlink:label="reference_NumeroDeFuncionarios" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_NumeroDeFuncionarios" id="reference_NumeroDeFuncionarios">
+      <ref:Name>IAS</ref:Name>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>112</ref:Paragraph>
+      <ref:Subparagraph>c</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="NumeroDeFuncionarios" xlink:to="reference_NumeroDeFuncionarios" xlink:title="reference: NumeroDeFuncionarios to reference_NumeroDeFuncionarios"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_NumeroDeEmpleados" xlink:label="NumeroDeEmpleados" xlink:title="NumeroDeEmpleados"/>
+    <link:reference xlink:type="resource" xlink:label="reference_NumeroDeEmpleados" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_NumeroDeEmpleados" id="reference_NumeroDeEmpleados">
+      <ref:Name>IAS</ref:Name>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>112</ref:Paragraph>
+      <ref:Subparagraph>c</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="NumeroDeEmpleados" xlink:to="reference_NumeroDeEmpleados" xlink:title="reference: NumeroDeEmpleados to reference_NumeroDeEmpleados"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_NumeroDeObreros" xlink:label="NumeroDeObreros" xlink:title="NumeroDeObreros"/>
+    <link:reference xlink:type="resource" xlink:label="reference_NumeroDeObreros" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_NumeroDeObreros" id="reference_NumeroDeObreros">
+      <ref:Name>IAS</ref:Name>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>112</ref:Paragraph>
+      <ref:Subparagraph>c</ref:Subparagraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="NumeroDeObreros" xlink:to="reference_NumeroDeObreros" xlink:title="reference: NumeroDeObreros to reference_NumeroDeObreros"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_NumeroDeAccionesEnCirculacion" xlink:label="NumeroDeAccionesEnCirculacion" xlink:title="NumeroDeAccionesEnCirculacion"/>
+    <link:reference xlink:type="resource" xlink:label="reference_NumeroDeAccionesEnCirculacion" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_NumeroDeAccionesEnCirculacion" id="reference_NumeroDeAccionesEnCirculacion">
+      <ref:Name>IAS</ref:Name>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>55</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="NumeroDeAccionesEnCirculacion" xlink:to="reference_NumeroDeAccionesEnCirculacion" xlink:title="reference: NumeroDeAccionesEnCirculacion to reference_NumeroDeAccionesEnCirculacion"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_NumeroDeAccionesRecompradas" xlink:label="NumeroDeAccionesRecompradas" xlink:title="NumeroDeAccionesRecompradas"/>
+    <link:reference xlink:type="resource" xlink:label="reference_NumeroDeAccionesRecompradas" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_NumeroDeAccionesRecompradas" id="reference_NumeroDeAccionesRecompradas">
+      <ref:Name>IAS</ref:Name>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>55</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="NumeroDeAccionesRecompradas" xlink:to="reference_NumeroDeAccionesRecompradas" xlink:title="reference: NumeroDeAccionesRecompradas to reference_NumeroDeAccionesRecompradas"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_EfectivoRestringido" xlink:label="EfectivoRestringido" xlink:title="EfectivoRestringido"/>
+    <link:reference xlink:type="resource" xlink:label="reference_EfectivoRestringido" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_EfectivoRestringido" id="reference_EfectivoRestringido">
+      <ref:Name>IAS</ref:Name>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>55</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="EfectivoRestringido" xlink:to="reference_EfectivoRestringido" xlink:title="reference: EfectivoRestringido to reference_EfectivoRestringido"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_DeudaDeAsociadasGarantizada" xlink:label="DeudaDeAsociadasGarantizada" xlink:title="DeudaDeAsociadasGarantizada"/>
+    <link:reference xlink:type="resource" xlink:label="reference_DeudaDeAsociadasGarantizada" xlink:role="http://www.xbrl.org/2009/role/commonPracticeRef" xlink:title="reference_DeudaDeAsociadasGarantizada" id="reference_DeudaDeAsociadasGarantizada">
+      <ref:Name>IAS</ref:Name>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Number>37</ref:Number>
+      <ref:Paragraph>29</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="DeudaDeAsociadasGarantizada" xlink:to="reference_DeudaDeAsociadasGarantizada" xlink:title="reference: DeudaDeAsociadasGarantizada to reference_DeudaDeAsociadasGarantizada"/>
+    <link:loc xlink:type="locator" xlink:href="../../full_ifrs_mx-cor_2014-12-05.xsd#ifrs_mx-cor_20141205_TipoDeEmisora" xlink:label="TipoDeEmisora" xlink:title="TipoDeEmisora"/>
+    <link:reference xlink:type="resource" xlink:label="reference_TipoDeEmisora" xlink:role="http://www.xbrl.org/2003/role/disclosureRef" xlink:title="reference_TipoDeEmisora" id="reference_TipoDeEmisora">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:IssueDate>2014-01-01</ref:IssueDate>
+      <ref:Paragraph>51</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="TipoDeEmisora" xlink:to="reference_TipoDeEmisora" xlink:title="reference: TipoDeEmisora to reference_TipoDeEmisora"/>
+  </link:referenceLink>
+</link:linkbase>
